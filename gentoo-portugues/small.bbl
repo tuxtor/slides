@@ -1,0 +1,28 @@
+\begin{thebibliography}{}
+
+\bibitem[Foundation 2010a]{GenClu2012}
+Foundation, G. (2010a).
+\newblock Cluster running gentoo.
+\newblock http://www.gentoo.org/proj/en/cluster/clusters.xml.
+
+\bibitem[Foundation 2010b]{RPi2012}
+Foundation, G. (2010b).
+\newblock Gentoo on the raspberry pi.
+\newblock http://wiki.gentoo.org/wiki/Raspberry_Pi.
+
+\bibitem[Lundqvist 2012]{GDT2012}
+Lundqvist, A. (2012).
+\newblock Gnu/linux distribution timeline.
+\newblock http://futurist.se/gldt/.
+
+\bibitem[Sadler 2010]{Js2012}
+Sadler, J. (2010).
+\newblock Gentoo on the misa digital guitar.
+\newblock http://www.gentoo.org/news/20100125-misa-guitar-interview.xml.
+
+\bibitem[YoLinux.com 2012]{YoLinux012}
+YoLinux.com (2012).
+\newblock List of linux distributions.
+\newblock http://www.yolinux.com/TUTORIALS/LinuxListOfDistributions.html.
+
+\end{thebibliography}

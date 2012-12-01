@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.24pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Distros GNU/Linux}{3}{0}{1}
+\beamer@sectionintoc {2}{Pacotes}{8}{0}{2}
+\beamer@sectionintoc {3}{Gentoo}{10}{0}{3}
+\beamer@sectionintoc {4}{Mitos e realidades}{15}{0}{4}
+\beamer@sectionintoc {5}{Referencias}{26}{0}{5}

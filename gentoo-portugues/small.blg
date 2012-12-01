@@ -1,0 +1,57 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: small.aux
+The style file: sbc.bst
+Database file #1: small.bib
+Warning--entry type for "GDT2012" isn't style-file defined
+--line 3 of file small.bib
+Warning--entry type for "YoLinux012" isn't style-file defined
+--line 23 of file small.bib
+Warning--entry type for "GenClu2012" isn't style-file defined
+--line 41 of file small.bib
+Warning--entry type for "Js2012" isn't style-file defined
+--line 59 of file small.bib
+Warning--entry type for "RPi2012" isn't style-file defined
+--line 79 of file small.bib
+You've used 5 entries,
+            1935 wiz_defined-function locations,
+            496 strings with 4180 characters,
+and the built_in function-call counts, 1242 in all, are:
+= -- 130
+> -- 35
+< -- 5
++ -- 11
+- -- 10
+* -- 75
+:= -- 252
+add.period$ -- 15
+call.type$ -- 5
+change.case$ -- 30
+chr.to.int$ -- 4
+cite$ -- 5
+duplicate$ -- 50
+empty$ -- 76
+format.name$ -- 15
+if$ -- 226
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 0
+newline$ -- 28
+num.names$ -- 15
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 30
+quote$ -- 0
+skip$ -- 45
+stack$ -- 0
+substring$ -- 60
+swap$ -- 0
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 30
+warning$ -- 0
+while$ -- 10
+width$ -- 0
+write$ -- 62
+(There were 5 warnings)
