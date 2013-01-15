@@ -1,4 +1,4 @@
-\beamer@endinputifotherversion {3.24pt}
+\beamer@endinputifotherversion {3.25pt}
 \select@language {portuguese}
 \beamer@sectionintoc {1}{Distros GNU/Linux}{3}{0}{1}
 \beamer@sectionintoc {2}{Pacotes}{8}{0}{2}
