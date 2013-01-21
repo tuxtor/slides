@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.26pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Defesa de sistemas de informa\IeC {\c c}\IeC {\~a}o}{4}{0}{1}
+\beamer@sectionintoc {2}{Controles de seguran\IeC {\c c}a}{19}{0}{2}
+\beamer@sectionintoc {3}{Referencias}{30}{0}{3}
