@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.26pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Difusi\IeC {\'o}n cient\IeC {\'\i }fica}{3}{0}{1}
+\beamer@sectionintoc {2}{Cultura hacker}{15}{0}{2}
+\beamer@sectionintoc {3}{La nueva cultura de innovaci\IeC {\'o}n}{18}{0}{3}
+\beamer@sectionintoc {4}{Consideraciones finales}{24}{0}{4}
+\beamer@sectionintoc {5}{Referencias}{26}{0}{5}
