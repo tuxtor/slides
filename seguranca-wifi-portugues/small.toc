@@ -1,0 +1,8 @@
+\beamer@endinputifotherversion {3.31pt}
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Seguran\IeC {\c c}a}{3}{0}{1}
+\beamer@sectionintoc {2}{Redes sem fio}{6}{0}{2}
+\beamer@sectionintoc {3}{Wi-Fi}{10}{0}{3}
+\beamer@sectionintoc {4}{Demo}{20}{0}{4}
+\beamer@sectionintoc {5}{\IeC {\textquestiondown }Como segurar uma rede sem fio?}{27}{0}{5}
+\beamer@sectionintoc {6}{Referencias}{30}{0}{6}
