@@ -1,0 +1,5 @@
+\beamer@endinputifotherversion {3.33pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Estado de Java}{2}{0}{1}
+\beamer@sectionintoc {2}{Buenas practicas}{15}{0}{2}
+\beamer@sectionintoc {3}{Fin}{38}{0}{3}
