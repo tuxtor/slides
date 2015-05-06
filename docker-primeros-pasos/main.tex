@@ -121,7 +121,7 @@ Contenedor = bibliotecas + app + shell
 \item apt-get update\&\&apt-get install apache
 \item docker ps
 \item docker commit -id- tuxtor/apache
-\item docker run -it tuxtor/apache /bin/bash
+\item docker run -d -p 81:80 tuxtor/apache /usr/sbin/apache2ctl -D FOREGROUND
 \end{itemize}
 \end{frame}
 
