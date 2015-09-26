@@ -1,0 +1,10 @@
+\frametitle{Expresion lambda (anatomia)}
+(parametros)  $\to$ {comportamiento}
+
+	\begin{lstlisting}
+	(Integer i) -> {System.out.println(i);};
+
+	i -> System.out.println(i);
+
+	i -> i*2;
+	\end{lstlisting}
