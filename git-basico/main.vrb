@@ -1,10 +1,5 @@
-\frametitle{Expresion lambda (anatomia)}
-(parametros)  $\to$ {comportamiento}
-
-	\begin{lstlisting}
-	(Integer i) -> {System.out.println(i);};
-
-	i -> System.out.println(i);
-
-	i -> i*2;
-	\end{lstlisting}
+\frametitle{Git replace}
+\begin{verbatim}
+			 git checkout -- <filename>
+	\end{verbatim}
+	Obtiene el ultimo HEAD, cambios en index y new file son conservados
