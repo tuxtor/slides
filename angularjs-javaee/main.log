@@ -1,17 +1,17 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2014) (preloaded format=pdflatex 2015.2.14)  5 MAR 2015 23:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.9.12)  13 OCT 2015 11:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **main.tex
 (./main.tex
-LaTeX2e <2014/05/01>
+LaTeX2e <2015/01/01> patch level 2
 Babel <3.9l> and hyphenation patterns for 8 languages loaded.
 (/usr/share/texmf-site/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasercs.sty
-Package: beamerbasercs 2013/12/25 (rcs-revision 31cc758a62ae)
+Package: beamerbasercs 2015/03/08 (rcs-revision 368aa9ba9d38)
 )
-Document Class: beamer 2013/12/02 3.33 A class for typesetting presentations (r
-cs-revision 332bfd3ce558)
+Document Class: beamer 2015/01/05 3.36 A class for typesetting presentations (r
+cs-revision 8a39122e1f63)
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasemodes.sty
 Package: beamerbasemodes 2013/09/03 (rcs-revision 768f2d98ca64)
 \beamer@tempbox=\box26
@@ -77,7 +77,7 @@ Package ifpdf Info: pdfTeX in PDF mode is detected.
 Package: beamerbaseoptions 2013/03/10 (rcs-revision 47431932db0d)
 
 (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2014/05/08 v1.15 key=value parser (DPC)
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 ))
 \beamer@paperwidth=\skip42
@@ -107,14 +107,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@dimlist=\toks15
 )
 (/usr/share/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 (/usr/share/texmf-site/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 2014/04/25 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
 (/usr/share/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
@@ -122,7 +122,7 @@ Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 (/usr/share/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 
 (/usr/share/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
@@ -153,10 +153,10 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2013/12/20 v3.0.0 (rcs-revision 1.28)
+Package: pgfrcs 2015/08/07 v3.0.1 (rcs-revision 1.31)
 ))
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2013/11/30 v3.0.0 (rcs-revision 1.47)
+Package: pgfsys 2014/07/09 v3.0.1 (rcs-revision 1.48)
 
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks17
@@ -189,7 +189,7 @@ File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
 Driver file for pgf: pgfsys-pdftex.def
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
-File: pgfsys-pdftex.def 2013/07/18  (rcs-revision 1.33)
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
@@ -220,7 +220,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2010/04/11 v3.0.0 (rcs-revision 1.7)
+Package: pgfcore 2010/04/11 v3.0.1 (rcs-revision 1.7)
 
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmathcalc.code.tex
@@ -267,24 +267,24 @@ File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
 \pgf@path@lastx=\dimen154
 \pgf@path@lasty=\dimen155
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2013/12/13  (rcs-revision 1.23)
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
 \pgf@shorten@end@additional=\dimen156
 \pgf@shorten@start@additional=\dimen157
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2013/10/09  (rcs-revision 1.44)
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
 \pgfpic=\box36
 \pgf@hbox=\box37
 \pgf@layerbox@main=\box38
 \pgf@picture@serial@count=\count114
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2013/09/19  (rcs-revision 1.11)
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
 \pgflinewidth=\dimen158
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
-File: pgfcoretransformations.code.tex 2013/10/10  (rcs-revision 1.17)
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
 \pgf@pt@x=\dimen159
 \pgf@pt@y=\dimen160
 \pgf@pt@temp=\dimen161
@@ -298,7 +298,7 @@ File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
 x
 File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2013/11/07  (rcs-revision 1.40)
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
 \pgfarrowsep=\dimen162
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
@@ -310,7 +310,7 @@ File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
 File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
 
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2013/07/15  (rcs-revision 1.20)
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
 \pgfexternal@startupbox=\box39
 ))
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
@@ -449,7 +449,7 @@ Package: beamerbaserequires 2010/05/01  (rcs-revision efa082c6111d)
 Package: beamerbasecompatibility 2012/05/01  (rcs-revision 67c48b3b652d)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasefont.sty
-Package: beamerbasefont 2013/10/18  (rcs-revision 72f39e01808a)
+Package: beamerbasefont 2015/01/05  (rcs-revision b4b4bee242e2)
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
@@ -499,7 +499,7 @@ Package: beamerbasesection 2013/06/07  (rcs-revision 60b9fe0f342f)
 \c@subsubsection=\count132
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframe.sty
-Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
+Package: beamerbaseframe 2014/02/20  (rcs-revision 4b8ceeeff434)
 \beamer@framebox=\box40
 \beamer@frametitlebox=\box41
 \beamer@zoombox=\box42
@@ -516,7 +516,7 @@ Package: beamerbaseframe 2013/10/02  (rcs-revision cdc8e9a3aaac)
 \c@framenumber=\count136
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseverbatim.sty
-Package: beamerbaseverbatim 2012/08/30  (rcs-revision dfdb135076b3)
+Package: beamerbaseverbatim 2015/01/05  (rcs-revision 431510bb5890)
 \beamer@verbatimfileout=\write4
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseframesize.sty
@@ -532,21 +532,21 @@ Package: beamerbaseframecomponents 2013/10/18  (rcs-revision 5cf6c5555a45)
 \beamer@footins=\box44
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasecolor.sty
-Package: beamerbasecolor 2010/06/06  (rcs-revision d1a9b48be06d)
+Package: beamerbasecolor 2015/02/21  (rcs-revision d944b04ee2d5)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenotes.sty
 Package: beamerbasenotes 2012/12/19  (rcs-revision 1686da3db3c9)
 \beamer@frameboxcopy=\box45
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetoc.sty
-Package: beamerbasetoc 2013/05/23  (rcs-revision 0fdf5bc43be8)
+Package: beamerbasetoc 2015/03/08  (rcs-revision 7270298bbaae)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetemplates.sty
 Package: beamerbasetemplates 2010/05/01  (rcs-revision efa082c6111d)
 \beamer@sbttoks=\toks30
 
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseauxtemplates.sty
-Package: beamerbaseauxtemplates 2013/09/04  (rcs-revision 4ac715c499d0)
+Package: beamerbaseauxtemplates 2014/06/30  (rcs-revision 580088513a67)
 
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseboxes.sty
 Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
@@ -563,10 +563,10 @@ Package: beamerbaseboxes 2012/05/13  (rcs-revision 56972908a390)
 \beamer@blockheadheight=\dimen175
 ))
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaselocalstructure.sty
-Package: beamerbaselocalstructure 2013/09/04  (rcs-revision 4ac715c499d0)
+Package: beamerbaselocalstructure 2014/09/10  (rcs-revision 393f6dcff371)
 
 (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
-Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
+Package: enumerate 2014/10/28 v3.00 enumerate extensions (DPC)
 \@enLab=\toks31
 )
 \c@figure=\count138
@@ -575,7 +575,7 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \belowcaptionskip=\skip50
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenavigation.sty
-Package: beamerbasenavigation 2013/10/05  (rcs-revision 62be157fe783)
+Package: beamerbasenavigation 2015/02/27  (rcs-revision 923f4bf87efa)
 \beamer@section@min@dim=\dimen176
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetheorems.sty
@@ -640,7 +640,7 @@ LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
 (/usr/share/texmf-dist/tex/latex/amscls/amsthm.sty
-Package: amsthm 2009/07/02 v2.20.1
+Package: amsthm 2015/03/04 v2.20.2
 \thm@style=\toks37
 \thm@bodyfont=\toks38
 \thm@headfont=\toks39
@@ -670,7 +670,7 @@ Package: beamercolorthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/inner/beamerinnerthemedefau
 lt.sty
-Package: beamerinnerthemedefault 2013/10/15  (rcs-revision 65cb471f9634)
+Package: beamerinnerthemedefault 2014/06/30  (rcs-revision 580088513a67)
 \beamer@dima=\dimen186
 \beamer@dimb=\dimen187
 )
@@ -682,19 +682,19 @@ Package: beamerouterthemedefault 2012/12/19  (rcs-revision 1686da3db3c9)
 r.sty
 Package: beamercolorthemebeaver 2010/06/17  (rcs-revision d02a7cf4d8ae)
 ) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
-Package: inputenc 2014/04/30 v1.2b Input encoding file
+Package: inputenc 2015/03/17 v1.2c Input encoding file
 \inpenc@prehook=\toks43
 \inpenc@posthook=\toks44
 
 (/usr/share/texmf-dist/tex/latex/base/utf8.def
-File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
+File: utf8.def 2015/06/27 v1.1n UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
 (/usr/share/texmf-dist/tex/latex/base/t1enc.dfu
-File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: t1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00AB (decimal 171)
@@ -844,7 +844,7 @@ Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
 (/usr/share/texmf-dist/tex/latex/base/ot1enc.dfu
-File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: ot1enc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
    defining Unicode char U+00B8 (decimal 184)
@@ -875,7 +875,7 @@ Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
 (/usr/share/texmf-dist/tex/latex/base/omsenc.dfu
-File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
+File: omsenc.dfu 2015/06/27 v1.1n UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
    defining Unicode char U+00B7 (decimal 183)
@@ -1092,260 +1092,272 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Images/fondoguatejug.png
->] <Images/requestresponse.jpg, id=59, 181.42781pt x 145.29282pt>
-File: Images/requestresponse.jpg Graphic file (type jpg)
-
-<use Images/requestresponse.jpg>
-Package pdftex.def Info: Images/requestresponse.jpg used on input line 30.
-(pdftex.def)             Requested size: 153.64493pt x 123.04498pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 30.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [2
-
- <./Images/requestresponse.jpg>]
-File: Images/requestresponse.jpg Graphic file (type jpg)
- <use Images/requestresponse.jpg>
-Package pdftex.def Info: Images/requestresponse.jpg used on input line 30.
-(pdftex.def)             Requested size: 153.64493pt x 123.04498pt.
-File: Images/fondoguatejug.png Graphic file (type png)
-
-<use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 30.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [3
-
-]
-<Images/http-xkcd.png, id=113, 656.4525pt x 271.0125pt>
-File: Images/http-xkcd.png Graphic file (type png)
-
-<use Images/http-xkcd.png>
-Package pdftex.def Info: Images/http-xkcd.png used on input line 44.
-(pdftex.def)             Requested size: 245.83282pt x 101.48883pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 44.
+>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 42.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 44.
+LaTeX Font Info:    Try loading font information for U+msb on input line 42.
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 44.
+line 42.
 
 (/usr/share/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
+<Images/barcelona.jpg, id=62, 2168.1pt x 2168.1pt>
+File: Images/barcelona.jpg Graphic file (type jpg)
+ <use Images/barcelona.jpg>
+Package pdftex.def Info: Images/barcelona.jpg used on input line 42.
+(pdftex.def)             Requested size: 99.5842pt x 99.57832pt.
 File: Images/fondoguatejug.png Graphic file (type png)
 
 <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 44.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 42.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [2
+
+ <./Images/barcelona.jpg>]
+<Images/requestresponse.jpg, id=91, 181.42781pt x 145.29282pt>
+File: Images/requestresponse.jpg Graphic file (type jpg)
+
+<use Images/requestresponse.jpg>
+Package pdftex.def Info: Images/requestresponse.jpg used on input line 51.
+(pdftex.def)             Requested size: 153.64493pt x 123.04498pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 51.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [3
+
+ <./Images/requestresponse.jpg>]
+File: Images/requestresponse.jpg Graphic file (type jpg)
+ <use Images/requestresponse.jpg>
+Package pdftex.def Info: Images/requestresponse.jpg used on input line 51.
+(pdftex.def)             Requested size: 153.64493pt x 123.04498pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+
+<use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 51.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [4
 
- <./Images/http-xkcd.png>]
+]
+<Images/http-xkcd.png, id=144, 656.4525pt x 271.0125pt>
 File: Images/http-xkcd.png Graphic file (type png)
 
 <use Images/http-xkcd.png>
-Package pdftex.def Info: Images/http-xkcd.png used on input line 44.
+Package pdftex.def Info: Images/http-xkcd.png used on input line 65.
 (pdftex.def)             Requested size: 245.83282pt x 101.48883pt.
 File: Images/fondoguatejug.png Graphic file (type png)
  <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 44.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 65.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [5
 
+ <./Images/http-xkcd.png>]
+File: Images/http-xkcd.png Graphic file (type png)
+ <use Images/http-xkcd.png>
+Package pdftex.def Info: Images/http-xkcd.png used on input line 65.
+(pdftex.def)             Requested size: 245.83282pt x 101.48883pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 65.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [6
+
 ]
-<Images/ria.png, id=168, 297.36093pt x 156.585pt>
+<Images/ria.png, id=197, 297.36093pt x 156.585pt>
 File: Images/ria.png Graphic file (type png)
  <use Images/ria.png>
-Package pdftex.def Info: Images/ria.png used on input line 58.
+Package pdftex.def Info: Images/ria.png used on input line 79.
 (pdftex.def)             Requested size: 215.10196pt x 113.26913pt.
 File: Images/fondoguatejug.png Graphic file (type png)
 
 <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 58.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 79.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [6
+ [7
 
  <./Images/ria.png>]
 File: Images/ria.png Graphic file (type png)
  <use Images/ria.png>
-Package pdftex.def Info: Images/ria.png used on input line 58.
+Package pdftex.def Info: Images/ria.png used on input line 79.
 (pdftex.def)             Requested size: 215.10196pt x 113.26913pt.
 File: Images/fondoguatejug.png Graphic file (type png)
 
 <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 58.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [7
-
-]
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 70.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 79.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [8
-
-]
-File: Images/fondoguatejug.png Graphic file (type png)
-
-<use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 81.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [9
 
 ]
 File: Images/fondoguatejug.png Graphic file (type png)
  <use Images/fondoguatejug.png>
 Package pdftex.def Info: Images/fondoguatejug.png used on input line 91.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [10
-
-]
-<Images/arq2015b.png, id=296, 618.05907pt x 137.01187pt>
-File: Images/arq2015b.png Graphic file (type png)
-
-<use Images/arq2015b.png>
-Package pdftex.def Info: Images/arq2015b.png used on input line 99.
-(pdftex.def)             Requested size: 245.83282pt x 54.49644pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 99.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [11
-
- <./Images/arq2015b.png>] <Images/embernode.png, id=324, 499.8675pt x 152.06813
-pt>
-File: Images/embernode.png Graphic file (type png)
-
-<use Images/embernode.png>
-Package pdftex.def Info: Images/embernode.png used on input line 106.
-(pdftex.def)             Requested size: 245.83282pt x 74.7855pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 106.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [12
-
- <./Images/embernode.png>] <Images/knockoutnet.png, id=352, 426.84468pt x 152.0
-6813pt>
-File: Images/knockoutnet.png Graphic file (type png)
-
-<use Images/knockoutnet.png>
-Package pdftex.def Info: Images/knockoutnet.png used on input line 113.
-(pdftex.def)             Requested size: 245.83282pt x 87.58235pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 113.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [13
-
- <./Images/knockoutnet.png>] <Images/anguaree.png, id=380, 342.5297pt x 145.292
-82pt>
-File: Images/anguaree.png Graphic file (type png)
-
-<use Images/anguaree.png>
-Package pdftex.def Info: Images/anguaree.png used on input line 120.
-(pdftex.def)             Requested size: 245.83282pt x 104.27818pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 120.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [14
-
- <./Images/anguaree.png>]
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 133.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [15
-
-]
-<Images/javaee7-theme.png, id=433, 1480.53125pt x 723.70375pt>
-File: Images/javaee7-theme.png Graphic file (type png)
-
-<use Images/javaee7-theme.png>
-Package pdftex.def Info: Images/javaee7-theme.png used on input line 147.
-(pdftex.def)             Requested size: 215.10196pt x 105.13864pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 147.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [16
-
- <./Images/javaee7-theme.png>]
-<Images/javaee7-pancake.png, id=459, 1370.11874pt x 603.25375pt>
-File: Images/javaee7-pancake.png Graphic file (type png)
-
-<use Images/javaee7-pancake.png>
-Package pdftex.def Info: Images/javaee7-pancake.png used on input line 155.
-(pdftex.def)             Requested size: 276.559pt x 121.7624pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 155.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [17
-
- <./Images/javaee7-pancake.png>]
-<Images/javaee7-modern-pancake.png, id=486, 1370.11874pt x 603.25375pt>
-File: Images/javaee7-modern-pancake.png Graphic file (type png)
-
-<use Images/javaee7-modern-pancake.png>
-Package pdftex.def Info: Images/javaee7-modern-pancake.png used on input line 1
-62.
-(pdftex.def)             Requested size: 276.559pt x 121.7624pt.
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 162.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [18
-
- <./Images/javaee7-modern-pancake.png>]
-File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 172.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [19
+ [9
 
 ]
 File: Images/fondoguatejug.png Graphic file (type png)
 
 <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 180.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 102.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [10
+
+]
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 112.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [11
+
+]
+<Images/arq2015b.png, id=325, 618.05907pt x 137.01187pt>
+File: Images/arq2015b.png Graphic file (type png)
+
+<use Images/arq2015b.png>
+Package pdftex.def Info: Images/arq2015b.png used on input line 120.
+(pdftex.def)             Requested size: 276.559pt x 61.30981pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 120.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [12
+
+ <./Images/arq2015b.png>] <Images/embernode.png, id=354, 499.8675pt x 152.06813
+pt>
+File: Images/embernode.png Graphic file (type png)
+
+<use Images/embernode.png>
+Package pdftex.def Info: Images/embernode.png used on input line 127.
+(pdftex.def)             Requested size: 245.83282pt x 74.7855pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 127.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [13
+
+ <./Images/embernode.png>] <Images/knockoutnet.png, id=382, 426.84468pt x 152.0
+6813pt>
+File: Images/knockoutnet.png Graphic file (type png)
+
+<use Images/knockoutnet.png>
+Package pdftex.def Info: Images/knockoutnet.png used on input line 134.
+(pdftex.def)             Requested size: 245.83282pt x 87.58235pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 134.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [14
+
+ <./Images/knockoutnet.png>] <Images/anguaree.png, id=409, 342.5297pt x 145.292
+82pt>
+File: Images/anguaree.png Graphic file (type png)
+
+<use Images/anguaree.png>
+Package pdftex.def Info: Images/anguaree.png used on input line 141.
+(pdftex.def)             Requested size: 245.83282pt x 104.27818pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 141.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [15
+
+ <./Images/anguaree.png>]
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 154.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [16
+
+]
+<Images/javaee7-theme.png, id=463, 1480.53125pt x 723.70375pt>
+File: Images/javaee7-theme.png Graphic file (type png)
+
+<use Images/javaee7-theme.png>
+Package pdftex.def Info: Images/javaee7-theme.png used on input line 168.
+(pdftex.def)             Requested size: 215.10196pt x 105.13864pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 168.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [17
+
+ <./Images/javaee7-theme.png>]
+<Images/javaee7-pancake.png, id=489, 1370.11874pt x 603.25375pt>
+File: Images/javaee7-pancake.png Graphic file (type png)
+
+<use Images/javaee7-pancake.png>
+Package pdftex.def Info: Images/javaee7-pancake.png used on input line 176.
+(pdftex.def)             Requested size: 276.559pt x 121.7624pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 176.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [18
+
+ <./Images/javaee7-pancake.png>]
+<Images/javaee7-modern-pancake.png, id=515, 1370.11874pt x 603.25375pt>
+File: Images/javaee7-modern-pancake.png Graphic file (type png)
+
+<use Images/javaee7-modern-pancake.png>
+Package pdftex.def Info: Images/javaee7-modern-pancake.png used on input line 1
+83.
+(pdftex.def)             Requested size: 276.559pt x 121.7624pt.
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 183.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [19
+
+ <./Images/javaee7-modern-pancake.png>]
+File: Images/fondoguatejug.png Graphic file (type png)
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 193.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [20
 
 ]
 File: Images/fondoguatejug.png Graphic file (type png)
- <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 191.
+
+<use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 201.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [21
 
 ]
 File: Images/fondoguatejug.png Graphic file (type png)
-
-<use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 204.
+ <use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 212.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
  [22
 
 ]
-<Images/cclogo.png, id=613, 88.33pt x 31.11626pt>
+File: Images/fondoguatejug.png Graphic file (type png)
+
+<use Images/fondoguatejug.png>
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 225.
+(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ [23
+
+]
+<Images/cclogo.png, id=642, 88.33pt x 31.11626pt>
 File: Images/cclogo.png Graphic file (type png)
  <use Images/cclogo.png>
-Package pdftex.def Info: Images/cclogo.png used on input line 221.
+Package pdftex.def Info: Images/cclogo.png used on input line 242.
 (pdftex.def)             Requested size: 30.73085pt x 10.82579pt.
 File: Images/fondoguatejug.png Graphic file (type png)
 
 <use Images/fondoguatejug.png>
-Package pdftex.def Info: Images/fondoguatejug.png used on input line 221.
+Package pdftex.def Info: Images/fondoguatejug.png used on input line 242.
 (pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [23
+ [24
 
  <./Images/cclogo.png>]
 \tf@nav=\write6
@@ -1357,11 +1369,11 @@ Package pdftex.def Info: Images/fondoguatejug.png used on input line 221.
 \tf@snm=\write8
 \openout8 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 243.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 243.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 243.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 243.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: CC02F2B13CB5594CA7AA81D703970854;115.
 
@@ -1369,26 +1381,26 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 243.
  ) 
 Here is how much of TeX's memory you used:
- 16919 strings out of 494903
- 319165 string characters out of 6178703
- 383590 words of memory out of 5000000
- 19684 multiletter control sequences out of 15000+600000
+ 17010 strings out of 494887
+ 321526 string characters out of 6178662
+ 385730 words of memory out of 5000000
+ 19791 multiletter control sequences out of 15000+600000
  13688 words of font info for 50 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
- 56i,14n,55p,406b,571s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,14n,55p,406b,619s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texmf-dist/fon
 ts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmss8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
 mss9.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 </usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on main.pdf (23 pages, 785874 bytes).
+Output written on main.pdf (24 pages, 2120579 bytes).
 PDF statistics:
- 678 PDF objects out of 1000 (max. 8388607)
- 614 compressed objects within 7 object streams
- 53 named destinations out of 1000 (max. 500000)
- 127 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 708 PDF objects out of 1000 (max. 8388607)
+ 642 compressed objects within 7 object streams
+ 55 named destinations out of 1000 (max. 500000)
+ 132 words of extra memory for PDF output out of 10000 (max. 10000000)
 
