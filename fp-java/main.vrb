@@ -1,0 +1,10 @@
+\frametitle{Streams API - Map-reduce}
+\begin{lstlisting}
+winners
+	.stream() //Steam
+	.filter( //Intermedio +- MAP
+		p -> p.getOrderId()
+			.equals(winner.getOrderId())
+		)
+	.collect(Collectors.toList()); //Reduce - collector
+\end{lstlisting}

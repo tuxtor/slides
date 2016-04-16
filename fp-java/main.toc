@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Intro}{2}{0}{1}
+\beamer@sectionintoc {2}{Java 8}{3}{0}{2}
+\beamer@sectionintoc {3}{Bloques}{17}{0}{3}
+\beamer@sectionintoc {4}{Bloques}{23}{0}{4}
+\beamer@sectionintoc {5}{Fin}{35}{0}{5}
