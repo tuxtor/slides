@@ -1,5 +1,5 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {spanish}
-\beamer@sectionintoc {1}{Intro}{2}{0}{1}
-\beamer@sectionintoc {2}{JS}{2}{0}{2}
-\beamer@sectionintoc {3}{Fin}{10}{0}{3}
+\beamer@sectionintoc {2}{JavaEE 7}{3}{0}{1}
+\beamer@sectionintoc {3}{Eclipse Neon}{8}{0}{2}
+\beamer@sectionintoc {4}{Demo}{17}{0}{3}
