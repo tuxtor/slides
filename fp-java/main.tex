@@ -11,12 +11,9 @@
                 basicstyle=\footnotesize\ttfamily,
                 keywordstyle=\footnotesize\color{blue}\ttfamily,
 }
-
+\usetheme{Hannover}
+\usecolortheme{crane}
 \usepackage{graphicx}
-\usebackgroundtemplate%
-{%
-    \includegraphics[width=\paperwidth]{Images/fondo.png}%
-}
 
 \definecolor{celeste}{HTML}{5E91AA}
 \definecolor{azul}{HTML}{163F54}
@@ -46,7 +43,7 @@
 	     \begin{column}[T]{5cm} % each column can also be its own environment
 				\begin{itemize}
 				\item Developer (JVM/Open Source Advocate)
-				\item Ex-JUG Leader
+				\item JUG Leader
 				\item Consultor independiente (Nabenik)
 				\item Profesor universitario
 				\item \href{https://twitter.com/tuxtor}{@tuxtor}
@@ -54,10 +51,10 @@
 				\end{itemize}
 	     \end{column}
 	     \begin{column}[T]{5cm} % alternative top-align that's better for graphics
-			\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Images/j1.jpg}
-			\end{figure}
+            \begin{figure}
+                \centering
+                \includegraphics[width=0.7\linewidth]{Images/logos}
+            \end{figure}
 
 	     \end{column}
      \end{columns}
@@ -66,6 +63,13 @@
 \section{Java 8}
 \begin{frame}
 \huge Java 8
+\end{frame}
+
+\begin{frame}{Java esta muerto}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{Images/dukedead.jpg}
+\end{figure}
 \end{frame}
 
 \begin{frame}{Java 8}
@@ -231,7 +235,7 @@ Un lenguaje de programación orientada a objetos con azucares sintácticas funci
 	\end{lstlisting}
 \end{frame}
 
-\section{Bloques}
+\section{Streams}
 \begin{frame}
 \huge Streams API
 \end{frame}
@@ -286,10 +290,11 @@ jedis.removeIf(darthRemover);
 	\item Monads = Serie de pasos / funciones anidadas
 	\end{itemize}
 	
-	\smartdiagram[sequence diagram]{Stream,Operación intermedia, Operación intermedia,Operación terminal}
+	\smartdiagram[sequence diagram]{Stream,Ops. intermedias,Operación terminal}
 \end{frame}
 
 \begin{frame}[fragile]{Streams API - Map-reduce}
+    \small
 \begin{lstlisting}
 winners
 	.stream() //Steam
@@ -302,6 +307,7 @@ winners
 \end{frame}
 
 \begin{frame}[fragile]{Streams API - Map-reduce}
+    \small
 \begin{lstlisting}
 winners
 	.stream() //Steam
@@ -309,7 +315,7 @@ winners
 		p -> p.getOrderId()
 			.equals(winner.getOrderId())
 		)
-	.collect(Collectors.toList()); //Reduce - collector
+	.collect(Collectors.toList()); //Reduce
 \end{lstlisting}
 \end{frame}
 
@@ -335,10 +341,23 @@ winners
 
 \begin{frame}{Lecturas recomendadas}
 	\begin{itemize}
-	\item  \href{https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x}{JDK 8 Lamdas \& Streams MOOC - https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x}
+	\item  \scriptsize  \href{https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x}{JDK 8 Lamdas\&Streams MOOC - https://www.youtube.com/playlist?list=PLMod1hYiIvSZL1xclvHcsV2dMiminf19x}
 	\item  \href{http://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467}{Functional Programming in Java: Harnessing the Power Of Java 8 Lambda Expressions - http://www.amazon.com/Functional-Programming-Java-Harnessing-Expressions/dp/1937785467}
 	\end{itemize}
 \end{frame}
+
+\begin{frame}{Tambien ver}
+    \begin{itemize}
+        \item \href{https://github.com/jOOQ/jOOL}{jOOL}
+        \item \href{http://www.javaslang.io/}{JavaSlang}
+        \item \href{https://projects.eclipse.org/proposals/eclipse-collections}{Eclipse Collections}
+        
+        \item \href{http://vertx.io/}{Vert.x}
+        \item \href{https://github.com/ReactiveX/RxJava}{RxJava}
+        \item \href{https://www.lightbend.com/}{LightBend}
+    \end{itemize}
+\end{frame}
+
 
 \section{Fin}
 
