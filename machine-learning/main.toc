@@ -1,0 +1,11 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducción}{2}{0}{1}
+\beamer@subsectionintoc {1}{1}{Inteligencia Artificial}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Motivación}{8}{0}{1}
+\beamer@sectionintoc {2}{Aprendizaje}{14}{0}{2}
+\beamer@subsectionintoc {2}{1}{Modelo}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{Implementación}{30}{0}{2}
+\beamer@sectionintoc {3}{Demo}{32}{0}{3}
+\beamer@sectionintoc {4}{Experiencias previas}{35}{0}{4}
+\beamer@sectionintoc {5}{Fin}{41}{0}{5}

@@ -1,7 +1,6 @@
 \beamer@endinputifotherversion {3.36pt}
 \select@language {spanish}
-\beamer@sectionintoc {1}{Intro}{2}{0}{1}
-\beamer@sectionintoc {2}{Java 8}{3}{0}{2}
-\beamer@sectionintoc {3}{Bloques}{18}{0}{3}
-\beamer@sectionintoc {4}{Streams}{24}{0}{4}
-\beamer@sectionintoc {5}{Fin}{37}{0}{5}
+\beamer@sectionintoc {1}{Java 8}{2}{0}{1}
+\beamer@sectionintoc {2}{Bloques}{17}{0}{2}
+\beamer@sectionintoc {3}{Streams}{23}{0}{3}
+\beamer@sectionintoc {4}{Fin}{36}{0}{4}
