@@ -24,4 +24,4 @@ Random slides from my presentations, most of these include Latex source code.
 * [Defesa de sistemas de informação](defesa-sistemas-informação/small.pdf) - Portuguese
 
 
-Unless explicitly stated in the slides, all presentations are shared under a CC-BY-SA license.
+Unless explicitly stated in the slides, all presentations are shared under CC-BY-SA license.
