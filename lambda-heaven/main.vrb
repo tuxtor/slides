@@ -1,0 +1,23 @@
+\frametitle{Vert.x}
+\begin{columns}
+        \begin{column}{0.5\textwidth}
+            Offer
+            \begin{itemize}
+                \item Reactive tool-kit
+                \item Modular
+                \item Scalable
+            \end{itemize}
+         \begin{figure}
+            \centering
+            \includegraphics[width=0.3\linewidth]{Images/vertx}
+        \end{figure}
+        \end{column}
+        \begin{column}{0.5\textwidth}  %%<--- here
+            Good for
+            \begin{itemize}
+                \item Reactive backend and/or microservices
+                \item Compatible with RxJava
+                \item Alternative framework
+            \end{itemize}
+        \end{column}
+    \end{columns}

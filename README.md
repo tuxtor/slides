@@ -6,6 +6,7 @@ Random slides from my presentations, most of these include Latex source code.
 (Work in progress) Index in no particular order:
 
 ##Java
+* [Reaching the lambda heaven](lambda-heaven/main.pdf) - English
 * [Introducción a la programación en Android](android-intro/main.pdf) - Spanish
 * [AngularJS & Java EE](angularjs-javaee/main.pdf) - Spanish
 * [Programación funcional en Java](fp-java/main.pdf) - Spanish
