@@ -1,0 +1,7 @@
+\beamer@endinputifotherversion {3.36pt}
+\select@language {spanish}
+\beamer@sectionintoc {1}{Java 8}{9}{0}{1}
+\beamer@sectionintoc {2}{FP}{21}{0}{2}
+\beamer@sectionintoc {3}{Bloques}{26}{0}{3}
+\beamer@sectionintoc {4}{Demo Java y Kotlin}{30}{0}{4}
+\beamer@sectionintoc {5}{Fin}{31}{0}{5}

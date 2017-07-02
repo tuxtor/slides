@@ -1,0 +1,7 @@
+\frametitle{Streams API}
+\begin{itemize}
+	\item Map-Reduce
+	\item Monads = Serie de pasos / funciones anidadas
+\end{itemize}
+
+\smartdiagram[sequence diagram]{Stream,Ops. intermedias,Operación terminal}
