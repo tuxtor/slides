@@ -12,7 +12,7 @@ Random slides from my presentations, most of these include Latex source code.
 * [Programación funcional en Java](fp-java/main.pdf) - Spanish
 * [Aplicaciones Java EE con JBoss Forge](jboss-forge-eclipse/main.pdf) - Spanish
 * [Increasing the maturity of our Java User Groups](ug-maturity/UG_MaturityLevels.pdf) - English
-
+* [Functonal programming in the JVM](functional-jvm/main.pdf) - Spanish, includes Kotlin FP
 
 ##IT/IS
 * [Docker Primeros Pasos](docker-primeros-pasos/main.pdf) - Spanish
