@@ -1,7 +1,7 @@
 \select@language {spanish}
-\beamer@sectionintoc {1}{Java 8}{10}{0}{1}
-\beamer@sectionintoc {2}{Código funcional}{17}{0}{2}
-\beamer@sectionintoc {3}{Solución}{30}{0}{3}
-\beamer@sectionintoc {4}{Microservicios funcionales con JavaEE}{38}{0}{4}
-\beamer@sectionintoc {5}{Demo}{45}{0}{5}
-\beamer@sectionintoc {6}{Fin}{47}{0}{6}
+\beamer@sectionintoc {1}{Java 8}{11}{0}{1}
+\beamer@sectionintoc {2}{Código funcional}{18}{0}{2}
+\beamer@sectionintoc {3}{Solución}{31}{0}{3}
+\beamer@sectionintoc {4}{Microservicios funcionales con JavaEE}{39}{0}{4}
+\beamer@sectionintoc {5}{Demo}{47}{0}{5}
+\beamer@sectionintoc {6}{Fin}{49}{0}{6}
