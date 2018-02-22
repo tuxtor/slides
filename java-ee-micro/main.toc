@@ -1,0 +1,5 @@
+\select@language {english}
+\beamer@sectionintoc {1}{Lesson 1: Microservices are a mindset revolution}{7}{0}{1}
+\beamer@sectionintoc {2}{Lesson 2: Functional Microservices are not the same for everybody}{13}{0}{2}
+\beamer@sectionintoc {3}{Lesson 3: You don't need to be 100\% "microservice compliant"}{17}{0}{3}
+\beamer@sectionintoc {4}{Demo}{26}{0}{4}

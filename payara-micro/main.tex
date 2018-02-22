@@ -35,9 +35,9 @@
 	\includegraphics[width=\paperwidth]{Images/fondo}%
 }
 
-\title{Microservicios funcionales con Java 8 y Java EE}
+\title{Microservicios con JavaEE}
 \author{Víctor Orozco - @tuxtor}
-\institute{Java Cloud Day Mexico 2017}
+\institute{GuateJUG}
 \date{\today}
 
 \begin{document}
@@ -45,231 +45,86 @@
 \frame{\titlepage}
 
 \begin{frame}{Acerca de}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/fescudos}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Advertencia 0}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/payara}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Advertencia 1}
-\huge Esta presentación se basa exclusivamente en mi búsqueda diaria por trabajar menos, proyectos fracasados, lecciones aprendidas, poco capital y mucho código ;-)
-\end{frame}
-
-
-\begin{frame}{Motivación}
-¿Estado zen del arquitecto de software?
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/zen}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Motivación}
-Estado zen del arquitecto de software
-\begin{itemize}
-	\item Productividad
-	\item Recurso humano
-	\item Predictibilidad y estabilidad
-	\item Escalabilidad
-	\item Costos
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Motivación}
-Estado zen del arquitecto de software
-\begin{itemize}
-	\item Productividad - Java 8
-	\item Recurso humano - POO -> Funcional
-	\item Predictibilidad y estabilidad - Java EE 7
-	\item Escalabilidad - Microservicios
-	\item Costos - Todas las anteriores
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Motivación}
-Estado zen del arquitecto de software
-\begin{itemize}
-	\item \textbf{Productividad} - Java 8
-	\item Recurso humano - POO -> Funcional
-	\item \textbf{Predictibilidad y estabilidad} - Java EE 7
-	\item \textbf{Escalabilidad} - Microservicios
-	\item Costos - Todas las anteriores
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Microservicio funcional}
-\huge TL;DR Microservicio creado con programación funcional
-\end{frame}
-
-\begin{frame}{Microservicio funcional . . . con Payara Micro}
-\huge TL;DR Microservicio creado con Java 8, algunas APIs de JavaEE y Payara Micro
-\end{frame}
-
-\section{Java 8}
-\begin{frame}{Java 8}
-     \begin{columns}[T] % contents are top vertically aligned
-	     \begin{column}[T]{5cm} % each column can also be its own environment
-				\begin{itemize}
-				\item Nashorn
-				\item Date/Time API
-				\item Compact Profiles
-				\item Type Annotations
-				\item \textbf{Default methods}
-				\item \textbf{Streams}
-				\item \textbf{Lambda Expressions}
-				\end{itemize}
-	     \end{column}
-	     \begin{column}[T]{5cm} % alternative top-align that's better for graphics
-			\begin{figure}
+\begin{columns}[T] % contents are top vertically aligned
+	\begin{column}[T]{5cm} % each column can also be its own environment
+		\begin{itemize}
+			\item Developer (JVM/Open Source Advocate)
+			\item Consultor independiente (Nabenik)
+			\item \href{https://twitter.com/tuxtor}{GuateJUG}
+			\item \href{https://twitter.com/tuxtor}{@tuxtor}
+			\item \href{http://vorozco.com}{The J*} 
+		\end{itemize}
+	\end{column}
+	\begin{column}[T]{5cm} % alternative top-align that's better for graphics
+		\begin{figure}
 			\centering
-			\includegraphics[width=0.7\linewidth]{Images/JavaLam-1}
-			\end{figure}
-
-	     \end{column}
-     \end{columns}
+			\includegraphics[width=0.7\linewidth]{Images/logos}
+		\end{figure}
+		
+	\end{column}
+\end{columns}
 \end{frame}
 
+\section{J2EE}
 
-\begin{frame}{Paradigmas (Simplificación)}
-
-\Tree[.Paradigmas [.Imperativo [.Estructurado \textit{Pascal} ]
-               [.\alert{OOP}  \textit{Java} ]]
-          [.Declarativo [.\alert{Funcional} \textit{Clojure} ]
-                [.Logico \textit{Prolog} ]]]
+\begin{frame}{J2EE}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/jobs}
+\end{figure}
 \end{frame}
 
-\begin{frame}{Programación funcional}
+\begin{frame}{J2EE}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Images/futuro}
+\end{figure}
+\end{frame}
+
+\section{Java EE 7}
+
+\begin{frame}{JavaEE 7}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/javaee7-theme}
+\end{figure}
+\end{frame}
+
+\begin{frame}{JavaEE 7}
+\begin{exampleblock}{JavaEE 7}
 	\begin{itemize}
-	\item Computación = Evaluación de funciones matemáticas (calculo de lambdas)
-	\item NO cambios en estado
-	\item NO mutar datos
-	\item Declarativo $\to$ Expresiones 
+		\item Nuevo JMS
+		\item WebSockets
+		\item JSON Support
+		\item Concurrency
+		\item Nuevo JAX-RS
+		\item Batch apps
 	\end{itemize}
+\end{exampleblock}
 \end{frame}
 
-\begin{frame}{Java 8}
-Un lenguaje de programación orientada a objetos con características funcionales.
-			\begin{figure}
+
+
+\section{Java EE 7 - La rebelión de los Dukes}
+
+\begin{frame}{JavaEE 7 - La rebelión}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{figure}
 			\centering
-			\includegraphics[width=0.5\linewidth]{Images/JavaLam-1}
-			\end{figure}
+			\includegraphics[width=\linewidth]{Images/microprofile-logo}
+		\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/guardians}
+		\end{figure}
+	\end{column}
+\end{columns}
 \end{frame}
 
-\begin{frame}{¿Porque programación funcional?}
-	\begin{itemize}
-	\item Paralelismo
-	\item Multicore, multicpu
-	\item \textbf{Elegancia}
-	\end{itemize}
-\end{frame}
-
-\begin{frame}{Programación funcional en Java 8}
-	\begin{itemize}
-	\item Java no es un lenguaje funcional puro (Clojure)
-	\item Otras opciones JVM (Scala, Kotlin, Ceylon)
-	\item Java soporta programación funcional a través de \textbf{bibliotecas}
-	\end{itemize}
-\end{frame}
-
-\section{Código funcional}
-\begin{frame}{PF en Java (Consecuencias)}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.45\linewidth]{Images/somany}
-\end{figure}
-\end{frame}
-
-\begin{frame}{PF en Java (Consecuencias)}
-\huge Java 8 generó un nuevo ecosistema de bibliotecas funcionales, declarativas y reactivas . . .
-\end{frame}
-
-\begin{frame}{PF en Java (Consecuencias)}
-Google: Como me vuelvo el champion de la programación funcional
-\pause
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/calculus}
-\end{figure}
-\end{frame}
-
-\begin{frame}{El cielo de la arquitectura Java}
-\huge Pregunta - ¿Como lo alcanzo?
-\begin{figure}
-	\centering
-	\includegraphics[width=0.6\linewidth]{Images/angel}
-\end{figure}
-\end{frame}
-
-\begin{frame}{El cielo de la arquitectura Java}
-\huge Respuesta - Construyendo una escalera
-\begin{figure}
-\centering
-\includegraphics[width=0.6\linewidth]{Images/starwaytoheaven}
-\end{figure}
-\end{frame}
-
-\begin{frame}{1 - Bloques}
-\begin{figure}
-\centering
-\includegraphics[width=0.9\linewidth]{Images/lego-parts}
-\end{figure}
-\end{frame}
-
-\begin{frame}{1 - Java 8}
-\begin{itemize}
-\item Lambda expressions
-\item Functional interface
-\item High order functions
-\item Complements (predicates, method reference)
-\end{itemize}
-\end{frame}
-
-\begin{frame}{2 - Java Developer Kit Funcional}
-\begin{figure}
-\centering
-\includegraphics[width=0.9\linewidth]{Images/basic}
-\end{figure}
-\end{frame}
-
-\begin{frame}{2 - Java Developer Kit Funcional}
-\begin{itemize}
-\item Funciones predefinidas en Java 8 (java.util.function)
-\item Más de 40 interfaces funcionales
-\item Streams API
-\end{itemize}
-\end{frame}
-
-
-\begin{frame}{3 - Bibliotecas}
-\begin{figure}
-\centering
-\includegraphics[width=0.9\linewidth]{Images/lego-movie}
-\end{figure}
-\end{frame}
-
-\begin{frame}{3 - Bibliotecas}
-Catedral
-\begin{itemize}
-\item Java EE (Reactivos)
-\item Spring (Reactivos)
-\item Lagom (Reactivos)
-\end{itemize}
-
-Bazar
-\begin{itemize}
-\item \textbf{Funcionalidad:} vavr, jOOQ/jOOL, EclipseCollections, FunctionalJava
-\item \textbf{Arquitectura:} RxJava, Akka, Vert.x (Interactions - Architecture)
-\end{itemize}
-\end{frame}
-
-\section{Solución}
+\section{JavaEE Micro}
 
 \begin{frame}{Solución}
 Estado zen del arquitecto de software
@@ -383,54 +238,111 @@ Subset de Api en JavaEE
 Nuevas formas de despliegue
 \begin{itemize}
 	\item Versiones micro JavaEE (CLI)
-	\item Uber-Jar/Fat-Jar/Serverless
+	\item Uber-Jar/Fat-Jar
 \end{itemize}
 \end{frame}
 
 \begin{frame}{Microservicios - JavaEE}
 Opciones
 \begin{itemize}
-	\item Wildfly Swarm
+	\item \textbf{Wildfly Swarm}
 	\item KumuluzEE
 	\item Dropwizard
 	\item WebSphere Liberty
 	\item \textbf{Payara Micro}
 \end{itemize}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.5\linewidth]{Images/payaramicro}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Microservicios - Payara Micro}
-\begin{itemize}
-	\item Glassfish Embedded (Web Profile)
-	\item Container friendly
-	\item War en CLI
-	\item FatJar en \texttt{main()}
-	\item Compatible con Microprofile (JAX-RS, CDI, Config, JSON-P)
-	\item JCache y clustering - Hazelcast
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Motivación}
-Estado zen del arquitecto de software
-\begin{itemize}
-	\item Productividad - Java 8
-	\item Recurso humano - POO -> Funcional
-	\item Predictibilidad y estabilidad - Payara Micro
-	\item Escalabilidad brutal - Microservicios
-	\item Costos - Todas las anteriores
-\end{itemize}
 \end{frame}
 
 \section{Demo}
-\begin{frame}{Payara Micro - Demo}
-\huge Java 8, JAX-RS, CDI, EJB
+\begin{frame}{JavaEE Micro  - Demo}
+\huge Java 8, JAX-RS, CDI, EJB, JCache
 
-\normalsize  \url{https://github.com/tuxtor/payara-demo}
+\normalsize  \url{https://github.com/tuxtor/javaee-hol}
 \end{frame}
+
+\begin{frame}{Payara Micro - Demo}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Images/democlass}
+\end{figure}
+\end{frame}
+
+\section{Java EE 8}
+\begin{frame}{JavaEE 8}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Images/javaee8}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{JavaEE 8}
+\begin{alertblock}{JavaEE 8}
+	\begin{itemize}
+		\item Mejor integración de JSF con CDI
+		\item Mejor integración de JMS con CDI
+		\item HTTP/2
+		\item JSON-B
+		\item Security
+		\item JAX-RS Reactivo
+	\end{itemize}
+\end{alertblock}
+\end{frame}
+
+
+\begin{frame}{JavaEE 8}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Images/payara5}
+\end{figure}
+\end{frame}
+
+\begin{frame}{JavaEE 8}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{Images/wildflyee8}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{JavaEE 8}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Images/liberty}
+\end{figure}
+\end{frame}
+
+\begin{frame}{JavaEE 8}
+\begin{itemize}
+\item Glassfish – 100\% compatible con JavaEE 8
+\item Wildfly(JBoss) – Inician los trabajos para JavaEE 8, se esperan para Wildfly 12
+\item OpenLiberty – Fase beta de soporte
+\item Payara – Fase beta de soporte
+\item TomEE – Inican los trabajos para JavaEE 8
+\item Weblogic – Compromiso publico que JavaEE 8 sera implementado
+\end{itemize}
+\end{frame}
+
+
+
+\section{EE4J}
+
+
+\begin{frame}{EE4J}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/javaeeopen}
+\end{figure}
+\end{frame}
+
+\begin{frame}{EE4J}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/ee4j}
+\end{figure}
+\end{frame}
+
 
 \section{Fin}
 \begin{frame}{Gracias}

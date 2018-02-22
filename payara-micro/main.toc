@@ -1,7 +1,10 @@
 \select@language {spanish}
-\beamer@sectionintoc {1}{Java 8}{11}{0}{1}
-\beamer@sectionintoc {2}{Código funcional}{18}{0}{2}
-\beamer@sectionintoc {3}{Solución}{31}{0}{3}
-\beamer@sectionintoc {4}{Microservicios funcionales con JavaEE}{39}{0}{4}
-\beamer@sectionintoc {5}{Demo}{47}{0}{5}
-\beamer@sectionintoc {6}{Fin}{49}{0}{6}
+\beamer@sectionintoc {1}{J2EE}{3}{0}{1}
+\beamer@sectionintoc {2}{Java EE 7}{6}{0}{2}
+\beamer@sectionintoc {3}{Java EE 7 - La rebeli\IeC {\'o}n de los Dukes}{9}{0}{3}
+\beamer@sectionintoc {4}{JavaEE Micro}{11}{0}{4}
+\beamer@sectionintoc {5}{Microservicios funcionales con JavaEE}{19}{0}{5}
+\beamer@sectionintoc {6}{Demo}{25}{0}{6}
+\beamer@sectionintoc {7}{Java EE 8}{28}{0}{7}
+\beamer@sectionintoc {8}{EE4J}{35}{0}{8}
+\beamer@sectionintoc {9}{Fin}{38}{0}{9}

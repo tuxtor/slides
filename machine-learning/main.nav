@@ -1,4 +1,3 @@
-\beamer@endinputifotherversion {3.36pt}
 \headcommand {\slideentry {0}{0}{1}{1/1}{}{0}}
 \headcommand {\beamer@framepages {1}{1}}
 \headcommand {\sectionentry {1}{Introducci\IeC {\'o}n}{2}{Introducci\IeC {\'o}n}{0}}
@@ -6,102 +5,120 @@
 \headcommand {\beamer@subsectionpages {1}{1}}
 \headcommand {\slideentry {1}{0}{1}{2/2}{}{0}}
 \headcommand {\beamer@framepages {2}{2}}
-\headcommand {\beamer@subsectionentry {0}{1}{1}{3}{Inteligencia Artificial}}\headcommand {\beamer@subsectionpages {2}{2}}
-\headcommand {\slideentry {1}{1}{1}{3/3}{Inteligencia Artificial}{0}}
+\headcommand {\slideentry {1}{0}{2}{3/3}{}{0}}
 \headcommand {\beamer@framepages {3}{3}}
-\headcommand {\slideentry {1}{1}{2}{4/4}{Inteligencia Artificial}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{1}{4}{Inteligencia Artificial}}\headcommand {\beamer@subsectionpages {2}{3}}
+\headcommand {\slideentry {1}{1}{1}{4/4}{Inteligencia Artificial}{0}}
 \headcommand {\beamer@framepages {4}{4}}
-\headcommand {\slideentry {1}{1}{3}{5/5}{Inteligencia Artificial}{0}}
+\headcommand {\slideentry {1}{1}{2}{5/5}{Inteligencia Artificial}{0}}
 \headcommand {\beamer@framepages {5}{5}}
-\headcommand {\slideentry {1}{1}{4}{6/6}{Inteligencia Artificial}{0}}
+\headcommand {\slideentry {1}{1}{3}{6/6}{Inteligencia Artificial}{0}}
 \headcommand {\beamer@framepages {6}{6}}
-\headcommand {\slideentry {1}{1}{5}{7/7}{Inteligencia Artificial}{0}}
+\headcommand {\slideentry {1}{1}{4}{7/7}{Inteligencia Artificial}{0}}
 \headcommand {\beamer@framepages {7}{7}}
-\headcommand {\beamer@subsectionentry {0}{1}{2}{8}{Motivaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {3}{7}}
-\headcommand {\slideentry {1}{2}{1}{8/8}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {1}{1}{5}{8/8}{Inteligencia Artificial}{0}}
 \headcommand {\beamer@framepages {8}{8}}
-\headcommand {\slideentry {1}{2}{2}{9/9}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\beamer@subsectionentry {0}{1}{2}{9}{Motivaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {4}{8}}
+\headcommand {\slideentry {1}{2}{1}{9/9}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {9}{9}}
-\headcommand {\slideentry {1}{2}{3}{10/10}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {1}{2}{2}{10/10}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {10}{10}}
-\headcommand {\slideentry {1}{2}{4}{11/11}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {1}{2}{3}{11/11}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {11}{11}}
-\headcommand {\slideentry {1}{2}{5}{12/12}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {1}{2}{4}{12/12}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {12}{12}}
-\headcommand {\slideentry {1}{2}{6}{13/13}{Motivaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {1}{2}{5}{13/13}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {13}{13}}
-\headcommand {\sectionentry {2}{Aprendizaje}{14}{Aprendizaje}{0}}
-\headcommand {\beamer@sectionpages {2}{13}}
-\headcommand {\beamer@subsectionpages {8}{13}}
-\headcommand {\slideentry {2}{0}{1}{14/14}{}{0}}
+\headcommand {\slideentry {1}{2}{6}{14/14}{Motivaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {14}{14}}
-\headcommand {\slideentry {2}{0}{2}{15/15}{}{0}}
+\headcommand {\sectionentry {2}{Aprendizaje}{15}{Aprendizaje}{0}}
+\headcommand {\beamer@sectionpages {2}{14}}
+\headcommand {\beamer@subsectionpages {9}{14}}
+\headcommand {\slideentry {2}{0}{1}{15/15}{}{0}}
 \headcommand {\beamer@framepages {15}{15}}
-\headcommand {\slideentry {2}{0}{3}{16/16}{}{0}}
+\headcommand {\slideentry {2}{0}{2}{16/16}{}{0}}
 \headcommand {\beamer@framepages {16}{16}}
-\headcommand {\slideentry {2}{0}{4}{17/17}{}{0}}
+\headcommand {\slideentry {2}{0}{3}{17/17}{}{0}}
 \headcommand {\beamer@framepages {17}{17}}
-\headcommand {\slideentry {2}{0}{5}{18/18}{}{0}}
+\headcommand {\slideentry {2}{0}{4}{18/18}{}{0}}
 \headcommand {\beamer@framepages {18}{18}}
-\headcommand {\slideentry {2}{0}{6}{19/19}{}{0}}
+\headcommand {\slideentry {2}{0}{5}{19/19}{}{0}}
 \headcommand {\beamer@framepages {19}{19}}
-\headcommand {\beamer@subsectionentry {0}{2}{1}{20}{Modelo}}\headcommand {\beamer@subsectionpages {14}{19}}
-\headcommand {\slideentry {2}{1}{1}{20/20}{Modelo}{0}}
+\headcommand {\slideentry {2}{0}{6}{20/20}{}{0}}
 \headcommand {\beamer@framepages {20}{20}}
-\headcommand {\slideentry {2}{1}{2}{21/21}{Modelo}{0}}
+\headcommand {\slideentry {2}{0}{7}{21/21}{}{0}}
 \headcommand {\beamer@framepages {21}{21}}
-\headcommand {\slideentry {2}{1}{3}{22/22}{Modelo}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{1}{22}{Modelo}}\headcommand {\beamer@subsectionpages {15}{21}}
+\headcommand {\slideentry {2}{1}{1}{22/22}{Modelo}{0}}
 \headcommand {\beamer@framepages {22}{22}}
-\headcommand {\slideentry {2}{1}{4}{23/23}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{2}{23/23}{Modelo}{0}}
 \headcommand {\beamer@framepages {23}{23}}
-\headcommand {\slideentry {2}{1}{5}{24/24}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{3}{24/24}{Modelo}{0}}
 \headcommand {\beamer@framepages {24}{24}}
-\headcommand {\slideentry {2}{1}{6}{25/25}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{4}{25/25}{Modelo}{0}}
 \headcommand {\beamer@framepages {25}{25}}
-\headcommand {\slideentry {2}{1}{7}{26/26}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{5}{26/26}{Modelo}{0}}
 \headcommand {\beamer@framepages {26}{26}}
-\headcommand {\slideentry {2}{1}{8}{27/27}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{6}{27/27}{Modelo}{0}}
 \headcommand {\beamer@framepages {27}{27}}
-\headcommand {\slideentry {2}{1}{9}{28/28}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{7}{28/28}{Modelo}{0}}
 \headcommand {\beamer@framepages {28}{28}}
-\headcommand {\slideentry {2}{1}{10}{29/29}{Modelo}{0}}
+\headcommand {\slideentry {2}{1}{8}{29/29}{Modelo}{0}}
 \headcommand {\beamer@framepages {29}{29}}
-\headcommand {\beamer@subsectionentry {0}{2}{2}{30}{Implementaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {20}{29}}
-\headcommand {\slideentry {2}{2}{1}{30/30}{Implementaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {2}{1}{9}{30/30}{Modelo}{0}}
 \headcommand {\beamer@framepages {30}{30}}
-\headcommand {\slideentry {2}{2}{2}{31/31}{Implementaci\IeC {\'o}n}{0}}
+\headcommand {\slideentry {2}{1}{10}{31/31}{Modelo}{0}}
 \headcommand {\beamer@framepages {31}{31}}
-\headcommand {\sectionentry {3}{Demo}{32}{Demo}{0}}
-\headcommand {\beamer@sectionpages {14}{31}}
-\headcommand {\beamer@subsectionpages {30}{31}}
-\headcommand {\slideentry {3}{0}{1}{32/32}{}{0}}
+\headcommand {\beamer@subsectionentry {0}{2}{2}{32}{Implementaci\IeC {\'o}n}}\headcommand {\beamer@subsectionpages {22}{31}}
+\headcommand {\slideentry {2}{2}{1}{32/32}{Implementaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {32}{32}}
-\headcommand {\slideentry {3}{0}{2}{33/33}{}{0}}
+\headcommand {\slideentry {2}{2}{2}{33/33}{Implementaci\IeC {\'o}n}{0}}
 \headcommand {\beamer@framepages {33}{33}}
-\headcommand {\slideentry {3}{0}{3}{34/34}{}{0}}
+\headcommand {\sectionentry {3}{Demo}{34}{Demo}{0}}
+\headcommand {\beamer@sectionpages {15}{33}}
+\headcommand {\beamer@subsectionpages {32}{33}}
+\headcommand {\slideentry {3}{0}{1}{34/34}{}{0}}
 \headcommand {\beamer@framepages {34}{34}}
-\headcommand {\sectionentry {4}{Experiencias previas}{35}{Experiencias previas}{0}}
-\headcommand {\beamer@sectionpages {32}{34}}
-\headcommand {\beamer@subsectionpages {32}{34}}
-\headcommand {\slideentry {4}{0}{1}{35/35}{}{0}}
+\headcommand {\slideentry {3}{0}{2}{35/35}{}{0}}
 \headcommand {\beamer@framepages {35}{35}}
-\headcommand {\slideentry {4}{0}{2}{36/36}{}{0}}
+\headcommand {\slideentry {3}{0}{3}{36/36}{}{0}}
 \headcommand {\beamer@framepages {36}{36}}
-\headcommand {\slideentry {4}{0}{3}{37/37}{}{0}}
+\headcommand {\slideentry {3}{0}{4}{37/37}{}{0}}
 \headcommand {\beamer@framepages {37}{37}}
-\headcommand {\slideentry {4}{0}{4}{38/38}{}{0}}
+\headcommand {\slideentry {3}{0}{5}{38/38}{}{0}}
 \headcommand {\beamer@framepages {38}{38}}
-\headcommand {\slideentry {4}{0}{5}{39/39}{}{0}}
+\headcommand {\slideentry {3}{0}{6}{39/39}{}{0}}
 \headcommand {\beamer@framepages {39}{39}}
-\headcommand {\slideentry {4}{0}{6}{40/40}{}{0}}
+\headcommand {\slideentry {3}{0}{7}{40/40}{}{0}}
 \headcommand {\beamer@framepages {40}{40}}
-\headcommand {\sectionentry {5}{Fin}{41}{Fin}{0}}
-\headcommand {\beamer@sectionpages {35}{40}}
-\headcommand {\beamer@subsectionpages {35}{40}}
-\headcommand {\slideentry {5}{0}{1}{41/41}{}{0}}
+\headcommand {\slideentry {3}{0}{8}{41/41}{}{0}}
 \headcommand {\beamer@framepages {41}{41}}
-\headcommand {\beamer@partpages {1}{41}}
-\headcommand {\beamer@subsectionpages {41}{41}}
-\headcommand {\beamer@sectionpages {41}{41}}
-\headcommand {\beamer@documentpages {41}}
-\headcommand {\def \inserttotalframenumber {41}}
+\headcommand {\sectionentry {4}{Experiencias previas}{42}{Experiencias previas}{0}}
+\headcommand {\beamer@sectionpages {34}{41}}
+\headcommand {\beamer@subsectionpages {34}{41}}
+\headcommand {\slideentry {4}{0}{1}{42/42}{}{0}}
+\headcommand {\beamer@framepages {42}{42}}
+\headcommand {\slideentry {4}{0}{2}{43/43}{}{0}}
+\headcommand {\beamer@framepages {43}{43}}
+\headcommand {\slideentry {4}{0}{3}{44/44}{}{0}}
+\headcommand {\beamer@framepages {44}{44}}
+\headcommand {\slideentry {4}{0}{4}{45/45}{}{0}}
+\headcommand {\beamer@framepages {45}{45}}
+\headcommand {\slideentry {4}{0}{5}{46/46}{}{0}}
+\headcommand {\beamer@framepages {46}{46}}
+\headcommand {\slideentry {4}{0}{6}{47/47}{}{0}}
+\headcommand {\beamer@framepages {47}{47}}
+\headcommand {\slideentry {4}{0}{7}{48/48}{}{0}}
+\headcommand {\beamer@framepages {48}{48}}
+\headcommand {\sectionentry {5}{Fin}{49}{Fin}{0}}
+\headcommand {\beamer@sectionpages {42}{48}}
+\headcommand {\beamer@subsectionpages {42}{48}}
+\headcommand {\slideentry {5}{0}{1}{49/49}{}{0}}
+\headcommand {\beamer@framepages {49}{49}}
+\headcommand {\slideentry {5}{0}{2}{50/50}{}{0}}
+\headcommand {\beamer@framepages {50}{50}}
+\headcommand {\beamer@partpages {1}{50}}
+\headcommand {\beamer@subsectionpages {49}{50}}
+\headcommand {\beamer@sectionpages {49}{50}}
+\headcommand {\beamer@documentpages {50}}
+\headcommand {\def \inserttotalframenumber {45}}

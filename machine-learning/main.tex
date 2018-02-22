@@ -1,5 +1,6 @@
 % !TeX encoding = UTF-8
 \documentclass{beamer}
+\usetheme{metropolis}           % Use metropolis theme
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
@@ -11,24 +12,30 @@
                 basicstyle=\footnotesize\ttfamily,
                 keywordstyle=\footnotesize\color{blue}\ttfamily,
 }
-\usetheme{Hannover}
-\usecolortheme{crane}
+%\usetheme{Hannover}
+%\usecolortheme{crane}
 \usepackage{graphicx}
 \usepackage{tikz}
 \usepackage{hyperref}
 \usetikzlibrary{mindmap,backgrounds}
 
-\definecolor{celeste}{HTML}{5E91AA}
-\definecolor{azul}{HTML}{163F54}
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+%\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\definecolor{orange}{rgb}{1,0.45,0.13}		
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
 
-\setbeamercolor{head1}{fg=celeste}
-\setbeamercolor{title}{fg=celeste}
-\setbeamercolor{subtitle}{fg=celeste}
-\setbeamercolor{frametitle}{fg=celeste}
-\setbeamercolor{structure}{fg=azul}
-\setbeamercolor{normal text}{fg=azul}
-
-
+\usebackgroundtemplate%
+{%
+	\includegraphics[width=\paperwidth]{Images/fondo}%
+}
 \title{Getting started with Machine Learning}
 \author{Víctor Orozco}
 \institute{Nabenik}
@@ -47,9 +54,8 @@
             \begin{itemize}
                 \item Developer -JVM, JS- 
                 \item Ex becario OAS-GCUB
-                \item \href{https://www.oracle.com/javaone/dukes-choice-award.html}{Dukes Choice Award 2016 -GuateJUG-}
+                \item \href{https://www.oracle.com/javaone/dukes-choice-award.html}{Dukes Choice Award 2016 -GuateJUG-, 2017 -JEspañol-}
                 \item \href{http://www.nabenik.com}{CTO/Founder -Nabenik-}
-                \item \href{http://www.url.edu.gt/}{Profesor universitario -Universidad Rafael Landivar-}
                 \item \href{https://twitter.com/tuxtor}{@tuxtor}
                 \item \href{http://vorozco.com}{The J*} 
             \end{itemize}
@@ -323,6 +329,11 @@
 
 
 \section{Demo}
+\begin{frame}{Demo 1 - Panchito}
+Panchito el Bot Bayesiano
+\end{frame}
+
+
 \begin{frame}{Demo}
     \begin{enumerate}
         \item Mamiferos
@@ -362,6 +373,32 @@
         \item Momentum: Controla convergencia hacia minimos
         \item Error: Mientras menor sea el error, mayor la aproximación*
     \end{enumerate}
+\end{frame}
+\begin{frame}{Demo}
+\begin{enumerate}
+	\item Input: 16
+	\item Output: 7
+	\item Middle: 2
+	\item Error: 0.2, Momentum: 0.7
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Demo}
+\begin{enumerate}
+	\item Input: 16
+	\item Output: 7
+	\item Middle: 2
+	\item Error: 0.3, Momentum: 0.7
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{Demo}
+\begin{enumerate}
+	\item Input: 16
+	\item Output: 7
+	\item Middle: 6
+	\item Error: 0.6, Momentum: 0.4
+\end{enumerate}
 \end{frame}
 
 \section{Experiencias previas}
