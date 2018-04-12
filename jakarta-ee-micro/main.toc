@@ -1,0 +1,10 @@
+\select@language {english}
+\beamer@sectionintoc {1}{J2EE}{3}{0}{1}
+\beamer@sectionintoc {2}{Java EE 7}{6}{0}{2}
+\beamer@sectionintoc {3}{Java EE 7 - La rebeli\IeC {\'o}n de los Dukes}{9}{0}{3}
+\beamer@sectionintoc {4}{JavaEE Micro y sus lecciones}{11}{0}{4}
+\beamer@sectionintoc {5}{Lecci\IeC {\'o}n 1: Los microservicios son una revoluci\IeC {\'o}n de pensamiento}{12}{0}{5}
+\beamer@sectionintoc {6}{Lecci\IeC {\'o}n 2: Microservicios no son lo mismo para todos}{18}{0}{6}
+\beamer@sectionintoc {7}{Lecci\IeC {\'o}n 3: No es necesario ser 100\% "microservicios"}{22}{0}{7}
+\beamer@sectionintoc {8}{Demo}{31}{0}{8}
+\beamer@sectionintoc {9}{Java EE 8}{40}{0}{9}
