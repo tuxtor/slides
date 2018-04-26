@@ -6,6 +6,7 @@ Random slides from my presentations, most of these include Latex source code.
 (Work in progress) Index in no particular order:
 
 ##Java
+* [Testing 101 with Java EE and Arquillian](arquillian/main.pdf) - Spanish
 * [Jakarta EE, Microprofile y Payara Micro](jakarta-ee-micro/main.pdf) - Spanish
 * [Functional microservices with JavaEE and Payara Micro](java-ee-micro/main.pdf) - English
 * [Java EE Hands on labs, ¿quien?, ¿como?, ¿porqué?](javaee-2017/main.pdf) - Spanish
