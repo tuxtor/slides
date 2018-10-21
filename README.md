@@ -6,6 +6,7 @@ Random slides from my presentations, most of these include Latex source code.
 (Work in progress) Index in no particular order:
 
 ##Java
+* [Eclipse MicroProfile Metrics: Practica use cases](metrics-usecases/main.pdf) - English
 * [Testing 101 with Java EE and Arquillian](arquillian/main.pdf) - Spanish
 * [Jakarta EE, Microprofile y Payara Micro](jakarta-ee-micro/main.pdf) - Spanish
 * [Functional microservices with JavaEE and Payara Micro](java-ee-micro/main.pdf) - English
