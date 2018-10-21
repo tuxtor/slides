@@ -1,0 +1,6 @@
+\frametitle{Case 0 - Prometheus}
+\begin{lstlisting}
+@Inject
+@Metric
+Counter failedQueries;
+\end{lstlisting}
