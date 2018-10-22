@@ -1,6 +1,6 @@
-\frametitle{Case 0 - Prometheus}
-\begin{lstlisting}
-@Inject
-@Metric
-Counter failedQueries;
-\end{lstlisting}
+\frametitle{Case 0.3 - Prometheus}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/gauge}
+\end{figure}
+

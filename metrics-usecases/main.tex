@@ -245,7 +245,6 @@ Key concept: Non-long running JVM
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Images/mp5}
-	\caption{Credits: Reza Rahman}
 \end{figure}
 \end{frame}
 
@@ -291,7 +290,7 @@ Take for granted
 \end{columns}
 \end{frame}
 
-\begin{frame}{EE + MicroProfil - Demo}
+\begin{frame}{EE + MicroProfile - Demo}
 \footnotesize MicroProfile: JAX-RS, CDI (Per service), Config, Fault Tolerance, Metrics\\
 Payara Micro: EJB, JTA (Per service)\\
 External: Location, Deployment, Orchestation, Balancing, Consistency, Patterns
@@ -354,8 +353,9 @@ Where
 
 How
 \begin{itemize}
-	\item Counter
+	\item Counted
 	\item Gauge
+	\item Metered
 	\item Timed
 	\item Histogram
 \end{itemize}
@@ -380,7 +380,7 @@ How
 
 \end{frame}
 
-\begin{frame}[fragile]{Case 0 - Counter}
+\begin{frame}[fragile]{Case 0.1 - Counted}
 \begin{lstlisting}
 @Inject
 @Metric
@@ -388,7 +388,6 @@ Counter failedQueries;
 \end{lstlisting}
 
 \begin{lstlisting}
-@Metered
 @GET
 @Path("/{id:[a-z]*[0-9][0-9]*}")
 @Fallback(fallbackMethod = "findByIdFallBack")
@@ -405,12 +404,52 @@ final String imdbId) {
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile]{Case 0 - Prometheus}
+\begin{frame}[fragile]{Case 0.2 - Gauge}
+Flat metric
 \begin{lstlisting}
-@Inject
-@Metric
-Counter failedQueries;
+@Gauge(unit = "ExternalDatabases",
+	name = "movieDatabases",
+	absolute = true)
+public long getDatabases() {
+	return 1;
+}
 \end{lstlisting}
+
+\lstinline|/metrics/application/movieDatabases|
+\end{frame}
+
+\begin{frame}[fragile]{Case 0.3 - Metered}
+Measure of events rate
+\begin{lstlisting}
+@Metered(name = "moviesRetrieved",
+	unit = MetricUnits.MINUTES,
+	description = "Metrics to monitor movies",
+	absolute = true)
+public Response findExpandedById(@PathParam("id") final Long id) 
+\end{lstlisting}
+
+\lstinline|/metrics/application/movieDatabases|
+\end{frame}
+
+\begin{frame}[fragile]{Case 0.4 - Timed}
+Measure of events delay and performance
+\begin{lstlisting}
+@Timed(name = "moviesDelay",
+	description = "Metrics to monitor the times of movies retrieval",
+	unit = MetricUnits.MINUTES,
+	absolute = true)
+public Response findExpandedById(@PathParam("id") final Long id) 
+\end{lstlisting}
+
+\lstinline|/metrics/application/moviesDelay|
+\end{frame}
+
+\begin{frame}[fragile]{Case 0.3 - Prometheus}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/gauge}
+\end{figure}
+
 \end{frame}
 
 \begin{frame}{Case 1 - Application metrics}
