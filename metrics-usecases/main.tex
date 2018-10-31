@@ -53,6 +53,12 @@
 \tableofcontents
 \end{frame} 
 
+\begin{frame}{Java EE - MicroProfile - Spring - Metrics}
+\begin{center}
+	\includegraphics[width=0.4\linewidth]{Images/comment}
+\end{center}
+\end{frame}
+
 
 \begin{frame}{Víctor Orozco}
 \begin{columns}[T] % contents are top vertically aligned
@@ -79,12 +85,15 @@
 	\begin{column}[T]{5cm} % each column can also be its own environment
 		\begin{itemize}
 			\item JUG Leader
-		\end{itemize}
+			\item @cajasmota
+			\item CTO@inin.global
+			\item I write Java EE code everyday	
+	\end{itemize}
 	\end{column}
 	\begin{column}[T]{5cm} % alternative top-align that's better for graphics
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.6\linewidth]{Images/logos}
+			\includegraphics[width=0.6\linewidth]{Images/logoscajas}
 		\end{figure}
 		
 	\end{column}
@@ -92,20 +101,15 @@
 \end{frame}
 
 \begin{frame}{José Díaz}
-\begin{columns}[T] % contents are top vertically aligned
-	\begin{column}[T]{5cm} % each column can also be its own environment
+
 		\begin{itemize}
-			\item JUG Leader
+			\item Peru JUG Leader
+			\item Java Champion
+			\item @jamdiazdiaz
+			\item http://blog.joedayz.pe
 		\end{itemize}
-	\end{column}
-	\begin{column}[T]{5cm} % alternative top-align that's better for graphics
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.6\linewidth]{Images/logos}
-		\end{figure}
-		
-	\end{column}
-\end{columns}
+
+
 \end{frame}
 
 \section{Why Metrics?}
@@ -399,19 +403,25 @@ final String imdbId) {
 
 public Response findByIdFallBack(@PathParam("id") 
 final String imdbId) {
-...
+	...
+	failedQueries.inc();
 }
 \end{lstlisting}
 \end{frame}
 
 \begin{frame}[fragile]{Case 0.2 - Gauge}
-Flat metric
+Ideal for inc-dec counter in real time 
 \begin{lstlisting}
-@Gauge(unit = "ExternalDatabases",
-	name = "movieDatabases",
-	absolute = true)
+@Gauge(unit = "ExternalDatabases", name = "movieDatabases", absolute = true)
 public long getDatabases() {
-	return 1;
+	int number = (int)(Math.random() * 100);
+	int criteria = number % 2;
+	
+	if(criteria == 0) {
+		return 100;
+	}else {
+		return 50;
+	}
 }
 \end{lstlisting}
 
@@ -444,7 +454,28 @@ public Response findExpandedById(@PathParam("id") final Long id)
 \lstinline|/metrics/application/moviesDelay|
 \end{frame}
 
-\begin{frame}[fragile]{Case 0.3 - Prometheus}
+\begin{frame}[fragile]{Case 0.5 - Histogram}
+Distribution of a value
+\begin{lstlisting}
+@Inject
+MetricRegistry registry;
+
+@POST
+@Path("/add/{attendees}")
+public Response addAttendees(@PathParam("attendees") Long attendees) {
+	Metadata metadata =
+	new Metadata("matrix attendees",
+	MetricType.HISTOGRAM);
+	Histogram histogram = 
+	registry.histogram(metadata);
+	histogram.update(attendees);
+	return Response.ok().build();
+}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]{Case 0.99 - Prometheus}
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Images/gauge}
@@ -452,7 +483,7 @@ public Response findExpandedById(@PathParam("id") final Long id)
 
 \end{frame}
 
-\begin{frame}{Case 1 - Application metrics}
+\begin{frame}{Case 0.999 - Application metrics}
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Images/micrometric1}
@@ -460,14 +491,14 @@ public Response findExpandedById(@PathParam("id") final Long id)
 
 \end{frame}
 
-\begin{frame}{Case 1 - Counter over time}
+%\begin{frame}{Case 1 - Counter over time}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/micrometric2}
-\end{figure}
-\lstinline|application:com_nabenik_omdb_rest_omdb_endpoint_failed_queries|
-\end{frame}
+%\begin{figure}
+%	\centering
+%	\includegraphics[width=\linewidth]{Images/micrometric2}
+%\end{figure}
+%\lstinline|application:com_nabenik_omdb_rest_omdb_endpoint_failed_queries|
+%\end{frame}
 
 
 
@@ -522,6 +553,7 @@ public Response findExpandedById(@PathParam("id") final Long id)
 \begin{frame}{Thank you}
 \begin{itemize}
 \item me@vorozco.com
+\item @tuxtor
 \item http://vorozco.com
 \item http://github.com/tuxtor/slides
 \end{itemize}

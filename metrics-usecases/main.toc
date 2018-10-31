@@ -1,6 +1,6 @@
 \select@language {english}
-\beamer@sectionintoc {1}{Why Metrics?}{6}{0}{1}
-\beamer@sectionintoc {2}{Monoliths}{10}{0}{2}
-\beamer@sectionintoc {3}{Reactive applications}{14}{0}{3}
-\beamer@sectionintoc {4}{Eclipse MicroProfile}{18}{0}{4}
-\beamer@sectionintoc {5}{Practical Use Cases}{29}{0}{5}
+\beamer@sectionintoc {1}{Why Metrics?}{7}{0}{1}
+\beamer@sectionintoc {2}{Monoliths}{11}{0}{2}
+\beamer@sectionintoc {3}{Reactive applications}{15}{0}{3}
+\beamer@sectionintoc {4}{Eclipse MicroProfile}{19}{0}{4}
+\beamer@sectionintoc {5}{Practical Use Cases}{30}{0}{5}
