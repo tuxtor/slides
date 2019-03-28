@@ -1,0 +1,8 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{\IeC {\textquestiondown }Porque Java?}{2}{0}{1}
+\beamer@sectionintoc {2}{Java}{8}{0}{2}
+\beamer@sectionintoc {3}{Memoria en VMs}{15}{0}{3}
+\beamer@sectionintoc {4}{Generational garbage collectors}{25}{0}{4}
+\beamer@sectionintoc {5}{GC en OpenJDK y Android}{34}{0}{5}
+\beamer@sectionintoc {6}{Como luchar CONTRA un Garbage Collector}{42}{0}{6}
+\beamer@sectionintoc {7}{Complejidad de algoritmos}{47}{0}{7}
