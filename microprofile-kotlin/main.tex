@@ -1,0 +1,637 @@
+\documentclass{beamer}
+\useoutertheme[progressbar=frametitle]{metropolis}
+\useinnertheme{metropolis}
+\definecolor{nabgray}{rgb}{0.6,0.59,0.61}
+\usecolortheme[named=nabgray]{structure}
+
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage{smartdiagram}
+\usepackage{qtree}
+\usepackage{verbatim}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{color}
+
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+%\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\definecolor{orange}{rgb}{1,0.45,0.13}		
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
+\usepackage{upquote}
+\usepackage{listings}
+\lstset{language=java,
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\footnotesize\color{blue}\ttfamily,
+	escapeinside={<@}{@>}
+}
+\lstdefinelanguage{Kotlin}{
+	comment=[l]{//},
+	commentstyle={\color{gray}\ttfamily},
+	emph={delegate, filter, first, firstOrNull, forEach, lazy, map, mapNotNull, println, return@},
+	emphstyle={\color{purple}},
+	identifierstyle=\color{black},
+	keywords={abstract, actual, as, as?, break, by, class, companion, continue, data, do, dynamic, else, enum, expect, false, final, for, fun, get, if, import, in, interface, internal, is, null, object, override, package, private, public, return, set, super, suspend, this, throw, true, try, typealias, val, var, vararg, when, where, while},
+	keywordstyle={\color{lightblue}\bfseries},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+	morestring=[s]{"""*}{*"""},
+	ndkeywords={@Inject, @Deprecated, @JvmField, @JvmName, @JvmOverloads, @JvmStatic, @JvmSynthetic, Array, Byte, Double, Float, Int, Integer, Iterable, Long, Runnable, Short, String},
+	ndkeywordstyle={\color{orange}\bfseries},
+	sensitive=true,
+	stringstyle={\color{olive}\ttfamily},
+}
+
+
+\usebackgroundtemplate%
+{%
+	\includegraphics[width=\paperwidth]{Images/Contenido}%
+}
+
+
+\title{Enseñando trucos de 20 años a Kotlin}
+\author{Víctor Orozco}
+\institute{@tuxtor}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\section{Kotlin}
+
+\begin{frame}{Kotlin}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{itemize}
+			\item Tipado estático y compilado
+			\item Java inter-op
+			\item OO + FP
+			\item Null safety
+			\item Extensions
+			\item Operator overloading
+			\item Data classes
+			\item One line methods
+		\end{itemize}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Images/kotlin}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Kotlin - Datos interesantes}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{itemize}
+			\item Effective Java - Inmutabilidad, builder, singleton, override, final by default, variance by generics
+			\item Elvis - Groovy 
+			\item Inferencia de tipos - Scala
+			\item Inmutabilidad - Scala
+			\item Declaración de variables - Scala
+			\item Manejo de Null - Groovy
+			\item Closures y funciones - Groovy
+			\item Google
+		\end{itemize}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Images/kotlin}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Java - Muriendo desde 1995}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{itemize}
+			\item Sistemas legados (IBM)
+			\item Retrocompatibilidad
+			\item Release cadence (6 meses)
+			\item Innovación constante en el ecosistema (Spring Boot, Micronaut, MicroProfile, GraalVM)
+			\item Raw performance (Beam, Spark, Hadoop)
+			\item Tooling - IDE, Maven, Drivers RDBMS
+			\item JVM - (Twitter, Alibaba)
+			\item OpenJDK
+		\end{itemize}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Images/java}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Java - Muriendo desde 1995}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/borges}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Java - Muriendo desde 1995}
+
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Images/gossling}
+		\end{figure}
+\end{frame}
+
+
+\section{¿Microservicios?}
+
+\begin{frame}{Reactive applications}
+Aplicaciones reactivas
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/reactive-traits}
+\end{figure}
+Microservicios son una (de muchas) herramienta para creación de aplicaciones reactivas
+\end{frame}
+
+
+\begin{frame}{Microservicios}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Images/microservicios}
+\caption{Microservicios}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Microservicios - Java}
+\begin{itemize}
+	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE
+	\item Enterprise - Spring Boot, Microprofile (implementaciones)
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Microservicios - Kotlin}
+\begin{itemize}
+	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE, \textbf{Ktor}
+	\item Enterprise - Spring Boot, Microprofile (implementaciones)
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}{}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/people}
+\end{figure}
+\end{frame}
+
+\section{Jakarta EE 8}
+\begin{frame}{Jakarta EE 8}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/javaee8}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Jakarta EE 8 - Comunidad Java EE}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/jakartaee}
+	\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/guardians}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/microprofile-logo}
+\end{figure}
+\end{frame}
+
+\section{Eclipse MicroProfile}
+
+\begin{frame}{Eclipse MicroProfile}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/javaeemicropancake}
+	\caption{Credito: Reza Rahman}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Eclipse MicroProfile}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\linewidth]{Images/oldsetup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Eclipse MicroProfile}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/mp5}
+\end{figure}
+\end{frame}
+
+%TODO 12 fatores
+
+\begin{frame}{Eclipse MicroProfile - Implementaciones}
+
+Bibliotecas
+\begin{itemize}
+	\item SmallRye (Red Hat)
+	\item Hammock
+	\item Apache Geronimo
+	\item Fujitsu Launcher
+\end{itemize}
+	
+JEAS - Fat Jar, Uber Jar
+\begin{itemize}
+	\item Dropwizard
+	\item KumuluzEE
+	\item Helidon (Oracle)
+	\item Open Liberty (IBM)
+	\item Apache Meecrowave
+	\item Thorntail (Red Hat)
+	\item Quarkus (Red Hat)
+	\item Payara Micro
+\end{itemize}
+\end{frame}
+\begin{frame}{Eclipse MicroProfile - Implementaciones}
+
+Micro server - Thin War
+\begin{itemize}
+	\item Payara Micro
+	\item TomEE JAX-RS
+\end{itemize}
+
+Full server
+\begin{itemize}
+	\item Payara Application Server
+	\item JBoss Application Server / Wildfly Application Server
+	\item WebSphere Liberty (IBM)
+\end{itemize}
+
+https://wiki.eclipse.org/MicroProfile/Implementation
+\end{frame}
+
+\section{Eclipse MicroProfile + Kotlin + Maven}
+
+\begin{frame}[fragile]{Eclipse MicroProfile en Payara 5}
+\begin{lstlisting}
+<dependency>
+	<groupId>org.eclipse.microprofile</groupId>
+	<artifactId>microprofile</artifactId>
+	<type>pom</type>
+	<version>2.0.1</version>
+	<scope>provided</scope>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Kotlin en Maven - Dependencias}
+\begin{lstlisting}[language=XML]
+<dependency>
+	<groupId>org.jetbrains.kotlin</groupId>
+	<artifactId>kotlin-stdlib-jdk8</artifactId>
+	<version>${kotlin.version}</version>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin en Maven - maven-compiler-plugin}
+\begin{lstlisting}
+<execution>
+	<id>default-compile</id>
+	<phase>none</phase>
+</execution>
+<execution>
+	<id>default-testCompile</id>
+	<phase>none</phase>
+</execution>
+<execution>
+	<id>java-compile</id>
+	<phase>compile</phase>
+	<goals> <goal>compile</goal> </goals>
+</execution>
+<execution>
+	<id>java-test-compile</id>
+	<phase>test-compile</phase>
+	<goals> <goal>testCompile</goal> </goals>
+</execution>
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Kotlin en Maven - kotlin-maven-plugin}
+\begin{lstlisting}[
+basicstyle=\tiny, %or \small or \footnotesize etc.
+]
+<compilerPlugins>
+<plugin>all-open</plugin>
+</compilerPlugins>
+...
+<option>all-open:annotation=javax.ws.rs.Path</option>
+<option>all-open:annotation=javax.enterprise.context.RequestScoped</option>
+<option>all-open:annotation=javax.enterprise.context.SessionScoped</option>
+<option>all-open:annotation=javax.enterprise.context.ApplicationScoped</option>
+<option>all-open:annotation=javax.enterprise.context.Dependent</option>
+<option>all-open:annotation=javax.ejb.Singleton</option>
+<option>all-open:annotation=javax.ejb.Stateful</option>
+<option>all-open:annotation=javax.ejb.Stateless</option>
+\end{lstlisting}
+\end{frame}
+
+
+
+\section{Demo}
+\begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
+
+\begin{itemize}
+	\item Kotlin 1.3
+	\item Bibliotecas externas - SL4J, Flyway, PostgreSQL
+	\item Jakarta EE 8 - EJB, JPA
+	\item MicroProfile - CDI, JAX-RS, MicroProfile config
+	\item Testing - Arquillian, JUnit, Payara Embedded
+\end{itemize}
+
+
+\normalsize  \url{https://dzone.com/articles/the-state-of-kotlin-for-jakarta-eemicroprofile-tra}\\
+\normalsize  \url{https://github.com/tuxtor/integrum-ee}
+\end{frame}
+
+\begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/integrum-ee}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/integrum-deployment}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}[fragile]{Kotlin - Entidad JPA}
+\begin{lstlisting}[language=Kotlin]
+@Entity
+@Table(name = "adm_phrase")
+@TableGenerator(...)
+data class AdmPhrase(
+	@Id
+	@GeneratedValue(strategy = GenerationType.TABLE,
+		generator = "admPhraseIdGenerator")
+	@Column(name = "phrase_id")
+	var phraseId:Long? = null,
+	var author:String = "",
+	var phrase:String = ""
+)
+\end{lstlisting}
+Data Clases, Nullable Types
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{lstlisting}[language=Kotlin]
+@RequestScoped
+class AdmPhraseRepository {
+
+	@Inject
+	private lateinit var em:EntityManager
+	
+	...
+
+}
+\end{lstlisting}
+Lateinit (nullable type)
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{lstlisting}[language=Kotlin]
+fun create(admPhrase:AdmPhrase) = em.persist(admPhrase)
+
+fun update(admPhrase:AdmPhrase) = em.merge(admPhrase)
+
+fun findById(phraseId: Long) =
+em.find(AdmPhrase::class.java, phraseId)
+
+fun delete(admPhrase: AdmPhrase) = em.remove(admPhrase)
+. . .
+\end{lstlisting}
+Single expression functions (One line methods)
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{lstlisting}[language=Kotlin]
+fun listAll(author: String, phrase: String):
+	List<AdmPhrase> {
+	
+	val query = """SELECT p FROM AdmPhrase p
+	where p.author LIKE :author
+	and p.phrase LIKE :phrase
+	"""
+	
+	return em.createQuery(query, AdmPhrase::class.java)
+		.setParameter("author", "%$author%")
+		.setParameter("phrase", "%$phrase%")
+		.resultList
+}
+\end{lstlisting}
+Multiline String, mutable declaration
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
+@Path("/phrases")
+@Produces(MediaType.APPLICATION_JSON)
+@Consumes(MediaType.APPLICATION_JSON)
+class AdmPhraseController{
+
+	@Inject
+	private lateinit var admPhraseRepository: AdmPhraseRepository
+	
+	@Inject
+	private lateinit var logger: Logger
+	...
+
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
+
+@GET
+fun findAll(
+@QueryParam("author") @DefaultValue("%") author: String,
+@QueryParam("phrase") @DefaultValue("%") phrase: String) =
+	admPhraseRepository.listAll(author, phrase)
+
+@GET
+@Path("/{id:[0-9][0-9]*}")
+fun findById(@PathParam("id") id:Long) =
+	admPhraseRepository.findById(id)
+
+@PUT
+fun create(phrase: AdmPhrase): Response {
+	admPhraseRepository.create(phrase)
+	return Response.ok().build()
+}
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
+@POST
+@Path("/{id:[0-9][0-9]*}")
+fun update(@PathParam("id") id: Long?, phrase: AdmPhrase)
+	:Response {
+	if(id != phrase.phraseId) 
+		return Response.status(Response.Status.NOT_FOUND).build()
+	
+	val updatedEntity = admPhraseRepository.update(phrase)
+	return Response.ok(updatedEntity).build()
+}
+
+@DELETE
+@Path("/{id:[0-9][0-9]*}")
+fun delete(@PathParam("id") id: Long): Response {
+	val updatedEntity = admPhraseRepository.findById(id) ?:
+	return Response.status(Response.Status.NOT_FOUND).build()
+	admPhraseRepository.delete(updatedEntity)
+	return Response.ok().build()
+}
+\end{lstlisting}
+Elvis operator as expression
+\end{frame}
+
+\begin{frame}{12 factores cloud native (Heroku)}
+
+\begin{columns}[T] % contents are top vertically aligned
+	
+	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{alertblock}{Microprofile}
+	\begin{itemize}
+		\item Config
+		\item Backing service
+		\item Disposability
+	\end{itemize}
+\end{alertblock}
+	\end{column}
+	\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{block}{Cloud}
+	\begin{itemize}
+	\item Codebase (Git-Flow)
+	\item Dependencies (Maven)
+	\item Build, Release, Run
+	\item Processes (Pipelines)
+	\item Port binding
+	\item Concurrency (Docker - k8s)
+	\item Dev / Prod parity
+	\item Logs
+	\item Admin process
+\end{itemize}
+\end{block}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}[fragile]{Oracle Cloud}
+\begin{lstlisting}[language=XML, basicstyle=\scriptsize]
+<groupId>io.fabric8</groupId>
+<artifactId>docker-maven-plugin</artifactId>
+<version>0.30.0</version>
+...
+<image>
+	<name>iad.ocir.io/tuxtor/microprofile/integrum-ee</name>
+	<build>
+		<dockerFile>${project.basedir}/Dockerfile</dockerFile >
+	</build>
+</image>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Images/oc1}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Images/oc2}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/oc3}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/oc4}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Víctor Orozco}
+\begin{columns}[T] % contents are top vertically aligned
+	
+	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/logos}
+		\end{figure}
+	\end{column}
+	\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{itemize}
+			\item vorozco@nabenik.com
+			\item \href{https://twitter.com/tuxtor}{@tuxtor}
+			\item \href{http://www.nabenik.com}{http://www.nabenik.com}
+		\end{itemize}
+	\begin{center}
+		\includegraphics[width=0.1\linewidth]{Images/cclogo}
+		\\
+		This work is licensed under a Creative Commons Attribution-ShareAlike 3.0.
+	\end{center}
+	\end{column}
+\end{columns}
+\end{frame}
+
+
+\end{document}
+
+s
