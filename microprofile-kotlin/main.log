@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  30 MAY 2019 17:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  10 SEP 2019 08:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1096,8 +1096,8 @@ Now handling font encoding PD1 ...
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2017/05/19 3.10 The Babel package
 
-(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-spanish/spanish.ldf
-Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+(/usr/local/texlive/2017/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/01/24 v3.3q English support from the babel system
 
 (/usr/local/texlive/2017/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2017/05/19 3.10 Babel common definitions
@@ -1105,12 +1105,9 @@ File: babel.def 2017/05/19 3.10 Babel common definitions
 \U@D=\dimen257
 LaTeX Info: Redefining \textlatin on input line 1648.
 )
-\es@quottoks=\toks49
-\es@quotdepth=\count167
-Package babel Info: Making " an active character on input line 561.
-Package babel Info: Making . an active character on input line 662.
-Package babel Info: Making < an active character on input line 707.
-Package babel Info: Making > an active character on input line 707.
+\l@canadian = a dialect from \language\l@american 
+\l@australian = a dialect from \language\l@british 
+\l@newzealand = a dialect from \language\l@british 
 ))
 (/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
@@ -1122,17 +1119,17 @@ Package: expl3 2017/05/13 L3 programming layer (loader)
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/expl3-code.tex
 Package: expl3 2017/05/13 L3 programming layer (code)
-\c_max_int=\count168
-\l_tmpa_int=\count169
-\l_tmpb_int=\count170
-\g_tmpa_int=\count171
-\g_tmpb_int=\count172
-\g__prg_map_int=\count173
-\c_log_iow=\count174
-\l_iow_line_count_int=\count175
-\l__iow_line_target_int=\count176
-\l__iow_one_indent_int=\count177
-\l__iow_indent_int=\count178
+\c_max_int=\count167
+\l_tmpa_int=\count168
+\l_tmpb_int=\count169
+\g_tmpa_int=\count170
+\g_tmpb_int=\count171
+\g__prg_map_int=\count172
+\c_log_iow=\count173
+\l_iow_line_count_int=\count174
+\l__iow_line_target_int=\count175
+\l__iow_one_indent_int=\count176
+\l__iow_indent_int=\count177
 \c_zero_dim=\dimen258
 \c_max_dim=\dimen259
 \l_tmpa_dim=\dimen260
@@ -1151,30 +1148,30 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count179
-\c__fp_leading_shift_int=\count180
-\c__fp_middle_shift_int=\count181
-\c__fp_trailing_shift_int=\count182
-\c__fp_big_leading_shift_int=\count183
-\c__fp_big_middle_shift_int=\count184
-\c__fp_big_trailing_shift_int=\count185
-\c__fp_Bigg_leading_shift_int=\count186
-\c__fp_Bigg_middle_shift_int=\count187
-\c__fp_Bigg_trailing_shift_int=\count188
-\c__fp_rand_size_int=\count189
-\c__fp_rand_four_int=\count190
-\c__fp_rand_eight_int=\count191
-\l__sort_length_int=\count192
-\l__sort_min_int=\count193
-\l__sort_top_int=\count194
-\l__sort_max_int=\count195
-\l__sort_true_max_int=\count196
-\l__sort_block_int=\count197
-\l__sort_begin_int=\count198
-\l__sort_end_int=\count199
-\l__sort_A_int=\count266
-\l__sort_B_int=\count267
-\l__sort_C_int=\count268
+\l_keys_choice_int=\count178
+\c__fp_leading_shift_int=\count179
+\c__fp_middle_shift_int=\count180
+\c__fp_trailing_shift_int=\count181
+\c__fp_big_leading_shift_int=\count182
+\c__fp_big_middle_shift_int=\count183
+\c__fp_big_trailing_shift_int=\count184
+\c__fp_Bigg_leading_shift_int=\count185
+\c__fp_Bigg_middle_shift_int=\count186
+\c__fp_Bigg_trailing_shift_int=\count187
+\c__fp_rand_size_int=\count188
+\c__fp_rand_four_int=\count189
+\c__fp_rand_eight_int=\count190
+\l__sort_length_int=\count191
+\l__sort_min_int=\count192
+\l__sort_top_int=\count193
+\l__sort_max_int=\count194
+\l__sort_true_max_int=\count195
+\l__sort_block_int=\count196
+\l__sort_begin_int=\count197
+\l__sort_end_int=\count198
+\l__sort_A_int=\count199
+\l__sort_B_int=\count266
+\l__sort_C_int=\count267
 \c_empty_box=\box58
 \l_tmpa_box=\box59
 \l_tmpb_box=\box60
@@ -1218,21 +1215,21 @@ Package: expl3 2017/05/13 L3 programming layer (code)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
 File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
-\l__driver_color_stack_int=\count269
+\l__driver_color_stack_int=\count268
 \l__driver_tmp_box=\box73
 ))
 Package: xparse 2017/05/13 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count270
-\g__xparse_grabber_int=\count271
-\l__xparse_m_args_int=\count272
-\l__xparse_mandatory_args_int=\count273
-\l__xparse_v_nesting_int=\count274
+\l__xparse_current_arg_int=\count269
+\g__xparse_grabber_int=\count270
+\l__xparse_m_args_int=\count271
+\l__xparse_mandatory_args_int=\count272
+\l__xparse_v_nesting_int=\count273
 )
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.sty
 (/usr/local/texlive/2017/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write5
-\integerpart=\count275
-\decimalpart=\count276
+\integerpart=\count274
+\decimalpart=\count275
 )
 Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
 )
@@ -1315,13 +1312,13 @@ Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
 File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks50
+\pIIe@GRAPH=\toks49
 \@arclen=\dimen289
 \@arcrad=\dimen290
 \@tempdimd=\dimen291
 )
-\c@treecount=\count277
-\c@branchcount=\count278
+\c@treecount=\count276
+\c@branchcount=\count277
 \parentbox=\box78
 \treebox=\box79
 \treeboxone=\box80
@@ -1418,17 +1415,17 @@ File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \branchwidth=\skip146
 \parentwidth=\skip147
 \treewidth=\skip148
-\qta=\toks51
-\qtb=\toks52
-\nbranches=\count279
-\qroofx=\count280
-\qroofy=\count281
+\qta=\toks50
+\qtb=\toks51
+\nbranches=\count278
+\qroofx=\count279
+\qroofy=\count280
 \@qrscratchbox=\box100
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks53
-\verbatim@line=\toks54
+\every@verbatim=\toks52
+\verbatim@line=\toks53
 \verbatim@in@stream=\read2
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/svg/svg.sty
@@ -1452,8 +1449,8 @@ Package filehook Info: Package 'scrlfile' detected and compensated for on input
 Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
 Package shellesc Info: Restricted shell escape enabled on input line 69.
 )
-\c@svg@param@lastpage=\count282
-\c@svg@param@currpage=\count283
+\c@svg@param@lastpage=\count281
+\c@svg@param@currpage=\count282
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/transparent.sty
 Package: transparent 2016/05/16 v1.1 Transparency via pdfTeX's color stack (HO)
@@ -1464,23 +1461,23 @@ Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count284
+\lst@mode=\count283
 \lst@gtempboxa=\box101
-\lst@token=\toks55
-\lst@length=\count285
+\lst@token=\toks54
+\lst@length=\count284
 \lst@currlwidth=\dimen292
-\lst@column=\count286
-\lst@pos=\count287
+\lst@column=\count285
+\lst@pos=\count286
 \lst@lostspace=\dimen293
 \lst@width=\dimen294
-\lst@newlines=\count288
-\lst@lineno=\count289
+\lst@newlines=\count287
+\lst@lineno=\count288
 \lst@maxwidth=\dimen295
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
-\c@lstnumber=\count290
-\lst@skipnumbers=\count291
+\c@lstnumber=\count289
+\lst@skipnumbers=\count290
 \lst@framebox=\box102
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.cfg
@@ -1491,26 +1488,23 @@ Package: listings 2015/06/04 1.6 (Carsten Heinz)
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
-(./main.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-)
+(./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 66.
-LaTeX Font Info:    ... okay on input line 66.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
+LaTeX Font Info:    ... okay on input line 68.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1520,12 +1514,12 @@ LaTeX Font Info:    ... okay on input line 66.
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: includehead includefoot 
-* h-part:(L,W,R)=(28.45274pt, 307.28987pt, 28.45274pt)
-* v-part:(T,H,B)=(0.0pt, 273.14662pt, 0.0pt)
-* \paperwidth=364.19536pt
-* \paperheight=273.14662pt
-* \textwidth=307.28987pt
-* \textheight=244.6939pt
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
 * \topmargin=-72.26999pt
@@ -1548,17 +1542,17 @@ LaTeX Font Info:    ... okay on input line 66.
 
 (/usr/local/texlive/2017/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
+\scratchcounter=\count291
 \scratchdimen=\dimen296
 \scratchbox=\box103
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks56
-\MPscratchCnt=\count295
+\nofMPsegments=\count292
+\nofMParguments=\count293
+\everyMPshowfont=\toks55
+\MPscratchCnt=\count294
 \MPscratchDim=\dimen297
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks57
+\MPnumerator=\count295
+\makeMPintoPDFobject=\count296
+\everyMPtoPDFconversion=\toks56
 ) (/usr/local/texlive/2017/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
@@ -1578,7 +1572,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box104
-Package hyperref Info: Link coloring OFF on input line 66.
+Package hyperref Info: Link coloring OFF on input line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1586,68 +1580,68 @@ Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2017/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count298
+\c@section@level=\count297
 )
-LaTeX Info: Redefining \ref on input line 66.
-LaTeX Info: Redefining \pageref on input line 66.
-LaTeX Info: Redefining \nameref on input line 66.
+LaTeX Info: Redefining \ref on input line 68.
+LaTeX Info: Redefining \pageref on input line 68.
+LaTeX Info: Redefining \nameref on input line 68.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 66.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 68.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 68.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 68.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 66.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 68.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 66.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 68.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 66.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 66.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 66.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 68.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 68.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 68.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 66.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 66.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 66.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 66.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 66.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 68.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 66.
-LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 66.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 68.
+LaTeX Font Info:    Redeclaring symbol font `pureletters' on input line 68.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `normal'
 (Font)                  OT1/cmss/m/it --> OT1/mathkerncmss/m/sl on input line 6
-6.
+8.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/cmss/bx/it --> OT1/mathkerncmss/m/sl on input line 
-66.
+68.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  OT1/mathkerncmss/m/sl --> OT1/mathkerncmss/bx/sl on inp
-ut line 66.
+ut line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1673,9 +1667,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 66.
-LaTeX Info: Redefining \. on input line 66.
-LaTeX Info: Redefining \% on input line 66.
+LaTeX Info: Redefining \includegraphics on input line 68.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2017/04/05 v2.0i Standard LaTeX package
@@ -1833,329 +1825,228 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 )
-\c@lstlisting=\count299
+\c@lstlisting=\count298
  (./main.nav)
-Overfull \vbox (40.57736pt too high) detected at line 68
+Overfull \vbox (40.57736pt too high) detected at line 70
  []
 
-<Images/Contenido.png, id=64, 642.4pt x 481.8pt>
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 68.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+<Images/mpfondo.png, id=60, 1686.3pt x 948.54375pt>
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 70.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 68.
+(Font)              size <5> substituted on input line 70.
 
 [1
 
 {/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Image
-s/Contenido.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 70.
+s/mpfondo.png>] <Images/gossling.png, id=72, 684.5575pt x 664.4825pt>
+File: Images/gossling.png Graphic file (type png)
+
+<use Images/gossling.png>
+Package pdftex.def Info: Images/gossling.png used on input line 79.
+(pdftex.def)             Requested size: 278.83578pt x 270.66522pt.
+
+Overfull \vbox (86.07858pt too high) detected at line 79
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 79.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [2
+
+ <./Images/gossling.png>]
+LaTeX Font Info:    Try loading font information for U+msa on input line 82.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 70.
+LaTeX Font Info:    Try loading font information for U+msb on input line 82.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 70.
+line 82.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
 )
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 70.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [2
-
-]
-LaTeX Font Info:    Try loading font information for TS1+cmss on input line 93.
-
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmss.fd
-File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-<Images/kotlin.png, id=82, 220.825pt x 220.825pt>
-File: Images/kotlin.png Graphic file (type png)
- <use Images/kotlin.png>
-Package pdftex.def Info: Images/kotlin.png used on input line 93.
-(pdftex.def)             Requested size: 107.55098pt x 107.5515pt.
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 93.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 82.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
  [3
 
- <./Images/kotlin.png>]
-File: Images/kotlin.png Graphic file (type png)
- <use Images/kotlin.png>
-Package pdftex.def Info: Images/kotlin.png used on input line 116.
-(pdftex.def)             Requested size: 107.55098pt x 107.5515pt.
-
-Overfull \vbox (10.3147pt too high) detected at line 116
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 116.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [4
-
 ]
-<Images/java.png, id=95, 1204.5pt x 2203.23125pt>
-File: Images/java.png Graphic file (type png)
- <use Images/java.png>
-Package pdftex.def Info: Images/java.png used on input line 139.
-(pdftex.def)             Requested size: 107.55098pt x 196.70218pt.
-
-Overfull \vbox (10.3147pt too high) detected at line 139
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 139.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [5
-
- <./Images/java.png>]
-<Images/borges.png, id=102, 581.17125pt x 176.66pt>
-File: Images/borges.png Graphic file (type png)
- <use Images/borges.png>
-Package pdftex.def Info: Images/borges.png used on input line 147.
-(pdftex.def)             Requested size: 307.28987pt x 93.40831pt.
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 147.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [6
-
- <./Images/borges.png>]
-<Images/gossling.png, id=109, 684.5575pt x 664.4825pt>
-File: Images/gossling.png Graphic file (type png)
-
-<use Images/gossling.png>
-Package pdftex.def Info: Images/gossling.png used on input line 156.
-(pdftex.def)             Requested size: 215.10196pt x 208.79599pt.
-
-Overfull \vbox (7.13753pt too high) detected at line 156
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 156.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [7
-
- <./Images/gossling.png>]
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 159.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [8
-
-]
-<Images/reactive-traits.png, id=123, 692.39322pt x 237.79161pt>
-File: Images/reactive-traits.png Graphic file (type png)
-
-<use Images/reactive-traits.png>
-Package pdftex.def Info: Images/reactive-traits.png used on input line 168.
-(pdftex.def)             Requested size: 307.28987pt x 105.53572pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 168.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [9
-
- <./Images/reactive-traits.png>] <Images/microservicios.png, id=130, 699.61375p
-t x 331.2375pt>
+<Images/microservicios.png, id=85, 699.61375pt x 331.2375pt>
 File: Images/microservicios.png Graphic file (type png)
 
 <use Images/microservicios.png>
-Package pdftex.def Info: Images/microservicios.png used on input line 177.
-(pdftex.def)             Requested size: 307.28987pt x 145.49223pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 177.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [10
+Package pdftex.def Info: Images/microservicios.png used on input line 90.
+(pdftex.def)             Requested size: 278.83578pt x 132.01755pt.
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 90.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [4
 
  <./Images/microservicios.png>]
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 184.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [11
+LaTeX Font Info:    Try loading font information for TS1+cmss on input line 123
+.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmss.fd
+File: ts1cmss.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+File: Images/mpfondo.png Graphic file (type png)
+
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 123.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [5
 
 ]
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 191.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
-
-[12
-
-] <Images/people.jpg, id=148, 1445.4pt x 1156.32pt>
-File: Images/people.jpg Graphic file (type jpg)
- <use Images/people.jpg>
-Package pdftex.def Info: Images/people.jpg used on input line 199.
-(pdftex.def)             Requested size: 307.28987pt x 245.83385pt.
-
-Overfull \vbox (9.62466pt too high) detected at line 199
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 199.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [13
-
- <./Images/people.jpg>]
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 201.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [14
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 131.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [6
 
 ]
-<Images/javaee8.png, id=161, 545.03625pt x 286.06876pt>
-File: Images/javaee8.png Graphic file (type png)
+File: Images/mpfondo.png Graphic file (type png)
 
-<use Images/javaee8.png>
-Package pdftex.def Info: Images/javaee8.png used on input line 207.
-(pdftex.def)             Requested size: 307.28987pt x 161.2843pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 207.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [15
-
- <./Images/javaee8.png>] <Images/jakartaee.png, id=168, 363.759pt x 347.1369pt>
-File: Images/jakartaee.png Graphic file (type png)
-
-<use Images/jakartaee.png>
-Package pdftex.def Info: Images/jakartaee.png used on input line 229.
-(pdftex.def)             Requested size: 107.55098pt x 102.63226pt.
-
-<Images/guardians.jpg, id=169, 448.074pt x 172.7253pt>
-File: Images/guardians.jpg Graphic file (type jpg)
-
-<use Images/guardians.jpg>
-Package pdftex.def Info: Images/guardians.jpg used on input line 229.
-(pdftex.def)             Requested size: 153.64493pt x 59.22658pt.
-
-<Images/microprofile-logo.png, id=170, 431.6928pt x 76.1244pt>
-File: Images/microprofile-logo.png Graphic file (type png)
-
-<use Images/microprofile-logo.png>
-Package pdftex.def Info: Images/microprofile-logo.png used on input line 229.
-(pdftex.def)             Requested size: 215.10196pt x 37.93083pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 229.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [16
-
- <./Images/jakartaee.png> <./Images/guardians.jpg> <./Images/microprofile-logo.
-png>]
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 231.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [17
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 138.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [7
 
 ]
-<Images/javaeemicropancake.png, id=184, 686.565pt x 398.48875pt>
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 150.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [8
+
+]
+File: Images/mpfondo.png Graphic file (type png)
+
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 153.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [9
+
+]
+<Images/javaeemicropancake.png, id=121, 686.565pt x 398.48875pt>
 File: Images/javaeemicropancake.png Graphic file (type png)
 
 <use Images/javaeemicropancake.png>
-Package pdftex.def Info: Images/javaeemicropancake.png used on input line 239.
-(pdftex.def)             Requested size: 307.28987pt x 178.35149pt.
+Package pdftex.def Info: Images/javaeemicropancake.png used on input line 161.
+(pdftex.def)             Requested size: 278.83578pt x 161.837pt.
 
-Overfull \vbox (8.27739pt too high) detected at line 239
+Overfull \vbox (8.83473pt too high) detected at line 161
  []
 
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 239.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [18
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 161.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [10
 
  <./Images/javaeemicropancake.png>]
-<Images/oldsetup.png, id=192, 425.59pt x 682.55pt>
+<Images/oldsetup.png, id=128, 425.59pt x 682.55pt>
 File: Images/oldsetup.png Graphic file (type png)
  <use Images/oldsetup.png>
-Package pdftex.def Info: Images/oldsetup.png used on input line 246.
-(pdftex.def)             Requested size: 153.64493pt x 246.4156pt.
+Package pdftex.def Info: Images/oldsetup.png used on input line 168.
+(pdftex.def)             Requested size: 139.42093pt x 223.59665pt.
 
-Overfull \vbox (44.75714pt too high) detected at line 246
+Overfull \vbox (39.01001pt too high) detected at line 168
  []
 
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 246.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [19
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 168.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [11
 
  <./Images/oldsetup.png>]
-<Images/mp5.png, id=200, 551.05875pt x 286.06876pt>
-File: Images/mp5.png Graphic file (type png)
- <use Images/mp5.png>
-Package pdftex.def Info: Images/mp5.png used on input line 253.
-(pdftex.def)             Requested size: 307.28987pt x 159.52956pt.
-File: Images/Contenido.png Graphic file (type png)
+<Images/newsetup.png, id=135, 425.59pt x 682.55pt>
+File: Images/newsetup.png Graphic file (type png)
+ <use Images/newsetup.png>
+Package pdftex.def Info: Images/newsetup.png used on input line 175.
+(pdftex.def)             Requested size: 139.42093pt x 223.59665pt.
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 253.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [20
-
- <./Images/mp5.png>]
-Overfull \vbox (24.85464pt too high) detected at line 278
+Overfull \vbox (39.01001pt too high) detected at line 175
  []
 
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 278.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [21
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 175.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [12
+
+ <./Images/newsetup.png>]
+<Images/microprofile.jpg, id=142, 1204.5pt x 697.60625pt>
+File: Images/microprofile.jpg Graphic file (type jpg)
+
+<use Images/microprofile.jpg>
+Package pdftex.def Info: Images/microprofile.jpg used on input line 182.
+(pdftex.def)             Requested size: 398.3386pt x 230.70042pt.
+
+Overfull \vbox (46.11378pt too high) detected at line 182
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 182.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [13
+
+ <./Images/microprofile.jpg>]
+Overfull \vbox (26.28654pt too high) detected at line 206
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 206.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [14
 
 ]
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 295.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [22
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 223.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [15
 
 ]
-File: Images/Contenido.png Graphic file (type png)
+File: Images/mpfondo.png Graphic file (type png)
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 297.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [23
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 233.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [16
+
+]
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 235.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [17
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 309.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+File: Images/mpfondo.png Graphic file (type png)
 
-[24
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 247.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [18
 
 ]
 \openout4 = `main.vrb'.
@@ -2172,25 +2063,12 @@ LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 6.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmtt.fd
 File: ts1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 ))
-File: Images/Contenido.png Graphic file (type png)
+File: Images/mpfondo.png Graphic file (type png)
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 320.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [25
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (19.36034pt too high) detected at line 343
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 343.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [26
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 258.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [19
 
 ]
 \openout4 = `main.vrb'.
@@ -2205,53 +2083,67 @@ LaTeX Font Warning: Font shape `OML/cmss/m/n' undefined
 (Font)              for symbol `textless' on input line 5.
 
 )
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 363.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [27
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 283.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [20
 
 ]
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 367.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [28
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 305.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [21
 
 ]
-File: Images/Contenido.png Graphic file (type png)
+File: Images/mpfondo.png Graphic file (type png)
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 381.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [29
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 309.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [22
 
 ]
-<Images/integrum-ee.png, id=263, 1004.75375pt x 429.605pt>
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 323.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [23
+
+]
+<Images/integrum-ee.png, id=211, 1004.75375pt x 429.605pt>
 File: Images/integrum-ee.png Graphic file (type png)
 
 <use Images/integrum-ee.png>
-Package pdftex.def Info: Images/integrum-ee.png used on input line 388.
-(pdftex.def)             Requested size: 307.28987pt x 131.38658pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 388.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [30
+Package pdftex.def Info: Images/integrum-ee.png used on input line 330.
+(pdftex.def)             Requested size: 398.3386pt x 170.31813pt.
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 330.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [24
 
- <./Images/integrum-ee.png>] <Images/integrum-deployment.png, id=270, 901.3675p
+ <./Images/integrum-ee.png>] <Images/integrum-deployment.png, id=218, 901.3675p
 t x 475.7775pt>
 File: Images/integrum-deployment.png Graphic file (type png)
 
 <use Images/integrum-deployment.png>
-Package pdftex.def Info: Images/integrum-deployment.png used on input line 395.
+Package pdftex.def Info: Images/integrum-deployment.png used on input line 337.
 
-(pdftex.def)             Requested size: 307.28987pt x 162.19778pt.
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 395.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [31
+(pdftex.def)             Requested size: 398.3386pt x 210.25746pt.
+
+Overfull \vbox (25.67082pt too high) detected at line 337
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 337.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [25
 
  <./Images/integrum-deployment.png>]
 \openout4 = `main.vrb'.
@@ -2259,63 +2151,45 @@ Package pdftex.def Info: Images/Contenido.png used on input line 395.
  (./main.vrb
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <9> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 6.
-
-Overfull \hbox (10.22917pt too wide) in paragraph at lines 8--9
-[][][][][][][][][][][][][][][][][][][][][] 
- []
-
 )
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 414.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [32
+File: Images/mpfondo.png Graphic file (type png)
+
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 356.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [26
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 429.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
-
-[33
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-Overfull \hbox (4.55919pt too wide) in paragraph at lines 3--5
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (4.55919pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 444.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [34
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 371.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [27
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-Overfull \hbox (27.23912pt too wide) in paragraph at lines 11--12
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
 
-)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 463.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [35
+(./main.vrb)
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 386.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [28
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/mpfondo.png Graphic file (type png)
+
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 405.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [29
 
 ]
 \openout4 = `main.vrb'.
@@ -2329,168 +2203,184 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbraceleft' on input line 6.
 
-
-Overfull \hbox (44.61792pt too wide) in paragraph at lines 9--11
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
 )
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 481.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [36
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 423.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [30
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 503.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
-
-[37
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 445.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [31
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-Overfull \hbox (65.01837pt too wide) in paragraph at lines 8--10
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
+
+(./main.vrb)
+Overfull \vbox (36.9047pt too high) detected at line 472
  []
 
-
-Overfull \hbox (8.91713pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (14.01724pt too wide) in paragraph at lines 17--18
-[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (24.21747pt too wide) in paragraph at lines 18--19
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-)
-Overfull \vbox (18.68452pt too high) detected at line 529
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 529.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [38
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 472.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [32
 
 ]
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 561.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 487.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [33
+
+]
+<Images/oc1.png, id=271, 1189.44376pt x 642.4pt>
+File: Images/oc1.png Graphic file (type png)
+ <use Images/oc1.png>
+Package pdftex.def Info: Images/oc1.png used on input line 494.
+(pdftex.def)             Requested size: 378.42044pt x 204.37633pt.
+
+Overfull \vbox (19.78969pt too high) detected at line 494
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 494.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [34
+
+ <./Images/oc1.png>]
+<Images/oc2.png, id=278, 850.17625pt x 579.16376pt>
+File: Images/oc2.png Graphic file (type png)
+ <use Images/oc2.png>
+Package pdftex.def Info: Images/oc2.png used on input line 501.
+(pdftex.def)             Requested size: 378.42044pt x 257.79333pt.
+
+Overfull \vbox (73.2067pt too high) detected at line 501
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 501.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [35
+
+ <./Images/oc2.png>]
+<Images/oc3.png, id=285, 916.42375pt x 907.39pt>
+File: Images/oc3.png Graphic file (type png)
+ <use Images/oc3.png>
+Package pdftex.def Info: Images/oc3.png used on input line 508.
+(pdftex.def)             Requested size: 398.3386pt x 394.40686pt.
+
+Overfull \vbox (209.82022pt too high) detected at line 508
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 508.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [36
+
+ <./Images/oc3.png>]
+<Images/oc4.png, id=292, 901.3675pt x 630.355pt>
+File: Images/oc4.png Graphic file (type png)
+ <use Images/oc4.png>
+Package pdftex.def Info: Images/oc4.png used on input line 516.
+(pdftex.def)             Requested size: 398.3386pt x 278.56897pt.
+
+Overfull \vbox (93.98233pt too high) detected at line 516
+ []
+
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 516.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [37
+
+ <./Images/oc4.png>]
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 519.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+
+[38
+
+] <Images/kotlin.png, id=306, 220.825pt x 220.825pt>
+File: Images/kotlin.png Graphic file (type png)
+
+<use Images/kotlin.png>
+Package pdftex.def Info: Images/kotlin.png used on input line 542.
+(pdftex.def)             Requested size: 139.4179pt x 139.42372pt.
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 542.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
  [39
 
-]
-\openout4 = `main.vrb'.
+ <./Images/kotlin.png>]
+File: Images/kotlin.png Graphic file (type png)
 
- (./main.vrb
-Overfull \hbox (19.11736pt too wide) in paragraph at lines 8--9
-[][][][][][][][][][][][][][][][][][][][][][][] 
- []
-
-
-Overfull \hbox (54.81815pt too wide) in paragraph at lines 10--11
-[][][][][][][][][][][][][][][][][] 
- []
-
-)
-File: Images/Contenido.png Graphic file (type png)
- <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 576.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+<use Images/kotlin.png>
+Package pdftex.def Info: Images/kotlin.png used on input line 564.
+(pdftex.def)             Requested size: 139.4179pt x 139.42372pt.
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 564.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
  [40
 
 ]
-<Images/oc1.png, id=328, 1189.44376pt x 642.4pt>
-File: Images/oc1.png Graphic file (type png)
- <use Images/oc1.png>
-Package pdftex.def Info: Images/oc1.png used on input line 583.
-(pdftex.def)             Requested size: 291.92444pt x 157.65894pt.
-File: Images/Contenido.png Graphic file (type png)
+<Images/java.png, id=318, 1204.5pt x 2203.23125pt>
+File: Images/java.png Graphic file (type png)
+ <use Images/java.png>
+Package pdftex.def Info: Images/java.png used on input line 584.
+(pdftex.def)             Requested size: 79.66649pt x 145.70284pt.
+File: Images/mpfondo.png Graphic file (type png)
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 583.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 584.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
  [41
 
- <./Images/oc1.png>]
-<Images/oc2.png, id=336, 850.17625pt x 579.16376pt>
-File: Images/oc2.png Graphic file (type png)
- <use Images/oc2.png>
-Package pdftex.def Info: Images/oc2.png used on input line 590.
-(pdftex.def)             Requested size: 291.92444pt x 198.86612pt.
-File: Images/Contenido.png Graphic file (type png)
+ <./Images/java.png>]
+File: Images/mpfondo.png Graphic file (type png)
+ <use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 609.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
 
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 590.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [42
+[42
 
- <./Images/oc2.png>]
-<Images/oc3.png, id=343, 916.42375pt x 907.39pt>
-File: Images/oc3.png Graphic file (type png)
- <use Images/oc3.png>
-Package pdftex.def Info: Images/oc3.png used on input line 597.
-(pdftex.def)             Requested size: 307.28987pt x 304.2579pt.
-
-Overfull \vbox (102.59944pt too high) detected at line 597
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 597.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [43
-
- <./Images/oc3.png>]
-<Images/oc4.png, id=351, 901.3675pt x 630.355pt>
-File: Images/oc4.png Graphic file (type png)
- <use Images/oc4.png>
-Package pdftex.def Info: Images/oc4.png used on input line 605.
-(pdftex.def)             Requested size: 307.28987pt x 214.89496pt.
-
-Overfull \vbox (13.2365pt too high) detected at line 605
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 605.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [44
-
- <./Images/oc4.png>]
-<Images/logos.png, id=358, 276.232pt x 616.704pt>
+] <Images/logos.png, id=331, 276.232pt x 616.704pt>
 File: Images/logos.png Graphic file (type png)
  <use Images/logos.png>
-Package pdftex.def Info: Images/logos.png used on input line 632.
+Package pdftex.def Info: Images/logos.png used on input line 634.
 (pdftex.def)             Requested size: 113.81102pt x 254.0924pt.
 
-<Images/cclogo.png, id=361, 88.33pt x 31.11626pt>
+<Images/cclogo.png, id=334, 88.33pt x 31.11626pt>
 File: Images/cclogo.png Graphic file (type png)
  <use Images/cclogo.png>
-Package pdftex.def Info: Images/cclogo.png used on input line 632.
+Package pdftex.def Info: Images/cclogo.png used on input line 634.
 (pdftex.def)             Requested size: 17.0727pt x 6.01422pt.
 
-Overfull \vbox (56.73221pt too high) detected at line 632
+Overfull \vbox (73.80403pt too high) detected at line 634
  []
 
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 632.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [45
+File: Images/mpfondo.png Graphic file (type png)
+<use Images/mpfondo.png>
+Package pdftex.def Info: Images/mpfondo.png used on input line 634.
+(pdftex.def)             Requested size: 455.24408pt x 256.0668pt.
+ [43
 
  <./Images/logos.png> <./Images/cclogo.png>]
 \tf@nav=\write7
@@ -2502,17 +2392,14 @@ Package pdftex.def Info: Images/Contenido.png used on input line 632.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 635.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 635.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 637.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 637.
 
-(./main.aux
-LaTeX Info: Redefining \. on input line 24.
-LaTeX Info: Redefining \% on input line 24.
-)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 635.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 635.
+(./main.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 637.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 637.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 3741A3F1E7BA5AA26D18C0C8A26DD117;308.
+(rerunfilecheck)             Checksum: 6377ECFC62C84FE3FDA56D6F7D46706E;255.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2523,13 +2410,13 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 33863 strings out of 492995
- 659878 string characters out of 6132704
- 774713 words of memory out of 5000000
- 36635 multiletter control sequences out of 15000+600000
- 16068 words of font info for 59 fonts, out of 8000000 for 9000
+ 33426 strings out of 492995
+ 654193 string characters out of 6132704
+ 768313 words of memory out of 5000000
+ 36213 multiletter control sequences out of 15000+600000
+ 14421 words of font info for 53 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,12n,75p,10398b,1423s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,75p,10398b,1421s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 }</usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></u
@@ -2545,10 +2432,10 @@ exlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/local/tex
 live/2017/texmf-dist/fonts/type1/public/cm-super/sfss0800.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on main.pdf (45 pages, 2911192 bytes).
+Output written on main.pdf (43 pages, 2410073 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 308 compressed objects within 4 object streams
- 97 named destinations out of 1000 (max. 500000)
- 314 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 413 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 92 named destinations out of 1000 (max. 500000)
+ 276 words of extra memory for PDF output out of 10000 (max. 10000000)
 

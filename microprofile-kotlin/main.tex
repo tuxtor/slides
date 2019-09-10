@@ -1,12 +1,14 @@
-\documentclass{beamer}
+\documentclass[aspectratio=169]{beamer}
 \useoutertheme[progressbar=frametitle]{metropolis}
 \useinnertheme{metropolis}
+
+
 \definecolor{nabgray}{rgb}{0.6,0.59,0.61}
 \usecolortheme[named=nabgray]{structure}
 
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[english]{babel}
 
 \usepackage{smartdiagram}
 \usepackage{qtree}
@@ -54,12 +56,12 @@
 
 \usebackgroundtemplate%
 {%
-	\includegraphics[width=\paperwidth]{Images/Contenido}%
+	\includegraphics[width=\paperwidth]{Images/mpfondo}%
 }
 
 
-\title{Enseñando trucos de 20 años a Kotlin}
-\author{Víctor Orozco}
+\title{Kotlin+MicroProfile: Teaching 20 year old tricks to a new language }
+\author{Víctor Orozco - Nabenik}
 \institute{@tuxtor}
 \date{\today}
 
@@ -67,87 +69,8 @@
 
 \frame{\titlepage}
 
-\section{Kotlin}
 
-\begin{frame}{Kotlin}
-\begin{columns}
-	\begin{column}{0.5\textwidth}
-		\begin{itemize}
-			\item Tipado estático y compilado
-			\item Java inter-op
-			\item OO + FP
-			\item Null safety
-			\item Extensions
-			\item Operator overloading
-			\item Data classes
-			\item One line methods
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}  %%<--- here
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Images/kotlin}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Kotlin - Datos interesantes}
-\begin{columns}
-	\begin{column}{0.5\textwidth}
-		\begin{itemize}
-			\item Effective Java - Inmutabilidad, builder, singleton, override, final by default, variance by generics
-			\item Elvis - Groovy 
-			\item Inferencia de tipos - Scala
-			\item Inmutabilidad - Scala
-			\item Declaración de variables - Scala
-			\item Manejo de Null - Groovy
-			\item Closures y funciones - Groovy
-			\item Google
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}  %%<--- here
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Images/kotlin}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Java - Muriendo desde 1995}
-\begin{columns}
-	\begin{column}{0.5\textwidth}
-		\begin{itemize}
-			\item Sistemas legados (IBM)
-			\item Retrocompatibilidad
-			\item Release cadence (6 meses)
-			\item Innovación constante en el ecosistema (Spring Boot, Micronaut, MicroProfile, GraalVM)
-			\item Raw performance (Beam, Spark, Hadoop)
-			\item Tooling - IDE, Maven, Drivers RDBMS
-			\item JVM - (Twitter, Alibaba)
-			\item OpenJDK
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}  %%<--- here
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Images/java}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Java - Muriendo desde 1995}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/borges}
-\end{figure}
-\end{frame}
-
-
-\begin{frame}{Java - Muriendo desde 1995}
+\begin{frame}{Java - Java as in JVM}
 
 		\begin{figure}
 			\centering
@@ -156,109 +79,115 @@
 \end{frame}
 
 
-\section{¿Microservicios?}
+\section{Microservices}
 
-\begin{frame}{Reactive applications}
-Aplicaciones reactivas
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/reactive-traits}
-\end{figure}
-Microservicios son una (de muchas) herramienta para creación de aplicaciones reactivas
-\end{frame}
-
-
-\begin{frame}{Microservicios}
+\begin{frame}{Microservices}
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Images/microservicios}
-\caption{Microservicios}
+\includegraphics[width=0.7\linewidth]{Images/microservicios}
+\caption{Microservices}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Microservicios - Java}
-\begin{itemize}
-	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE
-	\item Enterprise - Spring Boot, Microprofile (implementaciones)
-\end{itemize}
-\end{frame}
 
-\begin{frame}{Microservicios - Kotlin}
-\begin{itemize}
-	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE, \textbf{Ktor}
-	\item Enterprise - Spring Boot, Microprofile (implementaciones)
-\end{itemize}
-\end{frame}
+\begin{frame}{12 cloud native factors (Heroku)}
 
-
-\begin{frame}{}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/people}
-\end{figure}
-\end{frame}
-
-\section{Jakarta EE 8}
-\begin{frame}{Jakarta EE 8}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/javaee8}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Jakarta EE 8 - Comunidad Java EE}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Images/jakartaee}
-	\end{figure}
+\begin{columns}[T] % contents are top vertically aligned
+	
+	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{alertblock}{Microprofile}
+			\begin{itemize}
+				\item Config
+				\item Backing service
+				\item Processes (Stateless REST)
+				\item Disposability (Fail with style)
+			\end{itemize}
+		\end{alertblock}
 	\end{column}
-	\begin{column}{0.5\textwidth}  %%<--- here
-		\begin{figure}
-			\centering
-			\includegraphics[width=\linewidth]{Images/guardians}
-		\end{figure}
+	\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{block}{Cloud}
+			\begin{itemize}
+				\item Codebase (Git-Flow)
+				\item Dependencies (Maven)
+				\item Build, Release, Run (Pipelines)
+				\item Port binding
+				\item Concurrency (Docker - k8s)
+				\item Dev / Prod parity
+				\item Logs
+				\item Admin process
+			\end{itemize}
+		\end{block}
 	\end{column}
 \end{columns}
 
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Images/microprofile-logo}
-\end{figure}
 \end{frame}
+
+
+\begin{frame}{Microservices - Java}
+\begin{itemize}
+	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE
+	\item Enterprise - Spring Boot, Eclipse MicroProfile
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Microservices - Kotlin}
+\begin{itemize}
+	\item DIY - Jooby, Javalin, Micronaut, Spark, Vert.x, Helidon SE, \textbf{Ktor}
+	\item Enterprise - Spring Boot, Eclipse MicroProfile
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Microservices - Why Jakarta EE with Kotlin?}
+
+	\begin{itemize}
+		\item Jakarta EE standards are pervasive
+		\item In LATAM is easier to find EE developers
+		\item Not every piece of software should be over-engineered
+		\item Enterprises like "boring" and "old" software stacks, me too
+		\item Is possible to create "fresh" software with already running app servers 
+	\end{itemize}
+
+\end{frame}
+
 
 \section{Eclipse MicroProfile}
 
 \begin{frame}{Eclipse MicroProfile}
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Images/javaeemicropancake}
-	\caption{Credito: Reza Rahman}
+	\includegraphics[width=0.7\linewidth]{Images/javaeemicropancake}
+	\caption{Credits: Reza Rahman}
 \end{figure}
 \end{frame}
 
 \begin{frame}{Eclipse MicroProfile}
 	\begin{figure}
 		\centering
-		\includegraphics[width=0.5\linewidth]{Images/oldsetup}
+		\includegraphics[width=0.35\linewidth]{Images/oldsetup}
 	\end{figure}
 \end{frame}
 
 \begin{frame}{Eclipse MicroProfile}
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Images/mp5}
+	\includegraphics[width=0.35\linewidth]{Images/newsetup}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Eclipse MicroProfile}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/microprofile}
 \end{figure}
 \end{frame}
 
 %TODO 12 fatores
 
-\begin{frame}{Eclipse MicroProfile - Implementaciones}
+\begin{frame}{Eclipse MicroProfile - Ecosystem}
 
-Bibliotecas
+Libraries
 \begin{itemize}
-	\item SmallRye (Red Hat)
+	\item SmallRye
 	\item Hammock
 	\item Apache Geronimo
 	\item Fujitsu Launcher
@@ -271,12 +200,11 @@ JEAS - Fat Jar, Uber Jar
 	\item Helidon (Oracle)
 	\item Open Liberty (IBM)
 	\item Apache Meecrowave
-	\item Thorntail (Red Hat)
-	\item Quarkus (Red Hat)
+	\item Thorntail/Quarkus (Red Hat)
 	\item Payara Micro
 \end{itemize}
 \end{frame}
-\begin{frame}{Eclipse MicroProfile - Implementaciones}
+\begin{frame}{Eclipse MicroProfile - Ecosystem}
 
 Micro server - Thin War
 \begin{itemize}
@@ -294,22 +222,32 @@ Full server
 https://wiki.eclipse.org/MicroProfile/Implementation
 \end{frame}
 
+
+\begin{frame}{Eclipse MicroProfile - 1, 2, 3 with Kotlin}
+\begin{enumerate}
+	\item Maven or Gradle config
+	\item MicroProfile dependency and your extras (Jakarta EE, Arquillian, JUnit, . . .)
+	\item Maven plugin (maven-compiler-plugin)
+	\item Kotlin plugin (kotlin-maven-plugin)
+\end{enumerate}
+\end{frame}
+
 \section{Eclipse MicroProfile + Kotlin + Maven}
 
-\begin{frame}[fragile]{Eclipse MicroProfile en Payara 5}
+\begin{frame}[fragile]{Eclipse MicroProfile with Payara 5}
 \begin{lstlisting}
 <dependency>
 	<groupId>org.eclipse.microprofile</groupId>
 	<artifactId>microprofile</artifactId>
 	<type>pom</type>
-	<version>2.0.1</version>
+	<version>2.1</version>
 	<scope>provided</scope>
 </dependency>
 \end{lstlisting}
 \end{frame}
 
 
-\begin{frame}[fragile]{Kotlin en Maven - Dependencias}
+\begin{frame}[fragile]{Kotlin with Maven - Dependency}
 \begin{lstlisting}[language=XML]
 <dependency>
 	<groupId>org.jetbrains.kotlin</groupId>
@@ -319,8 +257,10 @@ https://wiki.eclipse.org/MicroProfile/Implementation
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin en Maven - maven-compiler-plugin}
-\begin{lstlisting}
+\begin{frame}[fragile]{Kotlin with Maven - maven-compiler-plugin}
+\begin{lstlisting}[language=xml,
+basicstyle=\tiny, %or \small or \footnotesize etc.
+]
 <execution>
 	<id>default-compile</id>
 	<phase>none</phase>
@@ -343,7 +283,7 @@ https://wiki.eclipse.org/MicroProfile/Implementation
 \end{frame}
 
 
-\begin{frame}[fragile]{Kotlin en Maven - kotlin-maven-plugin}
+\begin{frame}[fragile]{Kotlin with Maven - kotlin-maven-plugin}
 \begin{lstlisting}[
 basicstyle=\tiny, %or \small or \footnotesize etc.
 ]
@@ -360,6 +300,8 @@ basicstyle=\tiny, %or \small or \footnotesize etc.
 <option>all-open:annotation=javax.ejb.Stateful</option>
 <option>all-open:annotation=javax.ejb.Stateless</option>
 \end{lstlisting}
+
+General idea: Just add all architectural annotations (CDI and EJB)
 \end{frame}
 
 
@@ -369,9 +311,9 @@ basicstyle=\tiny, %or \small or \footnotesize etc.
 
 \begin{itemize}
 	\item Kotlin 1.3
-	\item Bibliotecas externas - SL4J, Flyway, PostgreSQL
+	\item Libraries - SLF4J, Flyway, PostgreSQL
 	\item Jakarta EE 8 - EJB, JPA
-	\item MicroProfile - CDI, JAX-RS, MicroProfile config
+	\item MicroProfile - CDI, JAX-RS, MicroProfile Config
 	\item Testing - Arquillian, JUnit, Payara Embedded
 \end{itemize}
 
@@ -395,7 +337,7 @@ basicstyle=\tiny, %or \small or \footnotesize etc.
 \end{frame}
 
 
-\begin{frame}[fragile]{Kotlin - Entidad JPA}
+\begin{frame}[fragile]{Kotlin - JPA entity}
 \begin{lstlisting}[language=Kotlin]
 @Entity
 @Table(name = "adm_phrase")
@@ -413,7 +355,7 @@ data class AdmPhrase(
 Data Clases, Nullable Types
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{frame}[fragile]{Kotlin - CDI Repository}
 \begin{lstlisting}[language=Kotlin]
 @RequestScoped
 class AdmPhraseRepository {
@@ -428,7 +370,7 @@ class AdmPhraseRepository {
 Lateinit (nullable type)
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{frame}[fragile]{Kotlin - CDI Repository}
 \begin{lstlisting}[language=Kotlin]
 fun create(admPhrase:AdmPhrase) = em.persist(admPhrase)
 
@@ -443,7 +385,7 @@ fun delete(admPhrase: AdmPhrase) = em.remove(admPhrase)
 Single expression functions (One line methods)
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin - Repositorio CDI}
+\begin{frame}[fragile]{Kotlin - CDI Repository}
 \begin{lstlisting}[language=Kotlin]
 fun listAll(author: String, phrase: String):
 	List<AdmPhrase> {
@@ -459,10 +401,10 @@ fun listAll(author: String, phrase: String):
 		.resultList
 }
 \end{lstlisting}
-Multiline String, mutable declaration
+Multiline string
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{frame}[fragile]{Kotlin - JAX-RS Controllers}
 \begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
 @Path("/phrases")
 @Produces(MediaType.APPLICATION_JSON)
@@ -480,7 +422,7 @@ class AdmPhraseController{
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{frame}[fragile]{Kotlin - JAX-RS Controller}
 \begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
 
 @GET
@@ -503,7 +445,8 @@ fun create(phrase: AdmPhrase): Response {
 \end{frame}
 
 
-\begin{frame}[fragile]{Kotlin - Controlador JAX-RS}
+\begin{frame}[fragile]{Kotlin - JAX-RS Controller}
+Elvis operator as expression
 \begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
 @POST
 @Path("/{id:[0-9][0-9]*}")
@@ -525,38 +468,6 @@ fun delete(@PathParam("id") id: Long): Response {
 	return Response.ok().build()
 }
 \end{lstlisting}
-Elvis operator as expression
-\end{frame}
-
-\begin{frame}{12 factores cloud native (Heroku)}
-
-\begin{columns}[T] % contents are top vertically aligned
-	
-	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
-		\begin{alertblock}{Microprofile}
-	\begin{itemize}
-		\item Config
-		\item Backing service
-		\item Disposability
-	\end{itemize}
-\end{alertblock}
-	\end{column}
-	\begin{column}[T]{6cm} % each column can also be its own environment
-		\begin{block}{Cloud}
-	\begin{itemize}
-	\item Codebase (Git-Flow)
-	\item Dependencies (Maven)
-	\item Build, Release, Run
-	\item Processes (Pipelines)
-	\item Port binding
-	\item Concurrency (Docker - k8s)
-	\item Dev / Prod parity
-	\item Logs
-	\item Admin process
-\end{itemize}
-\end{block}
-	\end{column}
-\end{columns}
 
 \end{frame}
 
@@ -605,6 +516,97 @@ Elvis operator as expression
 \end{frame}
 
 
+\section{Kotlin}
+
+\begin{frame}{Kotlin}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{itemize}
+			\item Static typing
+			\item Java inter-op
+			\item OO + FP
+			\item Null safety
+			\item Extension functions
+			\item Operator overloading
+			\item Data classes
+			\item One line methods
+		\end{itemize}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{Images/kotlin}
+		\end{figure}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Kotlin - Interesting facts}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+	\begin{itemize}
+		\item Effective Java - Immutability, builder, singleton, override, final by default, variance by generics
+		\item Elvis - Groovy 
+		\item Type inference - Scala
+		\item Immutability - Scala
+		\item Identifiers - Scala
+		\item Null values management - Groovy
+		\item Functions - Groovy
+	\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/kotlin}
+	\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Java - Dying since 1995}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+\begin{itemize}
+	\item Spring Boot, Micronaut, MicroProfile, GraalVM . . .
+	\item Raw performance (Beam, Spark, Hadoop)
+	\item Tooling - IDE, Maven, Drivers RDBMS
+	\item JVM - (Twitter, Alibaba, Spotify, etc.)
+	\item OpenJDK
+\end{itemize}
+\end{column}
+\begin{column}{0.5\textwidth}  %%<--- here
+\begin{figure}
+	\centering
+	\includegraphics[width=0.4\linewidth]{Images/java}
+\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Kotlin}
+\begin{columns}
+	
+	\begin{column}{0.5\textwidth}
+		Advantages
+		\begin{itemize}
+			\item Concise code once you get the new structures
+			\item Good Java inter-op
+			\item Opening backend for new Android devs
+			\item A new "Full-stack" approach
+		\end{itemize}
+	\end{column}
+	\begin{column}{0.5\textwidth}
+		Disadvantages 
+		\begin{itemize}
+			\item IntelliJ IDEA Ultimate
+			\item Steep learning curve
+			\item Compiler (time)
+			\item Thread-managed vs Co-routines
+			\item Amber, Loom, Valhalla, Panama (Java 16?)
+		\end{itemize}
+	\end{column}
+\end{columns}
+\end{frame}
 
 
 \begin{frame}{Víctor Orozco}
@@ -620,7 +622,7 @@ Elvis operator as expression
 		\begin{itemize}
 			\item vorozco@nabenik.com
 			\item \href{https://twitter.com/tuxtor}{@tuxtor}
-			\item \href{http://www.nabenik.com}{http://www.nabenik.com}
+			\item \href{http://www.nabenik.com}{https://vorozco.com}
 		\end{itemize}
 	\begin{center}
 		\includegraphics[width=0.1\linewidth]{Images/cclogo}

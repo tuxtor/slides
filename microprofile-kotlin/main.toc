@@ -1,7 +1,6 @@
-\select@language {spanish}
-\beamer@sectionintoc {1}{Kotlin}{2}{0}{1}
-\beamer@sectionintoc {2}{\IeC {\textquestiondown }Microservicios?}{8}{0}{2}
-\beamer@sectionintoc {3}{Jakarta EE 8}{14}{0}{3}
-\beamer@sectionintoc {4}{Eclipse MicroProfile}{17}{0}{4}
-\beamer@sectionintoc {5}{Eclipse MicroProfile + Kotlin + Maven}{23}{0}{5}
-\beamer@sectionintoc {6}{Demo}{28}{0}{6}
+\select@language {english}
+\beamer@sectionintoc {1}{Microservices}{3}{0}{1}
+\beamer@sectionintoc {2}{Eclipse MicroProfile}{9}{0}{2}
+\beamer@sectionintoc {3}{Eclipse MicroProfile + Kotlin + Maven}{17}{0}{3}
+\beamer@sectionintoc {4}{Demo}{22}{0}{4}
+\beamer@sectionintoc {5}{Kotlin}{38}{0}{5}
