@@ -1,0 +1,19 @@
+\frametitle{305: Pattern Matching for instanceof (Preview)}
+Antes
+\begin{lstlisting}
+if(o instanceof Person){
+    Person p = (Person)o;
+    System.out.println("Hello " + p.name());
+}else{
+    System.out.println("Unknown object");
+}
+\end{lstlisting}
+
+Ahora
+\begin{lstlisting}
+if(o instanceof Person p){
+    System.out.println("Hello " + p.name());
+}else{
+    System.out.println("Unknown object");
+}
+\end{lstlisting}
