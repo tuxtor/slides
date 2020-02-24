@@ -71,20 +71,31 @@
 
 \title{De Java 8 a Java 14}
 \author{Víctor Orozco - @tuxtor}
-\institute{GuateJUG}
+\institute{Academik}
 \date{\today}
 
 \begin{document}
 
 {
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
-    \setbeamercolor{normal text}{fg=white}
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/portada}}
     \setbeamercolor{frametitle}{fg=red}
     \usebeamercolor[fg]{normal text}
     \frame{\titlepage}
 }
 
 
+\begin{frame}
+    \tableofcontents
+\end{frame}
+
+\begin{frame}[fragile]
+
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Images/versiones}
+    \end{figure}
+
+\end{frame}
 
 \section{¿Java ya no es gratis/libre?}
 
@@ -95,7 +106,7 @@
 		\item Bibliotecas/API
 	\end{itemize}
 
-Todas conforman la plataforma Java(TM)
+Todas conforman la plataforma Java \pause(TM)
 	
 \end{frame}
 
@@ -160,7 +171,7 @@ Algunas empresas cobran por soporte en su "versión" de Java.
 
 \begin{frame}[fragile]{¿Una nueva versión de Java?}
 	\begin{itemize}
-		\item Java - Lenguaje de programación
+		\item Java - \textbf{Lenguaje de programación}
 		\item Java - La plataforma (Bibliotecas y APIs)
 		\item Java - La máquina virtual
 	\end{itemize}	
@@ -171,13 +182,14 @@ Algunas empresas cobran por soporte en su "versión" de Java.
 \begin{frame}[fragile]{Java - Mejoras importantes}
 	\begin{columns}[T] % contents are top vertically aligned
 		
-		\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{column}[T]{5cm} % alternative top-align that's better for graphics
 			\begin{itemize}
 				\item Java 9
 				\begin{itemize}
 					\item Modulos
 					\item JShell
 					\item HTTP/2
+                    \item Factory methods
 				\end{itemize}
 				\item Java 10
 				\begin{itemize}
@@ -187,7 +199,7 @@ Algunas empresas cobran por soporte en su "versión" de Java.
 				\end{itemize}
 			\end{itemize}
 		\end{column}
-		\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{column}[T]{5cm} % each column can also be its own environment
 			\begin{itemize}
                 \item Java 11
                 \begin{itemize}
@@ -201,13 +213,13 @@ Algunas empresas cobran por soporte en su "versión" de Java.
 				\end{itemize}
 				\item Java 13
 				\begin{itemize}
-					\item Text blocks (preview)
+					\item Text blocks
 				\end{itemize}
 				\item Java 14
 				\begin{itemize}
 					\item Pattern matching
 					\item Records
-					\item Helpfull NPE messages
+					\item Helpfull NPE
 				\end{itemize}
 			\end{itemize}
 		\end{column}
@@ -248,25 +260,24 @@ System.out.println(response.body());
 
 
 \begin{frame}[fragile]{JEP 269: Convenience Factory Methods for Collections}
-    Antes
-    \begin{lstlisting}
-    Set<String> set = new HashSet<>();
-    set.add("a");
-    set.add("b");
-    set.add("c");
-    set = Collections.unmodifiableSet(set);
-    \end{lstlisting}	
-    
-    "Pro"
-    \begin{lstlisting}
-    Set<String> set = Collections.unmodifiableSet(new HashSet<>(Arrays.asList("a", "b", "c")));
-    \end{lstlisting}	
-    
-    Ahora
-    \begin{lstlisting}
-    Set<String> set = Set.of("a", "b", "c");
-    \end{lstlisting}	
-    
+Antes
+\begin{lstlisting}
+Set<String> set = new HashSet<>();
+set.add("a");
+set.add("b");
+set.add("c");
+set = Collections.unmodifiableSet(set);
+\end{lstlisting}	
+
+"Pro"
+\begin{lstlisting}
+Set<String> set = Collections.unmodifiableSet(new HashSet<>(Arrays.asList("a", "b", "c")));
+\end{lstlisting}	
+
+Ahora
+\begin{lstlisting}
+Set<String> set = Set.of("a", "b", "c");
+\end{lstlisting}
 \end{frame}
 
 
@@ -426,15 +437,15 @@ java -XX:SharedArchiveFile=app-cs.jsa -jar fpjava.jar
 Antes
 \begin{lstlisting}
 BiPredicate<String,String> demoPredicate =
-(String a, String b) -> a.equals(b);
+    (String a, String b) -> a.equals(b);
 BiPredicate<String,String> demoPredicate =
-(a, b) -> a.equals(b);
+    (a, b) -> a.equals(b);
 \end{lstlisting}
 
 Ahora
 \begin{lstlisting}
 BiPredicate<String,String> demoPredicate =
-(var a, var b) -> a.equals(b);
+    (var a, var b) -> a.equals(b);
 \end{lstlisting}	
 
 Posibilidades
@@ -612,6 +623,260 @@ if(o instanceof Person p){
 }
 \end{lstlisting}	
 \end{frame}
+
+{
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+    \setbeamercolor{normal text}{fg=white}
+    \setbeamercolor{frametitle}{fg=red}
+    \usebeamercolor[fg]{normal text}
+    \section{Mundo real}
+}
+
+\begin{frame}[fragile]{Mundo real}\scriptsize
+    
+Mi mundo real
+    \begin{itemize}
+        \item ERP - 10 modulos (1 EAR, 9 EJB, 1 WAR), JBoss/Wildfly
+        \item Venta/Geocerca (5 WAR) Payara Application Server
+        \item POS - JavaFX y Windows D:
+    \end{itemize}
+Los dolores de cabeza
+\begin{itemize}
+    \item Modulos
+    \item sun.misc.unsafe
+    \item Corba y Java EE
+    \item JavaFX
+    \item IDE
+    \item Licencia
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Mundo real}\scriptsize
+
+    Los dolores de cabeza
+    \begin{itemize}
+        \item Modulos
+        \item sun.misc.unsafe
+        \item Corba y Java EE
+        \item JavaFX
+        \item IDE
+        \item Licencia
+    \end{itemize}
+    
+    Estrategia
+    \begin{enumerate}
+        \item Verificar la compatibilidad del runtime/servidor/framework compatible
+        \item Multiples JVM con cambio fácil en desarrollo
+        \item Actualizar el compilador en Maven
+        \item Actualizar bibliotecas
+        \item Incluir los modulos corba y Java EE en el war
+        \item Actualizar el IDE
+        \item Prepara el proyecto para enlazar el modulo de JavaFX
+        \item Verificar que Java necesito
+        \item Multiples JVM en producción
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{Compatibilidad runtime}
+    Compatible con Java 11
+    \begin{itemize}
+        \item Tomcat
+        \item Spring
+        \item Micronaut
+        \item Vert.x
+        \item JakartaEE (JBoss/Wildfly, OpenLiberty, Payara)
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Multiples JVMs}
+\begin{columns}[T] % contents are top vertically aligned
+    
+    \begin{column}[T]{5cm} % alternative top-align that's better for graphics
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Images/jenv}
+        \end{figure}
+    \end{column}
+    \begin{column}[T]{6cm} % each column can also be its own environment
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Images/sdkman}
+        \end{figure}
+    \end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}[fragile]{Bibliotecas}
+    Manipulación de bytecode
+    \begin{itemize}
+        \item ByteBuddy
+        \item ASM
+        \item glib
+        \item Spring
+        \item Java EE
+        \item Hibernate
+        \item Mockito
+    \end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Maven}
+    \begin{itemize}
+        \item Maven 3.5.0
+        \item Compiler 3.8.0
+        \item surefire 2.22.0
+        \item failsafe 2.22.0
+        \item release version 11.0
+    \end{itemize}
+    
+\end{frame}
+
+\begin{frame}[fragile]{Maven - JavaEE}
+JAF (java.activation)
+
+\begin{lstlisting}[language=xml]
+<dependency>
+    <groupId>com.sun.activation</groupId>
+    <artifactId>javax.activation</artifactId>
+    <version>1.2.0</version>
+</dependency>
+\end{lstlisting}
+
+
+
+CORBA = RIP
+\end{frame}
+
+\begin{frame}[fragile]{Maven - JavaEE}
+JAXB (java.xml.bind)
+    
+\begin{lstlisting}[language=xml]
+<!-- API -->
+<dependency>
+    <groupId>jakarta.xml.bind</groupId>
+    <artifactId>jakarta.xml.bind-api</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+<!-- Runtime -->
+<dependency>
+    <groupId>org.glassfish.jaxb</groupId>
+    <artifactId>jaxb-runtime</artifactId>
+    <version>2.3.2</version>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Maven - JavaEE}
+    JAX-WS (java.xml.ws)
+    
+\begin{lstlisting}[language=xml]
+<!-- API -->
+<dependency>
+    <groupId>jakarta.xml.ws</groupId>
+    <artifactId>jakarta.xml.ws-api</artifactId>
+    <version>2.3.2</version>
+</dependency>
+
+<!-- Runtime -->
+<dependency>
+    <groupId>com.sun.xml.ws</groupId>
+    <artifactId>jaxws-rt</artifactId>
+    <version>2.3.2</version>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Maven - JavaEE}
+Common Annotations (java.xml.ws.annotation)
+
+\begin{lstlisting}[language=xml]
+<dependency>
+    <groupId>javax.annotation</groupId>
+    <artifactId>javax.annotation-api</artifactId>
+    <version>1.3.1</version>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{IDEs}
+    
+    Compatibles con Java 11
+    \begin{itemize}
+        \item Eclipse
+        \item NetBeans
+        \item IntelliJ IDEA
+    \end{itemize}
+    
+    Algunos plugins problematicos
+    \begin{enumerate}
+        \item Glassfish
+        \item WebLogic
+        \item Icefaces
+    \end{enumerate}
+\end{frame}
+
+\begin{frame}[fragile]{JavaFX}
+    
+    JavaFX ahora es un modulo OpenSource y la forma "recomendada" para empaquetar la aplicación es JPMS, la forma más facil es la compilación de Gluon
+    \begin{figure}
+        \centering
+        \includegraphics[width=\linewidth]{Images/gluon}
+    \end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{¿Que Java necesito?}
+    Obligatorios por contrato
+    \begin{itemize}
+        \item Software comercial de Oracle (HotSpot)
+        \item Software comercial de SAP (SAP VM)
+        \item Software comercial de Red Hat (OpenJDK + RHEL)
+        \item Software comercial de IBM (J9)
+    \end{itemize}
+    Otras opciones
+\begin{itemize}
+    \item AdoptOpenJDK (Opción a soporte de IBM en J9)
+    \item Correto
+    \item Azul Zulu
+    \item Java de su distro
+\end{itemize}
+\end{frame}
+
+\begin{frame}[fragile]{Multiples JVMs en producción}
+    Linux
+    \begin{itemize}
+        \item Docker
+        \item RHEL
+        \item Debian
+        \item Gentoo
+    \end{itemize}
+    Windows
+    \begin{itemize}
+        \item Docker
+        \item Variables de entorno por proyecto/runtime
+        \item Lo importante es la salud
+    \end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Academik}
+    \begin{columns}[T]
+        \begin{column}[T]{2cm} % alternative top-align that's better for graphics
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/qr}
+            \end{figure}
+        \end{column}
+        \begin{column}[T]{12cm} % each column can also be its own environment
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Images/academik}
+        \end{figure}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+
 
 
 \begin{frame}{Víctor Orozco}

@@ -100,12 +100,8 @@
 \headcommand {\beamer@framepages {44}{44}}
 \headcommand {\slideentry {4}{0}{8}{45/45}{}{0}}
 \headcommand {\beamer@framepages {45}{45}}
-\headcommand {\slideentry {4}{0}{9}{46/46}{}{0}}
-\headcommand {\beamer@framepages {46}{46}}
-\headcommand {\slideentry {4}{0}{10}{47/47}{}{0}}
-\headcommand {\beamer@framepages {47}{47}}
-\headcommand {\beamer@partpages {1}{47}}
-\headcommand {\beamer@subsectionpages {38}{47}}
-\headcommand {\beamer@sectionpages {38}{47}}
-\headcommand {\beamer@documentpages {47}}
-\headcommand {\def \inserttotalframenumber {43}}
+\headcommand {\beamer@partpages {1}{45}}
+\headcommand {\beamer@subsectionpages {38}{45}}
+\headcommand {\beamer@sectionpages {38}{45}}
+\headcommand {\beamer@documentpages {45}}
+\headcommand {\def \inserttotalframenumber {41}}

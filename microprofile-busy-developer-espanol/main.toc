@@ -1,5 +1,0 @@
-\select@language {portuguese}
-\beamer@sectionintoc {1}{\IeC {\textquestiondown }Microservicios?}{3}{0}{1}
-\beamer@sectionintoc {2}{Java EE 8}{9}{0}{2}
-\beamer@sectionintoc {3}{Eclipse MicroProfile}{13}{0}{3}
-\beamer@sectionintoc {4}{Demo}{39}{0}{4}

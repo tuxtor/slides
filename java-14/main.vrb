@@ -1,19 +1,15 @@
-\frametitle{305: Pattern Matching for instanceof (Preview)}
-Antes
-\begin{lstlisting}
-if(o instanceof Person){
-    Person p = (Person)o;
-    System.out.println("Hello " + p.name());
-}else{
-    System.out.println("Unknown object");
-}
-\end{lstlisting}
-
-Ahora
-\begin{lstlisting}
-if(o instanceof Person p){
-    System.out.println("Hello " + p.name());
-}else{
-    System.out.println("Unknown object");
-}
-\end{lstlisting}
+\frametitle{Academik}
+\begin{columns}[T]
+        \begin{column}[T]{2cm} % alternative top-align that's better for graphics
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/qr}
+            \end{figure}
+        \end{column}
+        \begin{column}[T]{12cm} % each column can also be its own environment
+        \begin{figure}
+            \centering
+            \includegraphics[width=\linewidth]{Images/academik}
+        \end{figure}
+        \end{column}
+    \end{columns}

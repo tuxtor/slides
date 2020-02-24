@@ -1,0 +1,776 @@
+\documentclass{beamer}
+\useoutertheme[progressbar=frametitle]{metropolis}
+\useinnertheme{metropolis}
+\definecolor{nabgray}{rgb}{0.6,0.59,0.61}
+\usecolortheme[named=nabgray]{structure}
+
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage{smartdiagram}
+\usepackage{qtree}
+\usepackage{verbatim}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{color}
+
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+%\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\definecolor{orange}{rgb}{1,0.45,0.13}		
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
+\usepackage{upquote}
+\usepackage{listings}
+\lstset{language=java,
+	basicstyle=\footnotesize\ttfamily,
+	keywordstyle=\footnotesize\color{blue}\ttfamily,
+	escapeinside={<@}{@>}
+}
+
+
+\usebackgroundtemplate%
+{%
+	\includegraphics[width=\paperwidth]{Images/Contenido}%
+}
+
+
+\title{Docker para desarrolladores Java}
+\author{Víctor Orozco}
+\institute{@tuxtor}
+\date{\today}
+
+\begin{document}
+
+\frame{\titlepage}
+
+\begin{frame}{Java EE - MicroProfile - Spring Boot - Docker}
+\begin{center}
+	\includegraphics[width=0.4\linewidth]{Images/comment}
+\end{center}
+\end{frame}
+
+
+\begin{frame}{Reactive applications}
+Aplicaciones reactivas
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/reactive-traits}
+\end{figure}
+Escalabilidad
+\end{frame}
+
+\begin{frame}{Monólito}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/monolitos}
+	\caption{Monólito}
+\end{figure}
+\end{frame}
+
+\begin{frame}{ESB}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.5\linewidth]{Images/esb}
+	\caption{ESB}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Microservicios}
+\begin{figure}
+\centering
+\includegraphics[width=\linewidth]{Images/microservicios}
+\caption{Microservicios}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Monolito vs. Microservicios}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/petvscattle}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Monolito vs. Microservicios}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/dukecowboy}
+\end{figure}
+\end{frame}
+
+\section{Docker}
+
+\begin{frame}{Linux}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/linux}
+	\label{fig:linux}
+\end{figure}
+\end{frame}
+
+\begin{frame}{VMs}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/virtualbox}
+	\label{fig:vm}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}{Hipervisores}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/hypervisors}
+	\label{fig:hypervisors}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Despliegue contenedores}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{Images/containervsvm.png}
+	\label{fig:containervsvm}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Contenedor}
+Contenedor = bibliotecas + app + shell
+\begin{figure}
+\centering
+\includegraphics[width=0.8\linewidth]{Images/container.png}
+\label{fig:container}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Contenedor}
+Contenedor = bibliotecas + app + shell\\
+
+Ideas generales:
+\begin{itemize}
+	\item Distribución
+	\item Volatilidad
+	\item Automatización
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Docker}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{Images/larry}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Swarm/Rancher/Kubernets/Mesos}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{Images/cowboy}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Swarm/Rancher/Kubernets/Mesos}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{Images/rancher}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Swarm/Rancher/Kubernets/Mesos + Java}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{Images/dukearmy}
+\end{figure}
+\end{frame}
+
+\section{Docker + Java}
+
+\begin{frame}{12 factores cloud native}
+\begin{columns}
+	\begin{column}{0.5\textwidth}
+		\begin{enumerate}
+			\item Codebase \pause (Git)
+			\item Dependencies \pause (Maven/Graddle)
+			\item Config \pause (Framework/Service Mesh)
+			\item Backing services \pause (RDBMS, NoSQL, JCA)
+			\item Build, release, run \pause (CI/CD)
+			\item Processes \pause (Framework stateless)
+		\end{enumerate}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{enumerate}
+			\item Port binding \pause  (Service Mesh)
+			\item Concurrency \pause (Service Mesh)
+			\item Disposability \pause (Framework/Service Mesh)
+			\item Dev / Prod parity \pause (Cultura)
+			\item Logs \pause (Metrics/Grafana, etc.)
+			\item Admin processes \pause (Service Mesh)
+		\end{enumerate}
+	\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{Monolitos + Docker}
+Ventajas
+\begin{itemize}
+	\item Migraciones rápidas
+	\item SCM más ordenado
+	\item Reconstrucción de monolito más rapida
+\end{itemize}
+Desventajas
+\begin{itemize}
+	\item Tooling overhead
+	\item Debug
+	\item Más uso de memoria
+	\item Complejidad en red
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Microservicios + Docker}
+Ventajas
+\begin{itemize}
+	\item Bases de código pequeñas
+	\item Buenas practicas de programación
+	\item Tolerancia a fallas
+	\item Escalabilidad
+\end{itemize}
+Desventajas
+\begin{itemize}
+	\item Tooling overhead
+	\item Debug
+	\item Transacciones distribuidas
+	\item Latencia
+	\item Interdependencia
+	\item Falacias de la computación distribuida
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Demo}
+Monolito
+\begin{itemize}
+	\item WildFly (JBoss)
+	\item Java EE 7
+	\item Linode + Docker Hub
+\end{itemize}
+
+Microservicio
+\begin{itemize}
+	\item Payara Micro
+	\item Java EE 8 + MicroProfile
+	\item Oracle Cloud
+\end{itemize}
+\end{frame}
+
+
+\section{Java EE 8}
+\begin{frame}{Java EE 8}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/javaee8}
+\end{figure}
+\end{frame}
+
+%TODO data do java EE 8
+\begin{frame}{Java EE 8}
+\begin{alertblock}{Java EE 8}
+\begin{itemize}
+	\item Mejor integración JSF-CDI
+	\item Mejor integración JMS-CDI
+	\item HTTP/2
+	\item JSON-B
+	\item Security
+	\item \textbf{JAX-RS Reactivo}
+\end{itemize}
+\end{alertblock}
+\end{frame}
+
+
+\begin{frame}{Java EE 8 - Comunidad}
+\begin{columns}
+\begin{column}{0.5\textwidth}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/jakartaee}
+	\end{figure}
+	\end{column}
+	\begin{column}{0.5\textwidth}  %%<--- here
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/guardians}
+		\end{figure}
+	\end{column}
+\end{columns}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/microprofile-logo}
+\end{figure}
+\end{frame}
+
+\section{Eclipse MicroProfile}
+
+\begin{frame}{Eclipse MicroProfile}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/javaeemicropancake}
+	\caption{Credito: Reza Rahman}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Eclipse MicroProfile}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.5\linewidth]{Images/oldsetup}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Eclipse MicroProfile}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/mp5}
+\end{figure}
+\end{frame}
+
+%TODO 12 fatores
+
+\begin{frame}{Eclipse MicroProfile - Implementações}
+\begin{itemize}
+	\item Thorntail (Red Hat)
+	\item KumuluzEE
+	\item Open Liberty (IBM)
+	\item TomEE
+	\item Helidon (Oracle)
+	\item Hammock
+	\item Apache Meecrowave
+	\item \textbf{Payara Micro}
+\end{itemize}
+\end{frame}
+
+
+\begin{frame}[fragile]{Eclipse MicroProfile en Payara 5}
+\begin{lstlisting}
+<dependency>
+	<groupId>org.eclipse.microprofile</groupId>
+	<artifactId>microprofile</artifactId>
+	<type>pom</type>
+	<version>2.0.1</version>
+	<scope>provided</scope>
+</dependency>
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{Config}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/config}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}[fragile]{Config}
+\begin{lstlisting}
+@Inject
+<@\textcolor{red}{@ConfigProperty(name = "omdbservice.url")}@>
+String omdbDaemonServiceUrl;
+\end{lstlisting}
+
+Externalización de la configuración (VM, Docker, Kubernetes)
+\end{frame}
+
+
+\begin{frame}{Fault Tolerance}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/faulttolerance}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Metrics}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/metrics}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Fault Tolerance + Metrics}
+
+\begin{itemize}
+	\item \textit{Fault Tolerance} depende de metricas que pueden ser utilizadas para diagnosticar el estado de nuestro sistema mediante \textit{Metrics}
+\end{itemize}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/falldata}
+\end{figure}
+
+\end{frame}
+
+
+\begin{frame}{Fault tolerance}
+
+Reglas de evaluación y alternativas
+\begin{itemize}
+\item Circuit Breaker
+\item Bulkhead
+\item Retry
+\item Timeout
+\item Fallback
+\end{itemize}
+
+\end{frame}
+
+
+\begin{frame}[fragile]{Fault tolerance - Fallback, Timeout}
+\begin{lstlisting}
+@GET
+@Path("/{id:[a-z]*[0-9][0-9]*}")
+<@\textcolor{red}{@Fallback(fallbackMethod = "findByIdFallBack")}@>
+<@\textcolor{red}{@Timeout(TIMEOUT)}@>
+public Response findById(@PathParam("id") 
+final String imdbId) {
+...
+}
+
+public Response findByIdFallBack(@PathParam("id") 
+final String imdbId) {
+...
+}
+\end{lstlisting}
+\end{frame}
+
+
+\begin{frame}{Métricas}
+
+\begin{itemize}
+	\item JSON or OpenMetrics (Prometheus)
+	\item Vendor
+	\item Base
+	\item Application
+\end{itemize}
+
+¿Cuales? 
+\begin{itemize}
+	\item Counted
+	\item Gauge
+	\item Metered
+	\item Timed
+	\item Histogram
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]{Metrics - Counted}
+\begin{lstlisting}
+@Inject
+<@\textcolor{red}{@Metric}@>
+Counter failedQueries;
+\end{lstlisting}
+
+\begin{lstlisting}
+@GET
+@Path("/{id:[a-z]*[0-9][0-9]*}")
+<@\textcolor{red}{@Fallback(fallbackMethod = "findByIdFallBack")}@>
+<@\textcolor{red}{@Timeout(TIMEOUT)}@>
+public Response findById(@PathParam("id") 
+final String imdbId) {
+...
+}
+
+public Response findByIdFallBack(@PathParam("id") 
+final String imdbId) {
+	...
+	<@\textcolor{red}{failedQueries.inc();}@>
+}
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}[fragile]{Metrics - Gauge}
+Inc-dec en tiempo real
+\begin{lstlisting}
+<@\textcolor{red}{
+@Gauge(unit = "ExternalDatabases",
+	name = "movieDatabases", absolute = true)
+}@>
+public long getDatabases() {
+	return 99; //Any value
+}
+\end{lstlisting}
+
+\lstinline|/metrics/application/movieDatabases|
+\end{frame}
+
+\begin{frame}[fragile]{Metrics - Metered}
+Events rate
+\begin{lstlisting}
+@Metered(name = "moviesRetrieved",
+	unit = MetricUnits.MINUTES,
+	description = "Metrics to monitor movies",
+	absolute = true)
+public Response findExpandedById(
+	@PathParam("id") final Long id) 
+\end{lstlisting}
+
+\lstinline|/metrics/application/movieDatabases|
+\end{frame}
+
+\begin{frame}[fragile]{Metrics- Timed}
+Desempeño y delay
+\begin{lstlisting}
+@Timed(name = "moviesDelay",
+	description = "Time to retrieve a movie",
+	unit = MetricUnits.MINUTES,
+	absolute = true)
+public Response findExpandedById(
+	@PathParam("id") final Long id) 
+\end{lstlisting}
+
+\lstinline|/metrics/application/moviesDelay|
+\end{frame}
+
+\begin{frame}[fragile]{Metrics - Histogram}
+Distribuciones
+\begin{lstlisting}
+@Inject
+MetricRegistry registry;
+
+@POST
+@Path("/add/{attendees}")
+public Response addAttendees(
+	@PathParam("attendees") Long attendees) {
+	Metadata metadata =
+		new Metadata("matrix attendees",
+			MetricType.HISTOGRAM);
+	Histogram histogram = 
+		registry.histogram(metadata);
+	histogram.update(attendees);
+	return Response.ok().build();
+}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}{Health Check}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/healthcheck}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{Health Check}
+¿Aun vivo?
+\begin{lstlisting}
+@Override
+public HealthCheckResponse call() {
+	return HealthCheckResponse.named("TaVivoAinda")
+		.withData("key1", "val1")
+		.withData("key2", "val2")
+		.up()
+		.build();
+
+}
+\end{lstlisting}
+
+\end{frame}
+
+
+\begin{frame}{JWT}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{Images/jwt}
+\end{figure}
+\end{frame}
+
+
+\begin{frame}[fragile]{JWT}
+
+\begin{lstlisting}
+<@\textcolor{red}{@LoginConfig(authMethod = "MP-JWT")}@>
+public class ApplicationConfig extends Application {
+}
+\end{lstlisting}
+
+\begin{lstlisting}
+@Inject
+private JsonWebToken jwtPrincipal;
+
+@Inject
+<@\textcolor{red}{@Claim("email")}@>
+private String email;
+\end{lstlisting}
+\end{frame}
+
+\begin{frame}{TypeSafe}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.75\linewidth]{Images/typesafe}
+\end{figure}
+\end{frame}
+
+\begin{frame}[fragile]{TypeSafe}
+
+
+\begin{lstlisting}
+@Path("/playlist")
+@Consumes("application/json")
+public <@\textcolor{red}{interface}@> MusicPlaylistService {
+
+	@GET
+	List<String> getPlaylistNames();
+
+	
+	@PUT
+	@Path("/{playlistName}")
+	long updatePlayList(@PathParam("playlistName")
+		String name,
+		List<Song> playlist)
+		throws UnknownPlaylistException;
+}
+\end{lstlisting}
+\end{frame}
+
+
+\section{Demo}
+\begin{frame}{EE + MicroProfile  - Demo}
+\huge Java 8, JAX-RS, CDI, EJB, MicroProfile
+
+\normalsize  \url{https://github.com/tuxtor/payara-demo}\\
+\normalsize  \url{https://github.com/tuxtor/omdb-demo}
+\end{frame}
+
+\begin{frame}{Payara Micro - Java EE 8}
+Stacks tradicionais
+\begin{columns}[T] % contents are top vertically aligned
+\begin{column}[T]{3cm} % each column can also be its own environment
+	\begin{itemize}
+		\item EJB
+		\item \textbf{JTA}
+		\item JAX-RS
+		\item CDI
+	\end{itemize}
+\end{column}
+\begin{column}[T]{7cm} % alternative top-align that's better for graphics
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/democlass}
+	\end{figure}
+\end{column}
+\end{columns}
+\end{frame}
+
+\begin{frame}{EE + MicroProfile - Demo}
+\footnotesize MicroProfile: JAX-RS, CDI, Config, Fault Tolerance, Metrics\\
+Payara Micro: EJB, JTA\\
+Fatores externos: Location, Deployment, Orchestation, Balancing, Consistency
+\begin{figure}
+\centering
+\includegraphics[width=0.95\linewidth]{Images/demomicro}
+\end{figure}
+\end{frame}
+
+\begin{frame}{12 fatores}
+
+\begin{columns}[T] % contents are top vertically aligned
+	
+	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{alertblock}{Microprofile}
+	\begin{itemize}
+		\item Config
+		\item Backing service
+		\item Disposability
+	\end{itemize}
+\end{alertblock}
+	\end{column}
+	\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{block}{Cloud}
+	\begin{itemize}
+	\item Codebase (Git-Flow)
+	\item Dependencies (Maven)
+	\item Build, Release, Run
+	\item Processes (Pipelines)
+	\item Port binding
+	\item Concurrency (Docker - k8s)
+	\item Dev / Prod parity
+	\item Logs
+	\item Admin process
+\end{itemize}
+\end{block}
+	\end{column}
+\end{columns}
+
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Images/oc1}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=0.95\linewidth]{Images/oc2}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/oc3}
+\end{figure}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/oc4}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Oracle Cloud}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=\linewidth]{Images/oc5}
+\end{figure}
+\end{frame}
+
+
+
+
+\begin{frame}{Víctor Orozco}
+\begin{columns}[T] % contents are top vertically aligned
+	
+	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/logos}
+		\end{figure}
+	\end{column}
+	\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{itemize}
+			\item vorozco@nabenik.com
+			\item \href{https://twitter.com/tuxtor}{@tuxtor}
+			\item \href{http://vorozco.com}{http://vorozco.com}
+			\item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org} 
+		\end{itemize}
+	\begin{center}
+		\includegraphics[width=0.1\linewidth]{Images/cclogo}
+		\\
+		This work is licensed under a Creative Commons Attribution-ShareAlike 3.0.
+	\end{center}
+	\end{column}
+\end{columns}
+\end{frame}
+
+
+\end{document}
+

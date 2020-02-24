@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  8 NOV 2017 18:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  19 OCT 2019 05:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1678,25 +1678,20 @@ LaTeX Info: Redefining \% on input line 44.
 Overfull \vbox (44.55656pt too high) detected at line 46
  []
 
-<Images/fondo.png, id=76, 822.272pt x 616.704pt>
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 46.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
-
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 (Font)              size <5> substituted on input line 46.
 
 [1
 
-{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./Image
-s/fondo.png>]
+{/usr/local/texlive/2017/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 LaTeX Font Info:    Try loading font information for U+msa on input line 48.
- (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+
+(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 48.
+
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1706,12 +1701,7 @@ line 48.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/sansmathaccent/ot1mathkerncmss.fd
 File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
 thkerncmss.
-)
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 48.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [2
+) [2
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmss on input line 71.
@@ -1723,484 +1713,234 @@ LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 71.
 
-<Images/logos.png, id=98, 175.65625pt x 667.49374pt>
+<Images/logos.png, id=95, 276.232pt x 616.704pt>
 File: Images/logos.png Graphic file (type png)
  <use Images/logos.png>
 Package pdftex.def Info: Images/logos.png used on input line 71.
-(pdftex.def)             Requested size: 51.21547pt x 194.6173pt.
-File: Images/fondo.png Graphic file (type png)
+(pdftex.def)             Requested size: 85.35826pt x 190.5646pt.
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 71.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [3
+[3
 
- <./Images/logos.png>]
-<Images/comment.png, id=108, 256.96pt x 256.96pt>
-File: Images/comment.png Graphic file (type png)
- <use Images/comment.png>
-Package pdftex.def Info: Images/comment.png used on input line 78.
-(pdftex.def)             Requested size: 122.91406pt x 122.91594pt.
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 78.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [4
-
- <./Images/comment.png>]
-<Images/RobotDreams.jpg, id=115, 165.61874pt x 252.19218pt>
-File: Images/RobotDreams.jpg Graphic file (type jpg)
-
-<use Images/RobotDreams.jpg>
-Package pdftex.def Info: Images/RobotDreams.jpg used on input line 85.
-(pdftex.def)             Requested size: 122.91406pt x 187.16573pt.
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 85.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [5
-
- <./Images/RobotDreams.jpg>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 94.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [6
+ <./Images/logos.png>] [4
 
 ]
-Overfull \hbox (4.26126pt too wide) in paragraph at lines 114--114
+Overfull \hbox (4.26126pt too wide) in paragraph at lines 102--102
  [][][][]\OT1/cmss/m/n/10 Procesamiento 
  []
 
 
-Overfull \hbox (5.60846pt too wide) in paragraph at lines 114--114
+Overfull \hbox (5.60846pt too wide) in paragraph at lines 102--102
  [][][][]\OT1/cmss/m/n/10 Representaci^^Son 
  []
 
 
-Overfull \hbox (2.2335pt too wide) in paragraph at lines 114--114
+Overfull \hbox (2.2335pt too wide) in paragraph at lines 102--102
  [][][][]\OT1/cmss/m/n/10 Razonamiento 
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 114.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [7
+[5
 
 ]
-Overfull \hbox (4.26126pt too wide) in paragraph at lines 134--134
+Overfull \hbox (4.26126pt too wide) in paragraph at lines 122--122
  [][][][]\OT1/cmss/m/n/10 Procesamiento 
  []
 
 
-Overfull \hbox (5.60846pt too wide) in paragraph at lines 134--134
+Overfull \hbox (5.60846pt too wide) in paragraph at lines 122--122
  [][][][]\OT1/cmss/m/n/10 Representaci^^Son 
  []
 
 
-Overfull \hbox (2.2335pt too wide) in paragraph at lines 134--134
+Overfull \hbox (2.2335pt too wide) in paragraph at lines 122--122
  [][][][]\OT1/cmss/m/n/10 Razonamiento 
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 134.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [8
+[6
+
+] <Images/data.png, id=127, 1084.05pt x 1084.05pt>
+File: Images/data.png Graphic file (type png)
+ <use Images/data.png>
+Package pdftex.def Info: Images/data.png used on input line 131.
+(pdftex.def)             Requested size: 215.10196pt x 215.08586pt.
+
+Overfull \vbox (15.33995pt too high) detected at line 131
+ []
+
+[7
+
+ <./Images/data.png (PNG copy)>] [8
 
 ]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 141.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [9
-
-]
-<Images/ml1.png, id=149, 1430.34375pt x 666.49pt>
+<Images/ml1.png, id=139, 1430.34375pt x 666.49pt>
 File: Images/ml1.png Graphic file (type png)
  <use Images/ml1.png>
-Package pdftex.def Info: Images/ml1.png used on input line 146.
+Package pdftex.def Info: Images/ml1.png used on input line 144.
 (pdftex.def)             Requested size: 307.28987pt x 143.18068pt.
-File: Images/fondo.png Graphic file (type png)
+ [9
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 146.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [10
-
- <./Images/ml1.png>]
-<Images/ml2.png, id=156, 1038.88126pt x 704.6325pt>
+ <./Images/ml1.png>] <Images/ml2.png, id=146, 1038.88126pt x 704.6325pt>
 File: Images/ml2.png Graphic file (type png)
- <use Images/ml2.png>
-Package pdftex.def Info: Images/ml2.png used on input line 152.
+
+<use Images/ml2.png>
+Package pdftex.def Info: Images/ml2.png used on input line 150.
 (pdftex.def)             Requested size: 307.28987pt x 208.41313pt.
 
-Overfull \vbox (8.66722pt too high) detected at line 152
+Overfull \vbox (8.66722pt too high) detected at line 150
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 152.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [11
+[10
 
- <./Images/ml2.png>]
-<Images/ml4.png, id=163, 1047.915pt x 747.79375pt>
+ <./Images/ml2.png>] <Images/ml4.png, id=153, 1047.915pt x 747.79375pt>
 File: Images/ml4.png Graphic file (type png)
- <use Images/ml4.png>
-Package pdftex.def Info: Images/ml4.png used on input line 158.
+
+<use Images/ml4.png>
+Package pdftex.def Info: Images/ml4.png used on input line 156.
 (pdftex.def)             Requested size: 307.28987pt x 219.27364pt.
 
-Overfull \vbox (19.52773pt too high) detected at line 158
+Overfull \vbox (19.52773pt too high) detected at line 156
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 158.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+[11
+
+ <./Images/ml4.png>] <Images/ml5.png, id=160, 1125.20375pt x 640.3925pt>
+File: Images/ml5.png Graphic file (type png)
+
+<use Images/ml5.png>
+Package pdftex.def Info: Images/ml5.png used on input line 162.
+(pdftex.def)             Requested size: 307.28987pt x 174.88214pt.
  [12
 
- <./Images/ml4.png>]
-<Images/ml5.png, id=170, 1125.20375pt x 640.3925pt>
-File: Images/ml5.png Graphic file (type png)
- <use Images/ml5.png>
-Package pdftex.def Info: Images/ml5.png used on input line 164.
-(pdftex.def)             Requested size: 307.28987pt x 174.88214pt.
-File: Images/fondo.png Graphic file (type png)
+ <./Images/ml5.png>] [13
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 164.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [13
-
- <./Images/ml5.png>]
-<Images/ml3.jpg, id=178, 1284.8pt x 722.7pt>
-File: Images/ml3.jpg Graphic file (type jpg)
- <use Images/ml3.jpg>
-Package pdftex.def Info: Images/ml3.jpg used on input line 171.
-(pdftex.def)             Requested size: 276.559pt x 155.56493pt.
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 171.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [14
-
- <./Images/ml3.jpg>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 173.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [15
+] [14
 
 ]
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 178.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [16
-
-]
-<Images/inferencia.png, id=196, 361.35pt x 233.79346pt>
+<Images/inferencia.png, id=179, 361.35pt x 233.79346pt>
 File: Images/inferencia.png Graphic file (type png)
 
 <use Images/inferencia.png>
-Package pdftex.def Info: Images/inferencia.png used on input line 184.
+Package pdftex.def Info: Images/inferencia.png used on input line 175.
 (pdftex.def)             Requested size: 276.559pt x 178.93346pt.
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 184.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [17
+ [15
 
- <./Images/inferencia.png>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 202.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [18
+ <./Images/inferencia.png>] [16
+
+] [17
 
 ]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 214.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [19
-
-]
-<Images/netflix.png, id=213, 685.56125pt x 664.4825pt>
+<Images/netflix.png, id=196, 685.56125pt x 664.4825pt>
 File: Images/netflix.png Graphic file (type png)
 
 <use Images/netflix.png>
-Package pdftex.def Info: Images/netflix.png used on input line 220.
+Package pdftex.def Info: Images/netflix.png used on input line 211.
 (pdftex.def)             Requested size: 276.559pt x 268.05946pt.
 
-Overfull \vbox (68.31355pt too high) detected at line 220
+Overfull \vbox (68.31355pt too high) detected at line 211
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 220.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [20
+[18
 
- <./Images/netflix.png>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 228.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ <./Images/netflix.png>] [19
 
-[21
+] [20
 
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 238.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [22
+] [21
+
+] [22
+
+] [23
+
+] [24
+
+] [25
+
+] [26
 
 ]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 246.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [23
-
-]
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 254.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [24
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 262.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [25
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 271.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
-
-[26
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 278.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [27
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 285.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [28
-
-]
-<Images/occam.png, id=261, 388.45125pt x 472.76625pt>
+<Images/occam.png, id=245, 388.45125pt x 472.76625pt>
 File: Images/occam.png Graphic file (type png)
  <use Images/occam.png>
-Package pdftex.def Info: Images/occam.png used on input line 291.
+Package pdftex.def Info: Images/occam.png used on input line 282.
 (pdftex.def)             Requested size: 215.10196pt x 261.79683pt.
 
-Overfull \vbox (62.05092pt too high) detected at line 291
+Overfull \vbox (62.05092pt too high) detected at line 282
  []
 
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 291.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [29
+[27
 
- <./Images/occam.png>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 297.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ <./Images/occam.png>] [28
 
-[30
+] [29
 
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 301.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [31
+] [30
+
+] [31
+
+] [32
+
+] [33
+
+] [34
 
 ]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 320.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [32
-
-]
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 328.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [33
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 331.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [34
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 334.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+Overfull \vbox (44.62202pt too high) detected at line 359
+ []
 
 [35
 
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 347.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [36
+] [36
+
+] [37
+
+] [38
+
+] [39
+
+] [40
+
+] [41
 
 ]
-Overfull \vbox (44.62202pt too high) detected at line 368
- []
-
-File: Images/fondo.png Graphic file (type png)
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 368.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [37
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 376.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [38
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 384.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
-
-[39
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 393.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [40
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 402.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [41
-
-]
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 404.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [42
-
-]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 412.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [43
-
-]
-<Images/jrisk.png, id=355, 904.37875pt x 612.2875pt>
+<Images/jrisk.png, id=338, 904.37875pt x 612.2875pt>
 File: Images/jrisk.png Graphic file (type png)
  <use Images/jrisk.png>
-Package pdftex.def Info: Images/jrisk.png used on input line 418.
+Package pdftex.def Info: Images/jrisk.png used on input line 409.
 (pdftex.def)             Requested size: 276.559pt x 187.22856pt.
-File: Images/fondo.png Graphic file (type png)
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 418.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [44
+[42
 
- <./Images/jrisk.png>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 426.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
-
-[45
-
-] <Images/Medmigo.png, id=367, 1430.34375pt x 666.49pt>
-File: Images/Medmigo.png Graphic file (type png)
-
-<use Images/Medmigo.png>
-Package pdftex.def Info: Images/Medmigo.png used on input line 432.
-(pdftex.def)             Requested size: 276.559pt x 128.8616pt.
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 432.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [46
-
- <./Images/Medmigo.png>]
-File: Images/fondo.png Graphic file (type png)
-
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 440.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [47
+ <./Images/jrisk.png>] [43
 
 ]
-<Images/bible.png, id=379, 1430.34375pt x 666.49pt>
+<Images/Medmigo.png, id=351, 1430.34375pt x 666.49pt>
+File: Images/Medmigo.png Graphic file (type png)
+ <use Images/Medmigo.png>
+Package pdftex.def Info: Images/Medmigo.png used on input line 423.
+(pdftex.def)             Requested size: 276.559pt x 128.8616pt.
+
+[44
+
+ <./Images/Medmigo.png>] [45
+
+]
+<Images/bible.png, id=363, 1430.34375pt x 666.49pt>
 File: Images/bible.png Graphic file (type png)
  <use Images/bible.png>
-Package pdftex.def Info: Images/bible.png used on input line 446.
+Package pdftex.def Info: Images/bible.png used on input line 437.
 (pdftex.def)             Requested size: 276.559pt x 128.8616pt.
-File: Images/fondo.png Graphic file (type png)
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 446.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [48
+[46
 
- <./Images/bible.png>]
-File: Images/fondo.png Graphic file (type png)
- <use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 449.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
+ <./Images/bible.png>] [47
 
-[49
-
-] <Images/cclogo.png, id=393, 88.33pt x 31.11626pt>
+]
+<Images/cclogo.png, id=376, 88.33pt x 31.11626pt>
 File: Images/cclogo.png Graphic file (type png)
  <use Images/cclogo.png>
-Package pdftex.def Info: Images/cclogo.png used on input line 462.
+Package pdftex.def Info: Images/cclogo.png used on input line 453.
 (pdftex.def)             Requested size: 30.73085pt x 10.82579pt.
-File: Images/fondo.png Graphic file (type png)
 
-<use Images/fondo.png>
-Package pdftex.def Info: Images/fondo.png used on input line 462.
-(pdftex.def)             Requested size: 364.19536pt x 273.14793pt.
- [50
+[48
 
  <./Images/cclogo.png>]
 \tf@nav=\write7
@@ -2212,16 +1952,16 @@ Package pdftex.def Info: Images/fondo.png used on input line 462.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 463.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 463.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 454.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 454.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 463.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 463.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 454.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 454.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9D6A493C989DF9666733D8CBEC23F1FD;485.
+(rerunfilecheck)             Checksum: 344D3B8B9D57F3A2DEC131D1D53A6ECD;485.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -2232,10 +1972,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 32768 strings out of 492995
- 655740 string characters out of 6132704
- 751362 words of memory out of 5000000
- 35599 multiletter control sequences out of 15000+600000
+ 32743 strings out of 492995
+ 655319 string characters out of 6132704
+ 751093 words of memory out of 5000000
+ 35582 multiletter control sequences out of 15000+600000
  12052 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,13n,88p,10398b,1103s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2245,10 +1985,10 @@ Here is how much of TeX's memory you used:
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (50 pages, 11342680 bytes).
+Output written on main.pdf (48 pages, 11058031 bytes).
 PDF statistics:
- 450 PDF objects out of 1000 (max. 8388607)
- 333 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
- 321 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 431 PDF objects out of 1000 (max. 8388607)
+ 321 compressed objects within 4 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 306 words of extra memory for PDF output out of 10000 (max. 10000000)
 

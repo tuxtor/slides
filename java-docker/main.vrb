@@ -1,0 +1,20 @@
+\frametitle{TypeSafe}
+
+
+\begin{lstlisting}
+@Path("/playlist")
+@Consumes("application/json")
+public <@\textcolor{red}{interface}@> MusicPlaylistService {
+
+	@GET
+	List<String> getPlaylistNames();
+
+
+	@PUT
+	@Path("/{playlistName}")
+	long updatePlayList(@PathParam("playlistName")
+		String name,
+		List<Song> playlist)
+		throws UnknownPlaylistException;
+}
+\end{lstlisting}

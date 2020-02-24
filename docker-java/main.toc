@@ -1,0 +1,4 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Introducción a Docker}{6}{0}{1}
+\beamer@sectionintoc {2}{Docker y Java}{19}{0}{2}
+\beamer@sectionintoc {3}{APIs vs Service Mesh}{38}{0}{3}

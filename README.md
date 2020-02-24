@@ -5,7 +5,10 @@ Random slides from my presentations, most of these include Latex source code.
 
 (Work in progress) Index in no particular order:
 
-##Java
+## Java
+* [Empaquetando aplicaciones Java con Docker y Kubernetes](docker-java/main.pdf) - Spanish
+* [Microprofile for the busy developer](microprofile-busy-developer/main.pdf) - Spanish
+* [Java vs GC vs Android](java-gc-android/main.pdf) - Spanish
 * [Eclipse MicroProfile Metrics: Practica use cases](metrics-usecases/main.pdf) - English
 * [Testing 101 with Java EE and Arquillian](arquillian/main.pdf) - Spanish
 * [Jakarta EE, Microprofile y Payara Micro](jakarta-ee-micro/main.pdf) - Spanish
@@ -20,11 +23,11 @@ Random slides from my presentations, most of these include Latex source code.
 * [Increasing the maturity of our Java User Groups](ug-maturity/UG_MaturityLevels.pdf) - English
 * [Functonal programming in the JVM](functional-jvm/main.pdf) - Spanish, includes Kotlin FP
 
-##IT/IS
+## IT/IS
 * [Docker Primeros Pasos](docker-primeros-pasos/main.pdf) - Spanish
 * [Introdução ao Gentoo Linux](gentoo-portugues/small.pdf) - Portuguese
 
-##CS
+## CS
 * [Introducción a Aprendizaje de Maquina](machine-learning/main.pdf) - Spanish
 * [Ciencia y FLOSS](ciencia-y-floss/small.pdf) - Spanish
 * [Creando sistemas enterprise con Software Libre](coecys-2014/presentacion.pdf) - Spanish

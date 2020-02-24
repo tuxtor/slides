@@ -1,0 +1,4 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{\IeC {\textquestiondown }12 factores?}{3}{0}{1}
+\beamer@sectionintoc {2}{Eclipse MicroProfile}{21}{0}{2}
+\beamer@sectionintoc {3}{Demo}{28}{0}{3}

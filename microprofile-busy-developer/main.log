@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  18 DEC 2018 16:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 NOV 2019 16:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2318,131 +2318,96 @@ Package pdftex.def Info: Images/Contenido.png used on input line 474.
 ]
 File: Images/Contenido.png Graphic file (type png)
  <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 480.
+Package pdftex.def Info: Images/Contenido.png used on input line 479.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
  [39
 
 ]
-<Images/democlass.png, id=315, 611.28375pt x 588.69937pt>
-File: Images/democlass.png Graphic file (type png)
-
-<use Images/democlass.png>
-Package pdftex.def Info: Images/democlass.png used on input line 500.
-(pdftex.def)             Requested size: 199.16928pt x 191.81009pt.
-
-Overfull \vbox (15.56482pt too high) detected at line 500
- []
-
 File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 500.
+ <use Images/Contenido.png>
+Package pdftex.def Info: Images/Contenido.png used on input line 511.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
  [40
 
- <./Images/democlass.png>]
-<Images/demomicro.png, id=322, 931.98187pt x 630.10406pt>
-File: Images/demomicro.png Graphic file (type png)
-
-<use Images/demomicro.png>
-Package pdftex.def Info: Images/demomicro.png used on input line 510.
-(pdftex.def)             Requested size: 291.92444pt x 197.36853pt.
-
-Overfull \vbox (40.88487pt too high) detected at line 510
- []
-
-File: Images/Contenido.png Graphic file (type png)
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 510.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [41
-
- <./Images/demomicro.png>]
-File: Images/Contenido.png Graphic file (type png)
-
-<use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 542.
-(pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [42
-
 ]
-<Images/oc1.png, id=335, 1000.73875pt x 493.845pt>
+<Images/oc1.png, id=319, 1000.73875pt x 493.845pt>
 File: Images/oc1.png Graphic file (type png)
  <use Images/oc1.png>
-Package pdftex.def Info: Images/oc1.png used on input line 549.
+Package pdftex.def Info: Images/oc1.png used on input line 518.
 (pdftex.def)             Requested size: 291.92444pt x 144.05534pt.
 File: Images/Contenido.png Graphic file (type png)
 
 <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 549.
+Package pdftex.def Info: Images/Contenido.png used on input line 518.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [43
+ [41
 
  <./Images/oc1.png>]
-<Images/oc2.png, id=344, 850.17625pt x 579.16376pt>
+<Images/oc2.png, id=326, 850.17625pt x 579.16376pt>
 File: Images/oc2.png Graphic file (type png)
  <use Images/oc2.png>
-Package pdftex.def Info: Images/oc2.png used on input line 556.
+Package pdftex.def Info: Images/oc2.png used on input line 525.
 (pdftex.def)             Requested size: 291.92444pt x 198.86612pt.
 File: Images/Contenido.png Graphic file (type png)
 
 <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 556.
+Package pdftex.def Info: Images/Contenido.png used on input line 525.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [44
+ [42
 
  <./Images/oc2.png>]
-<Images/oc3.png, id=351, 698.61pt x 19.07124pt>
+<Images/oc3.png, id=333, 698.61pt x 19.07124pt>
 File: Images/oc3.png Graphic file (type png)
  <use Images/oc3.png>
-Package pdftex.def Info: Images/oc3.png used on input line 568.
+Package pdftex.def Info: Images/oc3.png used on input line 537.
 (pdftex.def)             Requested size: 307.28987pt x 8.38873pt.
 
-<Images/oc4.png, id=352, 661.47125pt x 143.53625pt>
+<Images/oc4.png, id=334, 661.47125pt x 143.53625pt>
 File: Images/oc4.png Graphic file (type png)
  <use Images/oc4.png>
-Package pdftex.def Info: Images/oc4.png used on input line 568.
+Package pdftex.def Info: Images/oc4.png used on input line 537.
 (pdftex.def)             Requested size: 307.28987pt x 66.68015pt.
 File: Images/Contenido.png Graphic file (type png)
 
 <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 568.
+Package pdftex.def Info: Images/Contenido.png used on input line 537.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [45
+ [43
 
  <./Images/oc3.png> <./Images/oc4.png>]
-<Images/oc5.png, id=360, 1375.1375pt x 339.2675pt>
+<Images/oc5.png, id=344, 1375.1375pt x 339.2675pt>
 File: Images/oc5.png Graphic file (type png)
  <use Images/oc5.png>
-Package pdftex.def Info: Images/oc5.png used on input line 576.
+Package pdftex.def Info: Images/oc5.png used on input line 545.
 (pdftex.def)             Requested size: 307.28987pt x 75.80904pt.
 File: Images/Contenido.png Graphic file (type png)
 
 <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 576.
+Package pdftex.def Info: Images/Contenido.png used on input line 545.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [46
+ [44
 
  <./Images/oc5.png>]
-<Images/logos.png, id=367, 276.232pt x 616.704pt>
+<Images/logos.png, id=351, 276.232pt x 616.704pt>
 File: Images/logos.png Graphic file (type png)
  <use Images/logos.png>
-Package pdftex.def Info: Images/logos.png used on input line 604.
+Package pdftex.def Info: Images/logos.png used on input line 573.
 (pdftex.def)             Requested size: 113.81102pt x 254.0924pt.
 
-<Images/cclogo.png, id=371, 88.33pt x 31.11626pt>
+<Images/cclogo.png, id=355, 88.33pt x 31.11626pt>
 File: Images/cclogo.png Graphic file (type png)
  <use Images/cclogo.png>
-Package pdftex.def Info: Images/cclogo.png used on input line 604.
+Package pdftex.def Info: Images/cclogo.png used on input line 573.
 (pdftex.def)             Requested size: 17.0727pt x 6.01422pt.
 
-Overfull \vbox (56.73221pt too high) detected at line 604
+Overfull \vbox (56.73221pt too high) detected at line 573
  []
 
 File: Images/Contenido.png Graphic file (type png)
 <use Images/Contenido.png>
-Package pdftex.def Info: Images/Contenido.png used on input line 604.
+Package pdftex.def Info: Images/Contenido.png used on input line 573.
 (pdftex.def)             Requested size: 364.19536pt x 273.15115pt.
- [47
+ [45
 
  <./Images/logos.png> <./Images/cclogo.png>]
 \tf@nav=\write7
@@ -2454,12 +2419,12 @@ Package pdftex.def Info: Images/Contenido.png used on input line 604.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 607.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 607.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 576.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 576.
 
 (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 607.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 607.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 576.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 576.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 28775B4CCC98A59C00EF42CF39973E5D;188.
 
@@ -2469,10 +2434,10 @@ LaTeX Font Warning: Size substitutions with differences
 
  ) 
 Here is how much of TeX's memory you used:
- 33250 strings out of 492995
- 652007 string characters out of 6132704
+ 33236 strings out of 492995
+ 651745 string characters out of 6132704
  751701 words of memory out of 5000000
- 36032 multiletter control sequences out of 15000+600000
+ 36024 multiletter control sequences out of 15000+600000
  13112 words of font info for 48 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,12n,75p,10398b,1165s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -2482,16 +2447,15 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb><
 /usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss17.pfb></
 usr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></us
-r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmss9.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr
-/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/
-local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/lo
-cal/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
-Output written on main.pdf (47 pages, 2579059 bytes).
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmssi10.pfb></u
+sr/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></us
+r/local/texlive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt9.pfb></usr/
+local/texlive/2017/texmf-dist/fonts/type1/public/cm-super/sfss1095.pfb>
+Output written on main.pdf (45 pages, 2464506 bytes).
 PDF statistics:
- 441 PDF objects out of 1000 (max. 8388607)
- 297 compressed objects within 3 object streams
- 99 named destinations out of 1000 (max. 500000)
- 333 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 421 PDF objects out of 1000 (max. 8388607)
+ 284 compressed objects within 3 object streams
+ 95 named destinations out of 1000 (max. 500000)
+ 323 words of extra memory for PDF output out of 10000 (max. 10000000)
 

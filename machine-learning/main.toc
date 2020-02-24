@@ -1,10 +1,10 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Introducci\IeC {\'o}n}{2}{0}{1}
 \beamer@subsectionintoc {1}{1}{Inteligencia Artificial}{4}{0}{1}
-\beamer@subsectionintoc {1}{2}{Motivaci\IeC {\'o}n}{9}{0}{1}
-\beamer@sectionintoc {2}{Aprendizaje}{15}{0}{2}
-\beamer@subsectionintoc {2}{1}{Modelo}{22}{0}{2}
-\beamer@subsectionintoc {2}{2}{Implementaci\IeC {\'o}n}{32}{0}{2}
-\beamer@sectionintoc {3}{Demo}{34}{0}{3}
-\beamer@sectionintoc {4}{Experiencias previas}{42}{0}{4}
-\beamer@sectionintoc {5}{Fin}{49}{0}{5}
+\beamer@subsectionintoc {1}{2}{Motivaci\IeC {\'o}n}{8}{0}{1}
+\beamer@sectionintoc {2}{Aprendizaje}{13}{0}{2}
+\beamer@subsectionintoc {2}{1}{Modelo}{20}{0}{2}
+\beamer@subsectionintoc {2}{2}{Implementaci\IeC {\'o}n}{30}{0}{2}
+\beamer@sectionintoc {3}{Demo}{32}{0}{3}
+\beamer@sectionintoc {4}{Experiencias previas}{40}{0}{4}
+\beamer@sectionintoc {5}{Fin}{47}{0}{5}
