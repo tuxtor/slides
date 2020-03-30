@@ -1,0 +1,15 @@
+<div class="ui raised segment">
+    <h2 class="ui header">The force</h2>
+    <div class="ui info message">
+        The force is strong in: {{name}}
+        </div>
+    <form #f="ngForm"
+        (ngSubmit)="onSubmit(f.value)" class="ui form">
+        <div class="field">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" placeholder="Name"
+            name="name" [(ngModel)]="name">
+        </div>
+        <button type="submit" class="ui button">Submit</button>
+    </form>
+</div>

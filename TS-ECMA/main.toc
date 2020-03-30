@@ -1,0 +1,7 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{TS}{21}{0}{1}
+\beamer@sectionintoc {2}{NPM}{33}{0}{2}
+\beamer@sectionintoc {3}{ECMAScript 6 + TS}{40}{0}{3}
+\beamer@sectionintoc {4}{TS}{52}{0}{4}
+\beamer@sectionintoc {5}{TS - Más tipos}{63}{0}{5}
+\beamer@sectionintoc {6}{WebApps}{70}{0}{6}

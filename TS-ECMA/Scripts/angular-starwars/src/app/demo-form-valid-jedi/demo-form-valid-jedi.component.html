@@ -1,0 +1,23 @@
+<div class="ui raised segment">
+    <h2 class="ui header">Demo form(valid): Jedi</h2>
+    <form [formGroup]="myForm"
+        (ngSubmit)="onSubmit(myForm.value)"
+        class="ui form"
+        [class.error]="!myForm.valid && myForm.touched">
+        <div class="field"
+            [class.error]="!name.valid && name.touched">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" placeholder="Name"
+            [formControl]="myForm.controls['name']" >
+
+            <div *ngIf="!name.valid"
+                class="ui error message">Name is invalid</div>
+            <div *ngIf="myForm.controls['name'].hasError('required')"
+                class="ui error message">Name is required</div>
+            <div *ngIf="myForm.controls['name'].hasError('invalidJedi')"
+                class="ui error message">Jedi is invalid</div>
+        </div>
+        <div *ngIf="!myForm.valid" class="ui error message">Form is invalid</div>
+        <button type="submit" class="ui button">Submit</button>
+    </form>
+</div>

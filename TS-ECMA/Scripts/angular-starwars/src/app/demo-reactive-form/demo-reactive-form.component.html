@@ -1,0 +1,21 @@
+<div class="ui raised segment">
+    <h2 class="ui header">Demo reactive form</h2>
+    <form [formGroup]="myForm"
+        (ngSubmit)="onSubmit(myForm.value)" class="ui form"
+        [class.error]="!myForm.valid && myForm.touched">
+        <div class="field">
+            <label for="nameInput">Name</label>
+            <input type="text" id="name" placeholder="Name"
+            name="name" [formControl]="myForm.controls['name']">
+            <div *ngIf="!name.valid"
+                class="ui error message">Name is invalid</div>
+        </div>
+        <div class="field">
+            <label for="nicknameInput">Nickname</label>
+            <input type="text" id="nicknameInput" placeholder="Nick"
+            name="nickname" [formControl]="myForm.controls['nickname']">
+        </div>
+        <button type="submit" class="ui button">Submit</button>
+    </form>
+</div>
+

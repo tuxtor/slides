@@ -1,0 +1,12 @@
+<div class="ui raised segment">
+    <h2 class="ui header">Demo form: Jedi</h2>
+    <form [formGroup]="myForm"
+        (ngSubmit)="onSubmit(myForm.value)" class="ui form">
+        <div class="field">
+            <label for="nameInput">Name</label>
+            <input type="text" id="nameInput" placeholder="Name"
+            [formControl]="myForm.controls['name']" >
+        </div>
+        <button type="submit" class="ui button">Submit</button>
+    </form>
+</div>

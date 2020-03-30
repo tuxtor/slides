@@ -1,0 +1,22 @@
+<app-demo-form-valid-jedi></app-demo-form-valid-jedi>
+
+<form class="ui large form segment">
+    <h3 class="ui header">Add a starship</h3>
+    <div class="field">
+      <label for="title">Name:</label>
+      <input name="title" id="title" #newname>
+    </div>
+    <div class="field">
+        <label for="model">Model:</label>
+        <input name="model" id="model" #newmodel>
+      </div>
+    
+    <button (click)="addStarship(newname, newmodel)"
+      class="ui positive right floated button" >
+      Add new starship
+    </button>
+</form>
+<div class="ui grid posts">
+    <app-starship *ngFor="let navecita of starships" [starship]="navecita" (selectedStarship)="starshipWasSelected($event)"></app-starship>
+</div>
+
