@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  28 MAR 2020 15:42
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  31 MAR 2020 10:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1919,7 +1919,7 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (22.92676pt too high) detected at line 227
+Overfull \vbox (9.12683pt too high) detected at line 227
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2180,7 +2180,7 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (11.86836pt too high) detected at line 678
+Overfull \vbox (11.97774pt too high) detected at line 678
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2277,7 +2277,7 @@ File: Images/fondo.png Graphic file (type QTm)
 File: Images/gluon.png Graphic file (type QTm)
 
 <use  "Images/gluon.png" >)
-Overfull \vbox (85.93579pt too high) detected at line 825
+Overfull \vbox (86.08551pt too high) detected at line 825
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2299,33 +2299,20 @@ File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [59
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-File: Images/qr.png Graphic file (type QTm)
-
-<use  "Images/qr.png" >
-File: Images/academik.png Graphic file (type QTm)
- <use  "Images/academik.png" >)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [60
-
-]
 File: Images/logos.png Graphic file (type QTm)
  <use  "Images/logos.png" >
 File: Images/cclogo.png Graphic file (type QTm)
 
 <use  "Images/cclogo.png" >
-Overfull \vbox (76.56041pt too high) detected at line 905
+Overfull \vbox (76.56041pt too high) detected at line 886
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [61
+<use  "Images/fondo.png" > [60
 
 ]
 File: Images/final.png Graphic file (type QTm)
- <use  "Images/final.png" > [62
+ <use  "Images/final.png" > [61
 
 ]
 \tf@nav=\write7
@@ -2337,22 +2324,22 @@ File: Images/final.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 913.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 913.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 894.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 894.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 913.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 913.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 894.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 894.
  ) 
 Here is how much of TeX's memory you used:
- 37293 strings out of 493005
- 745892 string characters out of 6134596
+ 37287 strings out of 493005
+ 745836 string characters out of 6134596
  950851 words of memory out of 5000000
- 40469 multiletter control sequences out of 15000+600000
+ 40467 multiletter control sequences out of 15000+600000
  9533 words of font info for 66 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,75p,10372b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (62 pages).
+Output written on main.pdf (61 pages).

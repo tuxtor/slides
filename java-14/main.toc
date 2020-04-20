@@ -1,5 +1,5 @@
 \select@language {spanish}
-\beamer@sectionintoc {1}{¿Java ya no es gratis/libre?}{4}{0}{1}
+\beamer@sectionintoc {1}{¿O Java ainda é software livre?}{4}{0}{1}
 \beamer@sectionintoc {2}{De Java 8 a Java 14}{13}{0}{2}
 \beamer@sectionintoc {3}{Java 9}{16}{0}{3}
 \beamer@sectionintoc {4}{Java 10}{22}{0}{4}

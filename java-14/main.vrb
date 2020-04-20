@@ -1,15 +1,14 @@
-\frametitle{Academik}
-\begin{columns}[T]
-        \begin{column}[T]{2cm} % alternative top-align that's better for graphics
-            \begin{figure}
-                \centering
-                \includegraphics[width=\linewidth]{Images/qr}
-            \end{figure}
-        \end{column}
-        \begin{column}[T]{12cm} % each column can also be its own environment
-        \begin{figure}
-            \centering
-            \includegraphics[width=\linewidth]{Images/academik}
-        \end{figure}
-        \end{column}
-    \end{columns}
+\frametitle{Várias JVMs em produção}
+Linux
+    \begin{itemize}
+        \item Docker
+        \item RHEL
+        \item Debian
+        \item Gentoo
+    \end{itemize}
+    Windows
+    \begin{itemize}
+        \item Docker
+        \item Variáveis de entorno proyecto/runtime
+        \item O importante é estar saudável
+    \end{itemize}
