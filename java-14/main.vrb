@@ -1,4 +1,4 @@
-\frametitle{Várias JVMs em produção}
+\frametitle{Varias JVM en producción}
 Linux
     \begin{itemize}
         \item Docker
@@ -9,6 +9,6 @@ Linux
     Windows
     \begin{itemize}
         \item Docker
-        \item Variáveis de entorno proyecto/runtime
-        \item O importante é estar saudável
+        \item Variables de entorno en proyecto/runtime
+        \item Lo importante es la salud
     \end{itemize}

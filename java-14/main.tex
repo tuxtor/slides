@@ -69,9 +69,9 @@
 }
 
 
-\title{Desde Java 8 ate Java 14}
+\title{Desde Java 8 hasta Java 14}
 \author{Víctor Orozco - @tuxtor}
-\institute{Academik}
+\institute{Nabenik}
 \date{\today}
 
 \begin{document}
@@ -88,29 +88,21 @@
     \tableofcontents
 \end{frame}
 
-\begin{frame}[fragile]
 
-    \begin{figure}
-        \centering
-        \includegraphics[width=\linewidth]{Images/versiones}
-    \end{figure}
-
-\end{frame}
-
-\section{¿O Java ainda é software livre?}
+\section{¿Como se hace Java?}
 
 \begin{frame}[fragile]{¿Java?}
 	\begin{itemize}
-		\item Linguagem
+		\item Lenguaje
 		\item VM
 		\item Bibliotecas/API
 	\end{itemize}
 
-O conjunto é a plataforma Java \pause(TM)
+El conjunto es la plataforma Java (TM)
 	
 \end{frame}
 
-\begin{frame}[fragile]{¿Como Java é atualizado?}
+\begin{frame}[fragile]{¿Como se actualiza Java?}
 	\begin{itemize}
 		\item JCP - Java Community Process
 		\item JSR - Java Specification Request
@@ -120,15 +112,8 @@ O conjunto é a plataforma Java \pause(TM)
 \end{frame}
 
 
-\begin{frame}[fragile]{¿Como Java é atualizado? - Java Specification Request}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.9\linewidth]{Images/jcpjsr}
-	\end{figure}
 
-\end{frame}
-
-\begin{frame}[fragile]{¿Como Java é atualizado? - Java Enhancement Proposal}
+\begin{frame}[fragile]{¿Como se actualiza Java? - Java Enhancement Proposal}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Images/jep}
@@ -136,7 +121,7 @@ O conjunto é a plataforma Java \pause(TM)
 	
 \end{frame}
 
-\begin{frame}[fragile]{¿Como Java é atualizado? - Java Compatibility Kit}
+\begin{frame}[fragile]{¿Como se actualiza Java? - Java Compatibility Kit}
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Images/jck}
@@ -144,18 +129,11 @@ O conjunto é a plataforma Java \pause(TM)
 	
 \end{frame}
 
-\begin{frame}[fragile]{¿Como Java é atualizado? - Java Builds}
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.9\linewidth]{Images/javabuilds}
-	\end{figure}
-	
-\end{frame}
 
-\begin{frame}[fragile]{¿Java livre?}
-Java \textbf{é livre e gratuito}.
+\begin{frame}[fragile]{¿Java libre?}
+Java \textbf{es libre y gratis}.
 
-Algumas empresas oferecem planos de suporte na sua "versão" do Java.
+Algunas empresas ofrecen soporte en su "versión" de Java.
 \end{frame}
 
 {
@@ -163,23 +141,23 @@ Algumas empresas oferecem planos de suporte na sua "versão" do Java.
     \setbeamercolor{normal text}{fg=white}
     \setbeamercolor{frametitle}{fg=red}
     \usebeamercolor[fg]{normal text}
-    \section{De Java 8 a Java 14}
+    \section{De Java 8 hasta Java 14}
 }
 
 
 %TODO Timeline
 
-\begin{frame}[fragile]{¿O que eu recebo com cada versão nova do Java?}
+\begin{frame}[fragile]{¿Que recibo con cada versión nueva de Java?}
 	\begin{itemize}
-		\item Java - \textbf{Linguagem}
+		\item Java - \textbf{Lenguaje}
 		\item Java - Bibliotecas e APIs
-		\item Java - Maquina Virtual do Java
+		\item Java - Maquina Virtual de Java
 	\end{itemize}	
 \end{frame}
 
 
 
-\begin{frame}[fragile]{Java - Algumas das melhorias novas}
+\begin{frame}[fragile]{Java - Las mejoras que resaltan}
 	\begin{columns}[T] % contents are top vertically aligned
 		
 		\begin{column}[T]{5cm} % alternative top-align that's better for graphics
@@ -289,8 +267,8 @@ public interface Vehicle{
 }
 \end{lstlisting}	
 
-Agora
-\begin{lstlisting}[basicstyle=\scriptsize]
+Ahora
+\begin{lstlisting}[basicstyle=\scriptsize\ttfamily]
 public interface Vehicle{
     public default void makeNoise(){
         System.out.println("Making noise!");
@@ -634,28 +612,28 @@ if(o instanceof Person p){
 
 \begin{frame}[fragile]{Mundo real}\scriptsize
     
-Meu "mundo real"
+Mi "mundo real"
     \begin{itemize}
         \item ERP - 10 modulos (1 EAR, 9 EJB, 1 WAR), JBoss/Wildfly
         \item Venta/Geocerca (5 WAR) Payara Application Server
         \item POS - JavaFX y Windows D:
     \end{itemize}
-    O quebra cabeça
+El rompe cabezas
 \begin{itemize}
     \item Módulos
     \item sun.misc.unsafe
-    \item Corba e Java EE
+    \item Corba y Java EE
     \item JavaFX
     \item IDE
-    \item Licenciamento
+    \item Licenciamiento
 \end{itemize}
 \end{frame}
 
 \begin{frame}[fragile]{Mundo real}\scriptsize
 
-    O quebra cabeça
+    El rompe cabezas
     \begin{itemize}
-        \item Modulos
+        \item Módulos
         \item sun.misc.unsafe
         \item Corba y Java EE
         \item JavaFX
@@ -665,30 +643,30 @@ Meu "mundo real"
     
     Estrategia
     \begin{enumerate}
-        \item Testar a compatibilidade do runtime/servidor/framework
-        \item Multiples JVM com opção de mudar facilmente em desenvolvimento
-        \item Atualizar o compilador do Maven
-        \item Atualizar as bibliotecas
-        \item Embutir os módulos do Java EE no War/Ear
-        \item Atualizar o IDE
-        \item Preparar o projeto para módulos no caso do JavaFX
-        \item Definir de forma certa "O Java" que eu preciso
-        \item Rodar varias versões da JVM em produção
+        \item Probar la compatibilidad del runtime/servidor/framework
+        \item Múltiples JVM en desarrollo con cambio fácil
+        \item Actualizar el compilador de Maven
+        \item Actualizar las bibliotecas
+        \item Incluir los módulos EE en los war/jar
+        \item Actualizar el IDE
+        \item Preparar el proyecto para módulos en el caso de JavaFX
+        \item Determinar previamente el Java que necesito
+        \item Ejecutar distintas versiones de Java en producción
     \end{enumerate}
 \end{frame}
 
-\begin{frame}[fragile]{Compatibilidade runtime}
-    Compatibilidade com Java 11
+\begin{frame}[fragile]{Compatibilidad runtime}
+    Compatibilidad con Java 11
     \begin{itemize}
         \item Tomcat
         \item Spring
         \item Micronaut
         \item Vert.x
-        \item JakartaEE (JBoss/Wildfly, OpenLiberty, Payara)
+        \item JakartaEE (JBoss/Wildfly, OpenLiberty, Payara, WebLogic)
     \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{Várias JVMs}
+\begin{frame}[fragile]{Varias JVMs}
 \begin{columns}[T] % contents are top vertically aligned
     
     \begin{column}[T]{5cm} % alternative top-align that's better for graphics
@@ -707,7 +685,7 @@ Meu "mundo real"
 \end{frame}
 
 \begin{frame}[fragile]{Bibliotecas}
-    Geração dinâmica de Bytecode 
+    Generación dinámica de Bytecode
     \begin{itemize}
         \item ByteBuddy
         \item ASM
@@ -800,14 +778,14 @@ Common Annotations (java.xml.ws.annotation)
 
 \begin{frame}[fragile]{IDEs}
     
-    IDEs compatíveis com Java 11
+    IDEs compatibles con Java 11
     \begin{itemize}
         \item Eclipse
         \item NetBeans
         \item IntelliJ IDEA
     \end{itemize}
     
-    Alguns plug~ins que podem ser problema
+    Algunos plug-ins problemáticos
     \begin{enumerate}
         \item Glassfish
         \item WebLogic
@@ -817,31 +795,31 @@ Common Annotations (java.xml.ws.annotation)
 
 \begin{frame}[fragile]{JavaFX}
     
-    JavaFX agora não é mais um módulo embutido no JDK, mas da para usar ele no JPMS, quase todo mundo usa a compilação do Gluon
+    JavaFX es un módulo independiente del JDK a partir de Java 11, compatible con JPMS, casi todos usan la compilación de Gluon
     \begin{figure}
         \centering
         \includegraphics[width=\linewidth]{Images/gluon}
     \end{figure}
 \end{frame}
 
-\begin{frame}[fragile]{¿Qual Java eu preciso?}
-    Obrigatórios por contrato
+\begin{frame}[fragile]{¿Cual Java necesito?}
+    Obligatorios por contrato
     \begin{itemize}
-        \item Software comercial da Oracle (HotSpot)
-        \item Software comercial da SAP (SAP VM)
-        \item Software comercial da Red Hat (OpenJDK + RHEL)
-        \item Software comercial da IBM (J9)
+        \item Software comercial de Oracle (HotSpot)
+        \item Software comercial de SAP (SAP VM)
+        \item Software comercial de Red Hat (OpenJDK + RHEL)
+        \item Software comercial de IBM (J9)
     \end{itemize}
-    Algumas outras
+    Algunos otros "Javas"
 \begin{itemize}
-    \item AdoptOpenJDK (suporte da IBM en J9)
+    \item AdoptOpenJDK (soporte de IBM en J9)
     \item Correto
     \item Azul Zulu
-    \item Java na sua distribuição Linux
+    \item Java en Linux
 \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{Várias JVMs em produção}
+\begin{frame}[fragile]{Varias JVM en producción}
     Linux
     \begin{itemize}
         \item Docker
@@ -852,8 +830,8 @@ Common Annotations (java.xml.ws.annotation)
     Windows
     \begin{itemize}
         \item Docker
-        \item Variáveis de entorno proyecto/runtime
-        \item O importante é estar saudável
+        \item Variables de entorno en proyecto/runtime
+        \item Lo importante es la salud
     \end{itemize}
 \end{frame}
 
@@ -884,12 +862,6 @@ Common Annotations (java.xml.ws.annotation)
 	\end{column}
 \end{columns}
 \end{frame}
-
-{
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/final}}
-\begin{frame}
-\end{frame}
-}
 
 \end{document}
 

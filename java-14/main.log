@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  31 MAR 2020 10:49
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  29 MAY 2020 16:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1806,72 +1806,46 @@ File: Images/fondo.png Graphic file (type QTm)
 [2
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-File: Images/versiones.png Graphic file (type QTm)
- <use  "Images/versiones.png" >)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[3
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 100.
+LaTeX Font Info:    Try loading font information for U+msa on input line 92.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 100.
+LaTeX Font Info:    Try loading font information for U+msb on input line 92.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [4
+<use  "Images/fondo.png" > [3
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [5
+ <use  "Images/fondo.png" > [4
 
 ]
+\openout4 = `main.vrb'.
+
+
 (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [6
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [7
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-File: Images/jcpjsr.jpg Graphic file (type QTm)
- <use  "Images/jcpjsr.jpg" >)
-Overfull \vbox (29.85876pt too high) detected at line 129
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [8
+ <use  "Images/fondo.png" > [5
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb
 File: Images/jep.png Graphic file (type QTm)
- <use  "Images/jep.png" >)
-Overfull \vbox (79.94519pt too high) detected at line 137
+
+<use  "Images/jep.png" >)
+Overfull \vbox (79.94519pt too high) detected at line 122
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [9
+<use  "Images/fondo.png" > [6
 
 ]
 \openout4 = `main.vrb'.
@@ -1881,19 +1855,19 @@ File: Images/jck.png Graphic file (type QTm)
  <use  "Images/jck.png" >)
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [10
+<use  "Images/fondo.png" > [7
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-File: Images/javabuilds.jpeg Graphic file (type QTm)
- <use  "Images/javabuilds.jpeg" >)
-Overfull \vbox (20.75647pt too high) detected at line 153
- []
-
+ (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [11
+ <use  "Images/fondo.png" > [8
+
+]
+File: Images/separador.png Graphic file (type QTm)
+
+<use  "Images/separador.png" > [9
 
 ]
 \openout4 = `main.vrb'.
@@ -1901,33 +1875,21 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[12
-
-]
-File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [13
+[10
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [14
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (9.12683pt too high) detected at line 227
+Overfull \vbox (9.12683pt too high) detected at line 205
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [15
+<use  "Images/fondo.png" > [11
 
 ]
 File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [16
+ <use  "Images/separador.png" > [12
 
 ]
 \openout4 = `main.vrb'.
@@ -1935,60 +1897,60 @@ File: Images/separador.png Graphic file (type QTm)
  (./main.vrb
 File: Images/jshell.png Graphic file (type QTm)
 <use  "Images/jshell.png" >)
-Overfull \vbox (109.19133pt too high) detected at line 245
+Overfull \vbox (109.19133pt too high) detected at line 223
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [13
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[14
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (2.50357pt too high) detected at line 259
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [15
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (12.77594pt too high) detected at line 284
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [16
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (28.58836pt too high) detected at line 305
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [17
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[18
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (2.50357pt too high) detected at line 281
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [19
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (12.77594pt too high) detected at line 306
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [20
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (28.58836pt too high) detected at line 327
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [21
-
-]
 File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [22
+ <use  "Images/separador.png" > [18
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [23
+ <use  "Images/fondo.png" > [19
 
 ]
 \openout4 = `main.vrb'.
@@ -1996,14 +1958,14 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[24
+[20
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [25
+ <use  "Images/fondo.png" > [21
 
 ]
 \openout4 = `main.vrb'.
@@ -2012,11 +1974,11 @@ File: Images/fondo.png Graphic file (type QTm)
 File: Images/nocdsmem.png Graphic file (type QTm)
 
 <use  "Images/nocdsmem.png" >)
-Overfull \vbox (71.90712pt too high) detected at line 376
+Overfull \vbox (71.90712pt too high) detected at line 354
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [26
+<use  "Images/fondo.png" > [22
 
 ]
 \openout4 = `main.vrb'.
@@ -2024,11 +1986,11 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb
 File: Images/cdsmem.png Graphic file (type QTm)
  <use  "Images/cdsmem.png" >)
-Overfull \vbox (75.7374pt too high) detected at line 382
+Overfull \vbox (75.7374pt too high) detected at line 360
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [27
+<use  "Images/fondo.png" > [23
 
 ]
 \openout4 = `main.vrb'.
@@ -2036,11 +1998,11 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb
 File: Images/javacadence.png Graphic file (type QTm)
  <use  "Images/javacadence.png" >)
-Overfull \vbox (20.61642pt too high) detected at line 390
+Overfull \vbox (20.61642pt too high) detected at line 368
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [28
+<use  "Images/fondo.png" > [24
 
 ]
 \openout4 = `main.vrb'.
@@ -2048,7 +2010,38 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb
 File: Images/javarelease.jpg Graphic file (type QTm)
  <use  "Images/javarelease.jpg" >)
-Overfull \vbox (20.74765pt too high) detected at line 397
+Overfull \vbox (20.74765pt too high) detected at line 375
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [25
+
+]
+File: Images/separador.png Graphic file (type QTm)
+ <use  "Images/separador.png" > [26
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [27
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[28
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+File: Images/jep222singlefile.png Graphic file (type QTm)
+ <use  "Images/jep222singlefile.png" >)
+Overfull \vbox (96.9055pt too high) detected at line 441
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2069,21 +2062,19 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
+Overfull \vbox (13.27338pt too high) detected at line 482
+ []
+
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[32
+<use  "Images/fondo.png" > [32
 
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb
-File: Images/jep222singlefile.png Graphic file (type QTm)
- <use  "Images/jep222singlefile.png" >)
-Overfull \vbox (96.9055pt too high) detected at line 463
- []
-
+ (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [33
+ <use  "Images/fondo.png" >
+[33
 
 ]
 File: Images/separador.png Graphic file (type QTm)
@@ -2094,17 +2085,29 @@ File: Images/separador.png Graphic file (type QTm)
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [35
+
+<use  "Images/fondo.png" > [35
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (13.27338pt too high) detected at line 504
+Overfull \vbox (28.58836pt too high) detected at line 535
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [36
+
+]
+File: Images/separador.png Graphic file (type QTm)
+ <use  "Images/separador.png" > [37
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [38
 
 ]
 \openout4 = `main.vrb'.
@@ -2112,25 +2115,13 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[37
-
-]
-File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [38
+[39
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [39
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (28.58836pt too high) detected at line 557
+Overfull \vbox (14.78844pt too high) detected at line 603
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2151,40 +2142,11 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[43
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (14.78844pt too high) detected at line 625
+Overfull \vbox (11.9504pt too high) detected at line 656
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [44
-
-]
-File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [45
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [46
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (11.97774pt too high) detected at line 678
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [47
+<use  "Images/fondo.png" > [43
 
 ]
 \openout4 = `main.vrb'.
@@ -2192,7 +2154,7 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[48
+[44
 
 ]
 \openout4 = `main.vrb'.
@@ -2204,7 +2166,7 @@ File: Images/sdkman.jpg Graphic file (type QTm)
  <use  "Images/sdkman.jpg" >)
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [49
+<use  "Images/fondo.png" > [45
 
 ]
 \openout4 = `main.vrb'.
@@ -2212,14 +2174,14 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[50
+[46
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [51
+ <use  "Images/fondo.png" > [47
 
 ]
 \openout4 = `main.vrb'.
@@ -2233,13 +2195,51 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ))
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [52
+<use  "Images/fondo.png" > [48
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (13.27338pt too high) detected at line 767
+Overfull \vbox (13.27338pt too high) detected at line 745
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [49
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (13.27338pt too high) detected at line 765
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [50
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[51
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [52
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+File: Images/gluon.png Graphic file (type QTm)
+
+<use  "Images/gluon.png" >)
+Overfull \vbox (85.93579pt too high) detected at line 803
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2249,54 +2249,16 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (13.27338pt too high) detected at line 787
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [54
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[55
+[54
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [56
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-File: Images/gluon.png Graphic file (type QTm)
-
-<use  "Images/gluon.png" >)
-Overfull \vbox (86.08551pt too high) detected at line 825
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [57
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[58
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [59
+ <use  "Images/fondo.png" > [55
 
 ]
 File: Images/logos.png Graphic file (type QTm)
@@ -2304,15 +2266,11 @@ File: Images/logos.png Graphic file (type QTm)
 File: Images/cclogo.png Graphic file (type QTm)
 
 <use  "Images/cclogo.png" >
-Overfull \vbox (76.56041pt too high) detected at line 886
+Overfull \vbox (76.56041pt too high) detected at line 864
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [60
-
-]
-File: Images/final.png Graphic file (type QTm)
- <use  "Images/final.png" > [61
+<use  "Images/fondo.png" > [56
 
 ]
 \tf@nav=\write7
@@ -2324,22 +2282,22 @@ File: Images/final.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 894.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 894.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 866.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 866.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 894.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 894.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 866.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 866.
  ) 
 Here is how much of TeX's memory you used:
- 37287 strings out of 493005
- 745836 string characters out of 6134596
+ 37261 strings out of 493005
+ 745607 string characters out of 6134596
  950851 words of memory out of 5000000
- 40467 multiletter control sequences out of 15000+600000
- 9533 words of font info for 66 fonts, out of 8000000 for 9000
+ 40454 multiletter control sequences out of 15000+600000
+ 9541 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,75p,10372b,1147s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (61 pages).
+Output written on main.pdf (56 pages).
