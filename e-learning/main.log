@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  1 APR 2020 20:07
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  1 MAY 2020 10:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1831,24 +1831,21 @@ File: Images/fondo.png Graphic file (type QTm)
 ]
 \openout4 = `main.vrb'.
 
- (./main.vrb)
+ (./main.vrb
+File: Images/divertido.jpg Graphic file (type QTm)
+ <use  "Images/divertido.jpg" >)
+Overfull \vbox (7.61623pt too high) detected at line 100
+ []
+
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [3
+<use  "Images/fondo.png" > [3
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [4
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [5
+ <use  "Images/fondo.png" > [4
 
 ]
 \openout4 = `main.vrb'.
@@ -1856,39 +1853,43 @@ File: Images/fondo.png Graphic file (type QTm)
 
 (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [6
+ <use  "Images/fondo.png" > [5
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+
+<use  "Images/fondo.png" > [6
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb
-LaTeX Font Info:    Try loading font information for U+msa on input line 4.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 4.
-
-(/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-))
+File: Images/graduacion.jpg Graphic file (type QTm)
+ <use  "Images/graduacion.jpg" >)
 File: Images/fondo.png Graphic file (type QTm)
 
 <use  "Images/fondo.png" > [7
 
 ]
-Overfull \hbox (7.08376pt too wide) in paragraph at lines 170--170
- [][][][]\TU/Roboto(0)/m/n/10 Comunicación 
- []
+\openout4 = `main.vrb'.
 
+ (./main.vrb
+File: Images/sistemas.jpg Graphic file (type QTm)
+ <use  "Images/sistemas.jpg" >)
 File: Images/fondo.png Graphic file (type QTm)
+
 <use  "Images/fondo.png" > [8
 
 ]
-File: Images/modelogalileo.png Graphic file (type QTm)
- <use  "Images/modelogalileo.png" >
-Overfull \hbox (165.26193pt too wide) in paragraph at lines 185--185
-\TU/Roboto(0)/m/n/10.95 http://www.galileo.edu/ivn/noticias/caracteristicas- 
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+File: Images/onda.jpg Graphic file (type QTm)
+ <use  "Images/onda.jpg" >)
+Overfull \vbox (16.75735pt too high) detected at line 144
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -1918,20 +1919,99 @@ File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [12
 
 ]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[13
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [14
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+
+<use  "Images/fondo.png" > [15
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[16
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+ (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+File: Images/fondo.png Graphic file (type QTm)
+
+<use  "Images/fondo.png" > [17
+
+]
+Overfull \hbox (7.08376pt too wide) in paragraph at lines 230--230
+ [][][][]\TU/Roboto(0)/m/n/10 Comunicación 
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [18
+
+]
+File: Images/modelogalileo.png Graphic file (type QTm)
+ <use  "Images/modelogalileo.png" >
+Overfull \vbox (1.01746pt too high) detected at line 240
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [19
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[20
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [21
+
+]
 File: Images/logos.png Graphic file (type QTm)
  <use  "Images/logos.png" >
 File: Images/cclogo.png Graphic file (type QTm)
 
 <use  "Images/cclogo.png" >
-Overfull \vbox (76.56041pt too high) detected at line 252
+Overfull \vbox (76.56041pt too high) detected at line 295
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [13
+<use  "Images/fondo.png" > [22
 
 ]
 File: Images/final.png Graphic file (type QTm)
- <use  "Images/final.png" > [14
+ <use  "Images/final.png" > [23
 
 ]
 \tf@nav=\write7
@@ -1943,22 +2023,22 @@ File: Images/final.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 260.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 260.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 303.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 303.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 260.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 260.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 303.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 303.
  ) 
 Here is how much of TeX's memory you used:
- 37440 strings out of 493005
- 759557 string characters out of 6134596
+ 37493 strings out of 493005
+ 760148 string characters out of 6134596
  894624 words of memory out of 5000000
- 40718 multiletter control sequences out of 15000+600000
- 8848 words of font info for 58 fonts, out of 8000000 for 9000
+ 40746 multiletter control sequences out of 15000+600000
+ 8856 words of font info for 59 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,79p,10372b,1099s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (14 pages).
+Output written on main.pdf (23 pages).

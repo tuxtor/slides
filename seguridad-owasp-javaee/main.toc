@@ -1,10 +1,4 @@
 \select@language {spanish}
-\beamer@sectionintoc {1}{{{\FA \char "F0C9\relax }}Definiciones básicas}{4}{0}{1}
-\beamer@sectionintoc {2}{{{\FA \char "F023\relax }}Seguridad en Java}{10}{0}{2}
-\beamer@subsectionintoc {2}{1}{Modelos}{11}{0}{2}
-\beamer@subsectionintoc {2}{2}{JVM}{13}{0}{2}
-\beamer@subsectionintoc {2}{3}{Lenguaje}{14}{0}{2}
-\beamer@subsectionintoc {2}{4}{Bibliotecas}{15}{0}{2}
-\beamer@sectionintoc {3}{EE vs OWASP Top 10}{25}{0}{3}
-\beamer@subsectionintoc {3}{1}{Apache Shiro}{37}{0}{3}
-\beamer@sectionintoc {4}{Fin}{40}{0}{4}
+\beamer@sectionintoc {1}{Seguridad en Java}{5}{0}{1}
+\beamer@sectionintoc {2}{EE vs OWASP Top 10}{18}{0}{2}
+\beamer@sectionintoc {3}{Demo}{34}{0}{3}

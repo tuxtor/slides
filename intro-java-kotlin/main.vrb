@@ -1,0 +1,13 @@
+\frametitle{Oracle Cloud}
+\begin{lstlisting}[language=XML, basicstyle=\scriptsize\ttfamily]
+<groupId>io.fabric8</groupId>
+<artifactId>docker-maven-plugin</artifactId>
+<version>0.30.0</version>
+...
+<image>
+    <name>iad.ocir.io/tuxtor/microprofile/integrum-ee</name>
+    <build>
+        <dockerFile>${project.basedir}/Dockerfile</dockerFile >
+    </build>
+</image>
+\end{lstlisting}

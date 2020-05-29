@@ -1,10 +1,20 @@
-\frametitle{Streams API - Map-reduce}
+\frametitle{JavaEE - A5-Broken Access Control}
+Endpoint normal
 \begin{lstlisting}
-winners
-	.stream() //Steam
-	.filter( //Intermedio +- MAP
-		p -> p.getOrderId()
-			.equals(winner.getOrderId())
-		)
-	.collect(Collectors.toList()); //Reduce - collector
+@GET
+@Path("/{id:[0-9][0-9]*}")
+public AdmPhrase findById(@PathParam("id") Long id) {
+    return admPhraseRepository.findById(id);
+}
 \end{lstlisting}
+
+Endpoint con RBAC
+\begin{lstlisting}
+@GET
+@Path("/{id:[0-9][0-9]*}")
+@RolesAllowed({RolesEnum.Constants.MOBILE_VALUE, RolesEnum.Constants.WEB_VALUE})
+public AdmPhrase findById(@PathParam("id") Long id) {
+    return admPhraseRepository.findById(id);
+}
+\end{lstlisting}
+
