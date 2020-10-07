@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  29 MAY 2020 17:09
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  10 SEP 2020 18:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1167,6 +1167,18 @@ LaTeX Info: Redefining \- on input line 3807.
 . Defining command \liningnums with sig. 'm' on line 3906.
 .................................................
 ))
+(/usr/local/texlive/2017/texmf-dist/tex/latex/soul/soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks50
+\SOUL@lasttoken=\toks51
+\SOUL@cmds=\toks52
+\SOUL@buffer=\toks53
+\SOUL@token=\toks54
+\SOUL@spaceskip=\skip75
+\SOUL@ttwidth=\dimen299
+\SOUL@uldp=\dimen300
+\SOUL@ulht=\dimen301
+)
 \g__fontspec_family_JetBrainsMono_int=\count282
 .................................................
 . fontspec info: "defining-font"
@@ -1205,7 +1217,7 @@ LaTeX Info: Redefining \- on input line 3807.
 . \fontdimen 4\font =0\fontdimen 4\font \fontdimen 7\font =0\fontdimen 2\font
 . \hyphenchar \font =\c_minus_one 
 .................................................
-LaTeX Info: Redefining \ttfamily on input line 12.
+LaTeX Info: Redefining \ttfamily on input line 13.
 \g__fontspec_family_Roboto_int=\count283
 .................................................
 . fontspec info: "defining-font"
@@ -1232,8 +1244,8 @@ LaTeX Info: Redefining \ttfamily on input line 12.
 . - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
 . <->"Roboto/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 .................................................
-LaTeX Info: Redefining \rmfamily on input line 13.
-LaTeX Info: Redefining \sffamily on input line 14.
+LaTeX Info: Redefining \rmfamily on input line 14.
+LaTeX Info: Redefining \sffamily on input line 15.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
 Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
@@ -1320,10 +1332,10 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/pict2e/p2e-xetex.def
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
-\pIIe@GRAPH=\toks50
-\@arclen=\dimen299
-\@arcrad=\dimen300
-\@tempdimd=\dimen301
+\pIIe@GRAPH=\toks55
+\@arclen=\dimen302
+\@arcrad=\dimen303
+\@tempdimd=\dimen304
 )
 \c@treecount=\count286
 \c@branchcount=\count287
@@ -1349,82 +1361,82 @@ File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 \treeboxeighteen=\box99
 \treeboxnineteen=\box100
 \treeboxtwenty=\box101
-\treeoffsetone=\skip75
-\treeoffsettwo=\skip76
-\treeoffsetthree=\skip77
-\treeoffsetfour=\skip78
-\treeoffsetfive=\skip79
-\treeoffsetsix=\skip80
-\treeoffsetseven=\skip81
-\treeoffseteight=\skip82
-\treeoffsetnine=\skip83
-\treeoffsetten=\skip84
-\treeoffseteleven=\skip85
-\treeoffsettwelve=\skip86
-\treeoffsetthirteen=\skip87
-\treeoffsetfourteen=\skip88
-\treeoffsetfifteen=\skip89
-\treeoffsetsixteen=\skip90
-\treeoffsetseventeen=\skip91
-\treeoffseteighteen=\skip92
-\treeoffsetnineteen=\skip93
-\treeoffsettwenty=\skip94
-\treeshiftone=\skip95
-\treeshifttwo=\skip96
-\treeshiftthree=\skip97
-\treeshiftfour=\skip98
-\treeshiftfive=\skip99
-\treeshiftsix=\skip100
-\treeshiftseven=\skip101
-\treeshifteight=\skip102
-\treeshiftnine=\skip103
-\treeshiftten=\skip104
-\treeshifteleven=\skip105
-\treeshifttwelve=\skip106
-\treeshiftthirteen=\skip107
-\treeshiftfourteen=\skip108
-\treeshiftfifteen=\skip109
-\treeshiftsixteen=\skip110
-\treeshiftseventeen=\skip111
-\treeshifteighteen=\skip112
-\treeshiftnineteen=\skip113
-\treeshifttwenty=\skip114
-\treewidthone=\skip115
-\treewidthtwo=\skip116
-\treewidththree=\skip117
-\treewidthfour=\skip118
-\treewidthfive=\skip119
-\treewidthsix=\skip120
-\treewidthseven=\skip121
-\treewidtheight=\skip122
-\treewidthnine=\skip123
-\treewidthten=\skip124
-\treewidtheleven=\skip125
-\treewidthtwelve=\skip126
-\treewidththirteen=\skip127
-\treewidthfourteen=\skip128
-\treewidthfifteen=\skip129
-\treewidthsixteen=\skip130
-\treewidthseventeen=\skip131
-\treewidtheighteen=\skip132
-\treewidthnineteen=\skip133
-\treewidthtwenty=\skip134
-\daughteroffsetone=\skip135
-\daughteroffsettwo=\skip136
-\daughteroffsetthree=\skip137
-\daughteroffsetfour=\skip138
-\branchwidthone=\skip139
-\branchwidthtwo=\skip140
-\branchwidththree=\skip141
-\branchwidthfour=\skip142
-\parentoffset=\skip143
-\treeoffset=\skip144
-\daughteroffset=\skip145
-\branchwidth=\skip146
-\parentwidth=\skip147
-\treewidth=\skip148
-\qta=\toks51
-\qtb=\toks52
+\treeoffsetone=\skip76
+\treeoffsettwo=\skip77
+\treeoffsetthree=\skip78
+\treeoffsetfour=\skip79
+\treeoffsetfive=\skip80
+\treeoffsetsix=\skip81
+\treeoffsetseven=\skip82
+\treeoffseteight=\skip83
+\treeoffsetnine=\skip84
+\treeoffsetten=\skip85
+\treeoffseteleven=\skip86
+\treeoffsettwelve=\skip87
+\treeoffsetthirteen=\skip88
+\treeoffsetfourteen=\skip89
+\treeoffsetfifteen=\skip90
+\treeoffsetsixteen=\skip91
+\treeoffsetseventeen=\skip92
+\treeoffseteighteen=\skip93
+\treeoffsetnineteen=\skip94
+\treeoffsettwenty=\skip95
+\treeshiftone=\skip96
+\treeshifttwo=\skip97
+\treeshiftthree=\skip98
+\treeshiftfour=\skip99
+\treeshiftfive=\skip100
+\treeshiftsix=\skip101
+\treeshiftseven=\skip102
+\treeshifteight=\skip103
+\treeshiftnine=\skip104
+\treeshiftten=\skip105
+\treeshifteleven=\skip106
+\treeshifttwelve=\skip107
+\treeshiftthirteen=\skip108
+\treeshiftfourteen=\skip109
+\treeshiftfifteen=\skip110
+\treeshiftsixteen=\skip111
+\treeshiftseventeen=\skip112
+\treeshifteighteen=\skip113
+\treeshiftnineteen=\skip114
+\treeshifttwenty=\skip115
+\treewidthone=\skip116
+\treewidthtwo=\skip117
+\treewidththree=\skip118
+\treewidthfour=\skip119
+\treewidthfive=\skip120
+\treewidthsix=\skip121
+\treewidthseven=\skip122
+\treewidtheight=\skip123
+\treewidthnine=\skip124
+\treewidthten=\skip125
+\treewidtheleven=\skip126
+\treewidthtwelve=\skip127
+\treewidththirteen=\skip128
+\treewidthfourteen=\skip129
+\treewidthfifteen=\skip130
+\treewidthsixteen=\skip131
+\treewidthseventeen=\skip132
+\treewidtheighteen=\skip133
+\treewidthnineteen=\skip134
+\treewidthtwenty=\skip135
+\daughteroffsetone=\skip136
+\daughteroffsettwo=\skip137
+\daughteroffsetthree=\skip138
+\daughteroffsetfour=\skip139
+\branchwidthone=\skip140
+\branchwidthtwo=\skip141
+\branchwidththree=\skip142
+\branchwidthfour=\skip143
+\parentoffset=\skip144
+\treeoffset=\skip145
+\daughteroffset=\skip146
+\branchwidth=\skip147
+\parentwidth=\skip148
+\treewidth=\skip149
+\qta=\toks56
+\qtb=\toks57
 \nbranches=\count288
 \qroofx=\count289
 \qroofy=\count290
@@ -1432,8 +1444,8 @@ File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
-\every@verbatim=\toks53
-\verbatim@line=\toks54
+\every@verbatim=\toks58
+\verbatim@line=\toks59
 \verbatim@in@stream=\read3
 )
 (/usr/local/texlive/2017/texmf-dist/tex/latex/svg/svg.sty
@@ -1557,16 +1569,16 @@ Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count293
 \lst@gtempboxa=\box103
-\lst@token=\toks55
+\lst@token=\toks60
 \lst@length=\count294
-\lst@currlwidth=\dimen302
+\lst@currlwidth=\dimen305
 \lst@column=\count295
 \lst@pos=\count296
-\lst@lostspace=\dimen303
-\lst@width=\dimen304
+\lst@lostspace=\dimen306
+\lst@width=\dimen307
 \lst@newlines=\count297
 \lst@lineno=\count298
-\lst@maxwidth=\dimen305
+\lst@maxwidth=\dimen308
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
@@ -1588,30 +1600,31 @@ LaTeX Info: Redefining \% on input line 23.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 99.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 100.
+LaTeX Font Info:    ... okay on input line 100.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 100.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 100.
+
  (/usr/local/texlive/2017/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 99.
+LaTeX Font Info:    ... okay on input line 100.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1649,7 +1662,7 @@ LaTeX Font Info:    ... okay on input line 99.
 
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box105
-Package hyperref Info: Link coloring OFF on input line 99.
+Package hyperref Info: Link coloring OFF on input line 100.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1659,64 +1672,64 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count301
 )
-LaTeX Info: Redefining \ref on input line 99.
-LaTeX Info: Redefining \pageref on input line 99.
-LaTeX Info: Redefining \nameref on input line 99.
+LaTeX Info: Redefining \ref on input line 100.
+LaTeX Info: Redefining \pageref on input line 100.
+LaTeX Info: Redefining \nameref on input line 100.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
 \openout6 = `main.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 99.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 99.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 100.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 99.
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 99.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 99.
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 99.
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 99.
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 99.
+(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/m/it on input line 99.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 99.
+(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/m/it on input line 100.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 
-99.
+100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 
-99.
+100.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 99
-.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 10
+0.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
 (Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/bx/it on input line 
-99.
+100.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/bx/n on input line 99.
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/bx/n on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 9
-9.
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+00.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 99
-.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 10
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/bx/it on input line 
-99.
+100.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/JetBrainsMono(0)/m/n --> TU/JetBrainsMono(0)/bx/n on
- input line 99.
+ input line 100.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/beamer/translator/dicts/translato
 r-basic-dictionary/translator-basic-dictionary-English.dict
@@ -1742,9 +1755,9 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 99.
-LaTeX Info: Redefining \. on input line 99.
-LaTeX Info: Redefining \% on input line 99.
+LaTeX Info: Redefining \includegraphics on input line 100.
+LaTeX Info: Redefining \. on input line 100.
+LaTeX Info: Redefining \% on input line 100.
 .................................................
 . fontspec info: "setup-math"
 . 
@@ -1752,69 +1765,70 @@ LaTeX Info: Redefining \% on input line 99.
 .................................................
 \symlegacymaths=\mathgroup8
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 99.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 99.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 99.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 99.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 99.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 99.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 99.
-LaTeX Font Info:    Redeclaring math accent \check on input line 99.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 99.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 99.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 99.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 99.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 99.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 100.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 100.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 100.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 100.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 100.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 100.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 100.
+LaTeX Font Info:    Redeclaring math accent \check on input line 100.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 100.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 100.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 100.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 100.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 100.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 99.
+(Font)              `operators' in the math version `normal' on input line 100.
+
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 99.
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 100.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 99.
+(Font)              `operators' in the math version `bold' on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 99.
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 99.
-
-LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 99.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 100
+.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/m/it on input line 9
-9.
+(Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/m/it on input line 1
+00.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 9
-9.
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+00.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 99.
-
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 100
+.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
 (Font)                  TU/JetBrainsMono(0)/m/n --> TU/JetBrainsMono(0)/m/n on 
-input line 99.
+input line 100.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 99
-.
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 10
+0.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  TU/Roboto(0)/bx/it --> TU/Roboto(0)/bx/it on input line
- 99.
+ 100.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 9
-9.
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+00.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  TU/JetBrainsMono(0)/bx/n --> TU/JetBrainsMono(0)/bx/n o
-n input line 99.
+n input line 100.
 \c@lstlisting=\count302
  (./main.nav)
-Overfull \vbox (44.04225pt too high) detected at line 104
+Overfull \vbox (44.04225pt too high) detected at line 105
  []
 
 File: Images/portada.png Graphic file (type QTm)
@@ -1829,11 +1843,11 @@ File: Images/fondo.png Graphic file (type QTm)
 [2
 
 ]
-LaTeX Font Info:    Try loading font information for U+msa on input line 116.
+LaTeX Font Info:    Try loading font information for U+msa on input line 117.
  (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 116.
+LaTeX Font Info:    Try loading font information for U+msb on input line 117.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
@@ -1865,7 +1879,7 @@ File: Images/fondo.png Graphic file (type QTm)
 ]
 File: Images/gossling.png Graphic file (type QTm)
  <use  "Images/gossling.png" >
-Overfull \vbox (89.7634pt too high) detected at line 170
+Overfull \vbox (89.7634pt too high) detected at line 171
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -1874,7 +1888,7 @@ File: Images/fondo.png Graphic file (type QTm)
 ]
 File: Images/jvm-languages.png Graphic file (type QTm)
  <use  "Images/jvm-languages.png" >
-Overfull \vbox (8.5635pt too high) detected at line 179
+Overfull \vbox (8.5635pt too high) detected at line 180
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -1955,7 +1969,7 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (13.27338pt too high) detected at line 347
+Overfull \vbox (13.27338pt too high) detected at line 348
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -2033,30 +2047,20 @@ File: Images/fondo.png Graphic file (type QTm)
 ]
 File: Images/semicolon.jpg Graphic file (type QTm)
  <use  "Images/semicolon.jpg" >
-Overfull \vbox (19.6095pt too high) detected at line 517
+Overfull \vbox (19.6095pt too high) detected at line 518
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [26
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb
-File: Images/kotlin.png Graphic file (type QTm)
- <use  "Images/kotlin.png" >)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [27
-
-]
 File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [28
+ <use  "Images/separador.png" > [27
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [29
+<use  "Images/fondo.png" > [28
 
 ]
 \openout4 = `main.vrb'.
@@ -2064,7 +2068,7 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[30
+[29
 
 ]
 \openout4 = `main.vrb'.
@@ -2078,7 +2082,7 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 ))
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [31
+<use  "Images/fondo.png" > [30
 
 ]
 \openout4 = `main.vrb'.
@@ -2086,35 +2090,35 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[32
+[31
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [33
+ <use  "Images/fondo.png" > [32
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[34
+[33
 
 ]
 File: Images/integrum-ee.png Graphic file (type QTm)
  <use  "Images/integrum-ee.png" >
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [35
+ <use  "Images/fondo.png" > [34
 
 ]
 File: Images/integrum-deployment.png Graphic file (type QTm)
 
 <use  "Images/integrum-deployment.png" >
-Overfull \vbox (29.34814pt too high) detected at line 655
+Overfull \vbox (29.34814pt too high) detected at line 635
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [36
+<use  "Images/fondo.png" > [35
 
 ]
 \openout4 = `main.vrb'.
@@ -2122,14 +2126,14 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[37
+[36
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [38
+ <use  "Images/fondo.png" > [37
 
 ]
 \openout4 = `main.vrb'.
@@ -2137,17 +2141,42 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
 
+<use  "Images/fondo.png" > [38
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (11.41103pt too high) detected at line 703
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [39
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-Overfull \vbox (11.41103pt too high) detected at line 723
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[40
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [41
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+Overfull \vbox (40.58572pt too high) detected at line 770
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [40
+<use  "Images/fondo.png" > [42
 
 ]
 \openout4 = `main.vrb'.
@@ -2155,72 +2184,54 @@ File: Images/fondo.png Graphic file (type QTm)
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" >
-[41
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [42
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-Overfull \vbox (40.58572pt too high) detected at line 790
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [43
-
-]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" >
-[44
+[43
 
 ]
 File: Images/oc1.png Graphic file (type QTm)
  <use  "Images/oc1.png" >
-Overfull \vbox (23.47142pt too high) detected at line 812
+Overfull \vbox (23.47142pt too high) detected at line 792
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [44
+
+]
+File: Images/oc2.png Graphic file (type QTm)
+ <use  "Images/oc2.png" >
+Overfull \vbox (76.89215pt too high) detected at line 799
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [45
 
 ]
-File: Images/oc2.png Graphic file (type QTm)
- <use  "Images/oc2.png" >
-Overfull \vbox (76.89215pt too high) detected at line 819
+File: Images/oc3.png Graphic file (type QTm)
+ <use  "Images/oc3.png" >
+Overfull \vbox (213.50768pt too high) detected at line 806
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [46
 
 ]
-File: Images/oc3.png Graphic file (type QTm)
- <use  "Images/oc3.png" >
-Overfull \vbox (213.50768pt too high) detected at line 826
+File: Images/oc4.png Graphic file (type QTm)
+ <use  "Images/oc4.png" >
+Overfull \vbox (97.65845pt too high) detected at line 814
  []
 
 File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [47
 
 ]
-File: Images/oc4.png Graphic file (type QTm)
- <use  "Images/oc4.png" >
-Overfull \vbox (97.65845pt too high) detected at line 834
- []
-
-File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [48
+File: Images/separador.png Graphic file (type QTm)
+ <use  "Images/separador.png" > [48
 
 ]
-File: Images/separador.png Graphic file (type QTm)
- <use  "Images/separador.png" > [49
+File: Images/kotlin.png Graphic file (type QTm)
+
+<use  "Images/kotlin.png" >
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [49
 
 ]
 File: Images/kotlin.png Graphic file (type QTm)
@@ -2230,23 +2241,16 @@ File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [50
 
 ]
-File: Images/kotlin.png Graphic file (type QTm)
-
-<use  "Images/kotlin.png" >
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [51
-
-]
 File: Images/java.png Graphic file (type QTm)
 
 <use  "Images/java.png" >
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [52
+ <use  "Images/fondo.png" > [51
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [53
+<use  "Images/fondo.png" > [52
 
 ]
 File: Images/academik.png Graphic file (type QTm)
@@ -2255,7 +2259,7 @@ File: Images/qr.png Graphic file (type QTm)
 
 <use  "Images/qr.png" >
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [54
+ <use  "Images/fondo.png" > [53
 
 ]
 File: Images/logos.png Graphic file (type QTm)
@@ -2263,11 +2267,11 @@ File: Images/logos.png Graphic file (type QTm)
 <use  "Images/logos.png" >
 File: Images/cclogo.png Graphic file (type QTm)
  <use  "Images/cclogo.png" >
-Overfull \vbox (76.56041pt too high) detected at line 976
+Overfull \vbox (76.56041pt too high) detected at line 956
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [55
+<use  "Images/fondo.png" > [54
 
 ]
 \tf@nav=\write7
@@ -2279,22 +2283,22 @@ File: Images/fondo.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 979.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 979.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 959.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 959.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 979.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 979.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 959.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 959.
  ) 
 Here is how much of TeX's memory you used:
- 38005 strings out of 493005
- 764985 string characters out of 6134596
- 1015624 words of memory out of 5000000
- 41204 multiletter control sequences out of 15000+600000
- 10619 words of font info for 75 fonts, out of 8000000 for 9000
+ 38170 strings out of 493005
+ 767055 string characters out of 6134596
+ 1020098 words of memory out of 5000000
+ 41366 multiletter control sequences out of 15000+600000
+ 10932 words of font info for 76 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 60i,12n,75p,10372b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,12n,75p,10361b,1228s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (55 pages).
+Output written on main.pdf (54 pages).

@@ -1,4 +1,4 @@
-\frametitle{JavaEE - A5-Broken Access Control}
+\frametitle{Jakarta EE - A5-Broken Access Control}
 Endpoint normal
 \begin{lstlisting}
 @GET

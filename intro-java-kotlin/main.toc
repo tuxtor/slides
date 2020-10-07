@@ -1,5 +1,5 @@
 \select@language {spanish}
 \beamer@sectionintoc {1}{Contexto}{3}{0}{1}
 \beamer@sectionintoc {2}{Caracteristicas interesantes}{14}{0}{2}
-\beamer@sectionintoc {3}{Demo productiva}{28}{0}{3}
-\beamer@sectionintoc {4}{Kotlin vs. Java}{49}{0}{4}
+\beamer@sectionintoc {3}{Demo productiva}{27}{0}{3}
+\beamer@sectionintoc {4}{Kotlin vs. Java}{48}{0}{4}

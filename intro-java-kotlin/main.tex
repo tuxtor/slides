@@ -9,6 +9,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[spanish]{babel}
 \usepackage{fontspec}
+\usepackage{soul}
 \setmonofont{JetBrains Mono}
 \setmainfont{Roboto}
 \setsansfont{Roboto}
@@ -23,7 +24,7 @@
 \definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
 \definecolor{ocherCode}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
 \definecolor{blueCode}{rgb}{0, 0, 0.93} % #0000EE -> rgb(0, 0, 238)
-\definecolor{greenCode}{rgb}{0, 0.6, 0} % #009900 -> rgb(0, 153, 0) 
+\definecolor{greenCode}{rgb}{0, 0.6, 0} % #009900 -> rgb(0, 153, 0)
 
 \usepackage{upquote}
 \usepackage{listings}
@@ -33,7 +34,7 @@
     otherkeywords={var,record},
     % Basic design
     backgroundcolor=\color{lightgray},
-    basicstyle={\small\ttfamily},   
+    basicstyle={\small\ttfamily},
     frame=l,
     keywordstyle=\footnotesize\color{blue},
     escapeinside={<@}{@>},
@@ -133,14 +134,14 @@
         \end{figure}
     \end{column}
 \end{columns}
-    
-    
-    
+
+
+
 El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma independiente
 \end{frame}
 
 \begin{frame}[fragile]{Java en Android}
-    
+
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{itemize}
@@ -156,8 +157,8 @@ El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma indep
             \end{figure}
         \end{column}
     \end{columns}
-    
-    
+
+
 \end{frame}
 
 
@@ -171,7 +172,7 @@ El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma indep
 
 
 \begin{frame}{JVM}
-    
+
     \begin{figure}
         \centering
         \includegraphics[width=\linewidth]{Images/jvm-languages}
@@ -217,7 +218,7 @@ El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma indep
 \end{frame}
 
 \begin{frame}[fragile]{Kotlin en JS}
-    
+
     \begin{columns}
         \begin{column}{0.5\textwidth}
             \begin{itemize}
@@ -253,7 +254,7 @@ El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma indep
             \end{figure}
         \end{column}
     \end{columns}
-    
+
 \end{frame}
 
 \begin{frame}[fragile]{Kotlin Nativo/GraalVM}
@@ -295,7 +296,7 @@ El conjunto de los 3 es la plataforma Java(TM) pero pueden usarse de forma indep
             \end{figure}
         \end{column}
     \end{columns}
-    
+
 \end{frame}
 
 {
@@ -366,7 +367,7 @@ class Automovil(conductor:Persona): Vehiculo(conductor){
 \end{frame}
 
 \begin{frame}[fragile]{Kotlin - Propiedades y clases}
-Combinación del campo y métodos de acceso    
+Combinación del campo y métodos de acceso
 \begin{lstlisting}[language=Kotlin]
 //Clase
 class Automovil: Vehiculo{
@@ -384,7 +385,7 @@ class Automovil: Vehiculo{
 
 \begin{frame}[fragile]{Kotlin - Clases}
 Kotlin permite escribir clases y data carriers de forma concisa
-\begin{lstlisting}[language=Kotlin]    
+\begin{lstlisting}[language=Kotlin]
 //Forma corta
 class Automovil(val marca: String, val color: String="Rojo")
 ...
@@ -398,7 +399,7 @@ data class Automovil(val marca: String,
 
 \begin{frame}[fragile]{Kotlin - Object AKA Singleton}
 Creación de instancias únicas
-\begin{lstlisting}[language=Kotlin]    
+\begin{lstlisting}[language=Kotlin]
 object Automovil: Vehiculo {
     override fun correr(){
         ...
@@ -412,11 +413,11 @@ Automovil.correr()
 //Y lo usamos como objeto
 fun iniciarVehiculo(Automovil)
 \end{lstlisting}
-    
+
 \end{frame}
 
 \begin{frame}[fragile]{Kotlin - No static keyword}
-    
+
 \begin{lstlisting}[language=Kotlin]
 class Automovil {
     companion object {
@@ -432,7 +433,7 @@ object Automovil {
     }
 }
 \end{lstlisting}
-    
+
 \end{frame}
 
 
@@ -443,7 +444,7 @@ fun String.ultimoCar(): Char = this.get(this.lenght - 1)
 
 val frase: Char = "Yo amo la JVM".ultimoCar()
 \end{lstlisting}
-    
+
 \end{frame}
 
 
@@ -460,7 +461,7 @@ fun forzarNull(s: String?) {
 }
 
 \end{lstlisting}
-    
+
 \end{frame}
 
 \begin{frame}[fragile]{Kotlin - Smart Cast y Pattern Matching}
@@ -516,27 +517,6 @@ listOf(1, 2, 3).filter{i % 2 == 0}
     \end{columns}
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin para desarrolladores Java}
-    
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Lenguaje (Kotlin)
-                \item V8/SpiderMonkey
-                \item Bibliotecas/API (ECMA 6 + Web)
-                \item kotlin-stdlib
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.5\textwidth}  %%<--- here
-            \begin{figure}
-                \centering
-                \includegraphics[width=0.4\linewidth]{Images/kotlin}
-            \end{figure}
-        \end{column}
-    \end{columns}
-\end{frame}
-
-
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
     \setbeamercolor{normal text}{fg=white}
@@ -561,7 +541,7 @@ listOf(1, 2, 3).filter{i % 2 == 0}
     <groupId>org.eclipse.microprofile</groupId>
     <artifactId>microprofile</artifactId>
     <type>pom</type>
-    <version>2.1</version>
+    <version>3.2</version>
     <scope>provided</scope>
 </dependency>
 \end{lstlisting}
@@ -628,7 +608,7 @@ Idea general: Agregar todas las anotaciones arquitecturales de JakartaEE (CDI an
 \begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
 
 \begin{itemize}
-	\item Kotlin 1.3
+	\item Kotlin 1.4.x
 	\item Libraries - SLF4J, Flyway, PostgreSQL
 	\item Jakarta EE 8 - EJB, JPA
 	\item MicroProfile - CDI, JAX-RS, MicroProfile Config
@@ -680,7 +660,7 @@ class AdmPhraseRepository {
 
     @Inject
     private lateinit var em:EntityManager
-    
+
     ...
 
 }
@@ -707,12 +687,12 @@ Single expression functions (One line methods)
 \begin{lstlisting}[language=Kotlin]
 fun listAll(author: String, phrase: String):
     List<AdmPhrase> {
-    
+
     val query = """SELECT p FROM AdmPhrase p
     where p.author LIKE :author
     and p.phrase LIKE :phrase
     """
-    
+
     return em.createQuery(query, AdmPhrase::class.java)
         .setParameter("author", "%$author%")
         .setParameter("phrase", "%$phrase%")
@@ -731,7 +711,7 @@ class AdmPhraseController{
 
     @Inject
     private lateinit var admPhraseRepository: AdmPhraseRepository
-    
+
     @Inject
     private lateinit var logger: Logger
     ...
@@ -770,9 +750,9 @@ Elvis operator as expression
 @Path("/{id:[0-9][0-9]*}")
 fun update(@PathParam("id") id: Long?, phrase: AdmPhrase)
     :Response {
-    if(id != phrase.phraseId) 
+    if(id != phrase.phraseId)
         return Response.status(Response.Status.NOT_FOUND).build()
-    
+
     val updatedEntity = admPhraseRepository.update(phrase)
     return Response.ok(updatedEntity).build()
 }
@@ -870,7 +850,7 @@ fun delete(@PathParam("id") id: Long): Response {
 \begin{column}{0.5\textwidth}
 	\begin{itemize}
 		\item Effective Java - Immutability, builder, singleton, override, final by default, variance by generics
-		\item Elvis - Groovy 
+		\item Elvis - Groovy
 		\item Type inference - Scala
 		\item Immutability - Scala
 		\item Identifiers - Scala
@@ -909,7 +889,7 @@ fun delete(@PathParam("id") id: Long): Response {
 
 \begin{frame}{Kotlin}
 \begin{columns}
-	
+
 	\begin{column}{0.5\textwidth}
 		Ventajas
 		\begin{itemize}
@@ -920,7 +900,7 @@ fun delete(@PathParam("id") id: Long): Response {
 		\end{itemize}
 	\end{column}
 	\begin{column}{0.5\textwidth}
-		Desventajas 
+		Desventajas
 		\begin{itemize}
 			\item IntelliJ IDEA Ultimate
 			\item Curva de aprendizaje más pronunciada
@@ -953,7 +933,7 @@ fun delete(@PathParam("id") id: Long): Response {
 
 \begin{frame}{Víctor Orozco}
 \begin{columns}[T] % contents are top vertically aligned
-	
+
 	\begin{column}[T]{4cm} % alternative top-align that's better for graphics
 		\begin{figure}
 			\centering

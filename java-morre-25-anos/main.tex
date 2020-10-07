@@ -1,0 +1,503 @@
+\documentclass[aspectratio=169]{beamer}
+\useoutertheme[progressbar=frametitle]{metropolis}
+\useinnertheme{metropolis}
+\definecolor{nabgray}{rgb}{0.6,0.59,0.61}
+\usecolortheme[named=nabgray]{structure}
+
+\usepackage{tikz}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{fontspec}
+\usepackage{ulem}
+
+\setmonofont{JetBrains Mono}
+\setmainfont{Roboto}
+\setsansfont{Roboto}
+
+
+\usepackage{smartdiagram}
+\usepackage{qtree}
+\usepackage{verbatim}
+\usepackage{svg}
+\usepackage{graphicx}
+\usepackage{color}
+
+
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
+%\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{editorGray}{rgb}{0.95, 0.95, 0.95}
+\definecolor{editorOcher}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{editorGreen}{rgb}{0, 0.5, 0} % #007C00 -> rgb(0, 124, 0)
+\definecolor{orange}{rgb}{1,0.45,0.13}
+\definecolor{olive}{rgb}{0.17,0.59,0.20}
+\definecolor{brown}{rgb}{0.69,0.31,0.31}
+\definecolor{purple}{rgb}{0.38,0.18,0.81}
+\definecolor{lightblue}{rgb}{0.1,0.57,0.7}
+\definecolor{lightred}{rgb}{1,0.4,0.5}
+\definecolor{ocherCode}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
+\definecolor{blueCode}{rgb}{0, 0, 0.93} % #0000EE -> rgb(0, 0, 238)
+\definecolor{greenCode}{rgb}{0, 0.6, 0} % #009900 -> rgb(0, 153, 0)
+
+
+\usepackage{upquote}
+\usepackage{listings}
+\lstdefinelanguage{JavaScript}{
+    morekeywords=[1]{break, continue, delete, else, for, function, if, in,
+        new, return, this, typeof, var, void, while, with},
+    % Literals, primitive types, and reference types.
+    morekeywords=[2]{false, null, true, boolean, number, undefined,
+        Array, Boolean, Date, Math, Number, String, Object},
+    % Built-ins.
+    morekeywords=[3]{eval, parseInt, parseFloat, escape, unescape},
+    % Basic design
+    backgroundcolor=\color{lightgray},
+    basicstyle={\small\ttfamily},
+    frame=l,
+    keywordstyle=\footnotesize\color{blue},
+    escapeinside={<@}{@>},
+    breaklines=true,
+    % Line numbers
+    xleftmargin={0.75cm},
+    numbers=left,
+    stepnumber=1,
+    firstnumber=1,
+    numberfirstline=true
+    % Code design
+    identifierstyle=\color{black},
+    keywordstyle=\color{ocherCode}\bfseries,
+    ndkeywordstyle=\color{greenCode}\bfseries,
+    stringstyle=\color{ocherCode}\ttfamily,
+    commentstyle=\color{darkgray}\ttfamily,
+    tabsize=2,
+    showtabs=true,
+    showspaces=false,
+    showstringspaces=false,
+    extendedchars=true,
+    breaklines=true
+}[keywords, comments, strings]
+
+\colorlet{punct}{red!60!black}
+\definecolor{background}{HTML}{EEEEEE}
+\definecolor{delim}{RGB}{20,105,176}
+\colorlet{numb}{magenta!60!black}
+
+\lstdefinelanguage{json}{
+    basicstyle=\normalfont\ttfamily,
+    numbers=left,
+    numberstyle=\scriptsize,
+    stepnumber=1,
+    numbersep=8pt,
+    showstringspaces=false,
+    breaklines=true,
+    frame=lines,
+    literate=
+    *{0}{{{\color{numb}0}}}{1}
+    {1}{{{\color{numb}1}}}{1}
+    {2}{{{\color{numb}2}}}{1}
+    {3}{{{\color{numb}3}}}{1}
+    {4}{{{\color{numb}4}}}{1}
+    {5}{{{\color{numb}5}}}{1}
+    {6}{{{\color{numb}6}}}{1}
+    {7}{{{\color{numb}7}}}{1}
+    {8}{{{\color{numb}8}}}{1}
+    {9}{{{\color{numb}9}}}{1}
+    {:}{{{\color{punct}{:}}}}{1}
+    {,}{{{\color{punct}{,}}}}{1}
+    {\{}{{{\color{delim}{\{}}}}{1}
+    {\}}{{{\color{delim}{\}}}}}{1}
+    {[}{{{\color{delim}{[}}}}{1}
+    {]}{{{\color{delim}{]}}}}{1},
+}
+\lstset{language=java,
+    basicstyle=\footnotesize\ttfamily,
+    keywordstyle=\footnotesize\color{blue}\ttfamily,
+}
+
+
+\usebackgroundtemplate%
+{%
+    \includegraphics[width=\paperwidth]{Images/Contenido}%
+}
+
+
+\title{Java uma linguagem que morre há 20 anos}
+\author{Víctor Orozco}
+\institute{Academik}
+\date{\today}
+\begin{document}
+
+{
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/Contenido}}
+    \setbeamercolor{frametitle}{fg=red}
+    \usebeamercolor[fg]{normal text}
+    \frame{\titlepage}
+}
+
+
+\begin{frame}{Víctor Orozco}
+    \begin{columns}[T] % contents are top vertically aligned
+
+        \begin{column}[T]{4cm} % alternative top-align that's better for graphics
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/logos}
+            \end{figure}
+        \end{column}
+        \begin{column}[T]{6cm} % each column can also be its own environment
+            \begin{itemize}
+                \item vorozco@nabenik.com
+                \item \href{https://twitter.com/tuxtor}{@tuxtor}
+                \item \href{http://vorozco.com}{http://vorozco.com}
+                \item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
+            \end{itemize}
+            \begin{center}
+                \includegraphics[width=0.1\linewidth]{Images/cclogo}
+                \\
+                This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Guatemala (CC BY-NC-SA 3.0 GT).
+            \end{center}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+    \huge ¿Preciso aprender outras linguagens se ja tem JavaScript?
+\end{frame}
+
+\begin{frame}
+    \huge ¿Como sobreviver num mundo poliglota?
+\end{frame}
+
+\begin{frame}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{Images/javavsjs}
+    \end{figure}
+\end{frame}
+
+\section{Evolução das linguagens de desenvolvimento}
+
+\begin{frame}{Gerações}
+    \smartdiagramset{font = \tiny, priority arrow width=1cm,priority arrow height advance=1.25cm}
+     \smartdiagramanimated[priority descriptive diagram]{1GL (Binario), 2GL (ASM), 3GL(Java\, Python\, Basic)}
+\end{frame}
+
+\begin{frame}{Gerações}
+    \smartdiagramset{font = \tiny, priority arrow width=1cm,priority arrow height advance=1.25cm}
+     \smartdiagram[priority descriptive diagram]{4GL(SQL\, R\, Bash), 5GL (Mercury)}
+\end{frame}
+
+
+\begin{frame}{Paradigmas (Simplificação)}
+\Tree[.Paradigmas [.Imperativo [.Estruturado \textit{Pascal} ]
+               [.OOP  \textit{Java} ]]
+          [.Declarativo [.Funcional \textit{LISP} ]
+                [.Logico \textit{Prolog} ]]]
+\end{frame}
+
+\begin{frame}{Entornos}
+	\begin{itemize}
+	\item 60s-80s Mainframes - RPG (AS/400), COBOL (z/OS, VME)
+	\item 80s-2000s Uma linguagem para dominar o mundo - Java, Basic, C\#, Pascal
+	\item 2010 Uma linguagem que faz uma coisa bem - Kotlin (smartphones), Data Science (Python), Web (JavaScript), Infraestrutura (Go), Backend (Java)
+	\end{itemize}
+\end{frame}
+
+\section{Evolução das plataformas de desenvolvimento}
+
+\begin{frame}{Linguagem}
+    ¡Eu sou desenvolvedor Java!
+\end{frame}
+
+\begin{frame}{Linguagem}
+    ¡Es sou desenvolvedor na linguagem Java!
+\end{frame}
+
+
+\begin{frame}{Linguagem}
+    ¡Eu sou desenvolvedor na plataforma Java!
+\end{frame}
+
+
+\begin{frame}{Linguagem != Plataforma}
+    \sout{Linguagem}, Plataforma
+	\begin{itemize}
+	\item Compilador
+    \item Entorno de execução
+    \item APIS e bibliotecas
+    \item Frameworks
+    \item Editor ou IDE
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Linguagem != Plataforma}
+    Turbo Pascal
+
+    \begin{columns}[T] % contents are top vertically aligned
+	     \begin{column}[T]{0.5\textwidth} % each column can also be its own environment
+            \begin{itemize}
+                \item Compilador: Borland Pascal
+                \item Bibliotecas e APIs: Borland -e.g. conio.h-
+                \item Editor: Borland
+            \end{itemize}
+	     \end{column}
+	     \begin{column}[T]{7cm} % alternative top-align that's better for graphics
+   			\begin{figure}
+   			\centering
+   			\includegraphics[width=\linewidth]{Images/pascal}
+   			\end{figure}
+
+	     \end{column}
+     \end{columns}
+\end{frame}
+
+\begin{frame}{Linguagem != Plataforma}
+    Visual Basic
+
+
+    \begin{columns}[T] % contents are top vertically aligned
+	     \begin{column}[T]{0.5\textwidth} % each column can also be its own environment
+            \begin{itemize}
+            	\item Compilador: Microsoft Basic
+                \item Bibliotecas e APIs: Microsoft -e.g. Win32, COM, .net-
+                \item Editor: Microsoft Visual Studio
+            \end{itemize}
+	     \end{column}
+	     \begin{column}[T]{7cm} % alternative top-align that's better for graphics
+      			\begin{figure}
+      			\centering
+      			\includegraphics[width=\linewidth]{Images/basic}
+      			\end{figure}
+
+	     \end{column}
+     \end{columns}
+
+\end{frame}
+
+\begin{frame}{Linguagem != Plataforma}
+    C++
+	\begin{itemize}
+	\item Compilador: GCC(GNU), Clang(LLVM/Apple), MSVC (Microsoft)
+    \item Bibliotecas e APIs: C++ 11 (estandares), musl (Linux), glibc (GNU)
+    \item Frameworks: QT
+    \item Editor: XCode(Apple), Visual Studio (Microsoft), CLion (JetBrains), QT Creator (Digia)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Linguagem != Plataforma}
+    Java
+	\begin{itemize}
+	\item Compilador: javac (OpenJDK), incremental(Eclipse JDT)
+    \item Entorno execução: JVM -e.g. Oracle HotSpot, Amazon Correto, RedHat OpenJDK, IBM J9-, Nativo (GraalVM)
+    \item Bibliotecas e APIs: OpenJDK (estandares) (Oracle, Google, RedHat), Maven Central
+    \item Frameworks: Spring (VMWare), Jakarta EE (Oracle, RedHat)
+    \item Editor: NetBeans (Apache), Eclipse (Eclipse), IntelliJ IDEA (JetBrains), VSCode (Microsoft)
+    \item Linguagens: Java, Scala, Kotlin, Clojure, JRuby
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Lenguaje != Plataforma}
+    JavaScript
+	\begin{itemize}
+	\item Supersets: TypeScript (Microsoft), Dart (Google)
+    \item Entorno execução: Node (V8), Deno, Graal.js, SpiderMonkey
+    \item Bibliotecas e APIs: ECMA, Web, NPM
+    \item Frameworks: Express, Meteor, React (Facebook), Angular (Google)
+    \item Editor: VSCode (Microsoft), WebStorm (JetBrains)
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}{Lenguaje != Plataforma}
+    Python
+	\begin{itemize}
+    \item Entorno de ejecución: CPython (PSF), Pypy, GraalPython (Oracle), IronPython (Microsoft)
+    \item Bibliotecas e APIs: Python PEP (PSF) PIP
+    \item Frameworks: Django, Tornado, Pyramid
+    \item Editor: VSCode (Microsoft), PyCharm(JetBrains),
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Plataformas}
+    Móvil
+	\begin{itemize}
+	\item Android nativo: Java, Kotlin, C++
+    \item iOS nativo: Swift, Objective-C
+    \item Multiplataforma web: JavaScript (Ionic, Cordova)
+    \item Multiplataforma nativa: JavaScript (React), Java (Gluon/JavaFX), C\# (Xamarin), Dart(Flutter)
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Plataformas}
+    Desktop
+	\begin{itemize}
+	\item Nativo APIs: Winforms (C\#, Basic), Cocoa (Swift, Objective-C), GTK (Python, Vala, C++)
+    \item Multiplataforma: Electron (JavaScript, TypeScript), Swing (Java, Kotlin, Scala), GTK (Python, Vala, C++), QT (C++, Python)
+	\end{itemize}
+\end{frame}
+
+
+
+\begin{frame}{Plataformas}
+    Backend/Dados
+	\begin{itemize}
+	\item Big Data: Spark, Hadoop, Kafka, Storm (Scala, Java)
+    \item Data Science: Tensorflow, PyTorch, Keras (Python)
+    \item Tradicional: Java (Spring/Java EE), PHP, .net
+    \item Microservicios: Java (Spring Boot/MicroProfile), JavaScript (Node, Deno), .net (Core)
+
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Plataformas}
+
+	\begin{alertblock}{Desenvolver software em 2020}
+    A medida que o tempo avança, vai ser mais difícil a existência de uma plataforma de proposito general, a tendencia é linguagem de proposito geral num entorno específico.
+	\end{alertblock}
+\end{frame}
+
+
+\section{Tendencias políglotas}
+
+\begin{frame}{.net framework (2002)}
+
+	\begin{figure}
+    			\centering
+    			\includegraphics[width=\linewidth]{Images/netpoly}
+    			\end{figure}
+
+\end{frame}
+
+\begin{frame}{Parrot VM (2016)}
+
+	\begin{figure}
+    			\centering
+    			\includegraphics[width=0.6\linewidth]{Images/parrot}
+    \end{figure}
+
+\end{frame}
+
+\begin{frame}{GraalVM (2019)}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/graalvm}
+	\end{figure}
+
+\end{frame}
+
+\begin{frame}{Microservices (Netflix)}
+
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/microservices}
+	\end{figure}
+
+\end{frame}
+
+
+
+
+\section{Dicas para sobreviver no mundo poliglota}
+
+\begin{frame}{Dicas no mundo poliglota}
+
+	\begin{exampleblock}{Dica \#0:}
+    Tem que aceitar que as linguagens são um meio de comunicação de ideias entre seres humanos e não pessoas.
+	\end{exampleblock}
+\end{frame}
+
+
+\begin{frame}{Dicas no mundo poliglota}
+
+	\begin{exampleblock}{Dica \#1:}
+    Contrario à algumas opiniões. Acredito fortemente que nem todas as linguagens são iguais.
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota}
+
+	\begin{exampleblock}{Dica \#2:}
+    No final do dia, vai ser mais conveniente conseguir dominar mais do que um paradigma de desenvolvimento.
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota}
+
+	\begin{exampleblock}{Dica \#3:}
+    As oportunidades são diretamente proporcionais em comparação com quantos paradigmas você domina.
+    \begin{itemize}
+    	\item Strong typing: Java (C++, C\#, Kotlin, Scala, Dart, Swift, Go, Rust, TypeScript)
+        \item Dymanic typing: JavaScript, Python (Ruby, Julia, Lisp, Clojure)
+        \item Scripting: Bash (simple), Powershell (POO)
+        \item Manipulação de dados: SQL
+   	\end{itemize}
+
+	\end{exampleblock}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota - Redmonk}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Images/redmonk}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota - Tiobe}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.9\linewidth]{Images/tiobe}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota - IEEE}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{Images/ieeemobile}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota - IEEE}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{Images/ieeeenterpise}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Dicas no mundo poliglota - Forbes}
+    \begin{figure}
+        \centering
+        \includegraphics[width=0.5\linewidth]{Images/venkat}
+    \end{figure}
+\end{frame}
+
+\begin{frame}{Víctor Orozco}
+    \begin{columns}[T] % contents are top vertically aligned
+
+        \begin{column}[T]{4cm} % alternative top-align that's better for graphics
+            \begin{figure}
+                \centering
+                \includegraphics[width=\linewidth]{Images/logos}
+            \end{figure}
+        \end{column}
+        \begin{column}[T]{6cm} % each column can also be its own environment
+            \begin{itemize}
+                \item vorozco@nabenik.com
+                \item \href{https://twitter.com/tuxtor}{@tuxtor}
+                \item \href{http://vorozco.com}{http://vorozco.com}
+                \item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
+            \end{itemize}
+            \begin{center}
+                \includegraphics[width=0.1\linewidth]{Images/cclogo}
+                \\
+                This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Guatemala (CC BY-NC-SA 3.0 GT).
+            \end{center}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+
+\end{document}
+

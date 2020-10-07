@@ -21,7 +21,7 @@
 \definecolor{darkgray}{rgb}{0.4, 0.4, 0.4}
 \definecolor{ocherCode}{rgb}{1, 0.5, 0} % #FF7F00 -> rgb(239, 169, 0)
 \definecolor{blueCode}{rgb}{0, 0, 0.93} % #0000EE -> rgb(0, 0, 238)
-\definecolor{greenCode}{rgb}{0, 0.6, 0} % #009900 -> rgb(0, 153, 0) 
+\definecolor{greenCode}{rgb}{0, 0.6, 0} % #009900 -> rgb(0, 153, 0)
 
 \usepackage{upquote}
 \usepackage{listings}
@@ -29,7 +29,7 @@
     otherkeywords={var,record},
     % Basic design
     backgroundcolor=\color{lightgray},
-    basicstyle={\small\ttfamily},   
+    basicstyle={\small\ttfamily},
     frame=l,
     keywordstyle=\footnotesize\color{blue},
     escapeinside={<@}{@>},
@@ -69,7 +69,7 @@
 }
 
 
-\title{Seguridad de aplicaciones Java/JakartaEE con OWASP Top 10}
+\title{Seguridad de aplicaciones Jakarta EE/MicroProfile con OWASP Top 10}
 \author{Víctor Orozco - @tuxtor}
 \institute{Academik}
 \date{\today}
@@ -95,16 +95,6 @@
 \end{frame}
 
 
-\begin{frame}[fragile]{¿Java?}
-    \begin{itemize}
-        \item Lenguaje
-        \item VM
-        \item Bibliotecas/API
-    \end{itemize}
-    
-    El conjunto es la plataforma Java \pause(TM)
-    
-\end{frame}
 
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
@@ -196,13 +186,13 @@
 \begin{frame}{Tecnología}
     \begin{figure}
         \centering
-        \includegraphics[width=0.9\linewidth]{Images/tecno}
+        \includegraphics[width=0.8\linewidth]{Images/tecno}
     \end{figure}
 \end{frame}
 
 
 
-\begin{frame}{JavaEE 8}
+\begin{frame}{Jakarta EE 8}
     \begin{itemize}
         \item Mejor integración de JSF con CDI
         \item Mejor integración de JMS con CDI
@@ -231,7 +221,7 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{JavaEE}
+\begin{frame}{Top 10 OWASP}
     \begin{itemize}
         \item A1-Injection
         \item A2-Broken Authentication and Session Management
@@ -247,7 +237,7 @@
     \url{https://owasp.org/www-project-top-ten/}
 \end{frame}
 
-\begin{frame}{JavaEE}
+\begin{frame}{Top 10 OWASP}
     \begin{itemize}
         \item \textbf{A1-Injection}
         \item \textbf{A2-Broken Authentication and Session Management}
@@ -260,11 +250,11 @@
         \item \textbf{A9-Using Components with Known Vulnerabilities}
         \item A10-Insufficient Logging y Monitoring
     \end{itemize}
-    \url{https://www.owasp.org/index.php/Top_10_2017-Top_10}
+    \url{https://owasp.org/www-project-top-ten/}
 \end{frame}
 
 
-\begin{frame}{JavaEE - A1 - Injection}
+\begin{frame}{Jakarta EE - A1 - Injection}
     Problemas y causas comunes
     \begin{itemize}
         \item Concatenación de Strings en SQL
@@ -272,7 +262,7 @@
         \item Manipulación data stores
         \item Escalar privilegios
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item JAMAS y NUNCA concatenar parametros
@@ -284,14 +274,14 @@
 \end{frame}
 
 
-\begin{frame}[fragile]{JavaEE - A1 - Injection}
+\begin{frame}[fragile]{Jakarta EE - A1 - Injection}
 Peligro
 \begin{lstlisting}
 String query = "SELECT p FROM AdmPhrase p " +
-"where p.author LIKE " + autor +
+"where p.author LIKE " + author +
 "and p.phrase LIKE " + phrase;
 
-\end{lstlisting}	
+\end{lstlisting}
 
 Mejor
 \begin{lstlisting}[basicstyle=\scriptsize]
@@ -308,15 +298,15 @@ return em.createQuery(query, AdmPhrase.class)
 
 
 
-\begin{frame}{JavaEE - A2-Broken Authentication and Session Management}
+\begin{frame}{Jakarta EE - A2-Broken Authentication and Session Management}
     Problemas y causas comunes
     \begin{itemize}
         \item Implementación de solución manual vs frameworks
-        \item Falta de políticas 
+        \item Falta de políticas
         \item Entrenamiento en la plataforma
         \item Comunicación y/o autenticación via http
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Forzar https
@@ -325,24 +315,48 @@ return em.createQuery(query, AdmPhrase.class)
     \end{itemize}
 \end{frame}
 
-\begin{frame}[fragile]{JavaEE - A2-Broken Authentication and Session Management}
+
+\begin{frame}[fragile]{Jakarta EE - A2-Broken Authentication and Session Management}
+Como forzar https:
+
+\begin{itemize}
+\item API Gateway, proxy reverso, web.xml
+\end{itemize}
+
+    \begin{lstlisting}
+    <security-constraint>
+        <web-resource-collection>
+            <web-resource-name>Viewpoint Secure URLs</web-resource-name>
+            <url-pattern>/*</url-pattern>
+        </web-resource-collection>
+        <user-data-constraint>
+            <transport-guarantee>CONFIDENTIAL</transport-guarantee>
+        </user-data-constraint>
+    </security-constraint>
+    \end{lstlisting}
+\end{frame}
+
+
+
+
+\begin{frame}[fragile]{Jakarta EE - A2-Broken Authentication and Session Management}
 App rest normal
 \begin{lstlisting}
 public class DemoinfosecRestApplication extends Application {}
-\end{lstlisting}	
-    
+\end{lstlisting}
+
 Activar mecanismo de autenticación (MicroProfile JWT)
 \begin{lstlisting}
 @LoginConfig(authMethod = "MP-JWT")
 @DeclareRoles({RolesEnum.Constants.MOBILE_VALUE, RolesEnum.Constants.WEB_VALUE})
 public class DemoinfosecRestApplication extends Application {}
-\end{lstlisting}	
+\end{lstlisting}
 
 \end{frame}
 
 
 
-\begin{frame}{JavaEE - A3-Sensitive data exposure}
+\begin{frame}{Jakarta EE - A3-Sensitive data exposure}
     Problemas y causas comunes
     \begin{itemize}
         \item Guardar datos sin cifrar
@@ -350,7 +364,7 @@ public class DemoinfosecRestApplication extends Application {}
         \item Transmitir credenciales via http
         \item Transmisión de excepciones completas a front-end
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Identificar con un checklist los datos sensitivos
@@ -361,26 +375,26 @@ public class DemoinfosecRestApplication extends Application {}
 \end{frame}
 
 
-\begin{frame}{JavaEE - A5-Broken Access Control}
+\begin{frame}{Jakarta EE - A5-Broken Access Control}
     Problemas y causas comunes
     \begin{itemize}
         \item Implementación de solución manual vs frameworks
-        \item Falta de políticas 
+        \item Falta de políticas
         \item Escalar privilegios
         \item Comunicación y/o autenticación via http
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Forzar https
         \item Implementación RBAC de application server
         \item Implementación RBAC de framework
-        \item Entender el modelo de JAAS, SoteriaRI y MicroProfile security
+        \item Entender el modelo de JAAS, Spring Security, SoteriaRI y MicroProfile JWT
     \end{itemize}
 \end{frame}
 
 
-\begin{frame}[fragile]{JavaEE - A5-Broken Access Control}
+\begin{frame}[fragile]{Jakarta EE - A5-Broken Access Control}
 Endpoint normal
 \begin{lstlisting}
 @GET
@@ -388,7 +402,7 @@ Endpoint normal
 public AdmPhrase findById(@PathParam("id") Long id) {
     return admPhraseRepository.findById(id);
 }
-\end{lstlisting}	
+\end{lstlisting}
 
 Endpoint con RBAC
 \begin{lstlisting}
@@ -398,21 +412,21 @@ Endpoint con RBAC
 public AdmPhrase findById(@PathParam("id") Long id) {
     return admPhraseRepository.findById(id);
 }
-\end{lstlisting}	
-    
+\end{lstlisting}
+
 \end{frame}
 
 
 
 
-\begin{frame}{JavaEE - A6-Security Misconfiguration}
+\begin{frame}{Jakarta EE - A6-Security Misconfiguration}
     Problemas y causas comunes
     \begin{itemize}
         \item Configuración por defecto de applicaction server
         \item Configuración por defecto de SO
         \item Configuración \texttt{relajada} de capa de transporte
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Configurar siempre el SO destino
@@ -425,30 +439,30 @@ public AdmPhrase findById(@PathParam("id") Long id) {
 \end{frame}
 
 
-\begin{frame}{JavaEE - A8-Insecure deserialization}
+\begin{frame}{Jakarta EE - A8-Insecure deserialization}
     Problemas y causas comunes
     \begin{itemize}
         \item Self made frameworks
-        \item No validation
+        \item No hay validación
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
-        \item Evaluar si no vale la pena utilizar un software listo
+        \item Evaluar si no vale la pena utilizar un framework listo y probado
         \item Bean validation
         \item Sanitización
     \end{itemize}
 \end{frame}
 
 
-\begin{frame}{JavaEE - A9-Using components with known vulnerabilities}
+\begin{frame}{Jakarta EE - A9-Using components with known vulnerabilities}
     Problemas y causas comunes
     \begin{itemize}
         \item Difícil dar seguimiento a los lanzamientos
         \item Frameworks muy nuevos o muy viejos
         \item No seguir las notas del lanzamiento
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Actualizar el app server con el calendario de lanzamiento
@@ -458,21 +472,21 @@ public AdmPhrase findById(@PathParam("id") Long id) {
     \end{itemize}
 \end{frame}
 
-\begin{frame}{JavaEE - A9-Using components with known vulnerabilities}
+\begin{frame}{Jakarta EE - A9-Using components with known vulnerabilities}
     \begin{figure}
         \centering
         \includegraphics[width=0.9\linewidth]{Images/github}
     \end{figure}
 \end{frame}
 
-\begin{frame}{JavaEE - Bonus-APIs sin proteger}
+\begin{frame}{Jakarta EE - Bonus-APIs sin proteger}
     Problemas y causas comunes
     \begin{itemize}
         \item Combinación de broken auth, broken access control o security misconfiguration
-        \item No hay nada
+        \item A veces simplemente no hay seguridad porque "a mi no me van a atacar"
         \item Especialmente grave en rich clients
     \end{itemize}
-    
+
     Sugerencias
     \begin{itemize}
         \item Verificar código auto generado
@@ -506,7 +520,7 @@ public AdmPhrase findById(@PathParam("id") Long id) {
 
 \begin{frame}{Víctor Orozco}
     \begin{columns}[T] % contents are top vertically aligned
-        
+
         \begin{column}[T]{4cm} % alternative top-align that's better for graphics
             \begin{figure}
                 \centering
@@ -518,7 +532,7 @@ public AdmPhrase findById(@PathParam("id") Long id) {
                 \item vorozco@nabenik.com
                 \item \href{https://twitter.com/tuxtor}{@tuxtor}
                 \item \href{http://vorozco.com}{http://vorozco.com}
-                \item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org} 
+                \item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
             \end{itemize}
             \begin{center}
                 \includegraphics[width=0.1\linewidth]{Images/cclogo}

@@ -1,0 +1,24 @@
+\frametitle{Ciencias de la computación}
+
+\begin{columns}[T] % contents are top vertically aligned
+	     \begin{column}[T]{7cm} % each column can also be its own environment
+				\smartdiagramset{
+                    bubble node size =2.5cm,
+                    bubble center node font = \small,
+                    bubble node font = \tiny,
+                    distance center/other bubbles = 0.7cm,
+                    }
+                    \smartdiagram[bubble diagram]{CS,
+                      Ingeniería de Software, Ciencias de la computación, Ingeniería de computación, Sistemas de información, Tecnologías de información}
+
+	     \end{column}
+	     \begin{column}[T]{4cm} % alternative top-align that's better for graphics
+			\begin{itemize}[<+->]
+    			\item Vi vs. Emacs
+                \item Linux vs. Windows
+                \item ¿Cual es el mejor lenguaje de programación?
+			\end{itemize}
+
+	     \end{column}
+     \end{columns}
+

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  17 MAY 2020 19:57
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  7 AUG 2020 17:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1802,37 +1802,34 @@ File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [2
 
 ]
-\openout4 = `main.vrb'.
-
- (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [3
-
-] (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [4
-
-]
-LaTeX Font Info:    Try loading font information for U+msa on input line 114.
+LaTeX Font Info:    Try loading font information for U+msa on input line 104.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 114.
+LaTeX Font Info:    Try loading font information for U+msb on input line 104.
 
 (/usr/local/texlive/2017/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: Images/separador.png Graphic file (type QTm)
 
-<use  "Images/separador.png" > [5
+<use  "Images/separador.png" > [3
 
 ]
-Overfull \vbox (27.59373pt too high) detected at line 121
+Overfull \vbox (27.59373pt too high) detected at line 111
  []
 
 File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [4
+
+]
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [5
+
+]
+File: Images/fondo.png Graphic file (type QTm)
+
 <use  "Images/fondo.png" > [6
 
 ]
@@ -1863,18 +1860,23 @@ File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [12
 
 ]
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [13
-
-]
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [14
-
-]
 File: Images/tecno.png Graphic file (type QTm)
  <use  "Images/tecno.png" >
-Overfull \vbox (46.94743pt too high) detected at line 201
+Overfull \vbox (21.6259pt too high) detected at line 191
+ []
+
+File: Images/fondo.png Graphic file (type QTm)
+<use  "Images/fondo.png" > [13
+
+]
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [14
+
+]
+File: Images/javaee8.png Graphic file (type QTm)
+
+<use  "Images/javaee8.png" >
+Overfull \vbox (7.25526pt too high) detected at line 211
  []
 
 File: Images/fondo.png Graphic file (type QTm)
@@ -1885,13 +1887,8 @@ File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [16
 
 ]
-File: Images/javaee8.png Graphic file (type QTm)
-
-<use  "Images/javaee8.png" >
-Overfull \vbox (7.25526pt too high) detected at line 221
- []
-
 File: Images/fondo.png Graphic file (type QTm)
+
 <use  "Images/fondo.png" > [17
 
 ]
@@ -1908,6 +1905,9 @@ File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [20
 
 ]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
 
 <use  "Images/fondo.png" > [21
@@ -1920,83 +1920,81 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb)
-File: Images/fondo.png Graphic file (type QTm)
+Overfull \vbox (11.78844pt too high) detected at line 337
+ []
 
+File: Images/fondo.png Graphic file (type QTm)
 <use  "Images/fondo.png" > [23
-
-]
-File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [24
 
 ]
 \openout4 = `main.vrb'.
 
  (./main.vrb)
 File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" >
+[24
 
-<use  "Images/fondo.png" > [25
+]
+File: Images/fondo.png Graphic file (type QTm)
+ <use  "Images/fondo.png" > [25
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
  <use  "Images/fondo.png" > [26
 
 ]
-File: Images/fondo.png Graphic file (type QTm)
-
-<use  "Images/fondo.png" > [27
-
-]
 \openout4 = `main.vrb'.
 
- (./main.vrb)
-Overfull \vbox (28.58836pt too high) detected at line 403
+
+(./main.vrb)
+Overfull \vbox (28.58836pt too high) detected at line 417
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [28
+<use  "Images/fondo.png" > [27
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [29
+ <use  "Images/fondo.png" > [28
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [30
+<use  "Images/fondo.png" > [29
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [31
+ <use  "Images/fondo.png" > [30
 
 ]
 File: Images/github.png Graphic file (type QTm)
 
 <use  "Images/github.png" >
-Overfull \vbox (30.96236pt too high) detected at line 466
+Overfull \vbox (30.96236pt too high) detected at line 480
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [32
+<use  "Images/fondo.png" > [31
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [33
+ <use  "Images/fondo.png" > [32
 
 ]
 File: Images/separador.png Graphic file (type QTm)
 
-<use  "Images/separador.png" > [34
+<use  "Images/separador.png" > [33
 
 ]
 File: Images/realms.png Graphic file (type QTm)
  <use  "Images/realms.png" >
 File: Images/fondo.png Graphic file (type QTm)
 
-<use  "Images/fondo.png" > [35
+<use  "Images/fondo.png" > [34
 
 ]
 File: Images/fondo.png Graphic file (type QTm)
- <use  "Images/fondo.png" > [36
+ <use  "Images/fondo.png" > [35
 
 ]
 File: Images/logos.png Graphic file (type QTm)
@@ -2004,15 +2002,15 @@ File: Images/logos.png Graphic file (type QTm)
 <use  "Images/logos.png" >
 File: Images/cclogo.png Graphic file (type QTm)
  <use  "Images/cclogo.png" >
-Overfull \vbox (76.56041pt too high) detected at line 530
+Overfull \vbox (76.56041pt too high) detected at line 544
  []
 
 File: Images/fondo.png Graphic file (type QTm)
-<use  "Images/fondo.png" > [37
+<use  "Images/fondo.png" > [36
 
 ]
 File: Images/final.png Graphic file (type QTm)
- <use  "Images/final.png" > [38
+ <use  "Images/final.png" > [37
 
 ]
 \tf@nav=\write7
@@ -2024,22 +2022,22 @@ File: Images/final.png Graphic file (type QTm)
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 538.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 538.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
  (./main.aux
 LaTeX Info: Redefining \. on input line 23.
 LaTeX Info: Redefining \% on input line 23.
 )
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 538.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 538.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 37050 strings out of 493005
- 743508 string characters out of 6134596
+ 37058 strings out of 493005
+ 743607 string characters out of 6134596
  942851 words of memory out of 5000000
- 40338 multiletter control sequences out of 15000+600000
+ 40348 multiletter control sequences out of 15000+600000
  8888 words of font info for 63 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  60i,12n,75p,10372b,1118s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (38 pages).
+Output written on main.pdf (37 pages).

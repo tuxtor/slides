@@ -1,0 +1,8 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{¿Que hace un desarrollador de software?}{3}{0}{1}
+\beamer@sectionintoc {2}{¿Porqué aprender a desarollar software?}{10}{0}{2}
+\beamer@sectionintoc {3}{¿Quien puede ser un desarrollador de software?}{14}{0}{3}
+\beamer@sectionintoc {4}{Tipos de programadores}{18}{0}{4}
+\beamer@sectionintoc {5}{¿Como deberia aprender?}{21}{0}{5}
+\beamer@sectionintoc {6}{¿Hay niveles?}{26}{0}{6}
+\beamer@sectionintoc {7}{¿Como se sobrevive en este mundo?}{29}{0}{7}

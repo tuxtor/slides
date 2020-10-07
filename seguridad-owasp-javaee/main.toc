@@ -1,4 +1,4 @@
 \select@language {spanish}
-\beamer@sectionintoc {1}{Seguridad en Java}{5}{0}{1}
-\beamer@sectionintoc {2}{EE vs OWASP Top 10}{18}{0}{2}
-\beamer@sectionintoc {3}{Demo}{34}{0}{3}
+\beamer@sectionintoc {1}{Seguridad en Java}{3}{0}{1}
+\beamer@sectionintoc {2}{EE vs OWASP Top 10}{16}{0}{2}
+\beamer@sectionintoc {3}{Demo}{33}{0}{3}

@@ -1,0 +1,5 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Evolución de los lenguajes de programación}{10}{0}{1}
+\beamer@sectionintoc {2}{Evolución de las plataformas de programación}{18}{0}{2}
+\beamer@sectionintoc {3}{Tendencias políglotas}{34}{0}{3}
+\beamer@sectionintoc {4}{Principios de sobrevivencia en un múndo políglota}{39}{0}{4}
