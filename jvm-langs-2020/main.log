@@ -1,0 +1,2212 @@
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2019.12.3)  7 OCT 2020 12:16
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**main.tex
+(./main.tex
+LaTeX2e <2018-12-01>
+(/app/texmf-dist/tex/latex/beamer/beamer.cls
+Document Class: beamer 2018/12/02 v3.55 A class for typesetting presentations
+(/app/texmf-dist/tex/latex/beamer/beamerbasemodes.sty
+(/app/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2018/08/19 v2.5f e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count80
+)
+\beamer@tempbox=\box27
+\beamer@tempcount=\count81
+\c@beamerpauses=\count82
+
+(/app/texmf-dist/tex/latex/beamer/beamerbasedecode.sty
+\beamer@slideinframe=\count83
+\beamer@minimum=\count84
+)
+\beamer@commentbox=\box28
+\beamer@modecount=\count85
+)
+(/app/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
+)
+\headdp=\dimen102
+\footheight=\dimen103
+\sidebarheight=\dimen104
+\beamer@tempdim=\dimen105
+\beamer@finalheight=\dimen106
+\beamer@animht=\dimen107
+\beamer@animdp=\dimen108
+\beamer@animwd=\dimen109
+\beamer@leftmargin=\dimen110
+\beamer@rightmargin=\dimen111
+\beamer@leftsidebar=\dimen112
+\beamer@rightsidebar=\dimen113
+\beamer@boxsize=\dimen114
+\beamer@vboxoffset=\dimen115
+\beamer@descdefault=\dimen116
+\beamer@descriptionwidth=\dimen117
+\beamer@lastskip=\skip41
+\beamer@areabox=\box29
+\beamer@animcurrent=\box30
+\beamer@animshowbox=\box31
+\beamer@sectionbox=\box32
+\beamer@logobox=\box33
+\beamer@linebox=\box34
+\beamer@sectioncount=\count86
+\beamer@subsubsectionmax=\count87
+\beamer@subsectionmax=\count88
+\beamer@sectionmax=\count89
+\beamer@totalheads=\count90
+\beamer@headcounter=\count91
+\beamer@partstartpage=\count92
+\beamer@sectionstartpage=\count93
+\beamer@subsectionstartpage=\count94
+\beamer@animationtempa=\count95
+\beamer@animationtempb=\count96
+\beamer@xpos=\count97
+\beamer@ypos=\count98
+\beamer@ypos@offset=\count99
+\beamer@showpartnumber=\count100
+\beamer@currentsubsection=\count101
+\beamer@coveringdepth=\count102
+\beamer@sectionadjust=\count103
+\beamer@tocsectionnumber=\count104
+
+(/app/texmf-dist/tex/latex/beamer/beamerbaseoptions.sty
+(/app/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+))
+\beamer@paperwidth=\skip42
+\beamer@paperheight=\skip43
+
+(/app/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/04/16 v5.8 Page Geometry
+
+(/app/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/app/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count105
+\Gm@cntv=\count106
+\c@Gm@tempcnt=\count107
+\Gm@bindingoffset=\dimen118
+\Gm@wd@mp=\dimen119
+\Gm@odd@mp=\dimen120
+\Gm@even@mp=\dimen121
+\Gm@layoutwidth=\dimen122
+\Gm@layoutheight=\dimen123
+\Gm@layouthoffset=\dimen124
+\Gm@layoutvoffset=\dimen125
+\Gm@dimlist=\toks15
+)
+(/app/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2018/09/03 v1.4i Standard LaTeX file (size option)
+)
+(/app/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/app/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/app/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/app/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/app/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: xetex.def on input line 99.
+
+(/app/texmf-dist/tex/latex/graphics-def/xetex.def
+File: xetex.def 2017/06/24 v5.0h Graphics/color driver for xetex
+))
+\Gin@req@height=\dimen126
+\Gin@req@width=\dimen127
+)
+(/app/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/app/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks16
+\pgfutil@tempdima=\dimen128
+\pgfutil@tempdimb=\dimen129
+
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box35
+
+(/app/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/app/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2019/02/02 v3.1.1 (3.1.1)
+))
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks17
+\pgfkeys@temptoks=\toks18
+
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.tex
+\pgfkeys@tmptoks=\toks19
+))
+\pgf@x=\dimen130
+\pgf@y=\dimen131
+\pgf@xa=\dimen132
+\pgf@ya=\dimen133
+\pgf@xb=\dimen134
+\pgf@yb=\dimen135
+\pgf@xc=\dimen136
+\pgf@yc=\dimen137
+\w@pgf@writea=\write3
+\r@pgf@reada=\read1
+\c@pgf@counta=\count108
+\c@pgf@countb=\count109
+\c@pgf@countc=\count110
+\c@pgf@countd=\count111
+\t@pgf@toka=\toks20
+\t@pgf@tokb=\toks21
+\t@pgf@tokc=\toks22
+\pgf@sys@id@count=\count112
+
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2019/02/02 v3.1.1 (3.1.1)
+)
+Driver file for pgf: pgfsys-xetex.def
+
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-xetex.def
+File: pgfsys-xetex.def 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
+File: pgfsys-dvipdfmx.def 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2019/02/02 v3.1.1 (3.1.1)
+)
+\pgfsys@objnum=\count113
+)))
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfsyssoftpath@smallbuffer@items=\count114
+\pgfsyssoftpath@bigbuffer@items=\count115
+)
+(/app/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/app/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/app/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: xetex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen138
+\pgfmath@count=\count116
+\pgfmath@box=\box36
+\pgfmath@toks=\toks23
+\pgfmath@stack@operand=\toks24
+\pgfmath@stack@operation=\toks25
+)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonometric.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.tex)
+(/app/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerarithmetics.code.
+tex))) (/app/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count117
+))
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
+File: pgfcorepoints.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@picminx=\dimen139
+\pgf@picmaxx=\dimen140
+\pgf@picminy=\dimen141
+\pgf@picmaxy=\dimen142
+\pgf@pathminx=\dimen143
+\pgf@pathmaxx=\dimen144
+\pgf@pathminy=\dimen145
+\pgf@pathmaxy=\dimen146
+\pgf@xx=\dimen147
+\pgf@xy=\dimen148
+\pgf@yx=\dimen149
+\pgf@yy=\dimen150
+\pgf@zx=\dimen151
+\pgf@zy=\dimen152
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@path@lastx=\dimen153
+\pgf@path@lasty=\dimen154
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@shorten@end@additional=\dimen155
+\pgf@shorten@start@additional=\dimen156
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
+File: pgfcorescopes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfpic=\box37
+\pgf@hbox=\box38
+\pgf@layerbox@main=\box39
+\pgf@picture@serial@count=\count118
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgflinewidth=\dimen157
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@pt@x=\dimen158
+\pgf@pt@y=\dimen159
+\pgf@pt@temp=\dimen160
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
+File: pgfcorearrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfarrowsep=\dimen161
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@max=\dimen162
+\pgf@sys@shading@range@num=\count119
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfexternal@startupbox=\box40
+))
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
+File: pgfcorelayers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
+File: pgfcorerdf.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+(/app/texmf-dist/tex/latex/pgf/utilities/xxcolor.sty
+Package: xxcolor 2003/10/24 ver 0.1
+\XC@nummixins=\count120
+\XC@countmixins=\count121
+)
+(/app/texmf-dist/tex/generic/oberdiek/atbegshi.sty
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+
+(/app/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/app/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+))
+(/app/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/11/30 v6.88e Hypertext links for LaTeX
+
+(/app/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(/app/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/09/10 v0.29 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: pdfTeX >= 1.30 not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode not found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package hobsub Info: Skipping package `atbegshi' (already loaded).
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(/app/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(/app/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen163
+\Hy@linkcounter=\count122
+\Hy@pagecounter=\count123
+
+(/app/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/11/30 v6.88e Hyperref: PDFDocEncoding definition (HO)
+)
+\Hy@SavedSpaceFactor=\count124
+
+(/app/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `bookmarks' set `true' on input line 4393.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 4393.
+Package hyperref Info: Option `implicit' set `false' on input line 4393.
+Package hyperref Info: Hyper figures OFF on input line 4519.
+Package hyperref Info: Link nesting OFF on input line 4524.
+Package hyperref Info: Hyper index ON on input line 4527.
+Package hyperref Info: Plain pages OFF on input line 4534.
+Package hyperref Info: Backreferencing OFF on input line 4539.
+Package hyperref Info: Implicit mode OFF; no redefinition of LaTeX internals.
+Package hyperref Info: Bookmarks ON on input line 4772.
+\c@Hy@tempcnt=\count125
+
+(/app/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip10
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5125.
+\XeTeXLinkMargin=\dimen164
+\Fld@menulength=\count126
+\Field@Width=\dimen165
+\Fld@charsize=\dimen166
+Package hyperref Info: Hyper figures OFF on input line 6380.
+Package hyperref Info: Link nesting OFF on input line 6385.
+Package hyperref Info: Hyper index ON on input line 6388.
+Package hyperref Info: backreferencing OFF on input line 6395.
+Package hyperref Info: Link coloring OFF on input line 6400.
+Package hyperref Info: Link coloring with OCG OFF on input line 6405.
+Package hyperref Info: PDF/A mode OFF on input line 6410.
+LaTeX Info: Redefining \ref on input line 6450.
+LaTeX Info: Redefining \pageref on input line 6454.
+\Hy@abspage=\count127
+
+
+Package hyperref Message: Stopped early.
+
+)
+Package hyperref Info: Driver (autodetected): hxetex.
+ (/app/texmf-dist/tex/latex/hyperref/hxetex.def
+File: hxetex.def 2018/11/30 v6.88e Hyperref driver for XeTeX
+
+(/app/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/11/30 v6.88e Hyperref: PDF Unicode definition (HO)
+)
+(/app/texmf-dist/tex/generic/oberdiek/stringenc.sty
+Package: stringenc 2016/05/16 v1.11 Convert strings between diff. encodings (HO
+)
+)
+\pdfm@box=\box41
+\c@Hy@AnnotLevel=\count128
+\HyField@AnnotCount=\count129
+\Fld@listcount=\count130
+\c@bookmark@seq@number=\count131
+
+(/app/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+(/app/texmf-dist/tex/generic/oberdiek/se-ascii-print.def
+File: se-ascii-print.def 2016/05/16 v1.11 stringenc: Printable ASCII characters
+
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbaserequires.sty
+(/app/texmf-dist/tex/latex/beamer/beamerbasecompatibility.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbasefont.sty
+(/app/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/app/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks26
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/app/texmf-dist/tex/latex/sansmathaccent/sansmathaccent.sty
+Package: sansmathaccent 2013/03/28
+
+(/app/texmf-dist/tex/latex/filehook/filehook.sty
+Package: filehook 2011/10/12 v0.5d Hooks for input files
+)))
+(/app/texmf-dist/tex/latex/beamer/beamerbasetranslator.sty
+(/app/texmf-dist/tex/latex/translator/translator.sty
+Package: translator 2018/01/04 v1.12 Easy translation of strings in LaTeX
+))
+(/app/texmf-dist/tex/latex/beamer/beamerbasemisc.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbasetwoscreens.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbaseoverlay.sty
+\beamer@argscount=\count132
+\beamer@lastskipcover=\skip44
+\beamer@trivlistdepth=\count133
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasetitle.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbasesection.sty
+\c@lecture=\count134
+\c@part=\count135
+\c@section=\count136
+\c@subsection=\count137
+\c@subsubsection=\count138
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbaseframe.sty
+\beamer@framebox=\box42
+\beamer@frametitlebox=\box43
+\beamer@zoombox=\box44
+\beamer@zoomcount=\count139
+\beamer@zoomframecount=\count140
+\beamer@frametextheight=\dimen167
+\c@subsectionslide=\count141
+\beamer@frametopskip=\skip45
+\beamer@framebottomskip=\skip46
+\beamer@frametopskipautobreak=\skip47
+\beamer@framebottomskipautobreak=\skip48
+\beamer@envbody=\toks27
+\framewidth=\dimen168
+\c@framenumber=\count142
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbaseverbatim.sty
+\beamer@verbatimfileout=\write4
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbaseframesize.sty
+\beamer@splitbox=\box45
+\beamer@autobreakcount=\count143
+\beamer@autobreaklastheight=\dimen169
+\beamer@frametitletoks=\toks28
+\beamer@framesubtitletoks=\toks29
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbaseframecomponents.sty
+\beamer@footins=\box46
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasecolor.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbasenotes.sty
+\beamer@frameboxcopy=\box47
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasetoc.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerbasetemplates.sty
+\beamer@sbttoks=\toks30
+
+(/app/texmf-dist/tex/latex/beamer/beamerbaseauxtemplates.sty
+(/app/texmf-dist/tex/latex/beamer/beamerbaseboxes.sty
+\bmb@box=\box48
+\bmb@colorbox=\box49
+\bmb@boxshadow=\box50
+\bmb@boxshadowball=\box51
+\bmb@boxshadowballlarge=\box52
+\bmb@temp=\dimen170
+\bmb@dima=\dimen171
+\bmb@dimb=\dimen172
+\bmb@prevheight=\dimen173
+)
+\beamer@blockheadheight=\dimen174
+))
+(/app/texmf-dist/tex/latex/beamer/beamerbaselocalstructure.sty
+(/app/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks31
+)
+\c@figure=\count144
+\c@table=\count145
+\abovecaptionskip=\skip49
+\belowcaptionskip=\skip50
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasenavigation.sty
+\beamer@section@min@dim=\dimen175
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasetheorems.sty
+(/app/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2018/12/01 v2.17b AMS math features
+\@mathmargin=\skip51
+
+For additional information on amsmath, use the `?' option.
+(/app/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(/app/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks32
+\ex@=\dimen176
+))
+(/app/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen177
+)
+(/app/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count146
+LaTeX Info: Redefining \frac on input line 223.
+\uproot@=\count147
+\leftroot@=\count148
+LaTeX Info: Redefining \overline on input line 385.
+\classnum@=\count149
+\DOTSCASE@=\count150
+LaTeX Info: Redefining \ldots on input line 482.
+LaTeX Info: Redefining \dots on input line 485.
+LaTeX Info: Redefining \cdots on input line 606.
+\Mathstrutbox@=\box53
+\strutbox@=\box54
+\big@size=\dimen178
+LaTeX Font Info:    Redeclaring font encoding OML on input line 729.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 730.
+\macc@depth=\count151
+\c@MaxMatrixCols=\count152
+\dotsspace@=\muskip11
+\c@parentequation=\count153
+\dspbrk@lvl=\count154
+\tag@help=\toks33
+\row@=\count155
+\column@=\count156
+\maxfields@=\count157
+\andhelp@=\toks34
+\eqnshift@=\dimen179
+\alignsep@=\dimen180
+\tagshift@=\dimen181
+\tagwidth@=\dimen182
+\totwidth@=\dimen183
+\lineht@=\dimen184
+\@envbody=\toks35
+\multlinegap=\skip52
+\multlinetaggap=\skip53
+\mathdisplay@stack=\toks36
+LaTeX Info: Redefining \[ on input line 2844.
+LaTeX Info: Redefining \] on input line 2845.
+)
+(/app/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2017/10/31 v2.20.4
+\thm@style=\toks37
+\thm@bodyfont=\toks38
+\thm@headfont=\toks39
+\thm@notefont=\toks40
+\thm@headpunct=\toks41
+\thm@preskip=\skip54
+\thm@postskip=\skip55
+\thm@headsep=\skip56
+\dth@everypar=\toks42
+)
+\c@theorem=\count158
+)
+(/app/texmf-dist/tex/latex/beamer/beamerbasethemes.sty))
+(/app/texmf-dist/tex/latex/beamer/beamerthemedefault.sty
+(/app/texmf-dist/tex/latex/beamer/beamerfontthemedefault.sty)
+(/app/texmf-dist/tex/latex/beamer/beamercolorthemedefault.sty)
+(/app/texmf-dist/tex/latex/beamer/beamerinnerthemedefault.sty
+\beamer@dima=\dimen185
+\beamer@dimb=\dimen186
+)
+(/app/texmf-dist/tex/latex/beamer/beamerouterthemedefault.sty)))
+(/app/texmf-dist/tex/latex/beamertheme-metropolis/beamerouterthememetropolis.st
+y
+Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
+ (/app/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count159
+\calc@Bcount=\count160
+\calc@Adimen=\dimen187
+\calc@Bdimen=\dimen188
+\calc@Askip=\skip57
+\calc@Bskip=\skip58
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count161
+\calc@Cskip=\skip59
+)
+(/app/texmf-dist/tex/latex/pgfopts/pgfopts.sty
+Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
+
+(/app/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/app/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+\pgfopts@list@add@a@toks=\toks43
+\pgfopts@list@add@b@toks=\toks44
+)
+\metropolis@frametitle@padding=\skip60
+\metropolis@progressinheadfoot=\skip61
+\metropolis@progressinheadfoot@linewidth=\skip62
+)
+(/app/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropolis.st
+y
+Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
+ (/app/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/app/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfnodeparttextbox=\box55
+)
+(/app/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2019/02/02 v3.1.1 (3.1.1)
+\pgf@nodesepstart=\dimen189
+\pgf@nodesepend=\dimen190
+)
+(/app/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2019/02/02 v3.1.1 (3.1.1)
+))
+(/app/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/app/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/app/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(/app/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen191
+\pgffor@skip=\dimen192
+\pgffor@stack=\toks45
+\pgffor@toks=\toks46
+))
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@plot@mark@count=\count162
+\pgfplotmarksize=\dimen193
+)
+\tikz@lastx=\dimen194
+\tikz@lasty=\dimen195
+\tikz@lastxsaved=\dimen196
+\tikz@lastysaved=\dimen197
+\tikzleveldistance=\dimen198
+\tikzsiblingdistance=\dimen199
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count163
+\tikznumberofchildren=\count164
+\tikznumberofcurrentchild=\count165
+\tikz@fig@count=\count166
+
+(/app/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgfmatrixcurrentrow=\count167
+\pgfmatrixcurrentcolumn=\count168
+\pgf@matrix@numberofcolumns=\count169
+)
+\tikz@expandcount=\count170
+
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarytopath
+s.code.tex
+File: tikzlibrarytopaths.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)))
+\metropolis@titleseparator@linewidth=\skip63
+\metropolis@progressonsectionpage=\skip64
+\metropolis@progressonsectionpage@linewidth=\skip65
+\metropolis@blocksep=\skip66
+\metropolis@blockadjust=\skip67
+\metropolis@parskip=\skip68
+) (/app/texmf-dist/tex/latex/beamer/beamercolorthemestructure.sty) (/app/texmf-
+dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/08/11 v1.3c Input encoding file
+\inpenc@prehook=\toks47
+\inpenc@posthook=\toks48
+
+
+Package inputenc Warning: inputenc package ignored with utf8 based engines.
+
+) (/app/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2019/04/03 3.29 The Babel package
+
+(/app/texmf-dist/tex/generic/babel/switch.def
+File: switch.def 2019/04/03 3.29 Babel switching mechanism
+)
+(/app/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+
+(/app/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2019/04/03 3.29 Babel common definitions
+\babel@savecnt=\count171
+\U@D=\dimen256
+
+(/app/texmf-dist/tex/generic/babel/xebabel.def
+(/app/texmf-dist/tex/generic/babel/txtbabel.def))
+LaTeX Info: Redefining \textlatin on input line 2011.
+\bbl@dirlevel=\count172
+)
+\es@quottoks=\toks49
+\es@quotdepth=\count173
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
+))
+(/app/texmf-dist/tex/latex/fontspec/fontspec.sty
+(/app/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+(/app/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2019-04-06 L3 programming layer (loader) 
+
+(/app/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2019-04-06 L3 programming layer (code)
+\c_max_int=\count174
+\l_tmpa_int=\count175
+\l_tmpb_int=\count176
+\g_tmpa_int=\count177
+\g_tmpb_int=\count178
+\g__kernel_prg_map_int=\count179
+\c__ior_term_ior=\count180
+\c_log_iow=\count181
+\l_iow_line_count_int=\count182
+\l__iow_line_target_int=\count183
+\l__iow_one_indent_int=\count184
+\l__iow_indent_int=\count185
+\c_zero_dim=\dimen257
+\c_max_dim=\dimen258
+\l_tmpa_dim=\dimen259
+\l_tmpb_dim=\dimen260
+\g_tmpa_dim=\dimen261
+\g_tmpb_dim=\dimen262
+\c_zero_skip=\skip69
+\c_max_skip=\skip70
+\l_tmpa_skip=\skip71
+\l_tmpb_skip=\skip72
+\g_tmpa_skip=\skip73
+\g_tmpb_skip=\skip74
+\c_zero_muskip=\muskip12
+\c_max_muskip=\muskip13
+\l_tmpa_muskip=\muskip14
+\l_tmpb_muskip=\muskip15
+\g_tmpa_muskip=\muskip16
+\g_tmpb_muskip=\muskip17
+\l_keys_choice_int=\count186
+\l__intarray_loop_int=\count187
+\c__intarray_sp_dim=\dimen263
+\g__intarray_font_int=\count188
+\c__fp_leading_shift_int=\count189
+\c__fp_middle_shift_int=\count190
+\c__fp_trailing_shift_int=\count191
+\c__fp_big_leading_shift_int=\count192
+\c__fp_big_middle_shift_int=\count193
+\c__fp_big_trailing_shift_int=\count194
+\c__fp_Bigg_leading_shift_int=\count195
+\c__fp_Bigg_middle_shift_int=\count196
+\c__fp_Bigg_trailing_shift_int=\count197
+\g__fp_array_int=\count198
+\l__fp_array_loop_int=\count199
+\l__sort_length_int=\count266
+\l__sort_min_int=\count267
+\l__sort_top_int=\count268
+\l__sort_max_int=\count269
+\l__sort_true_max_int=\count270
+\l__sort_block_int=\count271
+\l__sort_begin_int=\count272
+\l__sort_end_int=\count273
+\l__sort_A_int=\count274
+\l__sort_B_int=\count275
+\l__sort_C_int=\count276
+\l__tl_analysis_normal_int=\count277
+\l__tl_analysis_index_int=\count278
+\l__tl_analysis_nesting_int=\count279
+\l__tl_analysis_type_int=\count280
+\l__regex_internal_a_int=\count281
+\l__regex_internal_b_int=\count282
+\l__regex_internal_c_int=\count283
+\l__regex_balance_int=\count284
+\l__regex_group_level_int=\count285
+\l__regex_mode_int=\count286
+\c__regex_cs_in_class_mode_int=\count287
+\c__regex_cs_mode_int=\count288
+\l__regex_catcodes_int=\count289
+\l__regex_default_catcodes_int=\count290
+\c__regex_catcode_L_int=\count291
+\c__regex_catcode_O_int=\count292
+\c__regex_catcode_A_int=\count293
+\c__regex_all_catcodes_int=\count294
+\l__regex_show_lines_int=\count295
+\l__regex_min_state_int=\count296
+\l__regex_max_state_int=\count297
+\l__regex_left_state_int=\count298
+\l__regex_right_state_int=\count299
+\l__regex_capturing_group_int=\count300
+\l__regex_min_pos_int=\count301
+\l__regex_max_pos_int=\count302
+\l__regex_curr_pos_int=\count303
+\l__regex_start_pos_int=\count304
+\l__regex_success_pos_int=\count305
+\l__regex_curr_char_int=\count306
+\l__regex_curr_catcode_int=\count307
+\l__regex_last_char_int=\count308
+\l__regex_case_changed_char_int=\count309
+\l__regex_curr_state_int=\count310
+\l__regex_step_int=\count311
+\l__regex_min_active_int=\count312
+\l__regex_max_active_int=\count313
+\l__regex_replacement_csnames_int=\count314
+\l__regex_match_count_int=\count315
+\l__regex_min_submatch_int=\count316
+\l__regex_submatch_int=\count317
+\l__regex_zeroth_submatch_int=\count318
+\g__regex_trace_regex_int=\count319
+\c_empty_box=\box60
+\l_tmpa_box=\box61
+\l_tmpb_box=\box62
+\g_tmpa_box=\box63
+\g_tmpb_box=\box64
+\l__box_top_dim=\dimen264
+\l__box_bottom_dim=\dimen265
+\l__box_left_dim=\dimen266
+\l__box_right_dim=\dimen267
+\l__box_top_new_dim=\dimen268
+\l__box_bottom_new_dim=\dimen269
+\l__box_left_new_dim=\dimen270
+\l__box_right_new_dim=\dimen271
+\l__box_internal_box=\box65
+\l__coffin_internal_box=\box66
+\l__coffin_internal_dim=\dimen272
+\l__coffin_offset_x_dim=\dimen273
+\l__coffin_offset_y_dim=\dimen274
+\l__coffin_x_dim=\dimen275
+\l__coffin_y_dim=\dimen276
+\l__coffin_x_prime_dim=\dimen277
+\l__coffin_y_prime_dim=\dimen278
+\c_empty_coffin=\box67
+\l__coffin_aligned_coffin=\box68
+\l__coffin_aligned_internal_coffin=\box69
+\l_tmpa_coffin=\box70
+\l_tmpb_coffin=\box71
+\g_tmpa_coffin=\box72
+\g_tmpb_coffin=\box73
+\l__coffin_bounding_shift_dim=\dimen279
+\l__coffin_left_corner_dim=\dimen280
+\l__coffin_right_corner_dim=\dimen281
+\l__coffin_bottom_corner_dim=\dimen282
+\l__coffin_top_corner_dim=\dimen283
+\l__coffin_scaled_total_height_dim=\dimen284
+\l__coffin_scaled_width_dim=\dimen285
+\c__coffin_empty_coffin=\box74
+\l__coffin_display_coffin=\box75
+\l__coffin_display_coord_coffin=\box76
+\l__coffin_display_pole_coffin=\box77
+\l__coffin_display_offset_dim=\dimen286
+\l__coffin_display_x_dim=\dimen287
+\l__coffin_display_y_dim=\dimen288
+\g__file_internal_ior=\read2
+\l__seq_internal_a_int=\count320
+\l__seq_internal_b_int=\count321
+\c__deprecation_minus_one=\count322
+)
+(/app/texmf-dist/tex/latex/l3kernel/l3xdvipdfmx.def
+File: l3xdvipdfmx.def 2019-04-06 v L3 Experimental driver: xdvipdfmx
+\g__driver_image_int=\count323
+\g__driver_pdf_object_int=\count324
+))
+Package: xparse 2019-03-05 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count325
+\g__xparse_grabber_int=\count326
+\l__xparse_m_args_int=\count327
+\l__xparse_v_nesting_int=\count328
+)
+Package: fontspec 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTeX
+
+(/app/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2019/03/15 v2.7c Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count329
+\l__fontspec_language_int=\count330
+\l__fontspec_strnum_int=\count331
+\l__fontspec_tmp_int=\count332
+\l__fontspec_tmpa_int=\count333
+\l__fontspec_tmpb_int=\count334
+\l__fontspec_tmpc_int=\count335
+\l__fontspec_em_int=\count336
+\l__fontspec_emdef_int=\count337
+\l__fontspec_strong_int=\count338
+\l__fontspec_strongdef_int=\count339
+\l__fontspec_tmpa_dim=\dimen289
+\l__fontspec_tmpb_dim=\dimen290
+\l__fontspec_tmpc_dim=\dimen291
+
+(/app/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2018/08/11 v2.0j Standard LaTeX package
+
+(/app/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2018/08/11 v2.0j Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 82.
+))
+(/app/texmf-dist/tex/latex/fontspec/fontspec.cfg)
+LaTeX Info: Redefining \itshape on input line 4051.
+LaTeX Info: Redefining \slshape on input line 4056.
+LaTeX Info: Redefining \scshape on input line 4061.
+LaTeX Info: Redefining \upshape on input line 4066.
+LaTeX Info: Redefining \em on input line 4096.
+LaTeX Info: Redefining \emph on input line 4121.
+LaTeX Font Info:    Font shape `TU/lmss/m/it' in size <10.95> not available
+(Font)              Font shape `TU/lmss/m/sl' tried instead on input line 4171.
+
+))
+(/app/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box78
+\UL@hyphenbox=\box79
+\UL@skip=\skip75
+\UL@hook=\toks50
+\UL@height=\dimen292
+\UL@pe=\count340
+\UL@pixel=\dimen293
+\ULC@box=\box80
+Package: ulem 2012/05/18
+\ULdepth=\dimen294
+)
+
+Package fontspec Info: Font family 'JetBrainsMono(0)' created for font
+(fontspec)             'JetBrains Mono' with options
+(fontspec)             [WordSpace={1,0,0},HyphenChar=None,PunctuationSpace=Word
+Space].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.: <->"JetBrains
+(fontspec)             Mono/OT:script=latn;language=DFLT;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold' (bx/n) with NFSS spec.: <->"JetBrains
+(fontspec)             Mono/B/OT:script=latn;language=DFLT;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'italic' (m/it) with NFSS spec.: <->"JetBrains
+(fontspec)             Mono/I/OT:script=latn;language=DFLT;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.: <->"JetBrains
+(fontspec)             Mono/BI/OT:script=latn;language=DFLT;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
+(fontspec)             and font adjustment code:
+(fontspec)             \fontdimen 2\font =1\fontdimen 2\font \fontdimen 3\font
+(fontspec)             =0\fontdimen 3\font \fontdimen 4\font =0\fontdimen
+(fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
+(fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
+
+LaTeX Info: Redefining \ttfamily on input line 14.
+
+Package fontspec Info: Font family 'Roboto(0)' created for font 'Roboto' with
+(fontspec)             options [Ligatures=TeX].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"Roboto/OT:script=latn;language=DFLT;mapping=tex-text
+;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.:
+(fontspec)             <->"Roboto/OT:script=latn;language=DFLT;+smcp;mapping=te
+x-text;"
+(fontspec)             - 'bold' (bx/n) with NFSS spec.:
+(fontspec)             <->"Roboto/B/OT:script=latn;language=DFLT;mapping=tex-te
+xt;"
+(fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.:
+(fontspec)             <->"Roboto/B/OT:script=latn;language=DFLT;+smcp;mapping=
+tex-text;"
+(fontspec)             - 'italic' (m/it) with NFSS spec.:
+(fontspec)             <->"Roboto/I/OT:script=latn;language=DFLT;mapping=tex-te
+xt;"
+(fontspec)             - 'italic small caps'  (m/itsc) with NFSS spec.:
+(fontspec)             <->"Roboto/I/OT:script=latn;language=DFLT;+smcp;mapping=
+tex-text;"
+(fontspec)             - 'bold italic' (bx/it) with NFSS spec.:
+(fontspec)             <->"Roboto/BI/OT:script=latn;language=DFLT;mapping=tex-t
+ext;"
+(fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.:
+(fontspec)             <->"Roboto/BI/OT:script=latn;language=DFLT;+smcp;mapping
+=tex-text;"
+
+LaTeX Info: Redefining \rmfamily on input line 15.
+LaTeX Info: Redefining \sffamily on input line 16.
+
+(/app/texmf-dist/tex/latex/smartdiagram/smartdiagram.sty
+Package: smartdiagram 2016/12/23 v0.3b Automatic creation of smart diagrams fro
+m lists of items.
+
+(/app/texmf-dist/tex/generic/xstring/xstring.sty
+(/app/texmf-dist/tex/generic/xstring/xstring.tex
+\integerpart=\count341
+Invalid UTF-8 byte or sequence at line 35 replaced by U+FFFD.
+\decimalpart=\count342
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 79 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 83 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 86 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 102 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 114 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 120 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 125 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 147 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 182 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 183 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 184 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 185 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 189 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 190 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 193 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 208 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 221 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 241 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 266 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 284 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 295 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 300 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 301 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 302 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 303 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 332 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 333 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 334 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 406 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 409 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 410 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 428 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 434 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 457 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 464 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 466 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 541 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 586 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 588 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 595 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 597 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 599 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 602 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 605 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 610 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 615 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 632 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 633 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 635 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 637 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 647 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 653 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 678 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 700 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 705 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 715 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 719 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 732 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 741 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 742 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 762 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 773 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 774 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 797 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 810 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 824 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 831 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 838 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 846 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 861 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 862 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 864 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 908 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 909 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 934 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 936 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 940 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 962 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 964 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 965 replaced by U+FFFD.
+Invalid UTF-8 byte or sequence at line 1006 replaced by U+FFFD.
+)
+Package: xstring 2019/02/06 v1.83 String manipulations (CT)
+)
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarybackgr
+ounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2019/02/02 v3.1.1 (3.1.1)
+\pgf@layerbox@background=\box81
+\pgf@layerboxsaved@background=\box82
+)
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrarycalc.c
+ode.tex
+File: tikzlibrarycalc.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryfading
+s.code.tex
+File: tikzlibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
+File: pgflibraryfadings.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshadow
+s.code.tex
+File: tikzlibraryshadows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+)
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes
+.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows.code.
+tex
+File: pgflibraryshapes.arrows.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+(/app/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryshapes
+.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2019/02/02 v3.1.1 (3.1.1)
+
+(/app/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbols.code
+.tex
+File: pgflibraryshapes.symbols.code.tex 2019/02/02 v3.1.1 (3.1.1)
+))
+\pgf@layerbox@smart diagram arrow back=\box83
+\pgf@layerboxsaved@smart diagram arrow back=\box84
+
+(/app/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitions.cod
+e.tex)
+(/app/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.styles.code.tex
+)
+(/app/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.commands.code.t
+ex)) (/app/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/app/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/app/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: xetex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
+
+(/app/texmf-dist/tex/latex/pict2e/p2e-xetex.def
+File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks51
+\@arclen=\dimen295
+\@arcrad=\dimen296
+\@tempdimd=\dimen297
+)
+\c@treecount=\count343
+\c@branchcount=\count344
+\parentbox=\box85
+\treebox=\box86
+\treeboxone=\box87
+\treeboxtwo=\box88
+\treeboxthree=\box89
+\treeboxfour=\box90
+\treeboxfive=\box91
+\treeboxsix=\box92
+\treeboxseven=\box93
+\treeboxeight=\box94
+\treeboxnine=\box95
+\treeboxten=\box96
+\treeboxeleven=\box97
+\treeboxtwelve=\box98
+\treeboxthirteen=\box99
+\treeboxfourteen=\box100
+\treeboxfifteen=\box101
+\treeboxsixteen=\box102
+\treeboxseventeen=\box103
+\treeboxeighteen=\box104
+\treeboxnineteen=\box105
+\treeboxtwenty=\box106
+\treeoffsetone=\skip76
+\treeoffsettwo=\skip77
+\treeoffsetthree=\skip78
+\treeoffsetfour=\skip79
+\treeoffsetfive=\skip80
+\treeoffsetsix=\skip81
+\treeoffsetseven=\skip82
+\treeoffseteight=\skip83
+\treeoffsetnine=\skip84
+\treeoffsetten=\skip85
+\treeoffseteleven=\skip86
+\treeoffsettwelve=\skip87
+\treeoffsetthirteen=\skip88
+\treeoffsetfourteen=\skip89
+\treeoffsetfifteen=\skip90
+\treeoffsetsixteen=\skip91
+\treeoffsetseventeen=\skip92
+\treeoffseteighteen=\skip93
+\treeoffsetnineteen=\skip94
+\treeoffsettwenty=\skip95
+\treeshiftone=\skip96
+\treeshifttwo=\skip97
+\treeshiftthree=\skip98
+\treeshiftfour=\skip99
+\treeshiftfive=\skip100
+\treeshiftsix=\skip101
+\treeshiftseven=\skip102
+\treeshifteight=\skip103
+\treeshiftnine=\skip104
+\treeshiftten=\skip105
+\treeshifteleven=\skip106
+\treeshifttwelve=\skip107
+\treeshiftthirteen=\skip108
+\treeshiftfourteen=\skip109
+\treeshiftfifteen=\skip110
+\treeshiftsixteen=\skip111
+\treeshiftseventeen=\skip112
+\treeshifteighteen=\skip113
+\treeshiftnineteen=\skip114
+\treeshifttwenty=\skip115
+\treewidthone=\skip116
+\treewidthtwo=\skip117
+\treewidththree=\skip118
+\treewidthfour=\skip119
+\treewidthfive=\skip120
+\treewidthsix=\skip121
+\treewidthseven=\skip122
+\treewidtheight=\skip123
+\treewidthnine=\skip124
+\treewidthten=\skip125
+\treewidtheleven=\skip126
+\treewidthtwelve=\skip127
+\treewidththirteen=\skip128
+\treewidthfourteen=\skip129
+\treewidthfifteen=\skip130
+\treewidthsixteen=\skip131
+\treewidthseventeen=\skip132
+\treewidtheighteen=\skip133
+\treewidthnineteen=\skip134
+\treewidthtwenty=\skip135
+\daughteroffsetone=\skip136
+\daughteroffsettwo=\skip137
+\daughteroffsetthree=\skip138
+\daughteroffsetfour=\skip139
+\branchwidthone=\skip140
+\branchwidthtwo=\skip141
+\branchwidththree=\skip142
+\branchwidthfour=\skip143
+\parentoffset=\skip144
+\treeoffset=\skip145
+\daughteroffset=\skip146
+\branchwidth=\skip147
+\parentwidth=\skip148
+\treewidth=\skip149
+\qta=\toks52
+\qtb=\toks53
+\nbranches=\count345
+\qroofx=\count346
+\qroofy=\count347
+\@qrscratchbox=\box107
+)
+(/app/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks54
+\verbatim@line=\toks55
+\verbatim@in@stream=\read3
+)
+(/app/texmf-dist/tex/latex/svg/svg.sty
+Package: svg 2018/11/12 v2.02b (include SVG pictures)
+
+(/app/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2019/02/01 v3.26b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/app/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2019/02/01 v3.26b KOMA-Script package (loading files)
+)
+(/app/texmf-dist/tex/latex/filehook/filehook-scrlfile.sty
+Package: filehook-scrlfile 2011/01/03 v0.1 filehook patch for scrlfile package
+Package filehook Info: Package 'scrlfile' detected and compensated for on input
+ line 102.
+))
+(/app/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2016/06/07 v0.02a unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 69.
+)
+(/app/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+)
+\svg@box=\box108
+\c@svg@param@lastpage=\count348
+\c@svg@param@currpage=\count349
+)
+(/app/texmf-dist/tex/latex/oberdiek/transparent.sty
+Package: transparent 2018/11/18 v1.3 Transparency via pdfTeX's color stack (HO)
+
+
+
+Package transparent Warning: Loading aborted, because pdfTeX is not running in 
+PDF mode.
+
+) (/app/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+
+(/app/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2018/08/11 v2.0j Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 79.
+
+(/app/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 334.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 349.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 350.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 351.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 352.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 353.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 354.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 355.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 356.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 357.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 358.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 359.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 360.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 361.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 362.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 363.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 364.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 365.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 366.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 367.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 368.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 369.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 370.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 371.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 372.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 373.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 374.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 375.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 376.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 377.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 378.
+Package textcomp Info: Setting lmr sub-encoding to TS1/0 on input line 379.
+Package textcomp Info: Setting lmdh sub-encoding to TS1/0 on input line 380.
+Package textcomp Info: Setting lmss sub-encoding to TS1/0 on input line 381.
+Package textcomp Info: Setting lmssq sub-encoding to TS1/0 on input line 382.
+Package textcomp Info: Setting lmvtt sub-encoding to TS1/0 on input line 383.
+Package textcomp Info: Setting lmtt sub-encoding to TS1/0 on input line 384.
+Package textcomp Info: Setting qhv sub-encoding to TS1/0 on input line 385.
+Package textcomp Info: Setting qag sub-encoding to TS1/0 on input line 386.
+Package textcomp Info: Setting qbk sub-encoding to TS1/0 on input line 387.
+Package textcomp Info: Setting qcr sub-encoding to TS1/0 on input line 388.
+Package textcomp Info: Setting qcs sub-encoding to TS1/0 on input line 389.
+Package textcomp Info: Setting qpl sub-encoding to TS1/0 on input line 390.
+Package textcomp Info: Setting qtm sub-encoding to TS1/0 on input line 391.
+Package textcomp Info: Setting qzc sub-encoding to TS1/0 on input line 392.
+Package textcomp Info: Setting qhvc sub-encoding to TS1/0 on input line 393.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 394.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 395.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 396.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 397.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 398.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 399.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 400.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 401.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 402.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 403.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 404.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 405.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 406.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 407.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 408.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 409.
+))
+(/app/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count350
+\lst@gtempboxa=\box109
+\lst@token=\toks56
+\lst@length=\count351
+\lst@currlwidth=\dimen298
+\lst@column=\count352
+\lst@pos=\count353
+\lst@lostspace=\dimen299
+\lst@width=\dimen300
+\lst@newlines=\count354
+\lst@lineno=\count355
+\lst@maxwidth=\dimen301
+
+(/app/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2019/02/27 1.8b (Carsten Heinz)
+\c@lstnumber=\count356
+\lst@skipnumbers=\count357
+\lst@framebox=\box110
+)
+(/app/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2019/02/27 1.8b listings configuration
+))
+Package: listings 2019/02/27 1.8b (Carsten Heinz)
+
+(/app/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2019/02/27 1.8b listings language file
+) (./main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 153.
+LaTeX Font Info:    ... okay on input line 153.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 153.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 153.
+
+
+(/app/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 153.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: custom
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: includehead includefoot 
+* h-part:(L,W,R)=(28.45274pt, 398.3386pt, 28.45274pt)
+* v-part:(T,H,B)=(0.0pt, 256.0748pt, 0.0pt)
+* \paperwidth=455.24408pt
+* \paperheight=256.0748pt
+* \textwidth=398.3386pt
+* \textheight=227.62207pt
+* \oddsidemargin=-43.81725pt
+* \evensidemargin=-43.81725pt
+* \topmargin=-72.26999pt
+* \headheight=14.22636pt
+* \headsep=0.0pt
+* \topskip=11.0pt
+* \footskip=14.22636pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+ABD: EveryShipout initializing macros
+\AtBeginShipoutBox=\box111
+Package hyperref Info: Link coloring OFF on input line 153.
+
+(/app/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(/app/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count358
+)
+LaTeX Info: Redefining \ref on input line 153.
+LaTeX Info: Redefining \pageref on input line 153.
+LaTeX Info: Redefining \nameref on input line 153.
+ (./main.out)
+(./main.out)
+\@outlinefile=\write5
+\openout5 = `main.out'.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 153.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 153.
+\symnumbers=\mathgroup6
+\sympureletters=\mathgroup7
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 153.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> TU/Roboto(0)/bx/n on input line 153.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 153.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> TU/Roboto(0)/m/it on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> TU/Roboto(0)/m/it on input line 153.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 
+153.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> TU/JetBrainsMono(0)/m/n on input line 
+153.
+LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 15
+3.
+LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
+(Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/bx/it on input line 
+153.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/bx/n on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+53.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 15
+3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/bx/it on input line 
+153.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/JetBrainsMono(0)/m/n --> TU/JetBrainsMono(0)/bx/n on
+ input line 153.
+
+(/app/texmf-dist/tex/latex/translator/translator-basic-dictionary-English.dict
+Dictionary: translator-basic-dictionary, Language: English 
+)
+(/app/texmf-dist/tex/latex/translator/translator-bibliography-dictionary-Englis
+h.dict
+Dictionary: translator-bibliography-dictionary, Language: English 
+)
+(/app/texmf-dist/tex/latex/translator/translator-environment-dictionary-English
+.dict
+Dictionary: translator-environment-dictionary, Language: English 
+)
+(/app/texmf-dist/tex/latex/translator/translator-months-dictionary-English.dict
+Dictionary: translator-months-dictionary, Language: English 
+)
+(/app/texmf-dist/tex/latex/translator/translator-numbers-dictionary-English.dic
+t
+Dictionary: translator-numbers-dictionary, Language: English 
+)
+(/app/texmf-dist/tex/latex/translator/translator-theorem-dictionary-English.dic
+t
+Dictionary: translator-theorem-dictionary, Language: English 
+)
+LaTeX Info: Redefining \. on input line 153.
+LaTeX Info: Redefining \% on input line 153.
+
+Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
+(fontspec)             this).
+
+\symlegacymaths=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 153.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 153.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 153.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 153.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 153.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 153.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 153.
+LaTeX Font Info:    Redeclaring math accent \check on input line 153.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 153.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 153.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 153.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 153.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 153.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `normal' on input line 153.
+
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmss/m/n --> TU/Roboto(0)/m/n on input line 153.
+LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
+(Font)              `operators' in the math version `bold' on input line 153.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmss/bx/n --> TU/Roboto(0)/m/n on input line 153.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 153
+.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  TU/Roboto(0)/m/it --> TU/Roboto(0)/m/it on input line 1
+53.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+53.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/m/n on input line 153
+.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  TU/JetBrainsMono(0)/m/n --> TU/JetBrainsMono(0)/m/n on 
+input line 153.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  TU/Roboto(0)/m/n --> TU/Roboto(0)/bx/n on input line 15
+3.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  TU/Roboto(0)/bx/it --> TU/Roboto(0)/bx/it on input line
+ 153.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  TU/Roboto(0)/bx/n --> TU/Roboto(0)/bx/n on input line 1
+53.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  TU/JetBrainsMono(0)/bx/n --> TU/JetBrainsMono(0)/bx/n o
+n input line 153.
+\c@lstlisting=\count359
+ (./main.nav)
+Overfull \vbox (44.04225pt too high) detected at line 159
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[1
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [2
+
+]
+File: Images/javavsjs.jpg Graphic file (type bmp)
+<Images/javavsjs.jpg>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [3
+
+]
+LaTeX Font Info:    Try loading font information for U+msa on input line 175.
+ (/app/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 175.
+
+(/app/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [4
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [5
+
+]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [6
+
+]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [7
+
+]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [8
+
+]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [9
+
+]
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 8 in font nullfont!
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [10
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+
+[11
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [12
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [13
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [14
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [15
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [16
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [17
+
+]
+File: Images/pascal.png Graphic file (type bmp)
+<Images/pascal.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [18
+
+]
+File: Images/basic.png Graphic file (type bmp)
+<Images/basic.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [19
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [20
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [21
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [22
+
+]
+File: Images/openjdk.png Graphic file (type bmp)
+<Images/openjdk.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [23
+
+]
+File: Images/pirates.png Graphic file (type bmp)
+<Images/pirates.png>
+
+Overfull \vbox (4.283pt too high) detected at line 332
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[24
+
+]
+File: Images/jvmlangs.png Graphic file (type bmp)
+<Images/jvmlangs.png>
+
+Overfull \vbox (16.5889pt too high) detected at line 342
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[25
+
+]
+File: Images/java.jpg Graphic file (type bmp)
+<Images/java.jpg>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [26
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [27
+
+]
+File: Images/kotlin.png Graphic file (type bmp)
+<Images/kotlin.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [28
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [29
+
+]
+File: Images/clojure.png Graphic file (type bmp)
+<Images/clojure.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [30
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [31
+
+]
+File: Images/scala.png Graphic file (type bmp)
+<Images/scala.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+
+[32
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [33
+
+]
+File: Images/groovy.png Graphic file (type bmp)
+<Images/groovy.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [34
+
+]
+\openout4 = `main.vrb'.
+
+ (./main.vrb)
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [35
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [36
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [37
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [38
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [39
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [40
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [41
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+
+[42
+
+]
+File: Images/netpoly.png Graphic file (type bmp)
+<Images/netpoly.png>
+
+Overfull \vbox (2.70634pt too high) detected at line 559
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[43
+
+]
+File: Images/parrot.png Graphic file (type bmp)
+<Images/parrot.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [44
+
+]
+File: Images/graalvm.jpg Graphic file (type bmp)
+<Images/graalvm.jpg>
+
+Overfull \vbox (24.39357pt too high) detected at line 577
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[45
+
+]
+File: Images/microservices.png Graphic file (type bmp)
+<Images/microservices.png>
+
+Overfull \vbox (9.08676pt too high) detected at line 586
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[46
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [47
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [48
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [49
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [50
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [51
+
+]
+File: Images/redmonk.png Graphic file (type bmp)
+<Images/redmonk.png>
+
+Overfull \vbox (222.66771pt too high) detected at line 635
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[52
+
+]
+File: Images/tiobe.png Graphic file (type bmp)
+<Images/tiobe.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [53
+
+]
+File: Images/ieeemobile.png Graphic file (type bmp)
+<Images/ieeemobile.png>
+
+Overfull \vbox (46.85028pt too high) detected at line 649
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[54
+
+]
+File: Images/ieeeenterpise.png Graphic file (type bmp)
+<Images/ieeeenterpise.png>
+
+Overfull \vbox (47.75525pt too high) detected at line 656
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[55
+
+]
+File: Images/venkat.png Graphic file (type bmp)
+<Images/venkat.png>
+
+Overfull \vbox (55.59901pt too high) detected at line 663
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[56
+
+]
+File: Images/logos.png Graphic file (type bmp)
+<Images/logos.png>
+File: Images/cclogo.png Graphic file (type bmp)
+<Images/cclogo.png>
+
+Overfull \vbox (73.56041pt too high) detected at line 688
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[57
+
+]
+\tf@nav=\write6
+\openout6 = `main.nav'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+\tf@snm=\write8
+\openout8 = `main.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 692.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 692.
+ (./main.aux
+LaTeX Info: Redefining \. on input line 23.
+LaTeX Info: Redefining \% on input line 23.
+)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 692.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 692.
+Package rerunfilecheck Info: File `main.out' has not changed.
+(rerunfilecheck)             Checksum: 4DAD1DCE64C8E89D1B5B9FDB431B4354.
+ ) 
+Here is how much of TeX's memory you used:
+ 40281 strings out of 492922
+ 802494 string characters out of 6134661
+ 1137538 words of memory out of 5000000
+ 43617 multiletter control sequences out of 15000+600000
+ 537740 words of font info for 80 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 60i,12n,79p,821b,1116s stack positions out of 5000i,500n,10000p,200000b,80000s
+
+Output written on main.pdf (57 pages).

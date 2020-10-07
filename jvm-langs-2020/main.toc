@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Evolución de los lenguajes de programación}{4}{0}{1}
+\beamer@sectionintoc {2}{Evolución de las plataformas de programación}{13}{0}{2}
+\beamer@sectionintoc {3}{Lenguajes JVM}{22}{0}{3}
+\beamer@sectionintoc {4}{Plataforma}{36}{0}{4}
+\beamer@sectionintoc {5}{Tendencias políglotas}{42}{0}{5}
+\beamer@sectionintoc {6}{Principios de sobrevivencia en un múndo políglota}{47}{0}{6}
