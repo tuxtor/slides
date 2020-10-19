@@ -1,4 +1,4 @@
-\babel@toc {spanish}{}
+\select@language {spanish}
 \beamer@sectionintoc {1}{Evolución de los lenguajes de programación}{4}{0}{1}
 \beamer@sectionintoc {2}{Evolución de las plataformas de programación}{13}{0}{2}
 \beamer@sectionintoc {3}{Lenguajes JVM}{22}{0}{3}

@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  29 MAY 2020 16:51
+This is XeTeX, Version 3.14159265-2.6-0.99998 (TeX Live 2017) (preloaded format=xelatex 2017.5.23)  18 OCT 2020 22:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2008,9 +2008,9 @@ File: Images/fondo.png Graphic file (type QTm)
 \openout4 = `main.vrb'.
 
  (./main.vrb
-File: Images/javarelease.jpg Graphic file (type QTm)
- <use  "Images/javarelease.jpg" >)
-Overfull \vbox (20.74765pt too high) detected at line 375
+File: Images/javarelease.png Graphic file (type QTm)
+ <use  "Images/javarelease.png" >)
+Overfull \vbox (66.50206pt too high) detected at line 375
  []
 
 File: Images/fondo.png Graphic file (type QTm)

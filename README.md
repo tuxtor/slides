@@ -1,11 +1,15 @@
-Slides
-======
+# Slides
 
 Random slides from my presentations, most of these include Latex source code.
 
-(Work in progress) Index in no particular order:
+(Work in progress) Index in alpha order:
+
+## Cloud
+
+* [Aplicaciones empresariales con los 12 factores cloud native](12-factors/main.pdf)
 
 ## Java
+
 * [Empaquetando aplicaciones Java con Docker y Kubernetes](docker-java/main.pdf) - Spanish
 * [Microprofile for the busy developer](microprofile-busy-developer/main.pdf) - Spanish
 * [Java vs GC vs Android](java-gc-android/main.pdf) - Spanish
@@ -24,10 +28,12 @@ Random slides from my presentations, most of these include Latex source code.
 * [Functonal programming in the JVM](functional-jvm/main.pdf) - Spanish, includes Kotlin FP
 
 ## IT/IS
+
 * [Docker Primeros Pasos](docker-primeros-pasos/main.pdf) - Spanish
 * [Introdução ao Gentoo Linux](gentoo-portugues/small.pdf) - Portuguese
 
 ## CS
+
 * [Introducción a Aprendizaje de Maquina](machine-learning/main.pdf) - Spanish
 * [Ciencia y FLOSS](ciencia-y-floss/small.pdf) - Spanish
 * [Creando sistemas enterprise con Software Libre](coecys-2014/presentacion.pdf) - Spanish

@@ -1,0 +1,12 @@
+\frametitle{JEP 359: Records (Preview)}
+Data carrier
+\begin{lstlisting}
+record Person(String name, String email, int age) {}
+\end{lstlisting}
+
+Uso
+\begin{lstlisting}
+Person foo = new Person("Marco", "example@mail.com",99);
+System.out.println(foo);
+//foo.name = "Polo";
+\end{lstlisting}

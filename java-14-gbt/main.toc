@@ -1,5 +1,0 @@
-\select@language {spanish}
-\beamer@sectionintoc {1}{Historias del mundo real}{3}{0}{1}
-\beamer@sectionintoc {2}{De Java 8 a Java 11}{13}{0}{2}
-\beamer@sectionintoc {3}{De mi data center a la nube - moderna -}{29}{0}{3}
-\beamer@sectionintoc {4}{Desdse Java 14 hasta el infinito}{33}{0}{4}
