@@ -1,0 +1,6 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{12 factores Cloud Native}{6}{0}{1}
+\beamer@sectionintoc {2}{Estrategia}{20}{0}{2}
+\beamer@sectionintoc {3}{DevOps}{22}{0}{3}
+\beamer@sectionintoc {4}{Patrones nuevos}{25}{0}{4}
+\beamer@sectionintoc {5}{Microservice Chassis}{28}{0}{5}
