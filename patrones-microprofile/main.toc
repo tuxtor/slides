@@ -1,0 +1,6 @@
+\select@language {spanish}
+\beamer@sectionintoc {1}{Patrones de microservicios}{2}{0}{1}
+\beamer@sectionintoc {2}{Eclipse MicroProfile}{5}{0}{2}
+\beamer@sectionintoc {3}{Eclipse MicroProfile - Objetivos}{12}{0}{3}
+\beamer@sectionintoc {4}{Eclipse MicroProfile - APIs}{18}{0}{4}
+\beamer@sectionintoc {5}{Demo}{52}{0}{5}

@@ -1,0 +1,4 @@
+\select@language {portuguese}
+\beamer@sectionintoc {1}{Design Patterns}{2}{0}{1}
+\beamer@sectionintoc {2}{MicroProfile}{10}{0}{2}
+\beamer@sectionintoc {3}{MicroProfile - APIs}{17}{0}{3}
