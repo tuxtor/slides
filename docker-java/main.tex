@@ -128,14 +128,6 @@
 }
 
 
-\begin{frame}{Linux}
-    \begin{figure}
-        \centering
-        \includegraphics[width=0.6\linewidth]{Images/linux}
-        \label{fig:linux}
-    \end{figure}
-\end{frame}
-
 \begin{frame}{VMs}
     \begin{figure}
         \centering
@@ -187,8 +179,8 @@
         \item Cgroups + Namespace: Isolamiento de recursos de un grupo y visibilidad entre procesos
         \item libcontainer (LXC/Libvirt/systemd-nspawn)
         \item SELinux, AppArmor, Netfilter
-        \pause\item Ventajas: Boot time, menos overhead
-        \pause\item Desventajas: OCI, Linux \pause (meh!)
+        \item Ventajas: Boot time, menos overhead
+        \item Desventajas: Deprecated en Kubernetes, Linux
     \end{itemize}
 \end{frame}
 
@@ -203,25 +195,22 @@
     \end{itemize}
 \end{frame}
 
-\begin{frame}{Demo 1}
-    \begin{itemize}
-        \item docker pull ubuntu
-        \item docker run ubuntu echo "Hola ubuntu"
-        \item docker run -it ubuntu /bin/bash
-        \item apt-get update\&\&apt-get install nginx
-        \item docker ps
-        \item docker commit -id- tuxtor/nginx
-        \item docker run -d -p 81:80 tuxtor/nginx
-    \end{itemize}
-\end{frame} 
+\begin{frame}[fragile]{Demo 1}
+\begin{lstlisting}
+docker pull ubuntu
+docker run ubuntu echo "Hola ubuntu"
+docker run -it ubuntu /bin/bash
+apt-get update && apt-get install nginx
+docker ps
+docker commit -id- tuxtor/nginx
+docker run -d -p 81:80 tuxtor/nginx
+\end{lstlisting}
+\end{frame}
 
-{
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
-    \setbeamercolor{normal text}{fg=white}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \section{Docker y Java}
-}
+
+	\section{Aplicaciones Java}
+
+
 
 \begin{frame}{Aplicaciones Java}
     \begin{figure}
@@ -231,6 +220,7 @@
 \end{frame}
 
 \begin{frame}{Aplicaciones Java}
+	Formas de despliegue
     \begin{itemize}
         \item War sobre un contenedor o app server
         \item Microservicio como UberJar o FatJar
@@ -239,14 +229,20 @@
 \end{frame} 
 
 \begin{frame}{War sobre app server}
+Características
     \begin{itemize}
-        \item Todos los app servers tienen imagenes listas
+        \item Todos los app servers tienen imágenes listas
         \item Configuración debe ser externalizada
         \item Archivos descriptores (en imagen)
         \item Archivos de configuración de dominio (en imagen)
         \item Archivos properties (en war)
     \end{itemize}
 \end{frame} 
+
+
+\begin{frame}{Demo 1}
+App Server completo
+\end{frame}
 
 
 \begin{frame}{Microservicio como UberJar/FatJar}
@@ -261,7 +257,7 @@
 
 
 \begin{frame}{Demo 2}
-Microservicio como FatJar + Docker + Config + Oracle Helidon
+Microservicio como FatJar + Docker + Config + Payara Micro
 \end{frame}
 
 \begin{frame}{Microservicio en Docker}
@@ -284,7 +280,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.9\linewidth]{Images/dockermem.png}
-        \label{fig:container}
+        \label{fig:container1}
     \end{figure}
 \end{frame}
 
@@ -292,7 +288,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.6\linewidth]{Images/jvmnolimit.png}
-        \label{fig:container}
+        \label{fig:container2}
     \end{figure}
 \end{frame}
 
@@ -300,7 +296,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.9\linewidth]{Images/helidonmem.png}
-        \label{fig:container}
+        \label{fig:container3}
     \end{figure}
 \end{frame}
 
@@ -308,7 +304,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.6\linewidth]{Images/jvmlimit.png}
-        \label{fig:container}
+        \label{fig:container4}
     \end{figure}
 \end{frame}
 
@@ -316,7 +312,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.9\linewidth]{Images/dockermem.png}
-        \label{fig:container}
+        \label{fig:container5}
     \end{figure}
 \end{frame}
 
@@ -325,11 +321,6 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     CMD java -XX:+PrintFlagsFinal -XX:+PrintGCDetails $JAVA_OPTIONS -jar java-container.jar
     \end{lstlisting}
 \end{frame}
-
-
-
-
-
 
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
@@ -343,7 +334,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.7\linewidth]{Images/netflix.png}
-        \label{fig:container}
+        \label{fig:containe6r}
     \end{figure}
 \end{frame}
 
@@ -351,7 +342,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.7\linewidth]{Images/microprofile.png}
-        \label{fig:container}
+        \label{fig:containe7r}
     \end{figure}
 \end{frame}
 
@@ -407,7 +398,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=\linewidth]{Images/timeline.png}
-        \label{fig:container}
+        \label{fig:contai8ner}
     \end{figure}
 
     Créditos: Rafael Benevides
@@ -419,7 +410,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.5\linewidth]{Images/kube1.png}
-        \label{fig:container}
+        \label{fig:contain9er}
     \end{figure}
     
     Créditos: Rafael Benevides
@@ -430,7 +421,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.5\linewidth]{Images/kube2.png}
-        \label{fig:container}
+        \label{fig:contain10er}
     \end{figure}
     
     Créditos: Rafael Benevides
@@ -441,7 +432,7 @@ Microservicio como FatJar + Docker + Config + Oracle Helidon
     \begin{figure}
         \centering
         \includegraphics[width=0.5\linewidth]{Images/kube3.png}
-        \label{fig:container}
+        \label{fig:containe11r}
     \end{figure}
     
     Créditos: Rafael Benevides

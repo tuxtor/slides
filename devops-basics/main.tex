@@ -118,6 +118,122 @@ Créditos: Rafael Benevides
 \end{frame}
 
 
+\begin{frame}{}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/monolitos.png}
+\end{figure}
+\end{frame}
+
+\begin{frame}{}
+
+\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{Images/microservicios.png}
+\end{figure}
+\end{frame}
+
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{Patrones nuevos}
+}
+
+
+
+\begin{frame}{}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/PatternsRelatedToMicroservices}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/PatternsRelatedToMicroservices2}
+	\end{figure}
+\end{frame}
+
+
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{Microservice Chassis}
+}
+
+\begin{frame}{Microservice Chassis}
+	
+	
+	
+	\begin{columns}[T] % contents are top vertically aligned
+		\begin{column}[T]{6cm} % each column can also be its own environment
+			\begin{block}{Chassis}
+				Los frameworks Cloud Native son soluciones para problemas \textbf{cross-cuting concerns}.
+			\end{block}
+			\begin{block}{Chassis Java}
+				Spring Boot, MicroProfile, DropWizard, Akka
+			\end{block}
+		\end{column}
+		\begin{column}[T]{7cm} % alternative top-align that's better for graphics
+			\begin{figure}
+				\centering
+				\includegraphics[width=\linewidth]{Images/javaeemicropancake}
+				\caption{Créditos: Reza Rahman}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+	
+\end{frame}
+
+\begin{frame}{Microservice Chassis}
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/mp0}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Coreografia}
+	Patterns complementarios - Event Sourcing, CQRS
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/mpcore}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Orquestador}
+	Patterns complementarios - SAGA
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.7\linewidth]{Images/mporch}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{Cross-cutting en el mundo real}
+	
+	\begin{itemize}
+		\item \textbf{Health checks \& Metrics} - Recolectar métricas  (Prometheus/Grafana) y establecer reglas de despliegue
+		\item \textbf{Resilence \& Fault Tolerance} - Service mesh -e.g. Likerd, Istio- y Chassis
+		\item \textbf{Configuration} - Inyección de configuración en el ambiente
+		\item \textbf{Authentication \& Authorization} - API Gateway + Chassis
+		\item \textbf{Standarized documentation} - OpenAPI + Swagger Server
+		\item \textbf{Tracing} - Chassis + Zipkin
+		\item\textbf{ Remote Procedure \& Messaging} - Chassis + K8S service discovery
+	\end{itemize}
+	
+\end{frame}
+
+
+
 
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
@@ -304,104 +420,6 @@ Créditos: Rafael Benevides
 	\label{fig:etapa2}
 \end{figure}
 \end{frame}
-
-{
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
-    \setbeamercolor{normal text}{fg=white}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \section{Patrones nuevos}
-}
-
-
-
-\begin{frame}{}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/PatternsRelatedToMicroservices}
-\end{figure}
-\end{frame}
-
-\begin{frame}{}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/PatternsRelatedToMicroservices2}
-\end{figure}
-\end{frame}
-
-
-
-{
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
-    \setbeamercolor{normal text}{fg=white}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \section{Microservice Chassis}
-}
-
-\begin{frame}{Microservice Chassis}
-
-
-
-\begin{columns}[T] % contents are top vertically aligned
-\begin{column}[T]{6cm} % each column can also be its own environment
-	\begin{block}{Chassis}
-    Los frameworks Cloud Native son soluciones para problemas "cross-cuting concerns".
-	\end{block}
-    \begin{block}{Chassis Java}
-Spring Boot, MicroProfile, DropWizard, Akka
-	\end{block}
-\end{column}
-\begin{column}[T]{7cm} % alternative top-align that's better for graphics
-    \begin{figure}
-    	\centering
-    	\includegraphics[width=\linewidth]{Images/javaeemicropancake}
-    	\caption{Créditos: Reza Rahman}
-    \end{figure}
-
-\end{column}
-\end{columns}
-
-\end{frame}
-
-\begin{frame}{Microservice Chassis}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Images/mp0}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Coreografia}
-Patterns complementarios - Event Sourcing, CQRS
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Images/mpcore}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Orquestador}
-Patterns complementarios - SAGA
-\begin{figure}
-	\centering
-	\includegraphics[width=0.7\linewidth]{Images/mporch}
-\end{figure}
-
-\end{frame}
-
-\begin{frame}{Cross-cutting en el mundo real}
-
-\begin{itemize}
-	\item \textbf{Health checks \& Metrics} - Recolectar métricas  (Prometheus/Grafana) y establecer reglas de despliegue
-	\item \textbf{Resilence \& Fault Tolerance} - Service mesh -e.g. Likerd, Istio- y Chassis
-	\item \textbf{Configuration} - Inyección de configuración en el ambiente
-	\item \textbf{Authentication \& Authorization} - API Gateway + Chassis
-	\item \textbf{Standarized documentation} - OpenAPI + Swagger Server
-    \item \textbf{Tracing} - Chassis + Zipkin
-    \item\textbf{ Remote Procedure \& Messaging} - Chassis + K8S service discovery
-\end{itemize}
-
-\end{frame}
-
 
 
 \begin{frame}{Víctor Orozco}

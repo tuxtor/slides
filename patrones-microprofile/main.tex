@@ -69,6 +69,72 @@
     \section{Patrones de microservicios}
 }
 
+
+\begin{frame}{Microservicios = Metapatron arquitectural}
+	
+	Arquitectura que estructura una aplicación como un conjunto de servicios débilmente acoplados. Corresponde al eje Y del scale cube cuyo objetivo final son sistemas reactivos
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.6\linewidth]{Images/scale}
+	\end{figure}
+	
+\end{frame}
+
+\begin{frame}{}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/reactive-traits.png}
+	\end{figure}
+	
+\end{frame}
+
+
+\begin{frame}{Application Server}
+	
+	\begin{itemize}
+		\item Transacionalidad distribuida (JTA/XA)
+		\item Contratos (JNDI)
+		\item Service discovery (JNDI)
+		\item Deployment (EAR/Class Loaders/Dashboards)
+		\item Métricas (JMX)
+		\item Seguridad (SoteriaRI/JACC)
+	\end{itemize}
+	
+\end{frame}
+
+
+
+\begin{frame}{Microservicios}
+	
+	Aplicaciones Cloud Native
+	\begin{itemize}
+		\item Sistemas reactivos
+		\item 12 factores Cloud Native
+		\item Design patterns
+		\item Domain Driven Design
+		\item Microservice chassis y service mesh
+		\item Orquestación de contenedores
+	\end{itemize}
+	
+\end{frame}
+
+
+\begin{frame}{Microservicios = Metapatron arquitectural}
+	
+	Cloud Native
+	\begin{itemize}
+		\item (Nos gustan) Sistemas reactivos
+		\item (Es posible mediante los) 12 factores Cloud Native
+		\item (Usamos soluciones probada con) design patterns
+		\item (Fragmentamos le sistema mediante) Domain Driven Design
+		\item \textbf{(Implementamos los servicios com frameworks) microservice chassis y service mesh}
+		\item (Hacemos despliegue) mediante orquestación de contenedores
+	\end{itemize}
+	
+\end{frame}
+
 \begin{frame}{}
 \begin{figure}
 	\centering

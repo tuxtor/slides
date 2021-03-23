@@ -6,15 +6,15 @@
 @Consumes("application/json")
 public <@\textcolor{red}{interface}@> MusicPlaylistService {
 
-	@GET
-	List<String> getPlaylistNames();
+^^I@GET
+^^IList<String> getPlaylistNames();
 
 
-	@PUT
-	@Path("/{playlistName}")
-	long updatePlayList(@PathParam("playlistName")
-		String name,
-		List<Song> playlist)
-		throws UnknownPlaylistException;
+^^I@PUT
+^^I@Path("/{playlistName}")
+^^Ilong updatePlayList(@PathParam("playlistName")
+^^I^^IString name,
+^^I^^IList<Song> playlist)
+^^I^^Ithrows UnknownPlaylistException;
 }
 \end{lstlisting}

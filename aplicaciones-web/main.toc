@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Un poco de historia}{2}{0}{1}
+\beamer@sectionintoc {2}{¿Como funcionan las aplicaciones en Internet?}{6}{0}{2}
+\beamer@sectionintoc {3}{¿Que habilidades necesito para crear sitios y aplicaciones web?}{10}{0}{3}
