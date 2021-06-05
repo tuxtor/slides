@@ -1,0 +1,38 @@
+https://www.youtube.com/watch?v=_vM3ORa9_JE
+
+- pod
+- Deployments - POD+Replicas
+- Service - Grupo de pods DNS + IP virtual
+
+
+Cluster
+-------
+kubectl cluster-info
+kubectl get nodes
+
+
+
+
+Helidon
+------
+kubectl create -f app.yaml
+kubectl get deployments
+kubectl get pods
+
+kubectl delete pod -----
+kubectl get pods
+
+
+Servicios
+------
+kubectl get svc
+kubectl get service helidon-quickstart-mp
+kubectl describe svc helidon-quickstart-mp
+kubectl delete deployment/helidon-quickstart-mp
+
+Docker kubernetes
+-----------------
+kubectl run service1kb --env="message=Cubernetes" --image=service1:latest -l app=service1,env=demo,version=1.0 -r 2
+kubectl get pods -l app=service1
+kubectl expose deployment service1kb --type=LoadBalancer --port=8080
+kubectl delete deployment/service1kb

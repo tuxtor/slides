@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Kubernetes desde 10k pies de altura}{5}{0}{1}
+\beamer@sectionintoc {2}{Conceptos generales}{15}{0}{2}
+\beamer@sectionintoc {3}{Empaquetando aplicaciones}{23}{0}{3}
+\beamer@sectionintoc {4}{Probando kubernetes}{35}{0}{4}

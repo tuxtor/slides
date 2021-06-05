@@ -127,40 +127,22 @@
 \date{\today}
 \begin{document}
 
+
 {
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/Contenido}}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \frame{\titlepage}
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/portada}}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\frame{\titlepage}
 }
 
 
-\begin{frame}{Víctor Orozco}
-    \begin{columns}[T] % contents are top vertically aligned
-
-        \begin{column}[T]{4cm} % alternative top-align that's better for graphics
-            \begin{figure}
-                \centering
-                \includegraphics[width=\linewidth]{Images/logos}
-            \end{figure}
-        \end{column}
-        \begin{column}[T]{6cm} % each column can also be its own environment
-            \begin{itemize}
-                \item vorozco@nabenik.com
-                \item \href{https://twitter.com/tuxtor}{@tuxtor}
-                \item \href{http://vorozco.com}{http://vorozco.com}
-                \item \href{http://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
-            \end{itemize}
-            \begin{center}
-                \includegraphics[width=0.1\linewidth]{Images/cclogo}
-                \\
-                This work is licensed under Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Guatemala (CC BY-NC-SA 3.0 GT).
-            \end{center}
-        \end{column}
-    \end{columns}
-\end{frame}
-
-\section{¿Que hace un desarrollador de software?}
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{¿Que hace un desarrollador de software?}
+}
 
 \begin{frame}
     \huge ¡Programar!
@@ -189,7 +171,16 @@
      \end{columns}
 \end{frame}
 
-\section{¿Porqué aprender a desarollar software?}
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{¿Porqué aprender a desarollar software?}
+}
+
+
+
 
 
 \begin{frame}{Oportunidades}
@@ -216,7 +207,16 @@
             \end{figure}
 \end{frame}
 
-\section{¿Quien puede ser un desarrollador de software?}
+
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{¿Quien puede ser un desarrollador de software?}
+}
+
+
 
 
 
@@ -265,29 +265,43 @@
 \end{frame}
 
 
-\section{Tipos de programadores}
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{Tipos de programadores}
+}
 
 
-\begin{frame}{Areas de programación (Simplificación)}
 
-\Tree[.Programador [.Movil [.Android \textit{Java, Kotlin, C++} ]
-               [.iOS  \textit{Swift, iOS} ]]
-          [.Web [.Frontend \textit{HTML 5, JS, CSS3} ]
-                [.Backend \textit{Java, Go, Rust} ]]]
 
+\begin{frame}{Backend vs frontend}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/backvsfront}
+	\end{figure}
 \end{frame}
 
-\begin{frame}{Areas de programación (Simplificación)}
 
-\Tree[.Programador [.Infraestructura [.Repetición \textit{Bash, PowerShell} ]
-                            [.Automatización \textit{Python, Go} ]]
-                            [.Videojuegos [.Simples \textit{JavaScript, Python, Java} ]
-                                                        [.AAA \textit{C++, C\#} ]]]
+
+\begin{frame}{Backend vs mobile}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/backvsmobile.png}
+	\end{figure}
 \end{frame}
 
 
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{¿Como deberia aprender?}
+}
 
-\section{¿Como deberia aprender?}
+
 
 
 
@@ -324,7 +338,14 @@
         \end{figure}
 \end{frame}
 
-\section{¿Hay niveles?}
+{
+	\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
+	\setbeamercolor{normal text}{fg=white}
+	\setbeamercolor{frametitle}{fg=red}
+	\usebeamercolor[fg]{normal text}
+	\section{¿Hay niveles?}
+}
+
 
 \begin{frame}[fragile,c]{Niveles}
 
@@ -340,45 +361,6 @@
         \centering
         \includegraphics[width=0.7\linewidth]{Images/niveles2}
     \end{figure}
-\end{frame}
-
-\section{¿Como se sobrevive en este mundo?}
-
-\begin{frame}{Principios de sobrevivencia}
-
-	\begin{exampleblock}{Principio \#0: Utilidad real de los lenguajes de programación}
-    Al final del día lo que la computadora entiende es lenguaje máquina. Los lenguajes de programación sirven para comunicarnos entre programadores.
-	\end{exampleblock}
-\end{frame}
-
-
-\begin{frame}{Principios de sobrevivencia}
-
-	\begin{exampleblock}{Principio \#1: Especialización de los lenguajes}
-    Contrario a lo que se piensa o se enseña en la universidad, los lenguajes de programación ya no son \textit{iguales}.
-	\end{exampleblock}
-\end{frame}
-
-
-\begin{frame}{Principios de sobrevivencia}
-
-	\begin{exampleblock}{Principio \#2: Paradigmas sobre lenguaje}
-    En el largo plazo es más conveniente entender como funcionan los lenguajes de programación para poder usar cualquier lenguaje.
-	\end{exampleblock}
-\end{frame}
-
-\begin{frame}{Principios de sobrevivencia}
-
-	\begin{exampleblock}{Principio \#3: Diferentes paradigmas = Mejores habilidades}
-    Un buen mínimo para prepararse para el futuro y el presente:
-    \begin{itemize}
-    	\item Tipado fuerte: Java (C++, C\#, Kotlin, Scala, Dart, Swift, Go, Rust, TypeScript)
-        \item Tipado dinámico: JavaScript, Python (Ruby, Julia, Lisp, Clojure)
-        \item Scripting: Bash (simple), Powershell (POO)
-        \item Consulta de datos: SQL
-   	\end{itemize}
-
-	\end{exampleblock}
 \end{frame}
 
 \begin{frame}{Principios de sobrevivencia - Redmonk}
@@ -416,6 +398,19 @@
     \end{figure}
 \end{frame}
 
+\begin{frame}{Curso}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/curso}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Horarios}
+	\begin{figure}
+		\centering
+		\includegraphics[width=\linewidth]{Images/horarios}
+	\end{figure}
+\end{frame}
 
 
 {

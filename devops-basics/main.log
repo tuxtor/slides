@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020 Gentoo Linux) (preloaded format=xelatex 2021.1.11)  15 JAN 2021 08:31
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020 Gentoo Linux) (preloaded format=xelatex 2021.3.23)  23 MAR 2021 14:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -7,7 +7,7 @@ entering extended mode
 LaTeX2e <2020-02-02> patch level 5
 L3 programming layer <2020-02-25>
 (/usr/share/texmf-site/tex/latex/beamer/base/beamer.cls
-Document Class: beamer 2020/07/22 v3.59 A class for typesetting presentations
+Document Class: beamer 2021/02/09 v3.61 A class for typesetting presentations
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasemodes.sty
 (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
@@ -538,33 +538,34 @@ Package: translator 2019-05-31 v1.12a Easy translation of strings in LaTeX
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaseboxes.sty
 \bmb@box=\box67
 \bmb@colorbox=\box68
-\bmb@boxshadow=\box69
-\bmb@boxshadowball=\box70
-\bmb@boxshadowballlarge=\box71
-\bmb@temp=\dimen260
-\bmb@dima=\dimen261
-\bmb@dimb=\dimen262
-\bmb@prevheight=\dimen263
+\bmb@boxwidth=\dimen260
+\bmb@boxheight=\dimen261
+\bmb@prevheight=\dimen262
+\bmb@temp=\dimen263
+\bmb@dima=\dimen264
+\bmb@dimb=\dimen265
+\bmb@prevheight=\dimen266
 )
-\beamer@blockheadheight=\dimen264
+\beamer@blockheadheight=\dimen267
 ))
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbaselocalstructure.sty
 (/usr/share/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 \@enLab=\toks32
 )
+\beamer@bibiconwidth=\skip55
 \c@figure=\count294
 \c@table=\count295
-\abovecaptionskip=\skip55
-\belowcaptionskip=\skip56
+\abovecaptionskip=\skip56
+\belowcaptionskip=\skip57
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasenavigation.sty
-\beamer@section@min@dim=\dimen265
+\beamer@section@min@dim=\dimen268
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/beamerbasetheorems.sty
 (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2020/01/20 v2.17e AMS math features
-\@mathmargin=\skip57
+\@mathmargin=\skip58
 
 For additional information on amsmath, use the `?' option.
 (/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
@@ -573,11 +574,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks33
-\ex@=\dimen266
+\ex@=\dimen269
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen267
+\pmbraise@=\dimen270
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -592,9 +593,9 @@ LaTeX Info: Redefining \overline on input line 389.
 LaTeX Info: Redefining \ldots on input line 486.
 LaTeX Info: Redefining \dots on input line 489.
 LaTeX Info: Redefining \cdots on input line 610.
-\Mathstrutbox@=\box72
-\strutbox@=\box73
-\big@size=\dimen268
+\Mathstrutbox@=\box69
+\strutbox@=\box70
+\big@size=\dimen271
 LaTeX Font Info:    Redeclaring font encoding OML on input line 733.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \macc@depth=\count301
@@ -607,15 +608,15 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 734.
 \column@=\count306
 \maxfields@=\count307
 \andhelp@=\toks35
-\eqnshift@=\dimen269
-\alignsep@=\dimen270
-\tagshift@=\dimen271
-\tagwidth@=\dimen272
-\totwidth@=\dimen273
-\lineht@=\dimen274
+\eqnshift@=\dimen272
+\alignsep@=\dimen273
+\tagshift@=\dimen274
+\tagwidth@=\dimen275
+\totwidth@=\dimen276
+\lineht@=\dimen277
 \@envbody=\toks36
-\multlinegap=\skip58
-\multlinetaggap=\skip59
+\multlinegap=\skip59
+\multlinetaggap=\skip60
 \mathdisplay@stack=\toks37
 LaTeX Info: Redefining \[ on input line 2859.
 LaTeX Info: Redefining \] on input line 2860.
@@ -627,9 +628,9 @@ Package: amsthm 2017/10/31 v2.20.4
 \thm@headfont=\toks40
 \thm@notefont=\toks41
 \thm@headpunct=\toks42
-\thm@preskip=\skip60
-\thm@postskip=\skip61
-\thm@headsep=\skip62
+\thm@preskip=\skip61
+\thm@postskip=\skip62
+\thm@headsep=\skip63
 \dth@everypar=\toks43
 )
 \c@theorem=\count308
@@ -643,8 +644,8 @@ y
 lt.sty)
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/inner/beamerinnerthemedefau
 lt.sty
-\beamer@dima=\dimen275
-\beamer@dimb=\dimen276
+\beamer@dima=\dimen278
+\beamer@dimb=\dimen279
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/outer/beamerouterthemedefau
 lt.sty)))
@@ -655,14 +656,14 @@ Package: beamerouterthememetropolis 2017/01/23 Metropolis outer theme
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count309
 \calc@Bcount=\count310
-\calc@Adimen=\dimen277
-\calc@Bdimen=\dimen278
-\calc@Askip=\skip63
-\calc@Bskip=\skip64
+\calc@Adimen=\dimen280
+\calc@Bdimen=\dimen281
+\calc@Askip=\skip64
+\calc@Bskip=\skip65
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
 \calc@Ccount=\count311
-\calc@Cskip=\skip65
+\calc@Cskip=\skip66
 )
 (/usr/share/texmf-dist/tex/latex/pgfopts/pgfopts.sty
 Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
@@ -672,9 +673,9 @@ Package: pgfopts 2014/07/10 v2.1a LaTeX package options with pgfkeys
 \pgfopts@list@add@a@toks=\toks44
 \pgfopts@list@add@b@toks=\toks45
 )
-\metropolis@frametitle@padding=\skip66
-\metropolis@progressinheadfoot=\skip67
-\metropolis@progressinheadfoot@linewidth=\skip68
+\metropolis@frametitle@padding=\skip67
+\metropolis@progressinheadfoot=\skip68
+\metropolis@progressinheadfoot@linewidth=\skip69
 )
 (/usr/share/texmf-dist/tex/latex/beamertheme-metropolis/beamerinnerthememetropo
 lis.sty
@@ -685,15 +686,15 @@ Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgfnodeparttextbox=\box74
+\pgfnodeparttextbox=\box71
 )
 (/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@nodesepstart=\dimen279
-\pgf@nodesepend=\dimen280
+\pgf@nodesepstart=\dimen282
+\pgf@nodesepend=\dimen283
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
@@ -705,8 +706,8 @@ Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
 Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex)
-\pgffor@iter=\dimen281
-\pgffor@skip=\dimen282
+\pgffor@iter=\dimen284
+\pgffor@skip=\dimen285
 \pgffor@stack=\toks46
 \pgffor@toks=\toks47
 ))
@@ -717,20 +718,20 @@ Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
 x
 File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@plot@mark@count=\count312
-\pgfplotmarksize=\dimen283
+\pgfplotmarksize=\dimen286
 )
-\tikz@lastx=\dimen284
-\tikz@lasty=\dimen285
-\tikz@lastxsaved=\dimen286
-\tikz@lastysaved=\dimen287
-\tikz@lastmovetox=\dimen288
-\tikz@lastmovetoy=\dimen289
-\tikzleveldistance=\dimen290
-\tikzsiblingdistance=\dimen291
-\tikz@figbox=\box75
-\tikz@figbox@bg=\box76
-\tikz@tempbox=\box77
-\tikz@tempbox@bg=\box78
+\tikz@lastx=\dimen287
+\tikz@lasty=\dimen288
+\tikz@lastxsaved=\dimen289
+\tikz@lastysaved=\dimen290
+\tikz@lastmovetox=\dimen291
+\tikz@lastmovetoy=\dimen292
+\tikzleveldistance=\dimen293
+\tikzsiblingdistance=\dimen294
+\tikz@figbox=\box72
+\tikz@figbox@bg=\box73
+\tikz@tempbox=\box74
+\tikz@tempbox@bg=\box75
 \tikztreelevel=\count313
 \tikznumberofchildren=\count314
 \tikznumberofcurrentchild=\count315
@@ -747,12 +748,12 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 )))
-\metropolis@titleseparator@linewidth=\skip69
-\metropolis@progressonsectionpage=\skip70
-\metropolis@progressonsectionpage@linewidth=\skip71
-\metropolis@blocksep=\skip72
-\metropolis@blockadjust=\skip73
-\metropolis@parskip=\skip74
+\metropolis@titleseparator@linewidth=\skip70
+\metropolis@progressonsectionpage=\skip71
+\metropolis@progressonsectionpage@linewidth=\skip72
+\metropolis@blocksep=\skip73
+\metropolis@blockadjust=\skip74
+\metropolis@parskip=\skip75
 )
 (/usr/share/texmf-site/tex/latex/beamer/base/themes/color/beamercolorthemestruc
 ture.sty) (/usr/share/texmf-dist/tex/latex/base/inputenc.sty
@@ -775,7 +776,7 @@ Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2020/02/28 3.41 Babel common definitions
 \babel@savecnt=\count321
-\U@D=\dimen292
+\U@D=\dimen295
 
 (/usr/share/texmf-dist/tex/generic/babel/xebabel.def
 (/usr/share/texmf-dist/tex/generic/babel/txtbabel.def))
@@ -798,7 +799,7 @@ Package: expl3 2020-02-25 L3 programming layer (loader)
 (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xdvipdfmx.def
 File: l3backend-xdvipdfmx.def 2020-02-23 L3 backend support: xdvipdfmx
 \g__graphics_track_int=\count324
-\l__pdf_internal_box=\box79
+\l__pdf_internal_box=\box76
 \g__pdf_backend_object_int=\count325
 \g__pdf_backend_annotation_int=\count326
 ))
@@ -824,9 +825,9 @@ X
 \l__fontspec_emdef_int=\count339
 \l__fontspec_strong_int=\count340
 \l__fontspec_strongdef_int=\count341
-\l__fontspec_tmpa_dim=\dimen293
-\l__fontspec_tmpb_dim=\dimen294
-\l__fontspec_tmpc_dim=\dimen295
+\l__fontspec_tmpa_dim=\dimen296
+\l__fontspec_tmpb_dim=\dimen297
+\l__fontspec_tmpc_dim=\dimen298
 
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2020/02/11 v2.0o Standard LaTeX package
@@ -1057,8 +1058,8 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 backgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
-\pgf@layerbox@background=\box80
-\pgf@layerboxsaved@background=\box81
+\pgf@layerbox@background=\box77
+\pgf@layerboxsaved@background=\box78
 )
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 calc.code.tex
@@ -1091,8 +1092,8 @@ File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 s.code.tex
 File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 ))
-\pgf@layerbox@smart diagram arrow back=\box82
-\pgf@layerboxsaved@smart diagram arrow back=\box83
+\pgf@layerbox@smart diagram arrow back=\box79
+\pgf@layerboxsaved@smart diagram arrow back=\box80
 
 (/usr/share/texmf-dist/tex/latex/smartdiagram/smartdiagramlibrarycore.definitio
 ns.code.tex)
@@ -1115,114 +1116,114 @@ Package pict2e Info: Driver file for pict2e: p2e-xetex.def on input line 121.
 File: p2e-xetex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
 )
 \pIIe@GRAPH=\toks51
-\@arclen=\dimen296
-\@arcrad=\dimen297
-\@tempdimd=\dimen298
+\@arclen=\dimen299
+\@arcrad=\dimen300
+\@tempdimd=\dimen301
 )
 \c@treecount=\count344
 \c@branchcount=\count345
-\parentbox=\box84
-\treebox=\box85
-\treeboxone=\box86
-\treeboxtwo=\box87
-\treeboxthree=\box88
-\treeboxfour=\box89
-\treeboxfive=\box90
-\treeboxsix=\box91
-\treeboxseven=\box92
-\treeboxeight=\box93
-\treeboxnine=\box94
-\treeboxten=\box95
-\treeboxeleven=\box96
-\treeboxtwelve=\box97
-\treeboxthirteen=\box98
-\treeboxfourteen=\box99
-\treeboxfifteen=\box100
-\treeboxsixteen=\box101
-\treeboxseventeen=\box102
-\treeboxeighteen=\box103
-\treeboxnineteen=\box104
-\treeboxtwenty=\box105
-\treeoffsetone=\skip75
-\treeoffsettwo=\skip76
-\treeoffsetthree=\skip77
-\treeoffsetfour=\skip78
-\treeoffsetfive=\skip79
-\treeoffsetsix=\skip80
-\treeoffsetseven=\skip81
-\treeoffseteight=\skip82
-\treeoffsetnine=\skip83
-\treeoffsetten=\skip84
-\treeoffseteleven=\skip85
-\treeoffsettwelve=\skip86
-\treeoffsetthirteen=\skip87
-\treeoffsetfourteen=\skip88
-\treeoffsetfifteen=\skip89
-\treeoffsetsixteen=\skip90
-\treeoffsetseventeen=\skip91
-\treeoffseteighteen=\skip92
-\treeoffsetnineteen=\skip93
-\treeoffsettwenty=\skip94
-\treeshiftone=\skip95
-\treeshifttwo=\skip96
-\treeshiftthree=\skip97
-\treeshiftfour=\skip98
-\treeshiftfive=\skip99
-\treeshiftsix=\skip100
-\treeshiftseven=\skip101
-\treeshifteight=\skip102
-\treeshiftnine=\skip103
-\treeshiftten=\skip104
-\treeshifteleven=\skip105
-\treeshifttwelve=\skip106
-\treeshiftthirteen=\skip107
-\treeshiftfourteen=\skip108
-\treeshiftfifteen=\skip109
-\treeshiftsixteen=\skip110
-\treeshiftseventeen=\skip111
-\treeshifteighteen=\skip112
-\treeshiftnineteen=\skip113
-\treeshifttwenty=\skip114
-\treewidthone=\skip115
-\treewidthtwo=\skip116
-\treewidththree=\skip117
-\treewidthfour=\skip118
-\treewidthfive=\skip119
-\treewidthsix=\skip120
-\treewidthseven=\skip121
-\treewidtheight=\skip122
-\treewidthnine=\skip123
-\treewidthten=\skip124
-\treewidtheleven=\skip125
-\treewidthtwelve=\skip126
-\treewidththirteen=\skip127
-\treewidthfourteen=\skip128
-\treewidthfifteen=\skip129
-\treewidthsixteen=\skip130
-\treewidthseventeen=\skip131
-\treewidtheighteen=\skip132
-\treewidthnineteen=\skip133
-\treewidthtwenty=\skip134
-\daughteroffsetone=\skip135
-\daughteroffsettwo=\skip136
-\daughteroffsetthree=\skip137
-\daughteroffsetfour=\skip138
-\branchwidthone=\skip139
-\branchwidthtwo=\skip140
-\branchwidththree=\skip141
-\branchwidthfour=\skip142
-\parentoffset=\skip143
-\treeoffset=\skip144
-\daughteroffset=\skip145
-\branchwidth=\skip146
-\parentwidth=\skip147
-\treewidth=\skip148
+\parentbox=\box81
+\treebox=\box82
+\treeboxone=\box83
+\treeboxtwo=\box84
+\treeboxthree=\box85
+\treeboxfour=\box86
+\treeboxfive=\box87
+\treeboxsix=\box88
+\treeboxseven=\box89
+\treeboxeight=\box90
+\treeboxnine=\box91
+\treeboxten=\box92
+\treeboxeleven=\box93
+\treeboxtwelve=\box94
+\treeboxthirteen=\box95
+\treeboxfourteen=\box96
+\treeboxfifteen=\box97
+\treeboxsixteen=\box98
+\treeboxseventeen=\box99
+\treeboxeighteen=\box100
+\treeboxnineteen=\box101
+\treeboxtwenty=\box102
+\treeoffsetone=\skip76
+\treeoffsettwo=\skip77
+\treeoffsetthree=\skip78
+\treeoffsetfour=\skip79
+\treeoffsetfive=\skip80
+\treeoffsetsix=\skip81
+\treeoffsetseven=\skip82
+\treeoffseteight=\skip83
+\treeoffsetnine=\skip84
+\treeoffsetten=\skip85
+\treeoffseteleven=\skip86
+\treeoffsettwelve=\skip87
+\treeoffsetthirteen=\skip88
+\treeoffsetfourteen=\skip89
+\treeoffsetfifteen=\skip90
+\treeoffsetsixteen=\skip91
+\treeoffsetseventeen=\skip92
+\treeoffseteighteen=\skip93
+\treeoffsetnineteen=\skip94
+\treeoffsettwenty=\skip95
+\treeshiftone=\skip96
+\treeshifttwo=\skip97
+\treeshiftthree=\skip98
+\treeshiftfour=\skip99
+\treeshiftfive=\skip100
+\treeshiftsix=\skip101
+\treeshiftseven=\skip102
+\treeshifteight=\skip103
+\treeshiftnine=\skip104
+\treeshiftten=\skip105
+\treeshifteleven=\skip106
+\treeshifttwelve=\skip107
+\treeshiftthirteen=\skip108
+\treeshiftfourteen=\skip109
+\treeshiftfifteen=\skip110
+\treeshiftsixteen=\skip111
+\treeshiftseventeen=\skip112
+\treeshifteighteen=\skip113
+\treeshiftnineteen=\skip114
+\treeshifttwenty=\skip115
+\treewidthone=\skip116
+\treewidthtwo=\skip117
+\treewidththree=\skip118
+\treewidthfour=\skip119
+\treewidthfive=\skip120
+\treewidthsix=\skip121
+\treewidthseven=\skip122
+\treewidtheight=\skip123
+\treewidthnine=\skip124
+\treewidthten=\skip125
+\treewidtheleven=\skip126
+\treewidthtwelve=\skip127
+\treewidththirteen=\skip128
+\treewidthfourteen=\skip129
+\treewidthfifteen=\skip130
+\treewidthsixteen=\skip131
+\treewidthseventeen=\skip132
+\treewidtheighteen=\skip133
+\treewidthnineteen=\skip134
+\treewidthtwenty=\skip135
+\daughteroffsetone=\skip136
+\daughteroffsettwo=\skip137
+\daughteroffsetthree=\skip138
+\daughteroffsetfour=\skip139
+\branchwidthone=\skip140
+\branchwidthtwo=\skip141
+\branchwidththree=\skip142
+\branchwidthfour=\skip143
+\parentoffset=\skip144
+\treeoffset=\skip145
+\daughteroffset=\skip146
+\branchwidth=\skip147
+\parentwidth=\skip148
+\treewidth=\skip149
 \qta=\toks52
 \qtb=\toks53
 \nbranches=\count346
 \qroofx=\count347
 \qroofy=\count348
-\@qrscratchbox=\box106
+\@qrscratchbox=\box103
 )
 (/usr/share/texmf-dist/tex/latex/tools/verbatim.sty
 Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
@@ -1244,7 +1245,7 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 (/usr/share/texmf-dist/tex/latex/trimspaces/trimspaces.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 )
-\svg@box=\box107
+\svg@box=\box104
 \c@svg@param@lastpage=\count349
 \c@svg@param@currpage=\count350
 )
@@ -1265,23 +1266,23 @@ Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 ))
 (/usr/share/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count351
-\lst@gtempboxa=\box108
+\lst@gtempboxa=\box105
 \lst@token=\toks56
 \lst@length=\count352
-\lst@currlwidth=\dimen299
+\lst@currlwidth=\dimen302
 \lst@column=\count353
 \lst@pos=\count354
-\lst@lostspace=\dimen300
-\lst@width=\dimen301
+\lst@lostspace=\dimen303
+\lst@width=\dimen304
 \lst@newlines=\count355
 \lst@lineno=\count356
-\lst@maxwidth=\dimen302
+\lst@maxwidth=\dimen305
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
 \c@lstnumber=\count357
 \lst@skipnumbers=\count358
-\lst@framebox=\box109
+\lst@framebox=\box106
 )
 (/usr/share/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
@@ -1358,7 +1359,7 @@ LaTeX Font Info:    ... okay on input line 55.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box110
+\AtBeginShipoutBox=\box107
 Package hyperref Info: Link coloring OFF on input line 55.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -1807,10 +1808,10 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 797C21A37F5B6647BF0AD6945858679A;265.
  ) 
 Here is how much of TeX's memory you used:
- 31806 strings out of 481683
- 645938 string characters out of 5935472
- 1174289 words of memory out of 5000000
- 48110 multiletter control sequences out of 15000+600000
+ 31793 strings out of 481683
+ 645469 string characters out of 5935472
+ 1174094 words of memory out of 5000000
+ 48097 multiletter control sequences out of 15000+600000
  537618 words of font info for 77 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  60i,12n,81p,821b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
