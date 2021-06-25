@@ -1,0 +1,8 @@
+@startuml
+
+HTTP-[kservice-a (Kotlin)]
+Ingress-[jservice-b (Java)]
+[jservice-b (Java)]-> HTTP
+[ngservice-c (TypeScript)]->Ingress
+
+@enduml
