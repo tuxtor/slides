@@ -1,0 +1,14 @@
+\frametitle{Git reset}
+\begin{verbatim}
+git reset --hard
+^^I\end{verbatim}
+^^IElimina un cambios de \texttt{stage} y \texttt{working directory} hasta el ultimo commit
+^^I\begin{verbatim}
+^^Igit reset <commit>
+^^I\end{verbatim}
+^^IMueve \texttt{HEAD} hacia commit, reinicia \texttt{stage} pero no perjudica \texttt{working directory}
+
+^^I\begin{verbatim}
+^^Igit reset --hard <commit>
+^^I^^I\end{verbatim}
+^^IMueve \texttt{HEAD} hacia commit, y elimina todos los commits subsecuentes

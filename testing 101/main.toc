@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{Plan de acción}{2}{0}{1}
+\beamer@sectionintoc {2}{SQA y SQC}{13}{0}{2}
+\beamer@sectionintoc {3}{SQC}{18}{0}{3}

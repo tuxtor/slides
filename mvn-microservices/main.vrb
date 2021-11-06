@@ -1,0 +1,4 @@
+\frametitle{Java Options}
+\begin{lstlisting}
+    CMD java -XX:+PrintFlagsFinal -XX:+PrintGCDetails $JAVA_OPTIONS -jar java-container.jar
+    \end{lstlisting}
