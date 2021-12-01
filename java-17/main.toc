@@ -1,0 +1,12 @@
+\babel@toc {spanish}{}
+\beamer@sectionintoc {1}{¿Como se hace Java?}{3}{0}{1}
+\beamer@sectionintoc {2}{De Java 8 hasta Java 17}{9}{0}{2}
+\beamer@sectionintoc {3}{Java 9}{14}{0}{3}
+\beamer@sectionintoc {4}{Java 10}{20}{0}{4}
+\beamer@sectionintoc {5}{Java 11}{28}{0}{5}
+\beamer@sectionintoc {6}{Java 12}{32}{0}{6}
+\beamer@sectionintoc {7}{Java 13}{36}{0}{7}
+\beamer@sectionintoc {8}{Java 14}{39}{0}{8}
+\beamer@sectionintoc {9}{Java 15}{43}{0}{9}
+\beamer@sectionintoc {10}{Java 16}{50}{0}{10}
+\beamer@sectionintoc {11}{Java 17}{55}{0}{11}

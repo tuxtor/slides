@@ -1,0 +1,8 @@
+\frametitle{JEPs in JDK 17 integrated since JDK 11}
+https://openjdk.java.net/projects/jdk/17/jeps-since-jdk-11
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{Images/jepsjava11java17.png}
+\end{figure}
+
+

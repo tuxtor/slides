@@ -185,7 +185,7 @@
 \begin{frame}{Eclipse MicroProfile}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.9\linewidth]{Images/microprofileapis}
+	\includegraphics[width=0.65\linewidth]{Images/microprofileapis}
 \end{figure}
 \end{frame}
 
@@ -239,7 +239,7 @@ https://wiki.eclipse.org/MicroProfile/Implementation
 }
 
 \begin{frame}[fragile]{Eclipse MicroProfile en Payara 5}
-\LARGE Demo MicroProfile Starter
+\LARGE Demo MicroProfile Helidon
 \end{frame}
 
 \begin{frame}{Eclipse MicroProfile}
@@ -371,17 +371,17 @@ APIs documentadas en formato estandard
 \begin{lstlisting}
 @ApplicationPath("/api")
 @OpenAPIDefinition(info = @Info(
-	title = "Example application",
-	version = "1.0.0",
-	contact = @Contact(
-	name = "Victor Orozoc",
-	email = "vorozco@nabenik.com",
-	url = "http://vorozco.com")
-	),
-	servers = {
-		@Server(url = "/example",
-		description = "localhost")
-	}
+    title = "Example application",
+    version = "1.0.0",
+    contact = @Contact(
+    name = "Victor Orozoc",
+    email = "vorozco@nabenik.com",
+    url = "http://vorozco.com")
+    ),
+    servers = {
+    	@Server(url = "/example",
+    	description = "localhost")
+    }
 )
 public class ApplicationConfig extends Application {
 \end{lstlisting}
@@ -393,8 +393,8 @@ APIs documentadas en formato estandard
 @GET @Path("/{key}")
 @Operation(description = "Get the value for this key")
 @APIResponses({
-	@APIResponse(responseCode = "200",
-	description = "Successful, returning the value")
+    @APIResponse(responseCode = "200",
+    description = "Successful, returning the value")
 })
 @Produces(MediaType.TEXT_PLAIN)
 public Response getConfigValue(@PathParam("key") String key)
@@ -412,9 +412,9 @@ public Response getConfigValue(@PathParam("key") String key)
 APIs documentadas en formato estandard
 \begin{lstlisting}
 <dependency>
-	<groupId>org.microprofile-ext.openapi-ext</groupId>
-	<artifactId>swagger-ui</artifactId>
-	<version>1.0.2</version>
+    <groupId>org.microprofile-ext.openapi-ext</groupId>
+    <artifactId>swagger-ui</artifactId>
+    <version>1.0.2</version>
 </dependency>
 \end{lstlisting}
 \end{frame}
@@ -467,12 +467,12 @@ Reglas de evaluación y alternativas
 \begin{lstlisting}
 @Retry(delay = 400, maxDuration= 3200, jitter= 400, maxRetries = 10)
 public Connection serviceA() {
-	...
+    ...
 }
 
 @Retry(retryOn = {IOException.class})
 public void serviceB() {
-	...
+    ...
 }
 \end{lstlisting}
 \end{frame}
@@ -480,13 +480,13 @@ public void serviceB() {
 \begin{frame}[fragile]{Fault tolerance - CircuitBreaker}
 \begin{lstlisting}
 @CircuitBreaker(successThreshold = 10,
-	requestVolumeThreshold = 4,
-	failureRatio=0.75,
-	delay = 1000)
+    requestVolumeThreshold = 4,
+    failureRatio=0.75,
+    delay = 1000)
 public Connection serviceA() {
-	Connection conn = null;
-	conn = connectionService();
-	return conn;
+    Connection conn = null;
+    conn = connectionService();
+    return conn;
 }
 \end{lstlisting}
 \end{frame}
@@ -495,9 +495,9 @@ public Connection serviceA() {
 \begin{lstlisting}
 @Bulkhead(5)
 public Connection serviceA() {
-	Connection conn = null;
-	conn = connectionService();
-	return conn;
+    Connection conn = null;
+    conn = connectionService();
+    return conn;
 }
 \end{lstlisting}
 
@@ -505,9 +505,9 @@ public Connection serviceA() {
 @Asynchronous
 @Bulkhead(value = 5, waitingTaskQueue = 8)
 public Future<Connection> serviceA() {
-	Connection conn = null;
-	conn = connectionService();
-	return CompletableFuture.completedFuture(conn);
+    Connection conn = null;
+    conn = connectionService();
+    return CompletableFuture.completedFuture(conn);
 }
 
 \end{lstlisting}
@@ -546,12 +546,12 @@ final String imdbId) {
 \end{lstlisting}
 \begin{lstlisting}
 public class MovieFindAllFallbackHandler
-	implements FallbackHandler<List> {
-	@Override
-	public List handle(final ExecutionContext context) {
-		return Stream.of("Star Wars",
-		"The Matrix", "Cantinflas").collect(toList());
-	}
+    implements FallbackHandler<List> {
+    @Override
+    public List handle(final ExecutionContext context) {
+    	return Stream.of("Star Wars",
+    	"The Matrix", "Cantinflas").collect(toList());
+    }
 }
 \end{lstlisting}
 \end{frame}
@@ -596,8 +596,8 @@ final String imdbId) {
 
 public Response findByIdFallBack(@PathParam("id")
 final String imdbId) {
-	...
-	<@\textcolor{red}{failedQueries.inc();}@>
+    ...
+    <@\textcolor{red}{failedQueries.inc();}@>
 }
 \end{lstlisting}
 \end{frame}
@@ -607,10 +607,10 @@ Inc-dec en tiempo real
 \begin{lstlisting}
 <@\textcolor{red}{
 @Gauge(unit = "ExternalDatabases",
-	name = "movieDatabases", absolute = true)
+    name = "movieDatabases", absolute = true)
 }@>
 public long getDatabases() {
-	return 99; //Any value
+    return 99; //Any value
 }
 \end{lstlisting}
 
@@ -621,11 +621,11 @@ public long getDatabases() {
 Events rate
 \begin{lstlisting}
 @Metered(name = "moviesRetrieved",
-	unit = MetricUnits.MINUTES,
-	description = "Metrics to monitor movies",
-	absolute = true)
+    unit = MetricUnits.MINUTES,
+    description = "Metrics to monitor movies",
+    absolute = true)
 public Response findExpandedById(
-	@PathParam("id") final Long id)
+    @PathParam("id") final Long id)
 \end{lstlisting}
 
 \lstinline|/metrics/application/movieDatabases|
@@ -635,11 +635,11 @@ public Response findExpandedById(
 Desempeño y retraso
 \begin{lstlisting}
 @Timed(name = "moviesDelay",
-	description = "Time to retrieve a movie",
-	unit = MetricUnits.MINUTES,
-	absolute = true)
+    description = "Time to retrieve a movie",
+    unit = MetricUnits.MINUTES,
+    absolute = true)
 public Response findExpandedById(
-	@PathParam("id") final Long id)
+    @PathParam("id") final Long id)
 \end{lstlisting}
 
 \lstinline|/metrics/application/moviesDelay|
@@ -654,14 +654,14 @@ MetricRegistry registry;
 @POST
 @Path("/add/{attendees}")
 public Response addAttendees(
-	@PathParam("attendees") Long attendees) {
-	Metadata metadata =
-		new Metadata("matrix attendees",
-			MetricType.HISTOGRAM);
-	Histogram histogram =
-		registry.histogram(metadata);
-	histogram.update(attendees);
-	return Response.ok().build();
+    @PathParam("attendees") Long attendees) {
+    Metadata metadata =
+        new Metadata("matrix attendees",
+            MetricType.HISTOGRAM);
+    Histogram histogram =
+        registry.histogram(metadata);
+    histogram.update(attendees);
+    return Response.ok().build();
 }
 \end{lstlisting}
 
@@ -679,11 +679,11 @@ public Response addAttendees(
 \begin{lstlisting}
 @Override
 public HealthCheckResponse call() {
-	return HealthCheckResponse.named("TaVivoAinda")
-		.withData("key1", "val1")
-		.withData("key2", "val2")
-		.up()
-		.build();
+    return HealthCheckResponse.named("TaVivoAinda")
+        .withData("key1", "val1")
+        .withData("key2", "val2")
+        .up()
+        .build();
 
 }
 \end{lstlisting}
@@ -732,16 +732,16 @@ private String email;
 @Consumes("application/json")
 public <@\textcolor{red}{interface}@> MusicPlaylistService {
 
-	@GET
-	List<String> getPlaylistNames();
-
-
-	@PUT
-	@Path("/{playlistName}")
-	long updatePlayList(@PathParam("playlistName")
-		String name,
-		List<Song> playlist)
-		throws UnknownPlaylistException;
+    @GET
+    List<String> getPlaylistNames();
+    
+    
+    @PUT
+    @Path("/{playlistName}")
+    long updatePlayList(@PathParam("playlistName")
+        String name,
+        List<Song> playlist)
+        throws UnknownPlaylistException;
 }
 \end{lstlisting}
 \end{frame}

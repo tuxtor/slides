@@ -1,0 +1,6 @@
+\frametitle{Metric}
+\begin{lstlisting}
+@Inject
+@Metric
+Counter failedQueries;
+\end{lstlisting}
