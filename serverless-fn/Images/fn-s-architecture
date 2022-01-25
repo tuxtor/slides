@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://subscription.packtpub.com/book/virtualization-and-cloud/9781788835268/5/ch05lvl1sec38/fn-s-architecture" />
+<meta name="google-site-verification" content="CGEyu7dKgqkqBrxdainq9bY0WowOCMOdZ1nKVzzvYJg">
+<link rel="shortcut icon" href="https://d2aov160eccqlv.cloudfront.net/271739eb287c43adb004792095a0b2fc/images/7e26cb80ef4e68f870f1e40b5ef46584.ico">
+<title></title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href='https://fonts.googleapis.com/css?family=Montserrat'>
+<link href='https://fonts.googleapis.com/css?family=Nunito'>
+<link href='https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap'>
+
+<meta name="csrf-token" content="Rdf3lyeCCP51CbW95xmzlCr65ypox2Xh4GluH4Po">
+<script>
+window.dataLayer = window.dataLayer || [];
+dataLayer = [{"user":{"loginState":"Logged Out","userId":"","firstName":"","existingCustomer":"","signupSource":""}}];
+</script>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJMM825');</script>
+<link rel="stylesheet" href="/css/bootstrap.css?id=d333fb1774d42162289d">
+<link rel="stylesheet" href="/css/app.css?id=9be981bd7b0ae2702e09">
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WJMM825"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<div id="root">
+</div>
+<script src="/js/react.js?id=0e28a74094df276ea9b6"></script>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"rayId":"6ab489b1f97fef1a","token":"ddafdcc8d2d544fe9874fe3f5dda8e4d","version":"2021.10.0","si":100}'></script>
+</body>
+</html>

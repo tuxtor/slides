@@ -7,7 +7,7 @@
 
 \usepackage{tikz}
 \usepackage[utf8]{inputenc}
-\usepackage[portuguese]{babel}
+\usepackage[spanish]{babel}
 \usepackage{fontspec}
 \setmonofont{JetBrains Mono}
 \setmainfont{Roboto}
@@ -62,7 +62,7 @@
 }
 
 
-\title{Compilação nativa com Kotlin e GraalVM}
+\title{Compilación nativa con Kotlin y GraalVM}
 \author{Víctor Orozco}
 \institute{Nabenik}
 \date{\today}
@@ -81,7 +81,7 @@
 }
 
 
-\begin{frame}{Ecossistema Kotlin}
+\begin{frame}{Ecosistema Kotlin}
 \begin{figure}
 	\centering
 	\includegraphics[width=0.8\linewidth]{Images/KotlinNative.png}
@@ -98,14 +98,14 @@
 		\begin{enumerate}
 		\item Código Kotlin + Kotlin stdlib + Bibliotecas "Kotlin puro"
 		\item Bytecode LLVM
-		\item Bibliotecas do sistema -e.g. Cocoa -
+		\item Bibliotecas del sistema -e.g. Cocoa -
 		\end{enumerate}
 		\end{column}
 		\begin{column}[T]{6cm} % each column can also be its own environment
         Kotlin GraalVM Native
         \begin{enumerate}
         \item Código Kotlin + Kotlin stdlib + \textbf{Bibliotecas JVM}
-        \item Aplicativos ELF / Mach-O com GCC
+        \item Aplicaciones ELF / Mach-O con GCC
         \item LLVM backend
         \item SubstrateVM
         \end{enumerate}
@@ -118,10 +118,10 @@
 \begin{frame}{GraalVM}
 ¿GraalVM?
 	\begin{itemize}
-		\item Maquina virtual poliglota da Oracle Labs
+		\item Maquina virtual poliglota de Oracle Labs
 		\item JVM, Truffle, LLVM
-        \item Escrita em Java
-        \item Open Source e Enterprise Edition
+        \item Escrita en Java
+        \item Open Source y Enterprise Edition
 	\end{itemize}
 \end{frame}
 
@@ -141,7 +141,7 @@
 	\begin{columns}[T] % contents are top vertically aligned
 
 		\begin{column}[T]{4cm} % alternative top-align that's better for graphics
-			Fatos importantes
+			Hechos importantes
 		\begin{enumerate}
 			\item TCK'd JDK
 			\item Compilador JIT
@@ -167,7 +167,7 @@
 	\setbeamercolor{normal text}{fg=white}
 	\setbeamercolor{frametitle}{fg=red}
 	\usebeamercolor[fg]{normal text}
-	\section{Imagens nativas}
+	\section{Imagenes nativas}
 }
 
 
@@ -175,7 +175,7 @@
 \begin{frame}{Java Virtual Machine}
 
 	\begin{itemize}
-		\item Thread scheduling, gestão de memoria
+		\item Thread scheduling, gestión de memoria
 		\item JVM JIT (C2) tem 25 anos
 		\item Peak performance
 		\item Hotspots
@@ -196,7 +196,7 @@
 \begin{frame}{GraalVM Native}
 
 	\begin{exampleblock}{GraalVM Native}
-	GraalVM Native é uma tecnologia para \textbf{compilación AOT do bytecode}. Permite criar um executável "self-contained" com \textbf{static linking} de classes, bibliotecas e módulos da JVM.
+	GraalVM Native es una tecnología para \textbf{compilación AOT de bytecode}. Permite crear un ejecutable \textbf{self-contained} con \textbf{static linking} de clases, bibliotecas y módulos de la JVM.
 	\end{exampleblock}
 
 \end{frame}
@@ -204,7 +204,7 @@
 
 
 
-\begin{frame}{AOT no mundo da JVM}
+\begin{frame}{AOT en el mundo de la JVM}
 	\begin{itemize}
 		\item ExcelsiorJET
 		\item GNU Compiler for Java
@@ -229,14 +229,14 @@
 		\item \textbf{CLI}
 		\item Apps desktop
     		\item Serverless
-		\item \textbf{Microsserviçõs}
+		\item \textbf{Microservicios}
         \item Kubernetes operators
 	\end{itemize}
 
 \end{frame}
 
 \begin{frame}[fragile]{GraalVM Native}
-picocli (Anotações)
+picocli (Anotaciones)
 \begin{lstlisting}[language=Kotlin]
 @CommandLine.Command(name = "kobsidian-backup",
 mixinStandardHelpOptions = true,
@@ -293,31 +293,31 @@ class Hello : CliktCommand() {
 	\setbeamercolor{normal text}{fg=white}
 	\setbeamercolor{frametitle}{fg=red}
 	\usebeamercolor[fg]{normal text}
-	\section{Considerações finais}
+	\section{Consideraciones finales}
 }
 
 
-\begin{frame}{Considerações finais}
+\begin{frame}{Consideraciones finales}
 
 	\begin{columns}[T] % contents are top vertically aligned
 
 		\begin{column}[T]{4cm} % alternative top-align that's better for graphics
-			\begin{exampleblock}{Vantagens}
+			\begin{exampleblock}{Ventajas}
 				\begin{itemize}
-					\item Compilação AOT
+					\item Compilación AOT
 					\item Consumo de memoria
-					\item Tempo de startup
+					\item Tiempo de inicio
 					\item CLI, Desktop, Serverless, K8S
 				\end{itemize}
 			\end{exampleblock}
 		\end{column}
 		\begin{column}[T]{6cm} % each column can also be its own environment
-			\begin{alertblock}{Desvantagens}
+			\begin{alertblock}{Desventajas}
 				\begin{itemize}
-					\item Desempenho inferior no longo prazo
+					\item Desempeño inferior en el largo plazo
 					\item Reflection, dynamic proxies, invoke, bytecode generation
-					\item Muitos frameworks e biblitecas jamais serão native
-					\item É preciso um bom CI/CD
+					\item Muchos frameworks jamas seran Cloud Native
+					\item Un buen servidor CI/CD
 				\end{itemize}
 			\end{alertblock}
 		\end{column}

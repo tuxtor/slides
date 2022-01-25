@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021 Gentoo Linux) (preloaded format=xelatex 2021.8.20)  24 SEP 2021 17:56
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021 Gentoo Linux) (preloaded format=xelatex 2021.11.2)  26 NOV 2021 11:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1750,7 +1750,7 @@ File: Images/logos.png Graphic file (type bmp)
 File: Images/cclogo.png Graphic file (type bmp)
 <Images/cclogo.png>
 
-Overfull \vbox (73.56041pt too high) detected at line 305
+Overfull \vbox (73.56041pt too high) detected at line 306
  []
 
 File: Images/fondo.png Graphic file (type bmp)

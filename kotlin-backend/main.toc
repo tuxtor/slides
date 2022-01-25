@@ -1,5 +1,4 @@
-\select@language {portuguese}
-\beamer@sectionintoc {1}{Modelos de desenvolvimento}{5}{0}{1}
-\beamer@sectionintoc {2}{Kotlin no backend}{14}{0}{2}
-\beamer@sectionintoc {3}{Projeto tradicional com Kotlin}{24}{0}{3}
-\beamer@sectionintoc {4}{Kotlin}{44}{0}{4}
+\babel@toc {portuguese}{}
+\beamer@sectionintoc {1}{Paradigmas de desenvolvimento}{3}{0}{1}
+\beamer@sectionintoc {2}{Kotlin no backend}{13}{0}{2}
+\beamer@sectionintoc {3}{Projeto tradicional com Kotlin}{21}{0}{3}

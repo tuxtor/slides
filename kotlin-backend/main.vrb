@@ -1,13 +1,19 @@
-\frametitle{Oracle Cloud}
-\begin{lstlisting}[language=XML, basicstyle=\scriptsize]
-<groupId>io.fabric8</groupId>
-<artifactId>docker-maven-plugin</artifactId>
-<version>0.30.0</version>
+\frametitle{Kotlin com Maven - kotlin-maven-plugin}
+\begin{lstlisting}[
+basicstyle=\tiny, %or \small or \footnotesize etc.
+]
+<compilerPlugins>
+<plugin>all-open</plugin>
+</compilerPlugins>
 ...
-<image>
-	<name>iad.ocir.io/tuxtor/microprofile/integrum-ee</name>
-	<build>
-		<dockerFile>${project.basedir}/Dockerfile</dockerFile >
-	</build>
-</image>
+<option>all-open:annotation=javax.ws.rs.Path</option>
+<option>all-open:annotation=javax.enterprise.context.RequestScoped</option>
+<option>all-open:annotation=javax.enterprise.context.SessionScoped</option>
+<option>all-open:annotation=javax.enterprise.context.ApplicationScoped</option>
+<option>all-open:annotation=javax.enterprise.context.Dependent</option>
+<option>all-open:annotation=javax.ejb.Singleton</option>
+<option>all-open:annotation=javax.ejb.Stateful</option>
+<option>all-open:annotation=javax.ejb.Stateless</option>
 \end{lstlisting}
+
+Ideia geral: As anotações Java viram open classes por causa do proxy-classes metapadrão

@@ -73,47 +73,6 @@
     \frame{\titlepage}
 }
 
-\begin{frame}[fragile]{¿Java?}
-\begin{columns}
-    \begin{column}{0.5\textwidth}
-        \begin{itemize}
-            \item Linguagem (Java 16)
-            \item OpenJDK (Java Virtual Machine)
-            \item Bibliotecas/API (Java Classpath)
-        \end{itemize}
-    \end{column}
-    \begin{column}{0.5\textwidth}  %%<--- here
-        \begin{figure}
-            \centering
-            \includegraphics[width=0.4\linewidth]{Images/java}
-        \end{figure}
-    \end{column}
-\end{columns}
-
-As três juntas são a plataforma Java
-\end{frame}
-
-\begin{frame}[fragile]{Java no Android}
-
-    \begin{columns}
-        \begin{column}{0.5\textwidth}
-            \begin{itemize}
-                \item Linguagem (Java 7 + Lambdas + DateTime)
-                \item ART/Dalvik
-                \item Bibliotecas/API (Java+Google Classpath)
-            \end{itemize}
-        \end{column}
-        \begin{column}{0.5\textwidth}  %%<--- here
-            \begin{figure}
-                \centering
-                \includegraphics[width=0.4\linewidth]{Images/java}
-            \end{figure}
-        \end{column}
-    \end{columns}
-
-
-\end{frame}
-
 
 \begin{frame}[fragile]{Kotlin}
     \begin{columns}
@@ -140,12 +99,35 @@ As três juntas são a plataforma Java
     \setbeamercolor{normal text}{fg=white}
     \setbeamercolor{frametitle}{fg=red}
     \usebeamercolor[fg]{normal text}
-    \section{Modelos de desenvolvimento}
+    \section{Paradigmas de desenvolvimento}
 }
 
 
-\begin{frame}[fragile]{Desenvolvimento backend Java no 2021 - Concorrência}
-Thread based -e.g. EJB, CDI, JAX-RS-
+
+\begin{frame}[fragile]{Desenvolvimento na JVM}
+    \begin{columns}
+    
+        \begin{column}{0.5\textwidth}
+        Paradigma
+            \begin{itemize}
+                \item Thread 
+                \item Async
+            \end{itemize}
+        \end{column}
+        \begin{column}{0.5\textwidth}  %%<--- here
+        Abragencia do toolkit
+            \begin{itemize}
+                \item DIY
+                \item Micro
+                \item Pilhas inclusas
+            \end{itemize}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+
+\begin{frame}[fragile]{Concorrência com threads}
+Thread based -e.g. EJB, CDI, JAX-RS-. Uma conexão http = 1 thread
 \begin{lstlisting}[language=Java]
 @Inject
 SayService say;
@@ -157,11 +139,11 @@ public String hello() {
 }
 \end{lstlisting}
 
-JakartaEE/MicroProfile
+JakartaEE/MicroProfile, Spring
 \end{frame}
 
 
-\begin{frame}[fragile]{Desenvolvimento backend Java no 2021 - Concorrência}
+\begin{frame}[fragile]{Baseado em Async}
 Reactive based -e.g. Async JAX-RS, Spring WebFlux, Actors, Verticles-
 \begin{lstlisting}[language=Java]
 public class Server extends AbstractVerticle {
@@ -174,11 +156,11 @@ public class Server extends AbstractVerticle {
   }
 }
 \end{lstlisting}
-Vert.x
+Vert.x, Spring WebFlux, Zio, Akka
 \end{frame}
 
 
-\begin{frame}{Desenvolvimento backend Java no 2021 - Arquitetura}
+\begin{frame}{Arquitetura}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -199,7 +181,7 @@ Vert.x
 \end{frame}
 
 
-\begin{frame}{Desenvolvimento backend Java no 2021 - Runtime}
+\begin{frame}{Runtime}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -220,7 +202,7 @@ Vert.x
 \end{frame}
 
 
-\begin{frame}{Desenvolvimento backend Java no 2021 - Runtime/Framework}
+\begin{frame}{Runtime/Framework}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -242,7 +224,7 @@ Vert.x
 
 \end{frame}
 
-\begin{frame}{Desenvolvimento backend Java no 2021}
+\begin{frame}{Complexo}
 
 \begin{columns}
 \begin{column}{0.5\textwidth}
@@ -264,23 +246,23 @@ Vert.x
 
 \end{frame}
 
-\begin{frame}{Arquiteto Java no ano 2021}
+\begin{frame}{Arquiteto no ano 2021}
 
-\begin{exampleblock}{Arquiteto Java}
-O cara que tem que decidir entre pegar um framework pronto \textit{complexo} ou pegar um runtime \textit{ligero} e criar a estrutura toda -i.e Bibliotecas, estilo arquitetural, SCM (Maven)-.\\
+\begin{exampleblock}{Arquiteto}
+A pessoa que tem que decidir entre pegar um framework pronto \textit{complexo} ou pegar um runtime \textit{ligero} e criar a estrutura toda -i.e Bibliotecas, estilo arquitetural, SCM (Maven)-.\\
 
 
-O cara que tem que decidir entre chatear os dev Java tradicionais no modelo de desenvolvimento Async ou chatear os desenvolvedores Kotlin por não aproveitar os Coroutines que nem no Android.\\
+A pessoa que tem que decidir entre chatear os dev Java tradicionais no modelo de desenvolvimento Async ou chatear os desenvolvedores Kotlin por não aproveitar os Coroutines.\\
 
-O cara que tem que avaliar dar o pulo para o Kotlin conservando os stacks tradicionais.
+A pessoa que tem que avaliar o pulo para o Kotlin conservando (ou não) os stacks tradicionais.
 
 \end{exampleblock}
 \end{frame}
 
-\begin{frame}{Arquiteto Java no ano 2021}
+\begin{frame}{Arquiteto no ano 2021}
 
-\begin{exampleblock}{Arquiteto Java}
-O cara que vai ser odiado por não dar o pulo para JavaScript só pela vontade de re-escreber a base de código que vem fazendo succeso há 15 anos
+\begin{exampleblock}{Arquiteto}
+A pessoa que vai ser odiada por não dar o pulo para JavaScript só pela vontade de re-escreber a base de código que vem fazendo sucesso há 15 anos
 \end{exampleblock}
 \end{frame}
 
@@ -309,18 +291,8 @@ Todo framework Java pode virar framework Kotlin. Mas nem todo framework Java e t
 
 \begin{frame}{Kotlin no backend - Fatos}
 
-Frameworks com suporte oficial
-
-\begin{itemize}
-\item
-\end{itemize}
-
-\end{frame}
-
-\begin{frame}{Kotlin no backend - Fatos}
-
 \begin{exampleblock}{Fato \#2}
-Geralmente o problema são os annotation processors -e.g. Lombok-, muitos são feitos para o Java
+Geralmente o problema de não testar são os annotation processors -e.g. DeltaSpike-, muitos são feitos para o Java
 \end{exampleblock}
 \end{frame}
 
@@ -358,7 +330,7 @@ Ktor
 \end{frame}
 
 
-\begin{frame}{Java - Dying since 1995}
+\begin{frame}{Java - Morrendo desde 1995}
 \begin{columns}
 \begin{column}{0.5\textwidth}
 \begin{itemize}
@@ -378,31 +350,6 @@ Ktor
 \end{columns}
 \end{frame}
 
-\begin{frame}{Kotlin}
-\begin{columns}
-
-	\begin{column}{0.5\textwidth}
-		Vantagens
-		\begin{itemize}
-			\item Código conciso enquanto você conheça as convenções
-			\item Java inter-op
-			\item Backend para desenvolvedores Android
-			\item Uma nova forma de virar \textit{fullStack}
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}
-		Desvantagens
-		\begin{itemize}
-			\item IntelliJ IDEA Ultimate
-			\item Precisa tempo para aprender e virar produtivo
-			\item Tempo de compilação
-			\item Thread-managed vs Co-routines
-			\item Amber, Loom, Valhalla, Panama (Java 18?)
-		\end{itemize}
-	\end{column}
-\end{columns}
-\end{frame}
-
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
     \setbeamercolor{normal text}{fg=white}
@@ -410,10 +357,6 @@ Ktor
     \usebeamercolor[fg]{normal text}
     \section{Projeto tradicional com Kotlin}
 }
-
-
-
-
 
 \begin{frame}{Projeto Java so que não}
 \begin{enumerate}
@@ -425,56 +368,43 @@ Ktor
 \end{frame}
 
 
-\begin{frame}[fragile]{Eclipse MicroProfile com Payara 5}
-\begin{lstlisting}
-<dependency>
-	<groupId>org.eclipse.microprofile</groupId>
-	<artifactId>microprofile</artifactId>
-	<type>pom</type>
-	<version>3.2</version>
-	<scope>provided</scope>
-</dependency>
-\end{lstlisting}
-\end{frame}
-
-
-\begin{frame}[fragile]{Kotlin with Maven - Dependency}
+\begin{frame}[fragile]{Kotlin com Maven - Dependency}
 \begin{lstlisting}[language=XML]
 <dependency>
-	<groupId>org.jetbrains.kotlin</groupId>
-	<artifactId>kotlin-stdlib-jdk8</artifactId>
-	<version>${kotlin.version}</version>
+    <groupId>org.jetbrains.kotlin</groupId>
+    <artifactId>kotlin-stdlib-jdk8</artifactId>
+    <version>${kotlin.version}</version>
 </dependency>
 \end{lstlisting}
 \end{frame}
 
-\begin{frame}[fragile]{Kotlin with Maven - maven-compiler-plugin}
+\begin{frame}[fragile]{Kotlin com Maven - maven-compiler-plugin}
 \begin{lstlisting}[language=xml,
 basicstyle=\tiny, %or \small or \footnotesize etc.
 ]
 <execution>
-	<id>default-compile</id>
-	<phase>none</phase>
+    <id>default-compile</id>
+    <phase>none</phase>
 </execution>
 <execution>
-	<id>default-testCompile</id>
-	<phase>none</phase>
+    <id>default-testCompile</id>
+    <phase>none</phase>
 </execution>
 <execution>
-	<id>java-compile</id>
-	<phase>compile</phase>
-	<goals> <goal>compile</goal> </goals>
+    <id>java-compile</id>
+    <phase>compile</phase>
+    <goals> <goal>compile</goal> </goals>
 </execution>
 <execution>
-	<id>java-test-compile</id>
-	<phase>test-compile</phase>
-	<goals> <goal>testCompile</goal> </goals>
+    <id>java-test-compile</id>
+    <phase>test-compile</phase>
+    <goals> <goal>testCompile</goal> </goals>
 </execution>
 \end{lstlisting}
 \end{frame}
 
 
-\begin{frame}[fragile]{Kotlin with Maven - kotlin-maven-plugin}
+\begin{frame}[fragile]{Kotlin com Maven - kotlin-maven-plugin}
 \begin{lstlisting}[
 basicstyle=\tiny, %or \small or \footnotesize etc.
 ]
@@ -494,256 +424,6 @@ basicstyle=\tiny, %or \small or \footnotesize etc.
 
 Ideia geral: As anotações Java viram open classes por causa do proxy-classes metapadrão
 \end{frame}
-
-
-\begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
-
-\begin{itemize}
-	\item Kotlin 1.3
-	\item Libraries - SLF4J, Flyway, PostgreSQL
-	\item Jakarta EE 8 - EJB, JPA
-	\item MicroProfile - CDI, JAX-RS, MicroProfile Config
-	\item Testing - Arquillian, JUnit, Payara Embedded
-\end{itemize}
-
-
-\normalsize  \url{https://dzone.com/articles/the-state-of-kotlin-for-jakarta-eemicroprofile-tra}\\
-\normalsize  \url{https://github.com/tuxtor/integrum-ee}
-\end{frame}
-
-\begin{frame}{Kotlin + Jakarta EE + MicroProfile  - Demo}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/integrum-ee}
-\end{figure}
-\end{frame}
-
-
-\begin{frame}[fragile]{Kotlin - JPA entity}
-\begin{lstlisting}[language=Kotlin]
-@Entity
-@Table(name = "adm_phrase")
-@TableGenerator(...)
-data class AdmPhrase(
-	@Id
-	@GeneratedValue(strategy = GenerationType.TABLE,
-		generator = "admPhraseIdGenerator")
-	@Column(name = "phrase_id")
-	var phraseId:Long? = null,
-	var author:String = "",
-	var phrase:String = ""
-)
-\end{lstlisting}
-Data Clases, Nullable Types
-\end{frame}
-
-\begin{frame}[fragile]{Kotlin - CDI Repository}
-\begin{lstlisting}[language=Kotlin]
-@RequestScoped
-class AdmPhraseRepository {
-
-	@Inject
-	private lateinit var em:EntityManager
-
-	...
-
-}
-\end{lstlisting}
-Lateinit (nullable type)
-\end{frame}
-
-\begin{frame}[fragile]{Kotlin - CDI Repository}
-\begin{lstlisting}[language=Kotlin]
-fun create(admPhrase:AdmPhrase) = em.persist(admPhrase)
-
-fun update(admPhrase:AdmPhrase) = em.merge(admPhrase)
-
-fun findById(phraseId: Long) =
-em.find(AdmPhrase::class.java, phraseId)
-
-fun delete(admPhrase: AdmPhrase) = em.remove(admPhrase)
-. . .
-\end{lstlisting}
-Single expression functions (One line methods)
-\end{frame}
-
-\begin{frame}[fragile]{Kotlin - CDI Repository}
-\begin{lstlisting}[language=Kotlin]
-fun listAll(author: String, phrase: String):
-	List<AdmPhrase> {
-
-	val query = """SELECT p FROM AdmPhrase p
-	where p.author LIKE :author
-	and p.phrase LIKE :phrase
-	"""
-
-	return em.createQuery(query, AdmPhrase::class.java)
-		.setParameter("author", "%$author%")
-		.setParameter("phrase", "%$phrase%")
-		.resultList
-}
-\end{lstlisting}
-Multiline string
-\end{frame}
-
-\begin{frame}[fragile]{Kotlin - JAX-RS Controllers}
-\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
-@Path("/phrases")
-@Produces(MediaType.APPLICATION_JSON)
-@Consumes(MediaType.APPLICATION_JSON)
-class AdmPhraseController{
-
-	@Inject
-	private lateinit var admPhraseRepository: AdmPhraseRepository
-
-	@Inject
-	private lateinit var logger: Logger
-	...
-
-}
-\end{lstlisting}
-\end{frame}
-
-\begin{frame}[fragile]{Kotlin - JAX-RS Controller}
-\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
-
-@GET
-fun findAll(
-@QueryParam("author") @DefaultValue("%") author: String,
-@QueryParam("phrase") @DefaultValue("%") phrase: String) =
-	admPhraseRepository.listAll(author, phrase)
-
-@GET
-@Path("/{id:[0-9][0-9]*}")
-fun findById(@PathParam("id") id:Long) =
-	admPhraseRepository.findById(id)
-
-@PUT
-fun create(phrase: AdmPhrase): Response {
-	admPhraseRepository.create(phrase)
-	return Response.ok().build()
-}
-\end{lstlisting}
-\end{frame}
-
-
-\begin{frame}[fragile]{Kotlin - JAX-RS Controller}
-Elvis operator as expression
-\begin{lstlisting}[language=Kotlin, basicstyle=\scriptsize]
-@POST
-@Path("/{id:[0-9][0-9]*}")
-fun update(@PathParam("id") id: Long?, phrase: AdmPhrase)
-	:Response {
-	if(id != phrase.phraseId)
-		return Response.status(Response.Status.NOT_FOUND).build()
-
-	val updatedEntity = admPhraseRepository.update(phrase)
-	return Response.ok(updatedEntity).build()
-}
-
-\end{lstlisting}
-
-\end{frame}
-
-\begin{frame}[fragile]{Oracle Cloud}
-\begin{lstlisting}[language=XML, basicstyle=\scriptsize]
-<groupId>io.fabric8</groupId>
-<artifactId>docker-maven-plugin</artifactId>
-<version>0.30.0</version>
-...
-<image>
-	<name>iad.ocir.io/tuxtor/microprofile/integrum-ee</name>
-	<build>
-		<dockerFile>${project.basedir}/Dockerfile</dockerFile >
-	</build>
-</image>
-\end{lstlisting}
-\end{frame}
-
-\begin{frame}{Oracle Cloud}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.95\linewidth]{Images/oc1}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Oracle Cloud}
-\begin{figure}
-	\centering
-	\includegraphics[width=0.95\linewidth]{Images/oc2}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Oracle Cloud}
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/oc3}
-\end{figure}
-\end{frame}
-
-\begin{frame}{Oracle Cloud}
-
-\begin{figure}
-	\centering
-	\includegraphics[width=\linewidth]{Images/oc4}
-\end{figure}
-\end{frame}
-
-
-
-{
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}
-    \setbeamercolor{normal text}{fg=white}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \section{Kotlin}
-}
-
-\begin{frame}{Kotlin}
-\begin{columns}
-	\begin{column}{0.5\textwidth}
-		\begin{itemize}
-			\item Static typing
-			\item Java inter-op
-			\item OO + FP
-			\item Null safety
-			\item Extension functions
-			\item Operator overloading
-			\item Data classes
-			\item One line methods
-		\end{itemize}
-	\end{column}
-	\begin{column}{0.5\textwidth}  %%<--- here
-		\begin{figure}
-			\centering
-			\includegraphics[width=0.7\linewidth]{Images/kotlin}
-		\end{figure}
-	\end{column}
-\end{columns}
-\end{frame}
-
-\begin{frame}{Kotlin - Fatos interesantes}
-\begin{columns}
-\begin{column}{0.5\textwidth}
-	\begin{itemize}
-		\item Effective Java - Immutability, builder, singleton, override, final by default, variance by generics
-		\item Elvis - Groovy
-		\item Type inference - Scala
-		\item Immutability - Scala
-		\item Identifiers - Scala
-		\item Null values management - Groovy
-		\item Functions - Groovy
-	\end{itemize}
-\end{column}
-\begin{column}{0.5\textwidth}  %%<--- here
-	\begin{figure}
-		\centering
-		\includegraphics[width=0.7\linewidth]{Images/kotlin}
-	\end{figure}
-\end{column}
-\end{columns}
-\end{frame}
-
 
 
 \begin{frame}{Víctor Orozco}

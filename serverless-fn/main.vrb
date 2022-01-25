@@ -1,0 +1,14 @@
+\frametitle{GraalVM Native}
+clikt (Kotlin DSL)
+\begin{lstlisting}[language=Kotlin]
+class Hello : CliktCommand() {
+    val count: Int by option(help="Number of greetings").int().default(1)
+    val name: String by option(help="The person to greet").prompt("Your name")
+
+    override fun run() {
+        repeat(count) {
+            echo("Hello $name!")
+        }
+    }
+}
+\end{lstlisting}
