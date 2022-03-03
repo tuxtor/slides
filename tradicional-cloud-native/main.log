@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021 Gentoo Linux) (preloaded format=xelatex 2022.1.21)  2 FEB 2022 15:15
+This is XeTeX, Version 3.141592653-2.6-0.999993 (TeX Live 2021 Gentoo Linux) (preloaded format=xelatex 2022.1.21)  3 MAR 2022 14:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -136,18 +136,13 @@ File: xetex.def 2020/08/26 v5.0i Graphics/color driver for xetex
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box56
-
-(/usr/share/texmf-dist/tex/latex/base/everyshi-ltx.sty
-Package: everyshi-ltx 2020/08/17 v1.0a Emulation of the original everyshi packa
-ge
-with kernel methods
-))
+)
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfrcs.code.tex
 (/usr/share/texmf-site/tex/generic/pgf/pgf.revision.tex)
-Package: pgfrcs 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgfrcs 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys.code.tex
-Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgfsys 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks18
@@ -178,28 +173,28 @@ Package: pgfsys 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@sys@id@count=\count274
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgf.cfg
-File: pgf.cfg 2020/01/08 v3.1.5b (3.1.5b)
+File: pgf.cfg 2021/05/15 v3.1.9a (3.1.9a)
 )
 Driver file for pgf: pgfsys-xetex.def
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-xetex.def
-File: pgfsys-xetex.def 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfsys-xetex.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-dvipdfmx.def
-File: pgfsys-dvipdfmx.def 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfsys-dvipdfmx.def 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsys-common-pdf.def
-File: pgfsys-common-pdf.def 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfsys-common-pdf.def 2021/05/15 v3.1.9a (3.1.9a)
 )
 \pgfsys@objnum=\count275
 )))
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.tex
-File: pgfsyssoftpath.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfsyssoftpath.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfsyssoftpath@smallbuffer@items=\count276
 \pgfsyssoftpath@bigbuffer@items=\count277
 )
 (/usr/share/texmf-site/tex/generic/pgf/systemlayer/pgfsysprotocol.code.tex
-File: pgfsysprotocol.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfsysprotocol.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
@@ -218,7 +213,7 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcore.code.tex
-Package: pgfcore 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgfcore 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmathcalc.code.tex
@@ -245,7 +240,7 @@ x) (/usr/share/texmf-site/tex/generic/pgf/math/pgfmathfunctions.base.code.tex)
 \c@pgfmathroundto@lastzeros=\count279
 )) (/usr/share/texmf-site/tex/generic/pgf/math/pgfint.code.tex)
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
-File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepoints.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@picminx=\dimen177
 \pgf@picmaxx=\dimen178
 \pgf@picminy=\dimen179
@@ -262,67 +257,67 @@ File: pgfcorepoints.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \pgf@zy=\dimen190
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
-File: pgfcorepathconstruct.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepathconstruct.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@path@lastx=\dimen191
 \pgf@path@lasty=\dimen192
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
-File: pgfcorepathusage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepathusage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@shorten@end@additional=\dimen193
 \pgf@shorten@start@additional=\dimen194
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
-File: pgfcorescopes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorescopes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count280
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
-File: pgfcoregraphicstate.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoregraphicstate.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgflinewidth=\dimen195
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoretransformations.code.t
 ex
-File: pgfcoretransformations.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoretransformations.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@pt@x=\dimen196
 \pgf@pt@y=\dimen197
 \pgf@pt@temp=\dimen198
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
-File: pgfcorequick.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorequick.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
-File: pgfcoreobjects.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoreobjects.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepathprocessing.code.te
 x
-File: pgfcorepathprocessing.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepathprocessing.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
-File: pgfcorearrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorearrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfarrowsep=\dimen199
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
-File: pgfcoreshade.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoreshade.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@max=\dimen256
 \pgf@sys@shading@range@num=\count281
 \pgf@shadingcount=\count282
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
-File: pgfcoreimage.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoreimage.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoreexternal.code.tex
-File: pgfcoreexternal.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoreexternal.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfexternal@startupbox=\box61
 ))
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorelayers.code.tex
-File: pgfcorelayers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorelayers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcoretransparency.code.tex
-File: pgfcoretransparency.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcoretransparency.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ) (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorepatterns.code.tex
-File: pgfcorepatterns.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorepatterns.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/basiclayer/pgfcorerdf.code.tex
-File: pgfcorerdf.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfcorerdf.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 (/usr/share/texmf-site/tex/latex/pgf/utilities/xxcolor.sty
 Package: xxcolor 2003/10/24 ver 0.1
@@ -776,28 +771,28 @@ lis.sty
 Package: beamerinnerthememetropolis 2017/01/23 Metropolis inner theme
  (/usr/share/texmf-site/tex/latex/pgf/frontendlayer/tikz.sty
 (/usr/share/texmf-site/tex/latex/pgf/basiclayer/pgf.sty
-Package: pgf 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgf 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
-File: pgfmoduleshapes.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfmoduleshapes.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfnodeparttextbox=\box73
 )
 (/usr/share/texmf-site/tex/generic/pgf/modules/pgfmoduleplot.code.tex
-File: pgfmoduleplot.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfmoduleplot.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
-Package: pgfcomp-version-0-65 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgfcomp-version-0-65 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@nodesepstart=\dimen286
 \pgf@nodesepend=\dimen287
 )
 (/usr/share/texmf-site/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
-Package: pgfcomp-version-1-18 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgfcomp-version-1-18 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/share/texmf-site/tex/latex/pgf/utilities/pgffor.sty
 (/usr/share/texmf-site/tex/latex/pgf/math/pgfmath.sty
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex))
 (/usr/share/texmf-site/tex/generic/pgf/utilities/pgffor.code.tex
-Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
+Package: pgffor 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/math/pgfmath.code.tex)
 \pgffor@iter=\dimen288
@@ -806,11 +801,11 @@ Package: pgffor 2020/01/08 v3.1.5b (3.1.5b)
 \pgffor@toks=\toks47
 ))
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
-Package: tikz 2020/01/08 v3.1.5b (3.1.5b)
+Package: tikz 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/libraries/pgflibraryplothandlers.code.te
 x
-File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgflibraryplothandlers.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@plot@mark@count=\count325
 \pgfplotmarksize=\dimen290
 )
@@ -831,7 +826,7 @@ File: pgflibraryplothandlers.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 \tikznumberofcurrentchild=\count328
 \tikz@fig@count=\count329
  (/usr/share/texmf-site/tex/generic/pgf/modules/pgfmodulematrix.code.tex
-File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgfmodulematrix.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgfmatrixcurrentrow=\count330
 \pgfmatrixcurrentcolumn=\count331
 \pgf@matrix@numberofcolumns=\count332
@@ -840,7 +835,7 @@ File: pgfmodulematrix.code.tex 2020/01/08 v3.1.5b (3.1.5b)
 
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 topaths.code.tex
-File: tikzlibrarytopaths.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibrarytopaths.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )))
 \metropolis@titleseparator@linewidth=\skip70
 \metropolis@progressonsectionpage=\skip71
@@ -1151,40 +1146,40 @@ Package: xstring 2019/02/06 v1.83 String manipulations (CT)
 )
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 backgrounds.code.tex
-File: tikzlibrarybackgrounds.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibrarybackgrounds.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 \pgf@layerbox@background=\box79
 \pgf@layerboxsaved@background=\box80
 )
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 calc.code.tex
-File: tikzlibrarycalc.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibrarycalc.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 fadings.code.tex
-File: tikzlibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/libraries/pgflibraryfadings.code.tex
-File: pgflibraryfadings.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgflibraryfadings.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shadows.code.tex
-File: tikzlibraryshadows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibraryshadows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 )
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shapes.arrows.code.tex
-File: tikzlibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/libraries/shapes/pgflibraryshapes.arrows
 .code.tex
-File: pgflibraryshapes.arrows.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgflibraryshapes.arrows.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 (/usr/share/texmf-site/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 shapes.symbols.code.tex
-File: tikzlibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: tikzlibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 
 (/usr/share/texmf-site/tex/generic/pgf/libraries/shapes/pgflibraryshapes.symbol
 s.code.tex
-File: pgflibraryshapes.symbols.code.tex 2020/01/08 v3.1.5b (3.1.5b)
+File: pgflibraryshapes.symbols.code.tex 2021/05/15 v3.1.9a (3.1.9a)
 ))
 \pgf@layerbox@smart diagram arrow back=\box81
 \pgf@layerboxsaved@smart diagram arrow back=\box82
@@ -1638,48 +1633,22 @@ File: Images/Contenido.png Graphic file (type bmp)
  [2
 
 ]
-File: Images/graalvm.png Graphic file (type bmp)
-<Images/graalvm.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
  [3
 
 ]
-File: Images/graalvmlogo.png Graphic file (type bmp)
-<Images/graalvmlogo.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
  [4
 
 ]
-File: Images/tckjdk.png Graphic file (type bmp)
-<Images/tckjdk.png>
-
-Overfull \vbox (16.04256pt too high) detected at line 126
- []
-
-File: Images/Contenido.png Graphic file (type bmp)
-<Images/Contenido.png>
-[5
-
-]
-File: Images/twittergraalvm.png Graphic file (type bmp)
-<Images/twittergraalvm.png>
-
-Overfull \vbox (18.94719pt too high) detected at line 137
- []
-
-File: Images/Contenido.png Graphic file (type bmp)
-<Images/Contenido.png>
-[6
-
-]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 144
+LaTeX Font Info:    Trying to load font information for U+msa on input line 111
 .
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 144
+LaTeX Font Info:    Trying to load font information for U+msb on input line 111
 .
 
 (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1687,6 +1656,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 File: Images/separador.png Graphic file (type bmp)
 <Images/separador.png>
+ [5
+
+]
+Overfull \vbox (16.22707pt too high) detected at line 144
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[6
+
+]
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
  [7
 
 ]
@@ -1695,10 +1677,10 @@ File: Images/Contenido.png Graphic file (type bmp)
  [8
 
 ]
-File: Images/energy.png Graphic file (type bmp)
-<Images/energy.png>
+File: Images/atlassian.png Graphic file (type bmp)
+<Images/atlassian.png>
 
-Overfull \vbox (17.1935pt too high) detected at line 168
+Overfull \vbox (83.18117pt too high) detected at line 182
  []
 
 File: Images/Contenido.png Graphic file (type bmp)
@@ -1706,15 +1688,11 @@ File: Images/Contenido.png Graphic file (type bmp)
 [9
 
 ]
-File: Images/nativeimagedefinition.png Graphic file (type bmp)
-<Images/nativeimagedefinition.png>
-
-Overfull \vbox (11.35083pt too high) detected at line 176
- []
-
+File: Images/pasos.png Graphic file (type bmp)
+<Images/pasos.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
-[10
+ [10
 
 ]
 File: Images/Contenido.png Graphic file (type bmp)
@@ -1727,64 +1705,65 @@ File: Images/Contenido.png Graphic file (type bmp)
  [12
 
 ]
+File: Images/etapa1.png Graphic file (type bmp)
+<Images/etapa1.png>
+
+Overfull \vbox (14.96367pt too high) detected at line 238
+ []
+
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
- [13
+[13
 
 ]
+File: Images/cicd.png Graphic file (type bmp)
+<Images/cicd.png>
+
+Overfull \vbox (37.72699pt too high) detected at line 245
+ []
+
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
- [14
+[14
 
 ]
-File: Images/ventajasnative.png Graphic file (type bmp)
-<Images/ventajasnative.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
  [15
 
 ]
-File: Images/implementacionesnative.png Graphic file (type bmp)
-<Images/implementacionesnative.png>
-File: Images/Contenido.png Graphic file (type bmp)
-<Images/Contenido.png>
- [16
+File: Images/sonar.png Graphic file (type bmp)
+<Images/sonar.png>
 
-]
-File: Images/Contenido.png Graphic file (type bmp)
-<Images/Contenido.png>
- [17
-
-]
-File: Images/separador.png Graphic file (type bmp)
-<Images/separador.png>
- [18
-
-]
-Overfull \vbox (4.97177pt too high) detected at line 280
+Overfull \vbox (48.53285pt too high) detected at line 271
  []
 
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
-[19
+[16
 
 ]
-File: Images/rank0.png Graphic file (type bmp)
-<Images/rank0.png>
-File: Images/rank1.png Graphic file (type bmp)
-<Images/rank1.png>
-File: Images/rank2.png Graphic file (type bmp)
-<Images/rank2.png>
+File: Images/grafana.png Graphic file (type bmp)
+<Images/grafana.png>
+
+Overfull \vbox (39.00061pt too high) detected at line 278
+ []
+
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
- [20
+[17
 
 ]
-File: Images/otavio.png Graphic file (type bmp)
-<Images/otavio.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
- [21
+ [18
+
+]
+File: Images/docviva.png Graphic file (type bmp)
+<Images/docviva.png>
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+ [19
 
 ]
 File: Images/logos.png Graphic file (type bmp)
@@ -1792,12 +1771,12 @@ File: Images/logos.png Graphic file (type bmp)
 File: Images/cclogo.png Graphic file (type bmp)
 <Images/cclogo.png>
 
-Overfull \vbox (73.56041pt too high) detected at line 333
+Overfull \vbox (73.56041pt too high) detected at line 319
  []
 
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
-[22
+[20
 
 ]
 \tf@nav=\write6
@@ -1814,15 +1793,15 @@ LaTeX Info: Redefining \. on input line 25.
 LaTeX Info: Redefining \% on input line 25.
 )
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: FA5EC1E991C435B693DB3BB5ABA3E5E6;287.
+(rerunfilecheck)             Checksum: 46B2E9D955D62BB8A68FE298D4D18002;175.
  ) 
 Here is how much of TeX's memory you used:
- 31050 strings out of 478811
- 634137 string characters out of 5864949
- 1218181 words of memory out of 5000000
- 50216 multiletter control sequences out of 15000+600000
- 408710 words of font info for 80 fonts, out of 8000000 for 9000
+ 30966 strings out of 478811
+ 632090 string characters out of 5864949
+ 1220218 words of memory out of 5000000
+ 50141 multiletter control sequences out of 15000+600000
+ 408702 words of font info for 79 fonts, out of 8000000 for 9000
  64 hyphenation exceptions out of 8191
  131i,12n,132p,467b,831s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (22 pages).
+Output written on main.pdf (20 pages).
