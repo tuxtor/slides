@@ -1,2 +1,2 @@
 \babel@toc {spanish}{}
-\beamer@sectionintoc {1}{El proyecto de migración}{5}{0}{1}
+\beamer@sectionintoc {1}{The migration project(s)}{6}{0}{1}

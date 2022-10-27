@@ -47,41 +47,40 @@
 }
 
 
-\title{Consideraciones al migrar un sistema tradicional hacia Cloud Native}
-\author{Víctor Orozco}
-\institute{Nabenik}
-\date{\today}
-
 \begin{document}
-
-
-
 
 
 {
     \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/portada}}
-    \setbeamercolor{frametitle}{fg=red}
-    \usebeamercolor[fg]{normal text}
-    \frame{\titlepage}
+    \begin{frame}
+    \end{frame}
 }
 
+
+
 \begin{frame}{Cloud native}
-Al migrar hacia nuevas tecnologías cloud -e.g. Serverless, BaaS, Microservicios- automáticamente van a conseguir escala -i.e. soportar más usuarios con menos dinero-  y lanzar más rápido.
+
+\begin{alertblock}{The false assumption}
+By migrating to newer cloud technologies -e.g. Serverless, BaaS, Microservices- companies will automatically achieve scale -i.e. support more users with less money - and launch new faster.
+\end{alertblock}
+
+
 \end{frame}
 
 
+
 \begin{frame}{Cloud native}
 
-\textbf{Enfoque} para la construcción de sistemas informáticos modernos sobre entornos dinámicos como nubes privadas y públicas.
+\textbf{Approach} for building modern computing systems on dynamic environments such as private and public clouds.
 
 	\begin{itemize}
-		\item Sistemas reactivos
-		\item 12 factores cloud native
-        \item Design patterns
+		\item Reactive systems
+		\item 12 cloud native factors
+        \item Cloud native design patterns
         \item Domain Driven Design
-		\item Microservices chassis y/o service mesh
-        \item Orquestación de contenedores, serverless, BaaS
-        \item Nube
+		\item Microservices chassis and/or service mesh
+        \item Container orchestration, serverless, BaaS
+        \item Cloud
 	\end{itemize}
 
 \end{frame}
@@ -90,17 +89,25 @@ Al migrar hacia nuevas tecnologías cloud -e.g. Serverless, BaaS, Microservicios
 \begin{frame}{Cloud native}
 
 	\begin{itemize}
-		\item (Nos gustaría tener) Sistemas reactivos
-		\item (Es posible con la metodología de) 12 factores Cloud Native
-        \item (Usamos soluciones probadas mediante) design patterns
-        \item (Fragmentamos el sistema mediante) Domain Driven Design
-		\item (Implementamos los servicios con) Microservices chassis y/o service mesh
-        \item (Hacemos despliegue) Mediante orquestación de containers, funciones serverless, BaaS
-        \item (Contratamos)  Nube
+        		\item (We want) Reactive systems
+        		\item (A battle tested approach is) 12 cloud native factors
+                \item (Common mistakes and solutions are described by) Cloud native design patterns
+                \item (Hence we divide the system with) Domain Driven Design
+        		\item (And develop the systems by using) Microservices chassis and/or service mesh
+                \item (Running the workloads over) Container orchestration, serverless, BaaS
+                \item (Hence the) Cloud
 	\end{itemize}
 
-Un proceso de migración hacia Cloud Native es en si mismo un macro proyecto.
+The Cloud Native migration projects, are in real life Macro-Projects that should be carried out properly
 
+\end{frame}
+
+\begin{frame}{Cloud native}
+
+\begin{figure}
+\centering
+\includegraphics[width=0.6\linewidth]{Images/vodaphone}
+\end{figure}
 \end{frame}
 
 {
@@ -108,128 +115,153 @@ Un proceso de migración hacia Cloud Native es en si mismo un macro proyecto.
 	\setbeamercolor{normal text}{fg=white}
 	\setbeamercolor{frametitle}{fg=red}
 	\usebeamercolor[fg]{normal text}
-	\section{El proyecto de migración}
+	\section{The migration project(s)}
 }
+\begin{frame}{Cloud native - The government wants to go Cloud Native}
 
-\begin{frame}{Cloud native - Experiencias previas}
+Under NDA, but still . . .\
+
+\begin{itemize}
+ \item Government institution = Local data required by law
+ \item Institution 1:
+\begin{itemize}
+ \item NodeJS based solution
+ \item Docker based monolith
+ \item CI/CD with GitLab
+ \end{itemize}
+  \item Institution 2:
+  \begin{itemize}
+   \item Java EE based solution
+   \item Apache TomEE based monolith
+   \item No CI/CD at all
+   \end{itemize}
+\end{itemize}
+
+Both systems provide services for 16m potential users, 1000-5000 concurrent users at any time.\\
+
+
+These \textbf{units} where part of the same \textbf{government sector}. 
+
+\end{frame}
+
+\begin{frame}{Cloud native - The PMI approach}
 
 	\begin{itemize}
-    		\item Inicio
+    		\item Conception \& initiation
             	\begin{itemize}
-                		\item Diagnostico de arquitectura y equipo de trabajo
+                		\item Software architecture and developer diagnose
                 	\end{itemize}
-    		\item Planificación
+    		\item Definition and planning
             	\begin{itemize}
-                		\item Elaboración de hoja de ruta
+                		\item Roadmap definition
                 	\end{itemize}
-            \item Ejecución
+            \item Launch or execution
             	\begin{itemize}
-                		\item Implementación
-                		\item Adquisición
-                        \item Capacitación
-                        \item Programación
+                		\item Implementation
+                		\item Acquisitions 
+                        \item Training
+                        \item Software development
                 	\end{itemize}
-            \item Monitoreamiento y control
+            \item Performance \& control
             	\begin{itemize}
-                		\item Tecnológico: Evaluaciones de entregables, métricas de calidad
-                        \item Proyecto: Presupuesto, plazos, viabilidad real de los entregables
+                		\item Tech: Deliverable and quality metrics
+                        \item Project: Budget, deadlines, viability
                 	\end{itemize}
-    		\item Cierre
+    		\item Project close
 \begin{itemize}
-                		\item Documentación viva
-                        \item Mejoras futuras
+                		\item Live documentation
+                        \item Continuous improvement
                 	\end{itemize}
     	\end{itemize}
 
 \end{frame}
 
 
-\begin{frame}{Inicio}
-No más de dos reuniones exploratorias. En promedio 2 horas por reunión\\
+\begin{frame}{Conception \& initiation}
+No more than two brainstorming sessions. Two hours on average\\
 
-Stakeholders que no pueden faltar:\\
+Mandatory stakeholders:\\
 \begin{itemize}
-\item Arquitecto de software (Tech Lead, Dev. Sr.)
-\item Jefe de infraestructura (Sysadmin principal, SRE)
-\item Punto de contacto (generalmente el arquitecto de software o soluciones)
+\item Software architect (Tech Lead, Dev. Sr.)
+\item Infrastructure (Sysadmin, SRE)
+\item Direct contact point
 \end{itemize}
 
-Preguntas clave:\\
+Key questions:\\
 \begin{itemize}
-\item Motivación principal
-\item Personal actual
-\item Stack(s) tecnológicos 
-\end{itemize}
-\end{frame}
-
-\begin{frame}{Planificación}
-Revisión de arquitectura actual
-\begin{itemize}
-\item Datos importantes
-\item Problemas
-\item Propuesta macro de mejoras
-\item Listado de acciones puntuales
-\item Hoja de ruta con opciones (contratación, consultoria, tercerización, entrenamiento)
-\item Contrato(s) basado(s) en entregables
+\item Motivation
+\item Current team's size and skills
+\item Tech Stacks
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Planificación}
+\begin{frame}{Definition and planning}
+Architecture review
+\begin{itemize}
+\item Issues
+\item Possible solutions, approaches and \textbf{actions}
+\item Roadmap with options (consultants, outsourcing, training)
+\item Contracts based on deliverables
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Definition and planning}
 \begin{figure}
 \centering
-\includegraphics[width=\linewidth]{Images/atlassian}
+\includegraphics[width=0.7\linewidth]{Images/atlassian}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Planificación}
+\begin{frame}{Definition and planning}
+Project - Description - Estimated time - Provided opportunities
 \begin{figure}
 \centering
 \includegraphics[width=0.8\linewidth]{Images/pasos}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Ejecución}
-1-Punto de contacto, 2-Medio de comunicación inmediato, 3- Medio de comunicación no repudiable.
+\begin{frame}{Launch or execution}
+1-Contact point, 2-Direct means of communication , 3- Non-repudiable means of communication
 
 
 \begin{itemize}
-    \item Cultura
+    \item Culture
         \begin{itemize}
         \item DevOps
         \item Test Driven Development
         \end{itemize}
-    \item  Infraestructura
+    \item  Infrastructure
         \begin{itemize}
-        \item Accesos remotos
+        \item Remote access
         \item VCS, CI/CD
-        \item Plataforma Cloud Native -e.g. Openshift, Kubernetes, Amazon EKS, Oracle Kubernetes Engine-
-        \item Observabilidad -e.g. Linkerd, Prometheus, Grafana, ELK, alarmas-
+        \item Cloud Native Platform -e.g. Openshift, Kubernetes, Amazon EKS, Oracle Kubernetes Engine-
+        \item Observability -e.g. Linkerd, Prometheus, Grafana, ELK, alarms-
         \end{itemize}
  \end{itemize}
- Idealmente realizar una presentación/transferencia de tecnología por entregable.
+Ideally make one presentation/technology transfer per deliverable.
 \end{frame}
 
 
-\begin{frame}{Ejecución}
-Todas estas etapas producirán \textbf{"documentación viva"}.
+\begin{frame}{Launch or execution}
+All phases produce \textbf{"live documentation"}.
 
 \begin{itemize}
 
-     \item  Entrenamiento y desarrollo
+     \item  Training and development
         \begin{itemize}
-        \item Arquetipo / Proyecto 0
+        \item Bootstrap archetypes (also pet projects)
         \item SCM -e.g. Maven, NPM -
-        \item TDD, DDD, Microservice Chassis seleccionado, infraestructura como código
-        \item Migración de sistemas actuales mediante pipelines
-        \item Ecosistema alrededor del monolito
-        \item Nuevos proyectos nacen con 12 factors cloud native
+        \item TDD, DDD, Microservice Chassis, infrastructure as code
+        \item CI/CD Pipelines
+        \item Don't kill the monolith, create an ecosystems around 
+        \item New project with mandatory cloud native factors
         \end{itemize}
 \end{itemize}
 
 \end{frame}
 
 
-\begin{frame}{Ejecución - DevOps}
+\begin{frame}{Launch or execution - DevOps}
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Images/etapa1}
@@ -237,55 +269,55 @@ Todas estas etapas producirán \textbf{"documentación viva"}.
 \end{figure}
 \end{frame}
 
-\begin{frame}{Ejecución - CI/CD}
+\begin{frame}{Launch or execution - CI/CD}
 \begin{figure}
 	\centering
-	\includegraphics[width=0.8\linewidth]{Images/cicd}
+	\includegraphics[width=0.7\linewidth]{Images/cicd}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Control}
+\begin{frame}{Performance \& control}
 
 \begin{itemize}
-\item Tecnológico
+\item Tech
     \begin{itemize}
-    \item Métricas de calidad del código -e.g. cobertura, code smells, bugs, vulnerabilidades-
-    \item Métricas de desempeño -e.g. caídas e intermitencia de red-
-    \item Instrumentación de la infraestructura
-    \item Monolítos existentes migrados satisfactoriamente
+    \item Code quality-e.g. coverage, code smells, bugs, vulnerabilities-
+    \item Performance -e.g. network latency and failures-
+    \item Instrumentation
+    \item How many services have been migrated 
     \end{itemize}
-\item  Proyecto
+\item  Project
     \begin{itemize}
-    \item Presupuesto
-    \item Entregables estimados vs plazo
-    \item Resultados y percepción de los desarrolladores
+    \item Budget
+    \item Deliverables vs. deadlines
+    \item Users and developers perceptions
     \end{itemize}
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Control - Calidad}
+\begin{frame}{Performance \& control - Quality}
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Images/sonar}
+	\includegraphics[width=0.8\linewidth]{Images/sonar}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Control - Instrumentación}
+\begin{frame}{Performance \& control - Instrumentation}
 \begin{figure}
 	\centering
-	\includegraphics[width=\linewidth]{Images/grafana}
+	\includegraphics[width=0.8\linewidth]{Images/grafana}
 \end{figure}
 \end{frame}
 
-\begin{frame}{Cierre}
+\begin{frame}{Project close}
 \begin{itemize}
-\item Transición de implementación hacia soporte
-\item Documentación viva
-\item Propuesta de mejoras
+\item Implementation \textbf{should} transition to support
+\item Live documentation
+\item What could be done better?
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Cierre - Documentación viva}
+\begin{frame}{Project close - Live documentation}
 \begin{figure}
 	\centering
 	\includegraphics[width=\linewidth]{Images/docviva}
@@ -306,8 +338,8 @@ Todas estas etapas producirán \textbf{"documentación viva"}.
             \begin{itemize}
                 \item vorozco@nabenik.com
                 \item \href{https://twitter.com/tuxtor}{@tuxtor}
-                \item \href{https://vorozco.com}{http://vorozco.com}
-                \item \href{https://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
+                \item \href{https://vorozco.com}{https://vorozco.com}
+                \item \href{https://tuxtor.shekalug.org}{https://tuxtor.shekalug.org}
             \end{itemize}
             \begin{center}
                 \includegraphics[width=0.1\linewidth]{Images/cclogo}
@@ -317,7 +349,11 @@ Todas estas etapas producirán \textbf{"documentación viva"}.
         \end{column}
     \end{columns}
 \end{frame}
-
+{
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/final}}
+    \begin{frame}
+    \end{frame}
+}
 
 
 \end{document}
