@@ -1,0 +1,16 @@
+\frametitle{Eclipse JKube}
+Lo amo por
+\begin{itemize}
+\item Unificación de gestión de proyecto
+\item Maven profiles
+\item CI/CD
+\item Autoconfiguración
+\item Reducción de errores
+\end{itemize}
+
+Características útiles
+\begin{itemize}
+\item Desarrollo remoto (k8s:remote-dev)
+\item Despliegue continuo en desarrollo (k8s:watch)
+\item Helm como alternativa (k8s:debug)
+\end{itemize}
