@@ -52,7 +52,7 @@
 }
 
 
-\title{Gestión de cargas de trabajo con Eclipse JKube}
+\title{Gestión de cargas de trabajo JVM con Eclipse JKube}
 \author{Víctor Orozco}
 \institute{GuateJUG}
 \date{}
@@ -64,7 +64,7 @@
 
 
 {
-    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/portada}}
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/Contenido}}
     \setbeamercolor{frametitle}{fg=red}
     \usebeamercolor[fg]{normal text}
     \frame{\titlepage}
@@ -72,7 +72,7 @@
 
 
 \begin{frame}{Kubernetes}
-\Large Entendamos las cargas de trabajo
+\Large Entendamos las cargas de trabajo JVM
 \end{frame}
 
 \begin{frame}{Kubernetes - Crear la carga}
@@ -86,9 +86,9 @@
 
 \end{frame}
 
-\begin{frame}{Kubernetes - El caminó a hacia Kubernetes}
+\begin{frame}{Kubernetes - El camino a hacia Kubernetes}
 \begin{itemize}
-\item Imagen OCI
+\item Publicar imagen OCI
 \item Contenedor (Pod)
 \item ReplicaSet
 \item Variable
@@ -120,7 +120,7 @@
             \item Común en DevOps -e.g. Github Action, Bitbucket Pipelines-
 		\end{enumerate}
 		\end{column}
-		\begin{column}[T]{6cm} % each column can also be its own environment
+		\begin{column}[T]{7cm} % each column can also be its own environment
 			\begin{figure}
             \centering
             \includegraphics[width=\linewidth]{Images/yaml}
@@ -130,10 +130,33 @@
 	\end{columns}
 \end{frame}
 
+
+\begin{frame}{Descriptor YAML}
+	\begin{columns}[T] % contents are top vertically aligned
+		
+		\begin{column}[T]{4cm} % alternative top-align that's better for graphics
+			Desventajas
+			\begin{enumerate}
+				\item Difícil de mantener
+				\item No hay especificación
+				\item Sin soporte a entornos y parámetros
+			\end{enumerate}
+		\end{column}
+		\begin{column}[T]{7cm} % each column can also be its own environment
+			\begin{figure}
+				\centering
+				\includegraphics[width=\linewidth]{Images/yaml}
+			\end{figure}
+			
+		\end{column}
+	\end{columns}
+\end{frame}
+
+
 \begin{frame}{Helm}
 
 		\begin{enumerate}
-			\item + Aplicaciones como paquetes (Charts) 
+			\item + Aplicaciones como paquetes
 			\item + Parametrizable
 			\item - Proyecto independiente
             \item - Crear un chart es complejo
@@ -167,6 +190,16 @@
 \end{frame}
 
 
+\begin{frame}{Generadores}
+	
+	\begin{enumerate}
+		\item https://k8syaml.com/
+		\item https://gimlet.io/k8s-yaml-generator
+		\item https://octopus.com/blog/octopus-kubernetes-yaml-generator
+		\item ChatGPT?
+	\end{enumerate}
+	
+\end{frame}
 
 
 {
@@ -205,7 +238,7 @@
           \begin{itemize}
     		\item Nombre de contenedores OCI
        		\item Perfiles basados en plantillas
-       		\item Ejecución de tareas (Kubectl)
+       		\item Ejecución de tareas (kubectl)
         	\end{itemize}
         \end{column}
     \end{columns}
@@ -270,13 +303,9 @@ Zero (Spring Boot, Vert.x, Wildfly, Quarkus, Open Liberty, Micronaut)
 Personalizado con propiedades
 \begin{lstlisting}[language=XML]
 <maven.compiler.release>17</maven.compiler.release>
-<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-<failOnMissingWebXml>false</failOnMissingWebXml>
-<version.wildlfy>27.0.0.Beta1</version.wildlfy>
-<version.wildfly.datasources.galleon-pack>3.0.0.Beta1</version.wildfly.datasources.galleon-pack>
-<version.testcontainers>1.17.5</version.testcontainers>
-<version>1.10.1</version>
-<jkube.generator.name>iad.ocir.io/idemd9jasawg/microjakarta10:%l</jkube.generator.name>
+...
+<jkube.generator.name>iad.ocir.io/idemd9jasawg/
+microjakarta10:%l</jkube.generator.name>
 \end{lstlisting}
 
 \end{frame}
@@ -288,7 +317,7 @@ Ajustado con plantillas
 
 \begin{figure}
 \centering
-\includegraphics[width=0.7\linewidth]{Images/plantillas}
+\includegraphics[width=0.9\linewidth]{Images/plantillas}
 
 \end{figure}
 
@@ -333,7 +362,7 @@ mvn k8s:debug
 \end{frame}
 
 \begin{frame}[fragile]{Eclipse JKube}
-Lo amo por
+Me gusta por
 \begin{itemize}
 \item Unificación de gestión de proyecto
 \item Maven profiles
@@ -346,11 +375,11 @@ Características útiles
 \begin{itemize}
 \item Desarrollo remoto (k8s:remote-dev)
 \item Despliegue continuo en desarrollo (k8s:watch)
-\item Helm como alternativa (k8s:debug)
+\item Helm como alternativa (k8s:helm)
 \end{itemize}
 \end{frame}
 
-\begin{frame}{Víctor Orozco}
+\begin{frame}
     \begin{columns}[T] % contents are top vertically aligned
 
         \begin{column}[T]{4cm} % alternative top-align that's better for graphics
@@ -361,10 +390,10 @@ Características útiles
         \end{column}
         \begin{column}[T]{6cm} % each column can also be its own environment
             \begin{itemize}
+             \item Víctor Orozco
                 \item me@vorozco.com
-                \item \href{https://twitter.com/tuxtor}{@tuxtor}
-                \item \href{https://vorozco.com}{http://vorozco.com}
-                \item \href{https://tuxtor.shekalug.org}{http://tuxtor.shekalug.org}
+                \item \href{https://vorozco.com}{https://vorozco.com}
+                \item \href{https://tuxtor.shekalug.org}{https://tuxtor.shekalug.org}
             \end{itemize}
             \begin{center}
                 \includegraphics[width=0.1\linewidth]{Images/cclogo}

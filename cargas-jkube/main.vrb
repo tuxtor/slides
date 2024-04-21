@@ -1,5 +1,5 @@
 \frametitle{Eclipse JKube}
-Lo amo por
+Me gusta por
 \begin{itemize}
 \item Unificación de gestión de proyecto
 \item Maven profiles
@@ -12,5 +12,5 @@ Características útiles
 \begin{itemize}
 \item Desarrollo remoto (k8s:remote-dev)
 \item Despliegue continuo en desarrollo (k8s:watch)
-\item Helm como alternativa (k8s:debug)
+\item Helm como alternativa (k8s:helm)
 \end{itemize}

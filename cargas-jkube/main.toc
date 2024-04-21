@@ -1,2 +1,2 @@
-\babel@toc {spanish}{}
-\beamer@sectionintoc {1}{Eclipse JKube}{9}{0}{1}
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Eclipse JKube}{11}{0}{1}
