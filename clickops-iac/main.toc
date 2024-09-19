@@ -1,0 +1,4 @@
+\babel@toc {portuguese}{}\relax 
+\beamer@sectionintoc {1}{O problema}{3}{0}{1}
+\beamer@sectionintoc {2}{A solução}{10}{0}{2}
+\beamer@sectionintoc {3}{Ideias importantes}{14}{0}{3}
