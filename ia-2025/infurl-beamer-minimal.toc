@@ -1,0 +1,5 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Contenido}{2}{0}{1}
+\beamer@sectionintoc {2}{Ramas clásicas}{7}{0}{2}
+\beamer@sectionintoc {3}{Terminología}{10}{0}{3}
+\beamer@sectionintoc {6}{Uso profesional}{15}{0}{4}

@@ -1,0 +1,4 @@
+\babel@toc {spanish}{}\relax 
+\beamer@sectionintoc {1}{Fuentes de datos}{6}{0}{1}
+\beamer@sectionintoc {2}{OpenTelemetry}{13}{0}{2}
+\beamer@sectionintoc {3}{Ejemplo}{19}{0}{3}
