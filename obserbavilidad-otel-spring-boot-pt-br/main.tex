@@ -310,18 +310,26 @@
 	\end{frame}
 	
 	
-	\begin{frame}{Fatos aleatórios que eu aprendi}
+	\begin{frame}{Fatos aleatórios que eu aprendi nesta jornada}
 		
 		
 		\begin{enumerate}
-			\item A instrumentação via \textit{agent} é particularmente boa no Java, o problema que ele instrumenta demais
-			\item A instrumentação de framework tem um limite quando você pega bibliotecas não -opinionated- ... ela não funciona
-			\item A instrumentação via \textit{agent} precisa fine-tunning em cargas de trabalho não permanentes -i.e. faz com que o Lambda fique (ainda mais) lento no boot-
+			\item A instrumentação via \textit{agent} é particularmente boa no Java
+			\item A instrumentação de framework tem uma limitante, quando você pega bibliotecas não -opinionated- ... ela não funciona
+			\item Para alguns frameworks -e.g. Spring Boot- existe a instrumentação oficial do OpenTelemetry e a instrumentação oficial do projeto
+			\item A instrumentação via \textit{agent} precisa fine-tunning em FaaS,  -e.g. No AWS lambda o boot fica (ainda mais) lento sem tunning-
 			\item As \textit{distribuições} do collector facilitam o envio de dados
 			\item O barco da \textit{padronização} já esta em alto mar, ele chama-se OpenTelemetry
 			\end{enumerate}
 	\end{frame}
 	
+	\begin{frame}
+		\begin{figure}
+			\centering
+			\includegraphics[width=\linewidth]{Images/aiops}
+			\label{fig:aiops}
+		\end{figure}
+	\end{frame}
 	
 	{
 		\usebackgroundtemplate{\includegraphics[width=\paperwidth]{Images/separador}}

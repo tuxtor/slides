@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2025.5.6)  10 JUN 2025 21:36
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023) (preloaded format=xelatex 2025.5.6)  11 JUN 2025 11:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1543,9 +1543,20 @@ File: Images/Contenido.png Graphic file (type bmp)
  [15
 
 ]
+File: Images/aiops.png Graphic file (type bmp)
+<Images/aiops.png>
+
+Overfull \vbox (72.4491pt too high) detected at line 332
+ []
+
+File: Images/Contenido.png Graphic file (type bmp)
+<Images/Contenido.png>
+[16
+
+]
 File: Images/separador.png Graphic file (type bmp)
 <Images/separador.png>
- [16
+ [17
 
 ]
 File: Images/otel.png Graphic file (type bmp)
@@ -1556,7 +1567,7 @@ File: Images/QR.png Graphic file (type bmp)
 <Images/QR.png>
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
- [17
+ [18
 
 ]
 File: Images/logos.png Graphic file (type bmp)
@@ -1564,12 +1575,12 @@ File: Images/logos.png Graphic file (type bmp)
 File: Images/cclogo.png Graphic file (type bmp)
 <Images/cclogo.png>
 
-Overfull \vbox (22.00233pt too high) detected at line 387
+Overfull \vbox (22.00233pt too high) detected at line 395
  []
 
 File: Images/Contenido.png Graphic file (type bmp)
 <Images/Contenido.png>
-[18
+[19
 
 ]
 \tf@nav=\write6
@@ -1586,12 +1597,12 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 793D559FE4935BE018D2532DE2F5028D;186.
  ) 
 Here is how much of TeX's memory you used:
- 34168 strings out of 476696
- 722309 string characters out of 5806956
+ 34189 strings out of 476696
+ 722700 string characters out of 5806956
  1851018 words of memory out of 6000000
- 53685 multiletter control sequences out of 15000+600000
+ 53705 multiletter control sequences out of 15000+600000
  517599 words of font info for 89 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  128i,12n,122p,467b,855s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.pdf (18 pages).
+Output written on main.pdf (19 pages).
